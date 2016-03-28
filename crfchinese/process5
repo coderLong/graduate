@@ -1,0 +1,32 @@
+# -*-coding:utf-8*-
+# 在process4 基础上整理出user act information
+def get_user_act(file_name, new_file_name):
+    f1 = open(file_name)
+    f2 = open(new_file_name,'w')
+    for line in f1.readlines():
+        if "user_intention" in line:
+            line = line.strip()
+            k = line.find(":")
+            intention_list = line[k+1:len(line)].split()
+            act_list = []
+            for intention in intention_list:
+                if intention.find("_") != -1:
+                    act = intention[:intention.find("_")]
+                else:
+                    act = intention
+                if act not in act_list:
+                    act_list.append(act)
+            f2.write(line+'\n')
+            f2.write('user_act:')
+            k = len(act_list)
+            f2.write('%d'%k)
+            for index in range(len(act_list)):
+                f2.write(' '+act_list[index])
+            f2.write('\n')
+        else:
+            f2.write(line)
+    f2.close()
+    f1.close()
+get_user_act('G:/fulldialogue3-11(5)','G:/fulldialogue3-11(6)')
+
+

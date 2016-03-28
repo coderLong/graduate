@@ -1,0 +1,9136 @@
+user:我要在901房间开会
+{inf(loc=901房间)}
+agent_act:conf_pernum req_timel 
+user:3tian
+{inf(timel=3)}
+agent_act:conf_budget req_timel 
+user:我要预订5间一百人的会议室
+{inf(pernum=一百人)}
+agent_act:select_pernum select_pernum select_pernum 
+user:10-0
+{other()}
+agent_act:req_loc 
+user:北京
+{inf(loc=北京)}
+agent_act:conf_loc req_time 
+user:明天
+{inf(time=明天)}
+agent_act:req_time req_timel 
+user:6号
+{inf(time=6号)}
+agent_act:conf_time req_timel 
+user:3到4天吧
+{inf(timel=3到4天)}
+agent_act:conf_timel 
+user:3天
+{inf(timel=3天)}
+agent_act:select_time select_time 
+user:6天
+{inf(timel=6天)}
+agent_act:conf_timel 
+user:不对
+{rej(timel)}
+agent_act:req_timel 
+user:3天、
+{inf(timel=3天)}
+agent_act:conf_timel 
+user:对
+{ok(time)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req_pernum req_time 
+user:30人5天的会议
+{inf(pernum=30人,timel=5天)}
+agent_act:conf_timel req_loc req_pernum 
+user:188
+{inf(budget=188)}
+agent_act:conf_pernum req_budget 
+user:700吧
+{inf(budget=700)}
+agent_act:conf_budget req_time 
+user:周六吧
+{inf(time=周六)}
+agent_act:conf_time req_loc 
+user:南京大学附近吧
+{inf(loc=南京大学附近)}
+agent_act:req_loc 
+user:那就北邮吧
+{inf(loc=北邮)}
+agent_act:req_loc 
+user:北邮
+{inf(loc=北邮)}
+agent_act:req_loc 
+user:北邮科技大厦
+{inf(loc=北邮科技大厦)}
+agent_act:conf_loc 
+user:是的
+{ok(loc)}
+agent_act:done 
+****************
+user:你好‘
+{hello()}
+agent_act:req 
+user:好的
+{other()}
+agent_act:req 
+user:30人五天的会议室
+{inf(pernum=30人,timel=五天)}
+agent_act:conf_timel req_budget 
+user:188
+{inf(budget=188)}
+agent_act:conf_budget req_time 
+user:下个月
+{inf(time=下个月)}
+agent_act:conf_time req_pernum 
+user:刚才已经说了
+{other()}
+agent_act:req_pernum 
+user:30
+{inf(pernum=30)}
+agent_act:conf_pernum req_loc 
+user:北京的郊区吧
+{inf(loc=北京的郊区)}
+agent_act:conf_loc 
+user:是的
+{ok(loc)}
+agent_act:done 
+****************
+user:北京市海地区
+{inf(loc=北京市海地区)}
+user:上海虹口区
+{inf(loc=上海虹口区)}
+agent_act:select_loc select_loc req_budget 
+user:3000000元
+{inf(budget=3000000元)}
+agent_act:conf_budget req_timel 
+user:几天
+{inf(timel=几天)}
+agent_act:conf_timel req_time 
+user:十月三号
+{inf(time=十月三号)}
+agent_act:conf_time req_pernum 
+user:20人
+{inf(pernum=20人)}
+agent_act:conf_pernum 
+user:对
+{ok(pernum)}
+agent_act:done 
+****************
+user:30人
+{inf(pernum=30人)}
+user:50人
+{inf(pernum=50人)}
+agent_act:select_pernum select_pernum req_budget 
+user:30000元
+{inf(budget=30000元)}
+agent_act:conf_budget req_timel 
+user:几天
+{inf(timel=几天)}
+agent_act:conf_timel req_time 
+user:十月一号
+{inf(time=十月一号)}
+agent_act:conf_time req_loc 
+user:北京市
+{inf(loc=北京市)}
+agent_act:conf_loc 
+user:对
+{ok(loc)}
+agent_act:done 
+****************
+user:30000元
+{inf(budget=30000元)}
+user:500000元
+{inf(budget=500000元)}
+agent_act:select_budget select_budget req_timel 
+user:几天
+{inf(timel=几天)}
+agent_act:conf_timel req_time 
+user:十月一号
+{inf(time=十月一号)}
+agent_act:conf_time req_pernum 
+user:300
+{inf(pernum=300)}
+user:500
+{inf(pernum=500)}
+agent_act:select_pernum select_pernum req_loc 
+user:30
+{inf(pernum=30)}
+agent_act:conf_pernum req_loc 
+user:北京市
+{inf(loc=北京市)}
+agent_act:conf_loc 
+user:对
+{ok(loc)}
+agent_act:done 
+****************
+user:30000元
+{inf(budget=30000元)}
+agent_act:conf_budget req_timel 
+user:铁路系统会议
+{inf()}
+agent_act:req_timel 
+user:关于车辆调度的会议
+{inf()}
+agent_act:req_loc 
+user:4人左右
+{inf(pernum=4人左右)}
+agent_act:conf_pernum req_time req_loc 
+user:1000元
+{inf(budget=1000元)}
+agent_act:select_budget select_budget 
+user:2小时
+{inf(timel=2小时)}
+agent_act:conf_timel req_time 
+user:青岛
+{inf(loc=青岛)}
+agent_act:conf_loc req_time 
+user:你好
+{hello()}
+agent_act:req_time 
+user:13人
+{inf(pernum=13人)}
+agent_act:select_pernum select_pernum 
+user:3日开会
+{inf(time=3日)}
+agent_act:conf_time 
+user:300人的会议室
+{inf(pernum=300人)}
+agent_act:done 
+****************
+user:20人
+{inf(pernum=20人)}
+user:30人
+{inf(pernum=30人)}
+agent_act:select_pernum select_pernum req_budget 
+user:3000元
+{inf(budget=3000元)}
+agent_act:conf_budget req_timel 
+user:300人
+{inf(pernum=300人)}
+agent_act:select_pernum select_pernum select_pernum 
+user:20
+{inf(pernum=20)}
+user:30
+{inf(pernum=30)}
+agent_act:conf_time conf_time req_timel 
+user:不对
+{rej(time)}
+agent_act:req_time 
+user:十月一号
+{inf(time=十月一号)}
+agent_act:conf_time req_timel 
+user:北京
+{inf(loc=北京)}
+agent_act:conf_loc req_timel 
+user:300人
+{inf(pernum=300人)}
+agent_act:select_pernum select_pernum select_pernum select_pernum 
+user:20人
+{inf(pernum=20人)}
+user:30人
+{inf(pernum=30人)}
+agent_act:req_timel 
+user:几天
+{inf(timel=几天)}
+user:几小时
+{inf(timel=几小时)}
+agent_act:select_timel select_timel 
+user:对
+{ok(timel)}
+agent_act:done 
+****************
+user:20人
+{inf(pernum=20人)}
+user:30人
+{inf(pernum=30人)}
+agent_act:select_pernum select_pernum req_budget 
+user:30000元
+{inf(budget=30000元)}
+agent_act:conf_budget req_timel 
+user:300人
+{inf(pernum=300人)}
+agent_act:select_pernum select_pernum select_pernum 
+user:20
+{inf(pernum=20)}
+user:30
+{inf(pernum=30)}
+agent_act:req_timel 
+user:不对
+{rej(time)}
+agent_act:req_time 
+user:十月一号
+{inf(time=十月一号)}
+agent_act:conf_time req_timel 
+user:北京
+{inf(loc=北京)}
+agent_act:conf_loc req_timel 
+user:300人
+{inf(pernum=300人)}
+agent_act:select_pernum select_pernum select_pernum 
+user:300
+{inf(pernum=300)}
+agent_act:select_budget select_budget 
+user:30000元
+{inf(budget=30000元)}
+agent_act:req_timel 
+user:几天
+{inf(timel=几天)}
+agent_act:conf_timel 
+user:对
+{ok(timel)}
+agent_act:done 
+****************
+user:30000元
+{inf(budget=30000元)}
+agent_act:conf_budget req_timel 
+user:铁路系统会议
+{inf()}
+agent_act:req_timel 
+user:关于车辆调度的会议
+{inf()}
+agent_act:req_loc 
+user:14人左右
+{inf(pernum=14人左右)}
+agent_act:conf_pernum req_time req_loc 
+user:10000元
+{inf(budget=10000元)}
+agent_act:select_budget select_budget 
+user:2小时
+{inf(timel=2小时)}
+agent_act:conf_timel req_time 
+user:青岛
+{inf(loc=青岛)}
+agent_act:conf_loc req_time 
+user:你好
+{hello()}
+agent_act:req_time 
+user:13人
+{inf(pernum=13人)}
+agent_act:select_pernum select_pernum 
+user:3日开会
+{inf(time=3日)}
+agent_act:conf_time 
+user:300人的会议
+{inf(pernum=300人)}
+agent_act:done 
+****************
+user:30000元
+{inf(budget=30000元)}
+agent_act:conf_budget req_timel 
+user:14人左右
+{inf(pernum=14人左右)}
+agent_act:conf_time conf_pernum 
+user:不对
+{rej(time)}
+agent_act:dis_time dis_pernum 
+user:与会日期
+{other()}
+agent_act:req_pernum 
+user:14人左右
+{inf(pernum=14人左右)}
+agent_act:conf_pernum req_timel 
+user:10000元
+{inf(budget=10000元)}
+agent_act:select_budget select_budget 
+user:2小时
+{inf(timel=2小时)}
+agent_act:conf_timel req_time 
+user:青岛
+{inf(loc=青岛)}
+agent_act:conf_loc req_time 
+user:你好
+{hello()}
+agent_act:req_time 
+user:13人
+{inf(pernum=13人)}
+agent_act:select_pernum select_pernum 
+user:3日开会
+{inf(time=3日)}
+agent_act:conf_time 
+user:300人的会议
+{inf(pernum=300人)}
+agent_act:select_pernum select_pernum select_pernum 
+user:300人
+{inf(pernum=300人)}
+agent_act:done 
+****************
+user:700吧
+{other()}
+agent_act:conf_pernum req_timel 
+user:你好
+{hello()}
+agent_act:req_pernum req_time 
+user:我们打算25号开会
+{inf(time=25号)}
+agent_act:conf_time req_pernum req_loc 
+user:在洛阳开会吧
+{inf(loc=洛阳)}
+agent_act:conf_loc req_budget 
+user:5000
+{inf(budget=5000)}
+agent_act:conf_budget req_timel 
+user:一周左右吧
+{inf(timel=一周左右)}
+agent_act:select_time select_time 
+user:25号
+{inf(time=25号)}
+agent_act:conf_timel req_pernum 
+user:35
+{inf(pernum=35)}
+agent_act:conf_pernum 
+user:是的
+{ok(pernum)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:好的
+{other()}
+user:我们要开一个圆桌会议
+{inf()}
+agent_act:req_pernum req_time 
+user:人数大概是10个左右吧
+{inf(pernum=10个左右)}
+agent_act:conf_pernum req_budget 
+user:300
+{inf(budget=300)}
+agent_act:conf_budget req_timel 
+user:半天
+{inf(timel=半天)}
+agent_act:conf_timel req_time 
+user:下个月6号
+{inf(time=下个月6号)}
+agent_act:conf_time req_loc 
+user:天津
+{inf(loc=天津)}
+agent_act:conf_loc 
+user:不在天津
+{rej(loc=天津)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:我想预定一间下周三到周五的会议室
+{inf(timel=下周三到周五)}
+agent_act:select_time select_time req_loc req_pernum 
+user:地点就定在北京的北三环附近吧
+{inf(loc=北京的北三环附近)}
+agent_act:conf_loc req_budget 
+user:200
+{inf(budget=200)}
+agent_act:conf_budget req_timel 
+user:三天
+{inf(timel=三天)}
+agent_act:conf_timel req_pernum 
+user:10
+{inf(pernum=10)}
+agent_act:conf_pernum 
+user:恩
+{ok(pernum)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:我想预定一个30人5天的会议
+{inf(pernum=30人,timel=5天)}
+agent_act:conf_timel req_loc req_pernum 
+user:我刚才不是说了吗
+{other()}
+agent_act:req_timel 
+user:5天
+{inf(timel=5天)}
+agent_act:conf_timel req_budget 
+user:1000元左右吧
+{inf(budget=1000元左右)}
+agent_act:conf_budget req_pernum 
+user:三四十人吧
+{inf(pernum=三四十人)}
+agent_act:conf_pernum req_loc 
+user:30人
+{inf(pernum=30人)}
+agent_act:conf_pernum req_loc 
+user:北京
+{inf(loc=北京)}
+agent_act:conf_timel conf_loc 
+user:不不不
+{rej(timel,loc)}
+user:时间定在6号
+{inf(time=6号)}
+agent_act:conf_time req_loc 
+user:beijign
+{other()}
+agent_act:req_loc 
+user:北京
+{inf(loc=北京)}
+agent_act:conf_loc 
+user:是的
+{ok(loc)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:3人5天的会议
+{inf(pernum=3人,timel=5天)}
+agent_act:req_timel req_loc req_pernum 
+user:我想在天津大学那儿开会
+{inf(loc=天津大学)}
+agent_act:req_loc 
+user:你好
+{hello()}
+agent_act:req 
+user:北京
+{inf(loc=北京)}
+user:30人
+{inf(pernum=30人)}
+agent_act:conf_loc 
+user:对
+{ok(loc,pernum)}
+agent_act:req_time 
+user:10月3日
+{inf(time=10月3日)}
+agent_act:conf_time req_timel 
+user:不
+{rej(time)}
+agent_act:req_time 
+user:10月13日
+{inf(time=10月13日)}
+agent_act:conf_time req_budget 
+user:3000
+{inf(budget=3000)}
+agent_act:conf_budget req_timel 
+user:3天
+{inf(timel=3天)}
+agent_act:conf_time conf_time 
+user:10月13日
+{inf(time=10月13日)}
+agent_act:conf_timel 
+user:3天
+{inf(timel=3天)}
+agent_act:select_time select_time 
+user:是的
+{ok(time)}
+agent_act:done 
+****************
+user:我要订北京的会议室
+{inf(loc=北京)}
+agent_act:conf_loc req_budget 
+user:3000元吧
+{inf(budget=3000元)}
+agent_act:conf_budget req_timel 
+user:3天
+{inf(timel=3天)}
+agent_act:conf_timel req_pernum 
+user:100
+{inf(pernum=100)}
+agent_act:conf_time conf_pernum 
+user:是
+{ok(time,pernum)}
+agent_act:done 
+****************
+user:我要订北京的会议室
+{inf(loc=北京)}
+agent_act:conf_loc req_budget 
+user:3000
+{inf(budget=3000)}
+agent_act:conf_budget req_timel 
+user:3天
+{inf(timel=3天)}
+agent_act:conf_timel req_pernum 
+user:100
+{inf(pernum=100)}
+agent_act:conf_time conf_pernum 
+user:不是
+{rej(time,pernum)}
+agent_act:dis_pernum dis_time 
+user:100人
+{inf(pernum=100人)}
+user:10月13日开
+{inf(time=10月13日)}
+agent_act:conf_time req_pernum 
+user:100人
+{inf(pernum=100人)}
+agent_act:conf_pernum 
+user:是
+{ok(pernum)}
+agent_act:done 
+****************
+user:700吧
+{inf()}
+agent_act:conf_pernum req_timel 
+user:nih
+{other()}
+agent_act:req 
+user:北京的
+{inf(loc=北京)}
+agent_act:conf_loc req_time req_pernum 
+user:十月三号
+{inf(time=十月三号)}
+user:300人
+{inf(pernum=300人)}
+agent_act:conf_pernum req_budget 
+user:不对
+{rej(pernum)}
+agent_act:conf_time req_pernum 
+user:30人
+{inf(pernum=30人)}
+agent_act:conf_pernum req_budget 
+user:3000元
+{inf(budget=3000元)}
+agent_act:conf_budget req_timel 
+user:几天
+{inf(timel=几天)}
+agent_act:conf_timel 
+user:恩
+{ok(timel)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:我们想下个月再北京开会
+{inf(time=下个月,loc=北京)}
+agent_act:conf_loc req_time req_pernum 
+user:明天
+{inf(time=明天)}
+agent_act:req_pernum 
+user:30到50人吧
+{inf(pernum=30到50人)}
+agent_act:req_pernum req_time 
+user:30到50人左右
+{inf(pernum=30到50人左右)}
+agent_act:req_pernum 
+user:你好
+{hello()}
+agent_act:req 
+user:几个人
+{inf(pernum=几个人)}
+agent_act:req 
+user:有几十个人的会议
+{inf(pernum=几十个人)}
+agent_act:req 
+user:在北京开会
+{inf(loc=北京)}
+agent_act:conf_loc req_pernum req_time 
+user:十几个人
+{inf(pernum=十几个人)}
+agent_act:req_pernum 
+user:与会人数有几十个人吧
+{inf(pernum=几十个人)}
+agent_act:req_pernum req_time 
+user:明天吧
+{inf(time=明天)}
+agent_act:req_pernum 
+user:30到40人作于
+{inf(pernum=30到40人)}
+agent_act:req_time req_pernum 
+user:20人左右
+{inf(pernum=20人)}
+agent_act:conf_pernum req_budget 
+user:你好
+{hello()}
+agent_act:req 
+user:我想定1间人数为5的会议室
+{inf(pernum=5)}
+agent_act:conf_pernum req_time req_loc 
+user:4号
+{inf(time=4号)}
+agent_act:conf_time req_budget 
+user:北京
+{inf(loc=北京)}
+agent_act:conf_loc req_budget 
+user:1000
+{inf(budget=1000)}
+agent_act:conf_budget req_timel 
+user:三四天
+{inf(timel=三四天)}
+agent_act:select_time select_time 
+user:4号
+{inf(time=4号)}
+agent_act:conf_timel 
+user:是的
+{ok(timel)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req_pernum req_time 
+user:我想预定5间人数为5的会议室
+{inf(pernum=5)}
+agent_act:conf_pernum req_time req_loc 
+user:你好
+{hello()}
+agent_act:req_loc 
+user:我想预定5间人数为6的会议室
+{inf(pernum=6)}
+agent_act:req_loc req_time 
+user:北京
+{inf(loc=北京)}
+agent_act:conf_loc req_budget 
+user:300元
+{inf(budget=300元)}
+agent_act:conf_budget req_timel 
+user:三天
+{inf(timel=三天)}
+agent_act:conf_timel req_time 
+user:7号
+{inf(time=7号)}
+agent_act:conf_time 
+user:是的
+{ok(time)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:我想定5间人数为6的会议室
+{inf(pernum=6)}
+agent_act:select_pernum select_pernum req_time req_loc 
+user:你好
+{hello()}
+agent_act:req 
+user:4号5人的会议
+{inf(time=4号,pernum=5人)}
+agent_act:conf_time req_loc req_pernum 
+user:我想预定一间会议室
+{inf()}
+agent_act:req 
+user:人数大约为40到一百左右
+{inf(pernum=40到一百左右)}
+agent_act:req 
+user:人数大约为20到100左右
+{inf(pernum=20到100左右)}
+agent_act:req 
+user:人数大约为20
+{inf(pernum=20)}
+agent_act:conf_pernum req_time req_loc 
+user:在教三的802大厦
+{inf(loc=教三的802大厦)}
+agent_act:conf_loc req_budget 
+user:700吧
+{inf(budget=700)}
+agent_act:conf_budget req_timel 
+user:你好
+{hello()}
+agent_act:conf_budget req_timel 
+user:我们打算25号开会
+{inf(time=25号)}
+agent_act:conf_time req_timel 
+user:在洛阳开会吧
+{inf(loc=洛阳)}
+agent_act:conf_loc req_timel 
+user:一星期
+{inf(timel=一星期)}
+agent_act:conf_timel 
+user:恩
+{ok(timel)}
+agent_act:done 
+****************
+user:700吧
+{inf(budget=700)}
+agent_act:conf_budget req_timel 
+user:你好
+{hello()}
+agent_act:conf_budget req_timel 
+user:几天
+{inf(timel=几天)}
+user:2000元
+{inf(budget=2000元)}
+user:十月三号
+{inf(time=十月三号)}
+agent_act:conf_budget req_time 
+user:北京
+{inf(loc=北京)}
+agent_act:conf_loc conf_time 
+user:恩
+{ok(loc,time)}
+agent_act:conf_timel 
+user:对
+{ok(timel=几天)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:北京
+{inf(loc=北京)}
+agent_act:conf_loc req_time req_pernum 
+****************
+user:你好
+{hello()}
+agent_act:req_pernum req_time 
+user:北京
+{inf(loc=北京)}
+user:300人
+{inf(pernum=300人)}
+agent_act:conf_loc conf_pernum 
+user:对的
+{ok(loc,pernum)}
+agent_act:req_time 
+user:十月三号
+{inf(time=十月三号)}
+agent_act:conf_time req_timel 
+user:几天
+{inf(timel=几天)}
+agent_act:conf_timel req_budget 
+user:3000元
+{inf(budget=3000元)}
+agent_act:conf_budget 
+user:对
+{ok(budget)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:北京
+{inf(loc=北京)}
+user:30人
+{inf(pernum=30人)}
+agent_act:conf_loc conf_pernum 
+user:对
+{ok(loc,pernum)}
+agent_act:req_time 
+user:十月三号
+{inf(time=十月三号)}
+user:几天时间
+{inf(timel=几天)}
+user:预算30000元
+{inf(budget=30000元)}
+agent_act:conf_time conf_timel 
+user:对
+{ok(time,timel)}
+agent_act:conf_budget 
+user:恩
+{ok(budget)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:你好
+{hello()}
+agent_act:req 
+user:北京
+{inf(loc=北京)}
+user:十月三号
+{inf(time=十月三号)}
+agent_act:conf_loc req_budget 
+user:30000元
+{inf(budget=30000元)}
+agent_act:conf_budget req_timel 
+user:几天
+{inf(timel=几天)}
+agent_act:conf_timel req_pernum 
+user:30人
+{inf(pernum=30人)}
+agent_act:conf_pernum conf_time 
+user:不对
+{rej(pernum,time)}
+agent_act:dis_pernum dis_time 
+user:30人
+{inf(pernum=30人)}
+agent_act:conf_pernum req_time 
+user:十月四号
+{inf(time=十月四号)}
+agent_act:conf_time 
+user:恩
+{ok(time)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:北京
+{inf(loc=北京)}
+user:知春路
+{inf(loc=知春路)}
+user:十月三号
+{inf(time=十月三号)}
+user:20人
+{inf(pernum=20人)}
+agent_act:conf_pernum conf_loc 
+user:是
+{ok(pernum,loc)}
+agent_act:conf_time req_budget 
+user:3000元
+{inf(budget=3000元)}
+agent_act:conf_budget req_timel 
+user:几天
+{inf(timel=几天)}
+agent_act:conf_timel 
+user:恩
+{ok(timel)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req_pernum req_time 
+user:100人开三天
+{inf(pernum=100人,timel=三天)}
+agent_act:conf_pernum conf_timel 
+user:是
+{ok(pernum,timel)}
+agent_act:req_loc 
+user:会议日期不对
+{rej(time)}
+agent_act:req_loc req_pernum 
+user:10月3日开
+{inf(time=10月3日)}
+agent_act:select_time select_time 
+user:10月3日
+{inf(time=10月3日)}
+agent_act:req_loc 
+user:北京
+{inf(loc=北京)}
+agent_act:conf_loc req_pernum 
+user:100人开
+{inf(pernum=100人)}
+agent_act:conf_pernum req_budget 
+user:100元
+{inf(budget=100元)}
+agent_act:conf_budget 
+user:上海
+{inf(loc=上海)}
+agent_act:select_loc select_loc 
+user:上海啊
+{inf(loc=上海)}
+agent_act:done 
+****************
+user:我要订会议室
+{hello()}
+agent_act:req_pernum req_time 
+user:10月份开
+{inf(time=10月份)}
+agent_act:conf_time req_pernum req_loc 
+user:100个人在北京
+{inf(pernum=100个人)}
+agent_act:req_budget 
+user:100
+{inf(budget=100)}
+agent_act:conf_budget req_timel 
+user:7天
+{inf(timel=7天)}
+agent_act:select_time select_time 
+user:9月
+{inf(time=9月)}
+agent_act:conf_time 
+user:北京啊
+{inf(loc=北京)}
+agent_act:conf_timel conf_pernum 
+user:对啊
+{ok(timel,pernum)}
+agent_act:done 
+****************
+user:订一个三天的会议室
+{inf(timel=三天)}
+agent_act:conf_timel req_budget 
+user:2000
+{inf(budget=2000)}
+agent_act:conf_budget req_time 
+user:10月8日
+{inf(time=10月8日)}
+agent_act:conf_time req_pernum 
+user:200人吧
+{inf(pernum=200人)}
+agent_act:conf_pernum req_loc 
+user:200人啊
+{inf(pernum=200人)}
+agent_act:req_loc 
+user:说了北京
+{inf(loc=北京)}
+agent_act:conf_loc 
+user:是啊
+{ok(loc)}
+agent_act:done 
+****************
+user:我要订一个后天的会议室
+{inf(time=后天)}
+agent_act:req 
+user:后天啊
+{inf(time=后天)}
+agent_act:req_pernum req_time 
+user:10月1日开的
+{inf(time=10月1日)}
+agent_act:conf_time req_budget 
+user:10月1日啊
+{inf(time=10月1日)}
+agent_act:req_budget 
+user:1000
+{inf(budget=1000)}
+agent_act:conf_budget req_timel 
+user:5
+{inf(timel=5)}
+agent_act:conf_pernum req_timel 
+user:5天长
+{inf(timel=5天)}
+user:不是5人
+{rej(pernum=5人)}
+agent_act:conf_timel req_loc 
+user:不是5个人开
+{rej(pernum=5个)}
+user:100人
+{inf(pernum=100人)}
+agent_act:req_timel 
+user:100天
+{inf(timel=100天)}
+agent_act:conf_timel req_time 
+user:上海阿
+{inf(loc=上海)}
+agent_act:conf_loc 
+user:对阿
+{ok(loc)}
+user:但是不是5个人
+{rej(pernum=5个人)}
+user:是100人
+{inf(pernum=100人)}
+agent_act:req_loc 
+user:是上海啊
+{inf(loc=上海)}
+agent_act:conf_loc 
+user:对阿
+{ok(loc)}
+user:你真气人
+{other()}
+agent_act:done 
+****************
+user:会议室
+{other()}
+agent_act:req_pernum req_time 
+user:10人
+{inf(pernum=10人)}
+agent_act:conf_pernum req_time req_loc 
+user:10月10日开
+{inf(time=10月10日)}
+agent_act:conf_time req_budget 
+user:10
+{inf(timel=10)}
+agent_act:req_budget 
+user:10天
+{inf(timel=10天)}
+agent_act:conf_timel req_budget 
+user:1000元
+{inf(budget=1000元)}
+agent_act:conf_budget req_loc 
+user:100人
+{inf(pernum=100人)}
+agent_act:select_pernum select_pernum 
+user:1000人
+{inf(pernum=1000人)}
+agent_act:conf_pernum req_time 
+user:要订会议室
+{hello()}
+agent_act:req_pernum req_time 
+user:100人
+{inf(pernum=100人)}
+agent_act:conf_pernum req_loc req_time 
+user:10号
+{inf(time=10号)}
+agent_act:conf_time req_budget 
+user:1000
+{inf(budget=1000)}
+agent_act:conf_budget req_timel 
+user:3天
+{inf(timel=3天)}
+agent_act:select_time select_time 
+user:10天
+{inf(timel=10天)}
+agent_act:conf_timel req_loc 
+user:nihao
+{other()}
+agent_act:req_pernum req_time 
+user:100人
+{inf(pernum=100人)}
+agent_act:conf_pernum req_loc req_time 
+user:3天
+{inf(timel=3天)}
+agent_act:conf_timel req_budget 
+user:会议长3天
+{inf(timel=3天)}
+agent_act:req_budget 
+user:1000元
+{inf(budget=1000元)}
+agent_act:conf_budget req_loc 
+user:北京
+{inf(loc=北京)}
+agent_act:conf_loc 
+user:会议在10月10日开
+{inf(time=10月10日)}
+agent_act:select_time select_time 
+user:10月10日
+{inf(time=10月10日)}
+agent_act:done 
+****************
+user:下周的会
+{inf(time=下周)}
+agent_act:conf_time req_budget 
+user:1000
+{inf(budget=1000)}
+agent_act:conf_budget req_timel 
+user:1000啊
+{inf(budget=1000)}
+agent_act:conf_budget req_timel 
+user:1000预算
+{inf(budget=1000)}
+agent_act:req_timel req_loc 
+user:3天
+{inf(timel=3天)}
+user:北京
+{inf(loc=北京)}
+agent_act:conf_timel conf_loc 
+user:人数是100人
+{inf(pernum=100人)}
+agent_act:select_pernum select_pernum 
+user:是
+{ok(pernum)}
+agent_act:done 
+****************
+user:3天
+{inf(timel=3天)}
+agent_act:req_budget conf_time 
+user:你好
+{hello()}
+agent_act:req 
+user:北京
+{inf(loc=北京)}
+user:十月三号
+{inf(time=十月三号)}
+user:100人
+{inf(pernum=100人)}
+user:30000元
+{inf(budget=30000元)}
+agent_act:conf_loc conf_pernum 
+user:是
+{ok(loc,pernum)}
+agent_act:req_timel req_timel 
+user:几天
+{inf(timel=几天)}
+agent_act:conf_timel conf_budget 
+user:恩
+{ok(timel,budget)}
+agent_act:done 
+****************
+user:北京
+{inf(loc=北京)}
+user:30人
+{inf(pernum=30人)}
+user:10000元
+{inf(budget=10000元)}
+user:三天
+{inf(timel=三天)}
+user:十月十号
+{inf(time=十月十号)}
+agent_act:conf_pernum conf_loc 
+user:是
+{ok(pernum,loc)}
+agent_act:conf_time conf_timel 
+user:是
+{ok(time,timel)}
+agent_act:conf_budget 
+user:是
+{ok(budget)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:大概能容纳15个人的会议室吧
+{inf(pernum=15人)}
+agent_act:conf_pernum req_loc req_time 
+user:地点就选在北京附近吧
+{inf(loc=北京附近)}
+agent_act:req_budget 
+user:5000
+{inf(budget=5000)}
+agent_act:req_timel conf_budget 
+user:两天左右吧
+{inf(timel=两天左右)}
+agent_act:req_time conf_timel 
+user:从后天开始
+{inf(time=后天)}
+agent_act:req_time 
+user:16号
+{inf(time=16号)}
+agent_act:conf_time 
+user:是的
+{ok(time)}
+agent_act:done 
+****************
+user:我想预定一个会议室
+{hello()}
+agent_act:req_pernum req_time 
+user:我们的回忆日期定在16号
+{inf(time=16号)}
+agent_act:conf_time req_loc req_pernum 
+user:地点在北京市海淀区吧
+{inf(loc=北京市海淀区)}
+agent_act:req_budget conf_loc 
+user:预算大约为1000
+{inf(budget=1000)}
+agent_act:req_timel conf_budget 
+user:三天
+{inf(timel=三天)}
+agent_act:req_pernum conf_timel 
+user:30
+{inf(pernum=30)}
+agent_act:conf_pernum 
+user:是的
+{ok(pernum)}
+agent_act:done 
+****************
+user:我想预定一个300的会议室
+{inf()}
+agent_act:req_timel conf_pernum 
+user:???
+{other()}
+agent_act:req 
+user:我要订一个地点在天津一共三天总共100人的会议室
+{inf(loc=天津,timel=三天,pernum=100人)}
+agent_act:conf_loc conf_timel 
+user:嗯
+{ok(loc,timel)}
+agent_act:req_pernum 
+user:100个
+{inf(pernum=100个)}
+agent_act:req_pernum req_time 
+user:下月三号100个人
+{inf(time=下月三号,pernum=100个人)}
+agent_act:req_budget conf_time 
+user:3000-5000
+{inf(budget=3000-5000)}
+agent_act:req_pernum conf_budget 
+user:1000人啊
+{inf(pernum=1000人)}
+agent_act:conf_pernum 
+user:对
+{ok(pernum)}
+agent_act:done 
+****************
+user:你好呀
+{hello()}
+agent_act:req 
+user:大一点的
+{inf()}
+agent_act:req 
+user:会议要开三天一共有一百个人参加
+{inf(timel=三天,pernum=一百个人)}
+agent_act:req_budget conf_timel 
+user:唔唔3000块以下吧
+{inf(budget=3000块以下)}
+agent_act:req_time conf_budget 
+user:9月三号
+{inf(time=9月三号)}
+agent_act:req_pernum conf_time 
+user:100个人左右
+{inf(pernum=100个人左右)}
+agent_act:req_loc conf_pernum 
+user:市中心就可以了
+{inf(loc=市中心)}
+agent_act:req_loc 
+user:没有
+{inf()}
+agent_act:req_loc 
+user:南京
+{inf(loc=南京)}
+agent_act:conf_loc 
+user:对呀
+{ok(loc)}
+agent_act:done 
+****************
+user:你好呀
+{hello()}
+agent_act:req 
+user:嗯要一个一天的可以容纳三百人左右的会议室
+{inf(timel=一天,pernum=三百人左右)}
+agent_act:inf_timel req_loc req_pernum 
+user:地点就在海淀区吧
+{inf(loc=海淀区)}
+user:有三百人左右参加
+{inf(pernum=三百人左右)}
+user:预算大概就3000-5000吧不能再多了
+{inf(budget=3000-5000)}
+agent_act:req_timel 
+user:3天左右
+{inf(timel=3天左右)}
+agent_act:req_loc conf_timel 
+user:要开一天啊
+{inf(timel=一天)}
+user:300人对啊
+{inf(pernum=300人)}
+agent_act:req_budget conf_timel 
+user:香山饭店可以吗
+{inf(loc=香山饭店)}
+agent_act:conf_time conf_loc 
+user:3000-5000啊说过了
+{inf(budget=3000-5000)}
+agent_act:req_time conf_budget 
+user:是的
+{ok(budget)}
+agent_act:conf_budget 
+user:不是
+{rej(budget)}
+agent_act:req_budget 
+user:不如下周末
+{inf(time=下周末)}
+agent_act:conf_time req_budget 
+user:300
+{inf(budget=300)}
+agent_act:conf_budget 
+user:是的
+{ok(budget)}
+agent_act:done 
+****************
+user:我想预定3个能容纳5到10人的会议室
+{inf(pernum=5到10人)}
+agent_act:req 
+user:就这个预算不改
+{other()}
+user:下周末开
+{inf(time=下周末)}
+agent_act:req_budget 
+user:我想预定3个能容纳10人的会议室
+{inf(pernum=10人)}
+agent_act:req_budget conf_pernum 
+user:100
+{inf(budget=100)}
+agent_act:req_timel conf_budget 
+user:三天
+{inf(timel=三天)}
+agent_act:req_time conf_timel 
+user:18号
+{inf(time=18号)}
+agent_act:req_loc conf_time 
+user:北京
+{inf(loc=北京)}
+agent_act:conf_loc 
+user:是的
+{ok(loc)}
+agent_act:done 
+****************
+user:我想预定5个6人的会议室
+{inf(pernum=6人)}
+agent_act:req_budget select_pernum select_pernum 
+user:是5个能容纳10到15人的会议室
+{inf(pernum=10到15人)}
+agent_act:req_budget 
+user:100
+{inf(budget=100)}
+agent_act:req_timel conf_budget 
+user:两到三天吧
+{inf(timel=两到三天)}
+agent_act:req_loc conf_timel 
+user:政法大学附近吧
+{inf(loc=政法大学附近)}
+agent_act:req_loc conf_time 
+user:蓟门桥
+{inf(loc=蓟门桥)}
+agent_act:req_loc 
+user:海淀区蓟门桥
+{inf(loc=海淀区蓟门桥)}
+agent_act:conf_loc 
+user:是的
+{ok(loc)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:好的
+{inf()}
+agent_act:req 
+user:想预定3个能容纳5人的会议室
+{inf(pernum=5人)}
+agent_act:req_budget conf_pernum 
+user:100左右吧
+{inf(budget=100左右)}
+agent_act:req_timel conf_budget 
+user:三到四天吧
+{inf(timel=三到四天)}
+agent_act:req_loc conf_timel 
+user:还没有
+{rej()}
+agent_act:req_loc conf_time 
+user:香山饭店可以吗
+{inf(loc=香山饭店)}
+agent_act:conf_loc 
+user:是的
+{ok(loc)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:我想预定一间能容纳5到10人的会议室
+{inf(pernum=5到10人)}
+agent_act:req 
+user:5人
+{inf(pernum=5人)}
+agent_act:req_budget conf_pernum 
+user:100左右吧
+{inf(budget=100左右)}
+agent_act:req_timel conf_budget 
+user:三天
+{inf(timel=三天)}
+agent_act:req_time conf_timel 
+user:后天
+{inf(time=后天)}
+agent_act:req_time 
+user:19好
+{inf(time=19)}
+agent_act:req_loc req_time 
+user:19号
+{inf(time=19号)}
+agent_act:req_loc conf_time 
+user:北京
+{inf(loc=北京)}
+agent_act:conf_loc 
+user:是的
+{ok(loc)}
+agent_act:done 
+****************
+user:我要预定一个会议室
+{hello()}
+agent_act:req_pernum req_time 
+user:人数大约是30左右
+{inf(pernum=30左右)}
+agent_act:inf_pernum req_loc req_time 
+user:地点我们想在海淀区北京有点大学附近
+{inf(loc=海淀区北京有点大学附近)}
+agent_act:req_loc 
+user:海淀区
+{inf(loc=海淀区)}
+agent_act:req_time req_loc 
+user:北京
+{inf(loc=北京)}
+agent_act:req_budget conf_loc 
+user:1000块以内
+{inf(budget=1000块以内)}
+agent_act:req_timel conf_budget 
+user:3到5天
+{inf(timel=3到5天)}
+agent_act:conf_time conf_timel 
+user:是的
+{ok(time,timel)}
+agent_act:done 
+****************
+user:我要预定一个十几人的会议室
+{inf(pernum=十几人)}
+agent_act:req_pernum req_time 
+user:人数大概是十几个人
+{inf(pernum=十几个人)}
+agent_act:req 
+user:人数在10到15人
+{inf(pernum=10到15人)}
+agent_act:req 
+user:15人
+{inf(pernum=15人)}
+agent_act:req_loc req_time conf_pernum 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:好的
+{inf()}
+agent_act:req 
+user:我想预定一个30-50人的会议室
+{inf(pernum=30-50人)}
+agent_act:req_pernum req_time 
+user:30人左右的会议室
+{inf(pernum=30人左右)}
+agent_act:req_time req_loc conf_pernum 
+user:3到5天的时间吧
+{inf(timel=3到5天)}
+agent_act:req_budget conf_timel 
+user:100
+{inf(budget=100)}
+agent_act:req_time conf_budget 
+user:16号
+{inf(time=16号)}
+agent_act:req_loc conf_time 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:人数大概是30到50人
+{inf(pernum=30到50人)}
+agent_act:req 
+user:我晕
+{other()}
+agent_act:req 
+user:无语了
+{other()}
+user:30到50人的回忆
+{inf(pernum=30到50人)}
+agent_act:req 
+user:30人
+{inf(pernum=30人)}
+agent_act:req_budget conf_pernum 
+****************
+user:预定一个3到5人的会议室
+{inf(pernum=3到5人)}
+agent_act:req 
+user:预定一个5人的会议室
+{inf(pernum=5人)}
+agent_act:req_loc req_time conf_pernum 
+user:北京
+{inf(loc=北京)}
+agent_act:req_budget conf_loc 
+user:1000到1500吧
+{inf(budget=1000到1500)}
+agent_act:req_timel conf_budget 
+user:3到5天
+{inf(timel=3到5天)}
+agent_act:conf_time conf_timel 
+user:不对
+{rej(time,timel)}
+agent_act:dis_time dis_timel 
+user:会议时长
+{inf(timel)}
+agent_act:req_time 
+user:15号
+{inf(time=15号)}
+agent_act:req_timel conf_time 
+user:3到5天
+{inf(timel=3到5天)}
+agent_act:conf_time 
+user:3天到5天
+{inf(timel=3天到5天)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req_pernum req_time 
+user:100-150人
+{inf(pernum=100-150人)}
+agent_act:req 
+user:100人
+{inf(pernum=100人)}
+agent_act:req_budget conf_pernum 
+user:900作于
+{inf(budget=900)}
+agent_act:req_timel conf_budget 
+user:3到5天吧
+{inf(timel=3到5天)}
+agent_act:req_time conf_timel 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:30到50个人吧
+{inf(pernum=30到50个人)}
+agent_act:req 
+user:30个人
+{inf(pernum=30个人)}
+agent_act:req_budget conf_pernum 
+user:1000
+{inf(budget=1000)}
+agent_act:req_timel conf_budget 
+user:三天
+{inf(timel=三天)}
+agent_act:req_time conf_timel 
+user:后天开始
+{inf(time=后天)}
+agent_act:req_time 
+user:10号
+{inf(time=10号)}
+agent_act:req_loc conf_time 
+user:没有
+{rej()}
+agent_act:req_loc 
+user:香山附近吧
+{inf(loc=香山附近)}
+agent_act:conf_loc 
+user:是的
+{ok(loc)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:3人
+{inf(pernum=3人)}
+agent_act:req 
+user:北京
+{inf(loc=北京)}
+agent_act:req_budget conf_loc 
+user:1000
+{inf(budget=1000)}
+agent_act:req_timel conf_budget 
+user:3天
+{inf(timel=3天)}
+agent_act:req_pernum conf_timel 
+user:30人
+{inf(pernum=30人)}
+agent_act:conf_pernum conf_time 
+user:是的
+{ok(pernum,time)}
+agent_act:done 
+****************
+user:30到50人的会议
+{inf(pernum=30到50人)}
+agent_act:req 
+user:我想预定一个30到50人的会议
+{inf(pernum=30到50人)}
+agent_act:req_pernum req_time 
+user:30人
+{inf(pernum=30人)}
+agent_act:req_budget conf_pernum 
+****************
+user:我要预定一个能容纳30到50人的会议室
+{inf(pernum=30到50人)}
+agent_act:req 
+user:人数大约30到50人吧
+{inf(pernum=30到50人)}
+agent_act:req 
+user:30人
+{inf(pernum=30人)}
+agent_act:req 
+user:1000元
+{inf(budget=1000元)}
+agent_act:req_pernum req_loc conf_budget 
+user:北京
+{inf(loc=北京)}
+agent_act:req_timel conf_loc 
+user:三天
+{inf(timel=三天)}
+agent_act:req_time conf_timel 
+user:19号
+{inf(time=19号)}
+agent_act:req_pernum conf_time 
+user:30
+{inf(pernum=30)}
+agent_act:conf_pernum 
+user:部队
+{other()}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:我想预定一个能够容纳30到50人的会议室
+{inf(pernum=30到50人)}
+agent_act:req_time req_loc conf_pernum 
+user:日期就定在19号
+{inf(time=19号)}
+agent_act:req_budget conf_time 
+user:300元左右吧
+{inf(budget=300元左右)}
+agent_act:req_timel conf_budget 
+user:
+{other()}
+agent_act:req 
+user:我要订一个有100人左右参加的会议室
+{inf(pernum=100人左右)}
+agent_act:req_loc req_time conf_pernum 
+user:3号开会
+{inf(time=3号)}
+user:开到五号
+{inf(time=5号)}
+agent_act:req_budget select_time select_time 
+user:4000左右
+{inf(budget=4000左右)}
+agent_act:req_timel conf_budget 
+user:3天半
+{inf(timel=3天半)}
+agent_act:req_loc conf_timel 
+user:3天
+{inf(timel=3天)}
+agent_act:select_time select_time select_time 
+user:北京
+{inf(loc=北京)}
+agent_act:conf_loc 
+user:19号
+{inf(time=19号)}
+agent_act:select_pernum select_pernum select_pernum 
+user:嗯
+{ok(pernum)}
+agent_act:done 
+****************
+user:30到50人
+{inf(pernum=30到50人)}
+agent_act:req_loc conf_timel 
+user:北京
+{inf(loc=北京)}
+agent_act:conf_loc 
+user:我要开一个三天到五天的会议
+{inf(timel=三天到五天)}
+agent_act:req_budget select_timel select_timel 
+user:是的
+{ok(timel)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:我想预定一个能够容纳30到50人的会议室
+{inf(pernum=30到50人)}
+agent_act:req_loc req_time conf_pernum 
+user:我们公司的会议定在后天
+{inf(time=后天)}
+agent_act:req_loc 
+user:地点在北京附近
+{inf(loc=北京附近)}
+agent_act:conf_loc req_time req_timel 
+user:日期30号
+{inf(time=30号)}
+agent_act:req_budget conf_time 
+user:预算大约在300到500左右吧
+{inf(budget=300到500左右)}
+agent_act:req_timel conf_budget 
+user:30号到3号
+{inf(timel=30号到3号)}
+agent_act:select_time select_time 
+user:30号
+{inf(time=30号)}
+agent_act:conf_time 
+user:是的
+{ok(time)}
+agent_act:conf_timel 
+user:是的
+{ok(timel)}
+agent_act:done 
+****************
+user:我要订一间1000的会议室
+{inf(budget=1000)}
+agent_act:req_timel conf_budget 
+user:3天半
+{inf(timel=3天半)}
+agent_act:req_time conf_timel 
+user:唔5月3号
+{inf(time=5月3号)}
+agent_act:req_pernum conf_time 
+user:500-550人
+{inf(pernum=500-550人)}
+agent_act:req_loc conf_pernum 
+user:北京吧
+{inf(loc=北京)}
+agent_act:conf_loc 
+user:对
+{ok(loc)}
+agent_act:done 
+****************
+user:你好我要订一间北京的1000人的会议室
+{inf(loc=北京,pernum=1000人)}
+agent_act:req_budget conf_loc 
+user:你好
+{hello()}
+agent_act:req 
+user:我想预定3个能容纳十几人开会的会议室
+{inf(pernum=十几人)}
+agent_act:req_time req_loc conf_pernum 
+user:7000以下
+{inf(budget=7000以下)}
+agent_act:req_timel conf_budget 
+user:从4:00到6:00
+{inf(timel=4:00到6:00)}
+agent_act:req_time conf_timel 
+user:5号
+{inf(time=5号)}
+agent_act:conf_time conf_pernum 
+user:对
+{ok(time,pernum)}
+agent_act:done 
+****************
+user:你好我要定一个三号到五号在王府井饭店开的一共可以容纳1000人的会议室
+{inf(timel=三号到五号,loc=王府井饭店,pernum=1000人)}
+agent_act:req_budget conf_loc 
+user:一共是十几个人
+{inf(pernum=十几个人)}
+agent_act:req_budget conf_pernum 
+user:1000以内吧
+{inf(budget=1000以内)}
+agent_act:req_timel conf_budget 
+user:3到5天
+{inf(timel=3到5天)}
+agent_act:req_loc conf_timel 
+user:北邮附近吧
+{inf(loc=北邮附近)}
+agent_act:req_loc conf_time 
+user:北戴河疗养院
+{inf(loc=北戴河疗养院)}
+agent_act:req_loc 
+user:北戴河
+{inf(loc=北戴河)}
+agent_act:conf_loc 
+user:是的
+{ok(loc)}
+agent_act:done 
+****************
+user:预算就5000-6000吧
+{inf(budget=5000-6000)}
+agent_act:conf_budget conf_pernum 
+user:对哒
+{ok(budget,pernum)}
+agent_act:select_time select_time 
+user:你好
+{hello()}
+agent_act:req 
+user:在香山饭店
+{inf(loc=香山饭店)}
+agent_act:req_pernum req_time conf_loc 
+user:会议日期定在周三
+{inf(time=周三)}
+agent_act:req_budget conf_time 
+user:1000
+{inf(budget=1000)}
+agent_act:req_timel conf_budget 
+user:三天到5天
+{inf(timel=三天到5天)}
+agent_act:select_time select_time 
+user:周三
+{inf(time=周三)}
+agent_act:req_pernum conf_timel 
+user:30
+{inf(pernum=30)}
+agent_act:req_pernum 
+user:30人
+{inf(pernum=30人)}
+agent_act:conf_pernum 
+user:是的
+{ok(pernum)}
+agent_act:done 
+****************
+user:我要在六月初预定一个会议室
+{inf(time=六月初)}
+agent_act:req_budget conf_time 
+user:3000以下
+{inf(budget=3000以下)}
+agent_act:req_timel conf_budget 
+user:4号到5号开
+{inf(timel=4号到5号)}
+agent_act:select_time select_time select_time 
+user:4号
+{inf(time=4号)}
+agent_act:req_pernum 
+user:我要订下周一的会议室
+{inf(time=下周一)}
+agent_act:req_budget conf_time 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:我们公司想预定3个能容纳50人的会议室
+{inf(pernum=50人)}
+agent_act:req_time req_budget select_pernum select_pernum 
+user:50人
+{inf(pernum=50人)}
+agent_act:req_loc 
+user:地点定在北京
+{inf(loc=北京)}
+agent_act:conf_loc req_time req_timel 
+user:明天吧
+{inf(time=明天)}
+agent_act:req_time 
+user:日期20号
+{inf(time=20号)}
+agent_act:req_timel conf_time 
+user:3天到5天吧
+{inf(timel=3天到5天)}
+agent_act:req_budget conf_timel 
+user:不到300
+{inf(budget=不到300)}
+agent_act:req_timel conf_budget 
+user:是的
+{ok(budget=300)}
+agent_act:req_timel 
+user:3天到5天
+{inf(timel=3天到5天)}
+agent_act:conf_timel 
+user:是的
+{ok(timel)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:我要预定一个5到10人的会议室
+{inf(pernum=5到10人)}
+agent_act:conf_pernum req_loc req_time 
+user:日期就定在明天
+{inf(time=明天)}
+agent_act:req_loc 
+user:香山饭店可以吗
+{inf(loc=香山饭店)}
+agent_act:inf_loc req_time req_timel 
+user:19号到30号
+{inf(timel=19号到30号)}
+agent_act:req_budget select_timel select_time 
+user:19号
+{inf(time=19号)}
+agent_act:req_budget conf_timel 
+user:1000左右
+{inf(budget=1000左右)}
+agent_act:req_budget 
+user:1000到2000之间吧
+{inf(budget=1000到2000)}
+agent_act:conf_budget 
+user:是的
+{ok(budget)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req_pernum req_time 
+user:在北邮有哪些可以预定的会议室
+{inf(loc=北邮)}
+agent_act:req 
+user:我要7天的会议室
+{inf(timel=7天)}
+agent_act:req_budget conf_timel 
+user:8000元
+{inf(budget=8000元)}
+agent_act:req_time conf_budget 
+user:300多个人一起
+{inf(pernum=300多个人)}
+agent_act:req_time req_loc conf_pernum 
+user:6月中旬
+{inf(time=6月中旬)}
+agent_act:req_pernum conf_time 
+user:百十来人
+{inf(pernum=百十来人)}
+agent_act:req_loc conf_pernum 
+user:9月3号
+{inf(time=9月3号)}
+agent_act:req_budget conf_time 
+user:还没有
+{rej()}
+agent_act:req_loc 
+user:3000吧
+{inf(budget=3000吧)}
+agent_act:req_timel conf_budget 
+user:两天
+{inf(timel=两天)}
+agent_act:req_loc conf_timel 
+user:雁栖湖山庄
+{inf(loc=雁栖湖山庄)}
+agent_act:conf_loc 
+user:不是说了在北邮附近吗
+{inf(loc=北邮附近)}
+agent_act:req_timel 
+user:不对
+{rej(loc)}
+agent_act:req_loc 
+user:两天
+{inf(timel=两天)}
+agent_act:req_loc conf_timel 
+user:雁栖湖旁边的五星级宾馆
+{inf(loc=雁栖湖旁边的五星级宾馆)}
+agent_act:conf_loc 
+user:王府井
+{inf(loc=王府井)}
+agent_act:req_loc 
+user:王府井大街
+{inf(loc=王府井大街)}
+agent_act:conf_loc 
+user:雁栖湖酒泉宾馆
+{inf(loc=雁栖湖酒泉宾馆)}
+agent_act:conf_loc 
+user:对
+{ok(loc)}
+agent_act:done 
+****************
+user:我要订一个4000块左右的会议室
+{inf(budget=4000块左右)}
+agent_act:req_timel conf_budget 
+user:3天半
+{inf(timel=3天半)}
+agent_act:req_time conf_timel 
+user:下周一
+{inf(time=下周一)}
+agent_act:req_pernum conf_time 
+user:300-350
+{inf(pernum=300-350)}
+agent_act:req_pernum 
+user:300-350人
+{inf(pernum=300-350人)}
+agent_act:req_loc conf_pernum 
+user:比较
+{other()}
+agent_act:req_loc 
+user:北京
+{inf(loc=北京)}
+agent_act:conf_loc 
+user:对哒
+{ok(loc)}
+agent_act:done 
+****************
+user:我要订一个2号到3号在北京开的一共容纳300人的会议室
+{inf(timel=2号到3号,pernum=300人,loc=北京)}
+agent_act:req_budget conf_loc 
+user:5000左右
+{inf(budget=5000左右)}
+agent_act:conf_budget conf_pernum 
+user:对
+{ok(budget,pernum)}
+agent_act:select_time select_time 
+user:2号
+{inf(time=2号)}
+agent_act:conf_timel 
+user:对
+{ok(timel)}
+agent_act:done 
+****************
+user:19号开会
+{inf(time=19号)}
+agent_act:req_pernum req_loc conf_time 
+user:30到50个吧
+{inf(pernum=30到50个)}
+agent_act:req_budget conf_pernum 
+user:1000左右
+{inf(budget=1000左右)}
+agent_act:req_timel conf_budget 
+user:我要订7.7-7.9三天的会议室
+{inf(timel=7.7-7.9三天)}
+agent_act:req_budget conf_time 
+user:会议日期在7.7
+{inf(time=7.7)}
+agent_act:req_budget conf_timel 
+user:3天吧
+{inf(timel=3天)}
+agent_act:req_loc conf_timel 
+user:可能两天就够了
+{inf(timel=两天)}
+agent_act:req_loc conf_timel 
+user:天津
+{inf(loc=天津)}
+agent_act:conf_loc 
+user:是的
+{ok(loc)}
+agent_act:done 
+****************
+user:我要订一个300的会议室
+{inf(budget=300)}
+agent_act:req_timel conf_budget 
+user:开会时间是4、5、6三天
+{inf(timel=4、5、6三天)}
+agent_act:req_pernum conf_timel 
+user:9月2号下午3:00-5:00开会
+{inf(time=9月2号下午3:00-5:00,timel=3:00-5:00)}
+agent_act:conf_time conf_timel 
+user:3号-5号开会
+{inf(timel=3号-5号)}
+agent_act:conf_time conf_timel 
+user:是
+{ok(time,timel)}
+agent_act:req_loc req_pernum 
+user:1000
+{inf(budget=1000)}
+agent_act:req_loc 
+user:北京
+{inf(loc=北京)}
+agent_act:req_pernum conf_loc 
+user:3人
+{inf(pernum=3)}
+agent_act:conf_pernum 
+user:对
+{ok(pernum)}
+agent_act:done 
+****************
+user:9月2号下午3:00-5:00开会
+{inf(time=9月2号,timel=下午3:00-5:00)}
+agent_act:req_budget conf_time 
+user:300
+{inf(budget=300)}
+agent_act:req_pernum conf_budget 
+user:3
+{inf(pernum=3)}
+agent_act:req_pernum conf_timel 
+user:3人
+{inf(pernum=3人)}
+agent_act:req_loc conf_pernum 
+user:北京
+{inf(loc=北京)}
+agent_act:conf_loc 
+user:对
+{ok(loc)}
+agent_act:done 
+****************
+user:开会时间是4、5、6三天
+{inf(timel=4、5、6三天)}
+agent_act:req_budget conf_time 
+user:我想订一个北京的会议室
+{inf(loc=北京)}
+agent_act:req_budget conf_loc 
+user:3天
+{inf(timel=3天)}
+agent_act:req_budget conf_time 
+user:你好
+{hello()}
+agent_act:req 
+user:大概300人左右吧
+{inf(pernum=300人左右)}
+agent_act:req_time req_loc conf_pernum 
+user:日期是后天开会
+{inf(time=后天)}
+agent_act:req_loc 
+user:天津
+{inf(loc=天津)}
+agent_act:conf_loc req_time req_timel 
+user:日期19号
+{inf(time=19号)}
+agent_act:req_budget conf_time 
+user:300到500元
+{inf(budget=300到500元)}
+agent_act:req_timel conf_budget 
+user:3天到4天吧
+{inf(timel=3天到4天)}
+agent_act:conf_timel 
+user:是的
+{ok(timel)}
+agent_act:done 
+****************
+user:300人的会议室
+{inf(pernum=300人)}
+agent_act:req_budget conf_pernum 
+user:300
+{inf(budget=300)}
+agent_act:req_timel conf_budget 
+user:几天的
+{inf(timel=几天)}
+user:北京
+{inf(loc=北京)}
+agent_act:req_time conf_timel 
+user:北京
+{inf(loc=北京)}
+user:十月一
+{inf(time=十月一)}
+agent_act:conf_time 
+user:是的
+{ok(time)}
+agent_act:done 
+****************
+user:预定一个北京的会议室
+{inf(loc=北京)}
+agent_act:req_budget conf_loc 
+user:300元
+{inf(budget=300元)}
+agent_act:req_timel conf_budget 
+user:5天、
+{inf(timel=5天)}
+agent_act:req_time conf_timel 
+user:6号
+{inf(time=6号)}
+agent_act:req_pernum conf_time 
+user:300
+{inf(pernum=300)}
+agent_act:req_pernum 
+user:300人
+{inf(pernum=300人)}
+agent_act:conf_pernum 
+user:对
+{ok(pernum)}
+agent_act:done 
+****************
+user:300
+{inf(budget=300)}
+agent_act:req_timel conf_budget 
+user:300
+{inf(budget=300)}
+user:北京,
+{inf(loc=北京)}
+user:十月三号,
+{inf(time=十月三号)}
+user:三天
+{inf(timel=三天)}
+agent_act:req_pernum conf_timel 
+user:300人
+{inf(pernum=300人)}
+agent_act:conf_pernum conf_loc 
+user:300
+{inf(pernum=300)}
+agent_act:conf_time 
+user:恩
+{ok(time)}
+agent_act:done 
+****************
+user:300人
+{inf(pernum=300人)}
+agent_act:req_budget conf_pernum 
+user:是的
+{ok(pernum)}
+agent_act:req_budget 
+user:3000元
+{inf(budget=3000元)}
+agent_act:req_timel conf_budget 
+user:3000
+{inf(budget=3000)}
+agent_act:req_timel conf_budget 
+user:800人
+{inf(pernum=800人)}
+agent_act:req_budget conf_pernum 
+user:30000元,
+{inf(budget=30000元)}
+user:北京,
+{inf(loc=北京)}
+user:十月三号,
+{inf(time=十月三号)}
+user:三天
+{inf(timel=三天)}
+agent_act:req_pernum conf_loc 
+user:恩
+{ok(loc)}
+agent_act:conf_time conf_timel 
+user:恩
+{ok(time,timel)}
+agent_act:req_pernum conf_budget 
+user:恩
+{ok(budget)}
+agent_act:req_pernum 
+user:恩50人
+{inf(pernum=50人)}
+agent_act:conf_pernum 
+user:恩
+{ok(pernum)}
+agent_act:done 
+****************
+user:我要预定会议室
+{hello()}
+agent_act:req 
+user:北京
+{inf(loc=北京)}
+agent_act:req_pernum req_time conf_loc 
+user:北京
+{inf(loc=北京)}
+agent_act:req_pernum 
+user:你好
+{hello()}
+agent_act:req_pernum req_time 
+user:???????
+{other()}
+agent_act:req_pernum req_time 
+user:明天
+{inf(time=明天)}
+user:北京邮电大学科技酒店
+{inf(loc=北京邮电大学科技酒店)}
+agent_act:req 
+user:200人
+{inf(pernum=200人)}
+agent_act:req_budget conf_pernum 
+user:3000元
+{inf(budget=3000元)}
+agent_act:req_timel conf_budget 
+user:1天
+{inf(timel=1天)}
+agent_act:req_time conf_timel 
+user:明天
+{inf(time=明天)}
+agent_act:req_time 
+user:9号
+{inf(time=9号)}
+agent_act:req_loc conf_time 
+user:北邮科技酒店
+{inf(loc=北邮科技酒店)}
+agent_act:conf_loc 
+user:是的
+{ok(loc)}
+agent_act:done 
+****************
+user:你好！
+{hello()}
+agent_act:req 
+user:你好！
+{hello()}
+agent_act:req req_pernum req_time 
+user:9月9号
+{inf(time=9月9号)}
+agent_act:req_budget conf_time 
+user:3000元
+{inf(budget=3000元)}
+agent_act:req_timel conf_budget 
+user:1天
+{inf(timel=1天)}
+agent_act:req_pernum conf_timel 
+user:200人
+{inf(pernum=200人)}
+agent_act:req_loc conf_pernum 
+user:北邮科技酒店
+{inf(loc=北邮科技酒店)}
+agent_act:conf_loc 
+user:????o??????????????-|????????????o?
+{other()}
+agent_act:req 
+user:3000???
+{inf(budget=3000)}
+agent_act:req_timel conf_budget 
+user:地点北京
+{inf(loc=北京)}
+agent_act:req_budget conf_loc 
+user:是的
+{ok(loc)}
+agent_act:req_budget 
+user:北京市
+{inf(loc=北京市)}
+agent_act:req_budget conf_loc 
+user:你好
+{hello()}
+agent_act:req_pernum req_time 
+user:北京的会议室
+{inf(loc=北京)}
+agent_act:req_pernum req_time conf_loc 
+user:9号
+{inf(time=9号)}
+agent_act:req_budget conf_time 
+user:不是
+{rej(budget)}
+agent_act:req_time 
+user:9号
+{inf(time=9号)}
+agent_act:req_budget conf_time 
+user:不是10号
+{inf(time=10号)}
+agent_act:req_budget conf_time 
+user:11号
+{inf(time=11号)}
+agent_act:req_budget conf_time 
+user:北京
+{inf(loc=北京)}
+agent_act:req_budget 
+user:北京
+{inf(loc=北京)}
+agent_act:req_pernum 
+user:300人
+{inf(pernum=300人)}
+user:3天
+{inf(timel=3天)}
+agent_act:conf_pernum conf_timel 
+user:300元
+{inf(budget=300元)}
+agent_act:conf_budget 
+user:是的
+{ok(budget)}
+agent_act:done 
+****************
+user:北京
+{inf(loc=北京)}
+agent_act:req_budget conf_loc 
+user:天津
+{inf(loc=天津)}
+agent_act:req_budget conf_loc 
+user:你好
+{hello()}
+agent_act:req_pernum req_time 
+user:明天
+{inf(time=明天)}
+agent_act:req 
+user:国际会议
+{other()}
+agent_act:req 
+user:大会议室
+{inf()}
+agent_act:req_pernum req_time 
+user:300到500人
+{inf(pernum=300到500人)}
+agent_act:req_budget conf_pernum 
+user:200元每人
+{inf(budget=200元每人)}
+agent_act:req_budget conf_pernum 
+user:9月9号
+{inf(time=9月9号)}
+agent_act:req_budget conf_time 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:30人的会议
+{inf(pernum=30人)}
+agent_act:req 
+user:30人
+{inf(pernum=30人)}
+agent_act:req 
+user:500元
+{inf(budget=500元)}
+agent_act:conf_budget req_loc req_pernum 
+user:北京
+{inf(loc=北京)}
+agent_act:req_timel conf_loc 
+user:3天
+{inf(timel=3天)}
+agent_act:req_pernum conf_timel 
+user:30人
+{inf(pernum=30人)}
+agent_act:req_pernum conf_timel 
+user:30人
+{inf(pernum=30人)}
+agent_act:req_pernum 
+user:30
+{inf(pernum=30)}
+agent_act:req_pernum 
+user:30个人
+{inf(pernum=30个)}
+agent_act:req_pernum 
+user:与会人数30
+{inf(pernum=30)}
+agent_act:conf_pernum 
+user:是的
+{ok(pernum)}
+agent_act:done 
+****************
+user:30个人
+{inf(pernum=30个)}
+agent_act:req 
+user:30个人
+{inf(pernum=30个)}
+agent_act:req 
+user:北京,
+{inf(loc=北京)}
+user:3天
+{inf(timel=3天)}
+agent_act:req_budget conf_loc 
+user:500元
+{inf(budget=500元)}
+agent_act:req_time conf_budget 
+user:19号
+{inf(time=19号)}
+agent_act:req_pernum conf_time 
+user:30人
+{inf(pernum=30人)}
+agent_act:conf_time req_pernum 
+user:30人
+{inf(pernum=30人)}
+agent_act:req_pernum 
+user:人数有30
+{inf(pernum=30)}
+agent_act:conf_pernum 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:我们想要预定一个3天的会议室
+{inf(timel=3天)}
+agent_act:req_pernum req_loc conf_timel 
+user:北京邮电大学
+{inf(loc=北京邮电大学)}
+agent_act:req_loc 
+user:北京
+{inf(loc=北京)}
+agent_act:req_budget conf_loc 
+user:100元
+{inf(budget=100元)}
+agent_act:req_time conf_budget 
+user:19号
+{inf(time=19号)}
+agent_act:req_pernum conf_time 
+user:30
+{inf(pernum=30)}
+agent_act:conf_pernum 
+user:是的
+{ok(pernum)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:30
+{inf(pernum=30)}
+agent_act:req 
+user:每天预算大概1000
+{inf(budget=1000)}
+agent_act:req 
+user:预算100
+{inf(budget=100)}
+agent_act:req_pernum req_time 
+user:30
+{inf(pernum=30)}
+agent_act:req_pernum req_time 
+user:9号
+{inf(time=9号)}
+agent_act:conf_time req_loc req_pernum 
+user:30
+{inf(pernum=30)}
+agent_act:req_loc 
+user:你好
+{hello()}
+agent_act:req_loc 
+user:北京
+{inf(loc=北京)}
+agent_act:req_budget conf_loc 
+user:1000
+{inf(budget=1000)}
+agent_act:req_timel conf_budget 
+user:三天
+{inf(timel=三天)}
+agent_act:req_pernum conf_timel 
+user:30
+{inf(pernum=30)}
+agent_act:conf_pernum 
+user:是的
+{ok(pernum)}
+agent_act:done 
+****************
+user:30个人,
+{inf(pernum=30个)}
+user:5天的会议室
+{inf(timel=5天)}
+agent_act:req_budget conf_pernum 
+user:1000元
+{inf(budget=1000元)}
+agent_act:req_time conf_budget 
+user:后天
+{inf(time=后天)}
+agent_act:req_time conf_timel 
+user:19号
+{inf(time=19号)}
+agent_act:req_loc conf_time 
+user:知春路
+{inf(loc=知春路)}
+agent_act:req_loc 
+user:海淀区知春路
+{inf(loc=海淀区知春路)}
+agent_act:conf_loc 
+user:是的
+{ok(loc)}
+agent_act:done 
+****************
+user:我要开会
+{hello()}
+agent_act:req 
+user:三天左右的会议
+{inf(timel=三天左右)}
+agent_act:req_pernum req_loc conf_timel 
+user:从3号开到5号
+{inf(timel=3号开到5号)}
+agent_act:req_budget select_time select_time 
+user:3000
+{inf(budget=3000)}
+agent_act:req_pernum conf_budget 
+user:200
+{inf(pernum=200)}
+agent_act:req_loc conf_pernum 
+user:北京
+{inf(loc=北京)}
+agent_act:conf_loc 
+user:是
+{ok(loc)}
+agent_act:done 
+****************
+user:30人的会议
+{inf(pernum=30人)}
+agent_act:req_budget conf_pernum 
+user:北京,
+{inf(loc=北京)}
+user:十月三号
+{inf(time=十月三号)}
+user:,300人,
+{inf(pernum=300人)}
+user:三天
+{inf(timel=三天)}
+agent_act:req_budget conf_loc 
+user:3000元
+{inf(budget=3000元)}
+agent_act:conf_budget conf_pernum 
+user:对
+{ok(budget,pernum)}
+agent_act:conf_time conf_timel 
+user:对
+{ok(time,timel)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:我想预定一个30人的会议室
+{inf(pernum=30人)}
+agent_act:conf_pernum req_loc req_time 
+user:地点就在北京吧
+{inf(loc=北京)}
+agent_act:req_budget conf_loc 
+user:预算大约为4000元
+{inf(budget=4000元)}
+agent_act:req_timel conf_budget 
+user:三天
+{inf(timel=三天)}
+agent_act:req_time conf_timel 
+user:19号或者20号
+{inf(time=19号or20号)}
+agent_act:select_time select_time 
+user:20号
+{inf(time=20号)}
+agent_act:done 
+****************
+﻿user:你好
+{hello()}
+agent_act:req_pernum req_time 
+user:我想预定一个能容纳10人开会的会议室
+{inf(pernum=10人)}
+agent_act:req_loc req_time conf_pernum 
+user:日期安排在13号
+{inf(time=13号)}
+agent_act:req_budget conf_time 
+user:预期价位是500元左右
+{inf(budget=500元左右)}
+agent_act:req 
+user:500元
+{inf(budget=500元)}
+agent_act:req_timel conf_budget 
+user:3天
+{inf(timel=3天)}
+agent_act:req_loc conf_timel 
+user:北京天伦大酒店
+{inf(loc=北京天伦大酒店)}
+agent_act:conf_loc 
+user:是的
+{ok(loc)}
+agent_act:done 
+****************
+﻿user:你好
+{hello()}
+agent_act:req_pernum req_time 
+user:你好
+{hello()}
+agent_act:req 
+user:30个人
+{inf(pernum=30个人)}
+agent_act:conf_pernum req_time req_loc 
+user:北京
+{inf(loc=北京)}
+agent_act:conf_loc req_budget 
+user:300
+{inf(budget=300)}
+agent_act:conf_budget req_timel 
+user:6个小时左右
+{inf(timel=6个小时左右)}
+agent_act:conf_timel req_time 
+user:我们计划在下个月4号开会
+{inf(time=下个月4号)}
+agent_act:conf_time 
+user:是的
+{ok(time)}
+agent_act:done 
+****************
+﻿user:你好
+{hello()}
+agent_act:req 
+user:北京
+{inf(loc=北京)}
+user:40个人
+{inf(pernum=40个人)}
+agent_act:conf_pernum conf_loc 
+user:是的
+{ok(loc,pernum)}
+agent_act:req_time 
+user:日期这周日
+{inf(time=这周日)}
+agent_act:conf_time req_budget 
+user:预算在300到500之间吧
+{inf(budget=300到500)}
+agent_act:conf_budget req_timel 
+user:预算不对
+{rej(budget)}
+agent_act:req_budget 
+user:3号
+{inf(time=3号)}
+agent_act:req_budget 
+user:日期不对
+{rej(time)}
+agent_act:req_budget req_time 
+user:300元左右
+{inf(budget=300元左右)}
+agent_act:conf_budget req_timel 
+user:4小时
+{inf(timel=4小时)}
+agent_act:conf_timel 
+user:是的
+{ok(timel)}
+agent_act:done 
+****************
+﻿user:你好
+{hello()}
+agent_act:req_pernum req_time 
+user:8月9日开会
+{inf(time=8月9日)}
+agent_act:conf_time req_pernum req_loc 
+user:100
+{inf(pernum=100)}
+agent_act:req_loc 
+user:桂林
+{inf(loc=桂林)}
+agent_act:req_budget conf_loc 
+user:1000
+{inf(budget=1000)}
+agent_act:conf_budget req_timel 
+user:3天吧
+{inf(timel=3天)}
+agent_act:conf_timel req_pernum 
+user:3天
+{inf(timel=3天)}
+agent_act:req_pernum 
+user:100人
+{inf(pernum=100人)}
+agent_act:conf_pernum 
+user:对
+{ok(pernum)}
+agent_act:done 
+****************
+﻿user:hello
+{other()}
+agent_act:req_pernum req_time 
+user:100人的会
+{inf(pernum=100人)}
+user:下月开
+{inf(time=下月)}
+agent_act:conf_pernum req_loc req_time 
+user:北京
+{inf(loc=北京)}
+user:下个月
+{inf(time=下个月)}
+agent_act:req_budget conf_loc 
+user:1000元
+{inf(budget=1000元)}
+agent_act:req_timel conf_budget 
+user:是
+{ok(budget)}
+agent_act:conf_loc conf_time req_timel 
+user:是的
+{ok(loc,time)}
+agent_act:req_timel 
+user:4天
+{inf(timel=4天)}
+agent_act:conf_timel 
+user:5天
+{inf(timel=5天)}
+agent_act:conf_timel 
+user:你好
+{hello()}
+agent_act:req 
+user:8月9日开会
+{inf(time=8月9日)}
+agent_act:conf_time req_pernum req_loc 
+user:100
+{inf(pernum=100)}
+agent_act:req_loc 
+user:桂林
+{inf(loc=桂林)}
+agent_act:conf_loc req_budget 
+user:1000
+{inf(budget=1000)}
+agent_act:conf_budget req_timel 
+user:3天
+{inf(timel=3天)}
+agent_act:conf_timel req_pernum 
+user:100
+{inf(pernum=100)}
+agent_act:conf_pernum 
+user:是的
+{ok(pernum)}
+agent_act:done 
+****************
+﻿user:你好
+{hello()}
+agent_act:req 
+user:八月9日开会
+{inf(time=八月9日)}
+agent_act:conf_time req_loc req_pernum 
+user:100
+{inf(pernum=100)}
+agent_act:req_loc 
+user:桂林
+{inf(loc=桂林)}
+agent_act:conf_loc req_budget 
+user:1000
+{inf(budget=1000)}
+agent_act:conf_budget req_timel 
+user:3天吧
+{inf(timel=3天)}
+agent_act:req_pernum conf_timel 
+user:100
+{inf(pernum=100)}
+agent_act:conf_pernum 
+user:对
+{ok(pernum)}
+agent_act:done 
+****************
+﻿user:hello
+{other()}
+agent_act:req 
+user:100人的会
+{inf(pernum=100人)}
+agent_act:req_loc req_time conf_pernum 
+user:下个月
+{inf(time=下个月)}
+agent_act:conf_time req_budget 
+user:1000元
+{inf(budget=1000元)}
+agent_act:conf_budget req_timel 
+user:3天
+{inf(timel=3天)}
+agent_act:conf_timel req_loc 
+user:100人
+{inf(pernum=100人)}
+agent_act:req_loc 
+user:北京
+{inf(loc=北京)}
+agent_act:conf_loc 
+user:是
+{ok(loc)}
+agent_act:done 
+****************
+﻿user:hello
+{other()}
+agent_act:req 
+user:100人的会
+{inf(pernum=100人)}
+user:下月开
+{inf(time=下月)}
+agent_act:req_time req_loc conf_pernum 
+user:北京
+{inf(loc=北京)}
+user:下个月
+{inf(time=下个月)}
+agent_act:req_budget conf_loc 
+user:1000元
+{inf(budget=1000元)}
+agent_act:conf_budget req_timel 
+user:3天
+{inf(timel=3天)}
+agent_act:conf_time 
+user:是
+{ok(time)}
+agent_act:conf_timel 
+user:对
+{ok(timel)}
+agent_act:done 
+****************
+﻿user:你好
+{hello()}
+agent_act:req 
+user:100人的会
+{inf(pernum=100人)}
+user:下月开
+{inf(time=下月)}
+agent_act:conf_pernum req_loc req_time 
+user:北京
+{inf(loc=北京)}
+user:下个月
+{inf(time=下个月)}
+agent_act:conf_loc req_budget 
+user:1000元
+{inf(budget=1000元)}
+agent_act:conf_budget req_timel 
+user:3天
+{inf(timel=3天)}
+agent_act:conf_time 
+user:下个月
+{inf(time=下个月)}
+agent_act:conf_time 
+user:是
+{ok(time)}
+agent_act:conf_timel 
+user:对
+{ok(timel)}
+agent_act:done 
+****************
+﻿user:你好
+{hello()}
+agent_act:req_pernum req_time 
+user:我们公司今年年会打算在北京香山饭店举行
+{inf(loc=北京香山饭店)}
+agent_act:conf_loc req_pernum req_time 
+user:与会人数大约有30个
+{inf(pernum=30个)}
+agent_act:conf_pernum req_budget 
+user:2000元以下
+{inf(budget=2000元以下)}
+agent_act:conf_budget req_timel 
+user:一天
+{inf(timel=一天)}
+agent_act:conf_time conf_timel 
+user:不对
+{rej(time,timel)}
+agent_act:dis_time dis_timel 
+user:会议日期不对
+{rej(time)}
+agent_act:req_time 
+user:3号
+{inf(time=3号)}
+agent_act:conf_time req_timel 
+user:1天
+{inf(timel=1天)}
+agent_act:conf_timel 
+user:是的
+{ok(timel)}
+agent_act:done 
+****************
+﻿user:你好
+{hello()}
+agent_act:req 
+user:打算在北京开会
+{inf(loc=北京)}
+agent_act:conf_loc req_time req_pernum 
+user:日期在3号
+{inf(time=3号)}
+agent_act:conf_time req_budget 
+user:不对
+{rej(time)}
+agent_act:req_time 
+user:7号
+{inf(time=7号)}
+agent_act:req_budget conf_time 
+user:500元
+{inf(budget=500元)}
+agent_act:conf_budget req_timel 
+user:8号开会
+{inf(time=8号)}
+agent_act:req_timel 
+user:三天
+{inf(timel=三天)}
+agent_act:conf_timel req_pernum 
+user:10个人
+{inf(pernum=10个人)}
+agent_act:conf_pernum 
+user:是的
+{ok(pernum)}
+agent_act:done 
+****************
+﻿user:我们打算从天津到北京来开会
+{inf(loc=天津,loc=北京)}
+agent_act:select_loc select_loc req_budget 
+user:你好
+{hello()}
+agent_act:req 
+user:8月9日开会
+{inf(time=8月9日)}
+agent_act:conf_time req_loc req_pernum 
+user:100
+{inf(pernum=100)}
+agent_act:req_loc 
+user:桂林
+{inf(loc=桂林)}
+agent_act:conf_loc req_budget 
+user:1000
+{inf(budget=1000)}
+agent_act:conf_budget req_timel 
+user:3天吧
+{inf(timel=3天)}
+agent_act:conf_timel req_pernum 
+user:100
+{inf(pernum=100)}
+agent_act:conf_pernum 
+user:是
+{ok(pernum)}
+agent_act:done 
+****************
+﻿user:hello
+{other()}
+agent_act:req 
+user:100人的会
+{inf(pernum=100人)}
+user:下月开
+{inf(time=下月)}
+agent_act:conf_pernum req_time req_loc 
+user:北京
+{inf(loc=北京)}
+user:下个月
+{inf(time=下个月)}
+agent_act:conf_loc req_budget 
+user:预期价位在1000
+{inf(budget=1000)}
+agent_act:conf_loc conf_time req_budget 
+user:1000元
+{inf(budget=1000元)}
+agent_act:conf_budget req_timel 
+user:3天
+{inf(timel=3天)}
+agent_act:conf_timel 
+user:是
+{ok(timel)}
+agent_act:done 
+****************
+﻿user:8月9日开会
+{inf(time=8月9日)}
+agent_act:conf_time req_budget 
+user:100吧
+{inf(budget=100)}
+agent_act:req_timel conf_budget 
+user:3天
+{inf(timel=3天)}
+agent_act:conf_timel req_pernum 
+user:10
+{inf(pernum=10)}
+agent_act:conf_pernum req_loc 
+user:桂林
+{inf(loc=桂林)}
+agent_act:conf_loc 
+user:是
+{ok(loc)}
+agent_act:done 
+****************
+﻿user:hello
+{hello()}
+agent_act:req 
+user:100人的会
+{inf(pernum=100人)}
+user:下月开
+{inf(time=下月)}
+agent_act:conf_pernum req_loc req_time 
+user:8月9日
+{inf(time=8月9日)}
+user:桂林
+{inf(loc=桂林)}
+agent_act:conf_time req_budget 
+user:1000
+{inf(budget=1000)}
+agent_act:conf_budget req_timel 
+user:3天
+{inf(timel=3天)}
+agent_act:conf_timel req_loc 
+user:桂林
+{inf(loc=桂林)}
+agent_act:conf_loc 
+user:是
+{ok(loc)}
+agent_act:done 
+****************
+﻿user:8月9日开会
+{inf(time=8月9日)}
+agent_act:conf_time req_budget 
+user:hello
+{hello()}
+agent_act:req 
+user:100人的会
+{inf(pernum=100人)}
+user:下个月开
+{inf(time=下个月)}
+agent_act:conf_pernum req_time req_loc 
+user:科技大厦
+{inf(loc=科技大厦)}
+agent_act:req_loc 
+user:北邮科技大厦
+{inf(loc=北邮科技大厦)}
+agent_act:conf_loc req_budget 
+user:一百日元
+{inf(budget=一百日元)}
+agent_act:req_budget 
+user:100
+{inf(budget=100)}
+agent_act:conf_budget req_timel 
+user:一个钟头
+{inf(timel=一个钟头)}
+agent_act:conf_timel 
+user:一个小时
+{inf(timel=一个小时)}
+agent_act:conf_timel req_time 
+user:是
+{ok(timel)}
+agent_act:req_time 
+user:定了
+{inf()}
+agent_act:req_time 
+user:明天凌晨
+{inf(time=明天凌晨)}
+agent_act:req_time 
+user:后天
+{inf(time=后天)}
+agent_act:req_time 
+user:中秋节
+{inf(time=中秋节)}
+agent_act:req_time 
+user:1月
+{inf(time=1月)}
+agent_act:conf_time 
+user:不对
+{rej(time)}
+agent_act:req_time 
+user:八月
+{inf(time=八月)}
+agent_act:conf_time 
+user:是
+{ok(time)}
+agent_act:done 
+****************
+﻿user:你好
+{hello()}
+agent_act:req 
+user:O(∩_∩)O好的
+{inf()}
+agent_act:req 
+user:好一点的
+{inf()}
+agent_act:req 
+user:贵一点的
+{inf()}
+agent_act:req 
+user:300元价位的
+{inf(budget=300元)}
+agent_act:req 
+user:300元
+{inf(budget=300元)}
+agent_act:conf_budget req_loc req_pernum 
+user:你好
+{hello()}
+agent_act:req_pernum req_time 
+user:我们公司计划本月20号能够在北邮科技大厦举行本年年会
+{inf(time=本月20号,loc=北邮科技大厦)}
+agent_act:conf_loc 
+user:是的
+{ok(loc)}
+agent_act:conf_loc req_budget 
+user:我们预算大约为2000
+{inf(budget=2000)}
+agent_act:conf_budget req_timel 
+user:一天实际爱你
+{inf(timel=一天)}
+agent_act:conf_timel req_pernum 
+user:100人左右
+{inf(pernum=100人)}
+agent_act:conf_pernum 
+user:是的
+{ok(pernum)}
+agent_act:done 
+****************
+﻿user:你好
+{hello()}
+agent_act:req 
+user:我们公司计划在本月19号开会
+{inf(time=本月19号)}
+agent_act:conf_time req_loc req_pernum 
+user:地点想在香山大饭店
+{inf(loc=香山大饭店)}
+agent_act:conf_loc req_budget 
+user:不超过5000吧
+{inf(budget=5000)}
+agent_act:req_loc conf_budget 
+user:香山大饭店
+{inf(loc=香山大饭店)}
+agent_act:conf_loc req_timel 
+user:需要一个上午
+{inf(timel=一个上午)}
+agent_act:conf_timel req_pernum 
+user:50人左右
+{inf(pernum=50人左右)}
+agent_act:conf_pernum 
+user:是的
+{ok(pernum)}
+agent_act:done 
+****************
+﻿user:你好
+{hello()}
+agent_act:req 
+user:公司计划在香山饭店开年会
+{inf(loc=香山饭店)}
+agent_act:conf_loc req_pernum req_time 
+user:人数大约60人左右吧
+{inf(pernum=60人左右)}
+agent_act:conf_pernum req_budget 
+user:价钱不超过3000元吧
+{inf(budget=3000元)}
+agent_act:req_pernum conf_budget 
+user:是的
+{ok(budget)}
+agent_act:req_pernum 
+user:60人左右
+{inf(pernum=60人左右)}
+agent_act:conf_pernum req_timel 
+user:会议持续一天
+{inf(pernum=一天)}
+agent_act:conf_pernum req_time 
+user:日期19号
+{inf(time=19号)}
+agent_act:req_time 
+user:是的
+{ok(time)}
+agent_act:done 
+****************
+﻿user:你好
+{hello()}
+agent_act:req 
+user:大约人数在60人左右吧
+{inf(pernum=60人)}
+agent_act:req_time req_loc conf_pernum 
+user:1月2号开会
+{inf(time=1月2号)}
+agent_act:conf_time req_budget 
+user:我们预算是5000元
+{inf(budget=5000元)}
+agent_act:conf_budget req_timel 
+user:4个小时
+{inf(timel=4个小时)}
+agent_act:conf_timel req_loc 
+user:地点就在北京就好
+{inf(loc=北京)}
+agent_act:conf_loc 
+user:是的
+{ok(loc)}
+agent_act:done 
+****************
+﻿user:你好
+{hello()}
+agent_act:req 
+user:公司计划开一个年度总结会
+{inf()}
+agent_act:req_time req_pernum 
+user:参会人数在60个人左右吧
+{inf(pernum=60个人左右)}
+agent_act:conf_pernum req_budget 
+user:预算500元
+{inf(budget=500元)}
+agent_act:conf_budget req_timel 
+user:28号上午
+{inf(time=28号上午)}
+agent_act:conf_time req_timel 
+user:4个小时
+{inf(timel=4个小时)}
+user:8点到12点
+{inf(timel=8点到12点)}
+agent_act:select_timel select_time req_loc 
+user:8点到12点
+{inf(time=8点到12点)}
+agent_act:req_loc 
+user:地点希望能在香山饭店
+{inf(loc=香山饭店)}
+agent_act:conf_loc 
+user:是的
+{ok(loc)}
+agent_act:done 
+****************
+﻿user:你好
+{hello()}
+agent_act:req 
+user:我们想预定一个能容纳15人开会的会议室
+{inf(pernum=15人)}
+agent_act:req_time req_loc conf_pernum 
+user:日期为23号下午
+{inf(time=23号下午)}
+agent_act:conf_time req_budget 
+user:大概的预算为300元
+{inf(budget=300元)}
+agent_act:conf_budget req_timel 
+user:4个小时
+{inf(timel=4个小时)}
+agent_act:conf_timel req_loc 
+user:最好能在国贸大厦附近
+{inf(loc=国贸大厦附近)}
+agent_act:conf_loc 
+user:是的
+{ok(loc)}
+agent_act:done 
+****************
+﻿user:预定会议室
+{hello()}
+agent_act:req_pernum req_time 
+user:会议日期暂定为3月10号到13号
+{inf(timel=3月10号到13号)}
+agent_act:select_time select_time 
+user:3月10号
+{inf(time=3月10号)}
+agent_act:conf_timel req_budget 
+user:经费预算是5000
+{inf(budget=5000)}
+agent_act:req_pernum conf_budget 
+user:20多个人
+{inf(pernum=20多个人)}
+agent_act:conf_pernum req_loc 
+user:北京大饭店可以吗
+{inf(loc=北京大饭店)}
+agent_act:conf_loc 
+user:是的
+{ok(loc)}
+agent_act:done 
+****************
+﻿user:你好
+{hello()}
+agent_act:req_pernum req_time 
+user:好的
+{inf()}
+agent_act:req 
+user:30个人的会议室
+{inf(pernum=30个人)}
+agent_act:conf_pernum req_budget 
+user:预算大约有两万吧
+{inf(budget=两万)}
+agent_act:conf_budget req_timel 
+user:2天时间
+{inf(timel=2天)}
+agent_act:conf_timel req_time 
+user:从2月十九号开始
+{inf(time=2月十九号)}
+agent_act:conf_time req_pernum 
+user:30个人
+{inf(pernum=30个人)}
+agent_act:conf_pernum req_loc 
+user:北京市区内
+{inf(loc=北京市区内)}
+agent_act:conf_loc 
+user:是的
+{ok(loc)}
+agent_act:done 
+****************
+﻿user:会议室
+{inf()}
+agent_act:req 
+user:10人间
+{inf(pernum=10人)}
+agent_act:conf_pernum req_time req_loc 
+user:4月10人
+{inf(time=4月,pernum=10人)}
+agent_act:req_loc 
+user:北京
+{inf(loc=北京)}
+agent_act:conf_loc req_budget 
+user:1000
+{inf(budget=1000)}
+agent_act:conf_budget req_timel 
+user:3天
+{inf(timel=3天)}
+agent_act:conf_timel conf_time 
+user:对
+{ok(time,timel)}
+agent_act:done 
+****************
+﻿user:订会议室
+{inf()}
+agent_act:req_pernum req_time 
+user:10人
+{inf(pernum=10人)}
+user:4月10日开
+{inf(time=4月10日)}
+agent_act:conf_pernum conf_time 
+user:10
+{inf(pernum=10)}
+agent_act:req_pernum req_time 
+user:10人
+{inf(pernum=10人)}
+agent_act:conf_pernum req_time req_loc 
+user:10月
+{inf(time=10月)}
+agent_act:conf_time req_budget 
+user:3日
+{inf(timel=3日)}
+agent_act:req_budget 
+user:不是
+{rej(time)}
+agent_act:req_loc 
+user:5月10日开
+{inf(time=5月10日)}
+agent_act:req_loc 
+user:100元
+{inf(budget=100元)}
+agent_act:conf_budget req_timel 
+user:4天
+{inf(timel=4天)}
+agent_act:conf_timel req_loc 
+user:1天
+{inf(timel=1天)}
+agent_act:conf_timel req_loc 
+user:北邮
+{inf(loc=北邮)}
+agent_act:req_loc 
+user:南京
+{inf(loc=南京)}
+agent_act:conf_loc 
+user:是
+{ok(loc)}
+agent_act:done 
+****************
+﻿user:订会议室
+{inf()}
+agent_act:req 
+user:10人的
+{inf(pernum=10人)}
+agent_act:conf_pernum req_loc req_time 
+user:北京
+{inf(loc=北京)}
+user:10月10日
+{inf(time=10月10日)}
+agent_act:req_budget conf_loc 
+user:1000元
+{inf(budget=1000元)}
+agent_act:conf_budget req_timel 
+user:4天
+{inf(timel=4天)}
+agent_act:conf_timel conf_time 
+user:对
+{ok(timel,time)}
+agent_act:done 
+****************
+﻿user:订个10人的会议室
+{inf(pernum=10人)}
+agent_act:conf_pernum req_budget 
+user:还是20人的吧
+{inf(pernum=20人)}
+agent_act:conf_pernum req_budget 
+user:3天
+{inf(timel=3天)}
+agent_act:conf_time req_budget 
+user:订个会议室
+{inf()}
+agent_act:req 
+user:还是20人吧
+{inf(pernum=20人)}
+agent_act:req_time req_loc conf_pernum 
+user:10月10日在北京
+{inf(time=10月10日,loc=北京)}
+agent_act:conf_loc req_budget 
+user:10人
+{inf(pernum=10人)}
+agent_act:conf_pernum req_budget 
+user:1天
+{inf(timel=1天)}
+agent_act:conf_timel req_budget 
+user:3月30日在北京开
+{inf(time=3月30日,loc=北京)}
+agent_act:conf_loc req_budget 
+user:100元
+{inf(budget=100元)}
+agent_act:conf_budget req_timel 
+user:1万元
+{inf(budget=1万元)}
+agent_act:conf_budget req_timel 
+user:1万
+{inf(budget=1万)}
+agent_act:conf_budget req_timel 
+user:2天
+{inf(timel=2天)}
+agent_act:conf_time req_pernum 
+user:30人
+{inf(pernum=30人)}
+agent_act:conf_timel conf_pernum 
+user:3月30日北京
+{inf(time=3月30日,loc=北京)}
+agent_act:conf_loc req_budget 
+user:1000元左右
+{inf(budget=1000元左右)}
+agent_act:conf_budget req_timel 
+user:订个10人会议室
+{inf(pernum=10人)}
+agent_act:conf_pernum req_budget 
+user:订个会议室
+{hello()}
+agent_act:req 
+user:��?��??a???��????��
+{other()}
+agent_act:req 
+user:10人的
+{inf(pernum=10人)}
+agent_act:conf_pernum req_time req_loc 
+user:10?oo???
+{other()}
+agent_act:req 
+user:北京吧
+{inf(loc=北京)}
+agent_act:req_budget conf_loc 
+user:????o???��
+{other()}
+agent_act:req 
+user:1000元
+{inf(budget=1000元)}
+agent_act:conf_budget req_timel 
+user:1000???
+{inf(budget=1000)}
+agent_act:conf_budget req_timel 
+user:3天
+{inf(timel=3天)}
+agent_act:conf_timel conf_time 
+user:3?��?
+{other()}
+agent_act:req 
+user:日期在3月10日
+{inf(time=3月10日)}
+agent_act:conf_time 
+user:??��?????��3???10??��
+{other()}
+agent_act:req 
+user:对
+{ok(time)}
+agent_act:done 
+****************
+﻿user:?��1
+{other()}
+agent_act:req_pernum req_time 
+user:订个10人的会议室
+{inf(pernum=10人)}
+agent_act:conf_pernum req_budget 
+user:��?��??a10?oo??????��????��
+{other()}
+agent_act:req 
+user:1万元
+{inf(budget=1万元)}
+agent_act:conf_budget req_timel 
+user:1??????
+{other()}
+agent_act:req 
+user:4天
+{inf(timel=4天)}
+agent_act:conf_timel req_time 
+user:4?��?
+{other()}
+agent_act:req 
+user:3月10日
+{inf(time=3月10日)}
+agent_act:conf_time req_loc 
+user:3???10??��
+{other()}
+agent_act:req 
+user:在南京开
+{inf(loc=南京)}
+agent_act:conf_loc 
+user:??��????o????
+{other()}
+agent_act:req 
+user:是的
+{inf()}
+agent_act:done 
+****************
+﻿user:??��???
+{other()}
+agent_act:req_pernum req_time 
+user:定个会议室
+{inf()}
+agent_act:req_pernum req_time 
+user:?????a???��????��
+{other()}
+agent_act:req 
+user:10人开
+{inf(pernum=10人)}
+agent_act:conf_pernum req_loc req_time 
+user:还是20人吧
+{inf(pernum=20人)}
+agent_act:conf_pernum req_budget 
+user:��????��20?oo??��
+{other()}
+agent_act:req 
+user:1万元左右
+{inf(budget=1万元左右)}
+agent_act:conf_budget req_timel 
+user:1???????��|??3
+{other()}
+agent_act:req 
+user:3天吧
+{inf(timel=3天)}
+agent_act:conf_timel req_time 
+user:3?��???��
+{other()}
+agent_act:req 
+user:è?￠??a???è????¤
+{other()}
+agent_act:req_pernum req_time 
+user:4月中旬
+{inf(time=4月中旬)}
+agent_act:conf_time req_loc 
+user:4?????-???
+{other()}
+agent_act:req 
+user:在南京
+{inf(loc=南京)}
+agent_act:conf_loc 
+user:??��????o?
+{other()}
+agent_act:req 
+user:对
+{inf()}
+agent_act:done 
+****************
+﻿user:订个会议室
+{inf()}
+agent_act:req 
+user:20人的
+{inf(pernum=20人)}
+agent_act:conf_pernum req_time req_loc 
+user:20?oo???
+{inf(pernum=20)}
+agent_act:req 
+user:还是15人吧
+{inf(pernum=15人)}
+agent_act:req_budget conf_pernum 
+user:��????��15?oo??��
+{other()}
+agent_act:req_pernum req_time 
+user:1万元
+{inf(budget=1万元)}
+agent_act:conf_budget req_timel 
+user:15000吧
+{inf(budget=15000)}
+agent_act:conf_budget req_timel 
+user:15000??��
+{inf(budget=15000)}
+agent_act:conf_budget req_timel 
+user:4天
+{inf(timel=4天)}
+agent_act:conf_timel req_time 
+user:可能5天
+{inf(timel=5天)}
+agent_act:conf_timel req_time 
+user:??����??5?��?
+{other()}
+agent_act:req 
+user:下周一
+{inf(time=下周一)}
+agent_act:conf_time req_loc 
+user:?????��???
+{other()}
+agent_act:req 
+user:在北京
+{inf(loc=北京)}
+agent_act:conf_loc 
+user:对
+{ok(loc)}
+agent_act:done 
+****************
+﻿user:订个会议室
+{inf()}
+agent_act:req 
+user:20人的会
+{inf(pernum=20人)}
+agent_act:conf_pernum req_time req_loc 
+user:20?oo??????
+{inf(pernum=20)}
+agent_act:req_time req_pernum 
+user:下周二在北京
+{inf(time=下周二,loc=北京)}
+agent_act:conf_loc req_budget 
+user:?????��?o???��????o?
+{other()}
+agent_act:req 
+user:可能25人
+{inf(pernum=25人)}
+agent_act:conf_time req_budget 
+user:??����??25?oo
+{inf(pernum=25)}
+agent_act:req 
+user:会议人数可能是25人
+{inf(pernum=25人)}
+agent_act:req_timel req_budget 
+user:???��???oo??��??����????��25?oo
+{other()}
+agent_act:req_pernum req_time 
+user:3天
+{inf(timel=3天)}
+agent_act:conf_timel req_budget 
+user:1万元左右
+{inf(budget=1万元左右)}
+agent_act:conf_budget 
+user:是的
+{ok(budget)}
+user:不过改成25人开
+{inf(pernum=25人)}
+agent_act:req_budget 
+user:??��?????????��????1???25?oo???
+{other()}
+agent_act:req 
+user:不是
+{rej(budget)}
+agent_act:req_budget 
+user:?????��
+{other()}
+agent_act:req 
+user:1万元
+{inf(budget=1万元)}
+agent_act:conf_budget 
+user:是的
+{ok(budget)}
+user:但是人数改为25人
+{inf(pernum=25人)}
+agent_act:done 
+****************
+﻿user:??��???????????��?oo??��??1??o25?oo
+{other()}
+agent_act:req_pernum req_time 
+user:订个会议室
+{inf()}
+agent_act:req 
+user:20人的会
+{inf(pernum=20人)}
+agent_act:req_time req_loc conf_pernum 
+user:还是15人吧
+{inf(pernum=15人)}
+agent_act:conf_pernum req_budget 
+user:1万元
+{inf(budget=1万元)}
+agent_act:conf_budget req_timel 
+user:3天
+{inf(timel=3天)}
+user:在北京开
+{inf(loc=北京)}
+agent_act:conf_timel req_time 
+user:3?��??????��????o????
+{other()}
+agent_act:req 
+user:3月第二周
+{inf(time=3月第二周)}
+agent_act:conf_timel 
+user:3???????o???��
+{other()}
+agent_act:req 
+user:不是
+{rej(timel)}
+agent_act:req_timel conf_loc 
+user:3天的会在北京开
+{inf(timel=3天,loc=北京)}
+agent_act:conf_time conf_timel 
+user:3?��?????????��????o????
+{other()}
+agent_act:req 
+user:日期是3月第二周
+{inf(time=3月第二周)}
+agent_act:conf_timel 
+user:??��?????��3???????o???��
+{other()}
+agent_act:req_pernum req_time 
+user:不是
+{rej(timel)}
+agent_act:req_timel 
+user:3天
+{inf(timel=3天)}
+agent_act:conf_timel 
+user:对
+{ok(timel)}
+agent_act:done 
+****************
+﻿user:订个会议室
+{inf()}
+agent_act:req 
+user:10人的
+{inf(pernum=10人)}
+agent_act:req_time req_loc conf_pernum 
+user:3月10日在北京开
+{inf(time=3月10日,loc=北京)}
+agent_act:conf_loc req_budget 
+user:3???10??��??��????o????
+{other()}
+agent_act:req 
+user:1万元吧
+{inf(budget=1万元)}
+agent_act:req_timel conf_budget 
+user:1????????��
+{other()}
+agent_act:req 
+user:4天
+{inf(timel=4天)}
+agent_act:conf_time conf_timel 
+user:嗯
+{ok(time,timel)}
+agent_act:done 
+****************
+﻿user:??��
+{other()}
+agent_act:req_pernum req_time 
+user:你好
+{inf()}
+agent_act:req 
+user:????��?
+{other()}
+agent_act:req_pernum req_time 
+user:10人的会
+{inf(pernum=10人)}
+agent_act:conf_pernum req_time req_loc 
+user:10?oo??????
+{other()}
+agent_act:req 
+user:10多人
+{inf(pernum=10多人)}
+agent_act:conf_pernum req_budget 
+user:10?��??oo
+{other()}
+agent_act:req 
+user:1万元
+{inf(budget=1万元)}
+agent_act:req_timel conf_budget 
+user:1周吧
+{inf(timel=1周)}
+agent_act:req_time conf_timel 
+user:1??��??��
+{other()}
+agent_act:req_pernum req_time 
+user:3月8日
+{inf(time=3月8日)}
+agent_act:req_loc conf_time 
+user:3???8??��
+{inf()}
+agent_act:req_pernum req_time 
+user:北京
+{inf(loc=北京)}
+agent_act:conf_loc 
+user:????o?
+{other()}
+agent_act:req 
+user:对
+{inf()}
+agent_act:done 
+****************
+﻿user:我想预定两间会议室
+{inf()}
+agent_act:req 
+user:20人开会
+{inf(pernum=20人)}
+agent_act:conf_pernum req_time req_loc 
+user:下午3点
+{inf(time=下午3点)}
+agent_act:req_loc 
+user:三楼
+{inf(loc=三楼)}
+agent_act:conf_time req_loc 
+user:3月1号
+{inf(time=3月1号)}
+agent_act:req_budget conf_time 
+user:1000块
+{inf(budget=1000块)}
+agent_act:conf_budget req_timel 
+user:1小时
+{inf(timel=1小时)}
+agent_act:conf_timel req_loc 
+user:北京
+{inf(loc=北京)}
+agent_act:conf_loc 
+user:海淀区
+{inf(loc=海淀区)}
+agent_act:done 
+****************
+﻿user:你好
+{hello()}
+agent_act:req 
+user:30个人的会议室
+{inf(pernum=30个)}
+agent_act:req_time req_loc conf_pernum 
+user:时间在30号到2号
+{inf(timel=30号到2号)}
+user:共有三天
+{inf(timel=三天)}
+agent_act:conf_time req_budget 
+user:没有
+{rej()}
+agent_act:select_timel select_timel req_budget 
+user:三天
+{inf(timel=三天)}
+agent_act:req_loc req_budget 
+user:北京市区
+{inf(loc=北京市区)}
+agent_act:conf_loc req_budget 
+user:3万
+{inf(budget=3万)}
+agent_act:conf_budget 
+user:是的
+{ok(budget)}
+agent_act:done 
+****************
+user:我要定两间两百人的会议室
+{inf(pernum=两百人)}
+agent_act:conf_pernum req_budget 
+user:三月底
+{inf(time=三月底)}
+agent_act:conf_time req_budget 
+user:教三821
+{inf(loc=教三821)}
+agent_act:req_timel conf_budget 
+user:我要订五间100人的会议室
+{inf(pernum=100人)}
+agent_act:req_timel 
+user:两天半
+{inf(timel=两天半)}
+agent_act:conf_timel req_loc 
+user:三号楼301房间
+{inf(loc=三号楼301房间)}
+agent_act:req_loc 
+user:北京或郑州
+{inf(loc=北京or郑州)}
+agent_act:conf_loc 
+user:对
+{ok(loc=北京or郑州)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:北京,
+{inf(loc=北京)}
+user:三月三,
+{inf(time=三月三)}
+user:300人
+{inf(pernum=300人)}
+agent_act:conf_loc conf_pernum 
+user:对的
+{ok(loc=北京,pernum=300人)}
+agent_act:conf_time req_budget 
+user:30000元吧
+{inf(budget=30000元)}
+agent_act:conf_budget req_timel 
+user:几天
+{inf(timel=几天)}
+agent_act:conf_timel 
+user:恩
+{ok(timel=几天)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:???????
+{other()}
+agent_act:req_pernum req_time 
+user:明天下午开一个十人参加的会
+{inf(time=明天下午,pernum=十人)}
+agent_act:req 
+user:小一点就可
+{inf()}
+agent_act:req 
+user:10人参加
+{inf(pernum=10人)}
+agent_act:conf_pernum req_loc req_time 
+user:10?oo??????
+{inf(pernum=10)}
+agent_act:conf_pernum req_time 
+user:明天下午
+{inf(time=明天下午)}
+user:海淀
+{inf(loc=海淀)}
+agent_act:req_loc 
+user:?????????????
+{other()}
+user:????????
+{other()}
+agent_act:req_pernum req_time 
+user:师大图书馆
+{inf(loc=师大图书馆)}
+agent_act:req_loc 
+user:北京示范大学
+{inf(loc=北京示范大学)}
+agent_act:req_loc 
+user:????o????o?????????-|
+{other()}
+agent_act:req 
+user:北京
+{inf(loc=北京)}
+agent_act:conf_loc req_time 
+user:????o?
+{other()}
+agent_act:req_pernum req_time 
+user:明天下午
+{inf(time=明天下午)}
+agent_act:conf_timel req_timel 
+user:1小时
+{inf(timel=1小时)}
+agent_act:conf_timel req_budget 
+user:100
+{inf(budget=100)}
+agent_act:conf_budget 
+user:对
+{ok(budget=100)}
+agent_act:done 
+****************
+user:请问会议日期是明天吗？
+{inf(time=明天)}
+agent_act:req 
+user:我要开一个两百人的会
+{inf(pernum=两百人)}
+agent_act:conf_pernum req_loc req_time 
+user:开始日期是明天
+{inf(time=明天)}
+agent_act:req_loc 
+user:会议地点的话应该是室外比较好
+{inf()}
+agent_act:req_loc 
+user:昌平
+{inf(loc=昌平)}
+agent_act:conf_loc req_time 
+user:明天
+{inf(time=明天)}
+agent_act:req_time 
+user:我打算明天开户
+{inf(time=明天)}
+agent_act:req_time 
+user:明天开会
+{inf(time=明天)}
+user:我要开一个两百人的会
+{inf(pernum=二百人)}
+user:明天
+{inf(time=明天)}
+agent_act:req_time 
+user:明天
+{inf(time=明天)}
+agent_act:req_time 
+user:我想明天开会
+{inf(time=明天)}
+agent_act:req_time 
+user:helloooooooooooooooooo
+{other()}
+agent_act:req 
+user:蓝色的
+{inf()}
+agent_act:req 
+user:轻松一点的~
+{inf()}
+agent_act:req 
+user:墙壁是蓝色哒~
+{inf()}
+agent_act:req_pernum req_time 
+user:哦哦哦
+{other()}
+agent_act:req_pernum req_time 
+user:三月十号开会
+{inf(time=三月十号)}
+agent_act:conf_time req_timel 
+user:你好！
+{hello()}
+agent_act:req_pernum req_time 
+user:嗯。。。。要一个宽敞明亮的
+{inf()}
+agent_act:req 
+user:大的！
+{inf()}
+agent_act:req 
+user:你好
+{hello()}
+agent_act:req 
+user:大概200人左右
+{inf(pernum=200人左右)}
+agent_act:conf_pernum req_loc req_time 
+user:不开会
+{rej(pernum)}
+agent_act:req 
+user:一个轻松些的座谈会
+{inf()}
+agent_act:req 
+user:嗯
+{other()}
+agent_act:req_loc 
+user:40个人左右的
+{inf(pernum=40个人左右)}
+agent_act:conf_pernum req_loc 
+user:没有
+{rej()}
+agent_act:req_loc 
+user:房间容量大的
+{inf()}
+agent_act:req 
+user:北邮吧
+{inf(loc=北邮)}
+agent_act:req_loc 
+user:轻松的座谈会
+{inf()}
+agent_act:req 
+user:北邮学十
+{inf(loc=北邮学十)}
+agent_act:req_loc 
+user:读书见面会
+{inf()}
+agent_act:req 
+user:天上人间大酒店
+{inf(loc=天上人间大酒店)}
+agent_act:req_loc 
+user:有
+{inf()}
+agent_act:req_loc 
+user:三天
+{inf(timel=三天)}
+agent_act:conf_timel req_budget 
+user:天上人间大酒店
+{inf(loc=天上人间大酒店)}
+agent_act:req_loc 
+user:有
+{inf()}
+agent_act:req_loc 
+user:北邮科技大厦
+{inf(loc=北邮科技大厦)}
+agent_act:conf_loc req_budget 
+user:恩是的
+{ok(loc=北邮科技大厦)}
+user:与其价位大概是200？
+{inf(budget=200)}
+agent_act:req_budget 
+user:10000
+{inf(budget=10000)}
+agent_act:conf_budget req_timel 
+user:200
+{inf(budget=200)}
+agent_act:conf_budget 
+user:恩
+{ok(budget=200)}
+agent_act:done 
+****************
+user:两天
+{inf(timel=两天)}
+agent_act:conf_timel req_time 
+user:对
+{ok(timel=两天)}
+agent_act:req_time 
+user:明天
+{inf(time=明天)}
+agent_act:req_time 
+user:嗯
+{inf()}
+agent_act:req_time 
+user:明天
+{inf(time=明天)}
+agent_act:req_time 
+user:北邮科技大厦
+{inf(loc=北邮科技大厦)}
+agent_act:req_budget 
+user:明天啊
+{inf(time=明天)}
+agent_act:req_time 
+user:5000左右吧
+{inf(budget=5000左右)}
+agent_act:req_budget 
+user:5000左右
+{inf(budget=5000左右)}
+agent_act:req_budget 
+user:10000左右
+{inf(budget=10000左右)}
+agent_act:req_budget 
+user:一万
+{inf(budget=一万)}
+agent_act:req_time 
+user:就今天吧
+{inf(time=今天)}
+agent_act:req_time 
+user:5月1日
+{inf(time=5月1日)}
+agent_act:conf_time 
+user:就4月27号吧
+{inf(time=4月27号)}
+agent_act:conf_time req_timel 
+user:嗯
+{ok(time=4月27号)}
+agent_act:done 
+****************
+user:三个小时咯
+{inf(timel=三个小时)}
+agent_act:conf_timel 
+user:不对
+{rej(timel)}
+agent_act:req_timel 
+user:差不多三个小时吧
+{inf(timel=三个小时)}
+agent_act:conf_timel 
+user:昂
+{ok(timel=三个小时)}
+agent_act:done 
+****************
+user:test
+{other()}
+agent_act:req 
+user:30ren
+{inf(pernum=30)}
+agent_act:req 
+user:部门会议
+{inf()}
+agent_act:req 
+user:30人
+{inf(pernum=30人)}
+agent_act:conf_pernum req_loc req_time 
+user:没有
+{rej()}
+agent_act:req_loc 
+user:北邮
+{inf(loc=北邮)}
+agent_act:req_loc 
+user:图书馆
+{inf(loc=图书馆)}
+agent_act:req_loc 
+user:????-???3
+{other()}
+agent_act:req_pernum req_time 
+user:语音
+{other()}
+agent_act:req 
+user:hello
+{other()}
+agent_act:req 
+user:ads
+{other()}
+agent_act:req 
+user:学术讲座
+{inf()}
+agent_act:req 
+user:R
+{other()}
+agent_act:req_pernum req_time 
+user:人数：4
+{inf(pernum=4)}
+user:日期：28日
+{inf(time=28日)}
+agent_act:conf_time req_budget 
+user:10人会议,
+{inf(pernum=10人)}
+agent_act:conf_time 
+user:2000
+{inf(budget=2000)}
+agent_act:conf_budget req_pernum 
+user:这是啥？
+{other()}
+agent_act:req_pernum req_time 
+user:5
+{inf(pernum=5)}
+agent_act:conf_pernum req_loc 
+user:不是
+{rej(pernum)}
+agent_act:conf_pernum req_time 
+user:太平庄
+{inf(loc=太平庄)}
+agent_act:req_timel 
+user:1.5
+{inf(timel=1.5)}
+agent_act:req_timel 
+user:2015年5月5日
+{inf(time=2015年5月5日)}
+agent_act:conf_time req_timel 
+user:2
+{inf(timel=2)}
+agent_act:req_timel 
+user:2h
+{inf(timel=2h)}
+agent_act:req_timel 
+user:2小时
+{inf(timel=2小时)}
+agent_act:conf_timel req_loc 
+user:2???????
+{other()}
+agent_act:req_pernum req_time 
+user:我在北邮
+{inf(loc=北邮)}
+agent_act:req 
+user:2小时
+{inf(timel=2小时)}
+agent_act:conf_timel 
+user:对
+{ok(timel=2小时)}
+agent_act:done 
+****************
+user:北邮科技大厦
+{inf(loc=北邮科技大厦)}
+agent_act:req_budget 
+user:????????????????????|
+{other()}
+agent_act:req 
+user:总结会议
+{inf()}
+agent_act:req 
+user:300
+{inf(budget=300)}
+agent_act:conf_budget 
+user:300
+{inf(budget=300)}
+agent_act:conf_pernum req_time 
+user:对
+{ok(pernum=300)}
+agent_act:done 
+****************
+user:大
+{inf()}
+agent_act:req 
+user:10个人的会议室
+{inf(pernum=10个人)}
+user有多媒体设备
+{inf()}
+agent_act:conf_pernum req_loc req_time 
+user:多媒体
+{inf()}
+agent_act:req 
+user:今天下午
+{inf(time=今天下午)}
+agent_act:conf_time req_loc 
+user:1
+{other()}
+agent_act:req 
+user:1
+{other()}
+agent_act:req 
+user:地点什么的不能选啊
+{other()}
+agent_act:req 
+user:新科研楼
+{inf(loc=新科研楼)}
+agent_act:req_loc 
+user:2
+{other()}
+agent_act:req 
+user:你有bug吗？
+{other()}
+agent_act:req req req_pernum req_time 
+user:10人得小会议
+{inf(pernum=10人)}
+agent_act:conf_pernum req_loc req_time 
+user:5层
+{inf(loc=5层)}
+agent_act:req_loc 
+user:组会
+{inf()}
+agent_act:req 
+user:??????
+{other()}
+agent_act:req_pernum req_time 
+user:你的bug是什么？
+{other()}
+agent_act:req_pernum req_time 
+user:随便
+{other()}
+agent_act:req 
+user:教1-207
+{inf(loc=教1-207)}
+agent_act:req_loc 
+user:有什么样的会议室呢
+{other()}
+agent_act:req 
+user:???????1???????????????????????
+{other()}
+agent_act:req 
+user:-1人,
+{other()}
+user:昨天
+{other()}
+agent_act:req 
+user:教一
+{inf(loc=教一)}
+agent_act:req_loc 
+user:郑州市紫荆山
+{inf(loc=郑州市紫荆山)}
+user:2015年6月1日
+{inf(time=2015年6月1日)}
+agent_act:conf_loc req_budget 
+user:好的会议
+{inf()}
+agent_act:req 
+user:10?oo???
+{other()}
+agent_act:conf_pernum req_time 
+user:10人厅
+{inf(pernum=10人)}
+agent_act:conf_pernum req_time 
+user:测试
+{other()}
+agent_act:req_pernum req_time 
+user:骚龙
+{other()}
+agent_act:req 
+user:1000
+{inf(budget=1000)}
+agent_act:conf_budget req_timel 
+user:合适的
+{inf()}
+agent_act:req 
+user:10人
+{inf(pernum=10人)}
+agent_act:conf 
+user:他家那样的
+{inf()}
+agent_act:req 
+user:地球,
+{other()}
+user:昨天
+{other()}
+agent_act:req_loc 
+user:地球
+{other()}
+agent_act:req_loc 
+user:开会人数5人
+{inf(pernum=5人)}
+user:明天开会
+{inf(time=明天)}
+agent_act:conf 
+user:地球
+{other()}
+agent_act:req_loc 
+user:艹艹艹！
+{other()}
+agent_act:req_loc 
+user:哈哈
+{other()}
+agent_act:req 
+user:马龙
+{other()}
+agent_act:req 
+user:明天吧
+{inf(time=明天)}
+user:在北邮科技大厦
+{inf(loc=北邮科技大厦)}
+agent_act:req_time 
+user:北邮
+{inf(loc=北邮)}
+agent_act:req_loc 
+user:电商
+{other()}
+agent_act:req 
+user:科研楼
+{inf(loc=科研楼)}
+agent_act:req_loc 
+user:新科研楼
+{inf(loc=新科研楼)}
+agent_act:req_loc 
+user:年会
+{inf()}
+agent_act:req 
+user:108
+{inf()}
+agent_act:conf_budget req_loc 
+user:公司年会
+{inf()}
+agent_act:req 
+user:821
+{inf()}
+agent_act:conf_budget req_loc 
+user:40人
+{inf(pernum=40人)}
+user:豪华
+{inf()}
+agent_act:conf_pernum req_loc req_time 
+user:0.0
+{other()}
+agent_act:req_loc 
+user:醉了
+{other()}
+agent_act:req_loc 
+user:4.28
+{inf(time=4.28)}
+agent_act:conf_time req_timel 
+user:你好,
+{hello()}
+user:我是孙帅帅,
+{inf()}
+user:孙帅帅就是我
+{inf()}
+agent_act:req_pernum req_time 
+user:北京
+{inf(loc=北京)}
+user:4月30
+{inf(time=4月30)}
+agent_act:conf_loc req_timel 
+user:2小时
+{inf(timel=2小时)}
+agent_act:conf_timel req_budget 
+user:2小时
+{inf(timel=两小时)}
+agent_act:conf_timel req_budget 
+user:1000
+{inf(budget=1000)}
+agent_act:conf_budget 
+user:完毕
+{bye()}
+agent_act:done 
+****************
+agent_act:req 
+user:十人之内的会议
+{inf(pernum=十人以内)}
+agent_act:conf_pernum req_loc req_time 
+user:...
+{other()}
+agent_act:req_pernum req_time 
+user:每周五
+{inf(time=每周五)}
+user:教室
+{inf(loc=教室)}
+agent_act:conf_time req_loc 
+user:是的
+{ok(time=每周五)}
+agent_act:req_loc 
+user:教室
+{inf(loc=教室)}
+agent_act:req_loc 
+user:北京
+{inf(loc=北京)}
+agent_act:conf_loc req_budget 
+user:你好
+{hello()}
+agent_act:req_pernum req_time 
+user:100
+{inf(budget=100)}
+agent_act:conf_budget req_timel 
+user:10分钟
+{inf(time=10分钟)}
+agent_act:req_timel 
+user:1小时
+{inf(time=1小时)}
+agent_act:conf_time 
+user:是
+{ok(time=1小时)}
+agent_act:done 
+****************
+user:与会人数大概50人左右,
+{inf(pernum=50人)}
+user:开会日期基本都在周日晚上7点钟
+{inf(time=周日晚上7点钟)}
+agent_act:conf_time conf_pernum 
+user:你好
+{hello()}
+agent_act:req 
+user:是的
+{ok(time=周日,pernum=50人)}
+agent_act:req_pernum 
+user:人数
+{other()}
+agent_act:req 
+user:没有了
+{other()}
+agent_act:req_loc req_time 
+user:本周五
+{inf(time=本周五)}
+user:教一开会
+{inf(loc=教一)}
+agent_act:conf_time req_loc req_pernum req_budget 
+user:是的
+{ok(time=本周五)}
+agent_act:req_loc 
+user:在311教室
+{inf(loc=311教室)}
+user:时长为2个小时
+{inf(timel=2个小时)}
+agent_act:conf_timel conf_budget 
+user:主楼901
+{inf(loc=主楼901)}
+agent_act:conf_pernum conf_budget 
+user:地点是311
+{inf(loc=311)}
+agent_act:req_loc 
+user:洛阳河南科技大学
+{inf(loc=洛阳河南科技大学)}
+agent_act:req_loc 
+user:河南洛阳
+{inf(loc=河南洛阳)}
+agent_act:conf_loc 
+user:不是
+{rej(loc=河南洛阳)}
+agent_act:dis_pernum dis_budget 
+user:对的
+{ok(loc=河南洛阳)}
+agent_act:done 
+****************
+user:都错了
+{rej()}
+agent_act:req_pernum 
+user:30人
+{inf(pernum=30人)}
+agent_act:conf_pernum req_timel 
+user:两小时
+{inf(timel=两小时)}
+agent_act:conf_timel req_loc 
+user:是的
+{ok(timel=两小时)}
+agent_act:req_loc 
+user:主楼901
+{inf(loc=主楼901)}
+agent_act:conf_budget req_loc 
+user:不是
+{rej(budget=901)}
+agent_act:req_budget 
+user:1000
+{inf(budget=1000)}
+agent_act:conf_budget req_loc 
+user:地点：中牟县
+{inf(loc=中牟县)}
+agent_act:conf_loc req_budget 
+user:是
+{ok(loc=中牟县)}
+agent_act:req_loc 
+user:901
+{inf(loc=901)}
+agent_act:req_loc 
+user:901
+{inf(loc=901)}
+agent_act:req_loc 
+user:100万
+{inf(budget=100万)}
+agent_act:conf_budget req_time 
+user:预订会议室
+{inf()}[type]
+agent_act:req 
+user:北邮教一207室
+{inf(loc=北邮教一207室)}
+agent_act:req_loc 
+user:组会
+{inf()}
+agent_act:req 
+user:教一207
+{inf(loc=教一207)}
+agent_act:req_loc 
+user:2015年1月1日
+{inf(time=2015年1月1日)}
+agent_act:conf_time req_timel 
+user:大的
+{inf()}
+agent_act:req 
+user:???????
+{other()}
+agent_act:req 
+user:北邮教一207室开会
+{inf(loc=北邮教一207室)}
+agent_act:req_loc 
+user:大的
+{inf()}
+agent_act:req 
+user:大的
+{inf()}
+agent_act:req 
+user:6小时
+{inf(timel=6小时)}
+agent_act:conf req_pernum 
+user:清空
+{other()}
+agent_act:req_loc 
+user:北游科技大厦
+{inf(loc=北游科技大厦)}
+agent_act:conf_loc 
+user:对
+{ok(loc=北游科技大厦)}
+agent_act:done 
+****************
+user:1000人
+{inf(pernum=1000人)}
+agent_act:conf_pernum 
+user:??????????????????
+{other()}
+agent_act:req 
+user:大型会议室
+{inf()}
+agent_act:req 
+user:北邮教一207室开会
+{inf(loc=北邮教一207室)}
+agent_act:conf_pernum req_loc 
+user:很大的会议室
+{inf()}
+agent_act:req 
+user:?????????????????????
+{other()}
+agent_act:req 
+user:是
+{ok(pernum=1207人)}
+agent_act:done 
+****************
+user:30人
+{inf(pernum=30人)}
+user:明天
+{inf(time=明天)}
+agent_act:conf_pernum req_loc req_time 
+user:30?oo??????????
+{inf(pernum=30)}
+agent_act:conf_pernum req_budget 
+user:qqq
+{other()}
+agent_act:req 
+user:??????????????????1??????????????
+{other()}
+agent_act:req 
+user:明天下午三点,
+{inf(time=明天下午三点)}
+user:科研楼
+{inf(loc=科研楼)}
+agent_act:conf_time req req_loc 
+user:2
+{other()}
+agent_act:req 
+user:大会议室
+{inf()}
+user:没看好
+{inf()}
+agent_act:req_loc 
+user:科研楼
+{inf(loc=科研楼)}
+agent_act:req_loc 
+user:???????????
+{other()}
+agent_act:req 
+user:817
+{inf(loc=817)}
+agent_act:req_loc conf_budget 
+user:??????????????
+{other()}
+agent_act:req 
+user:不是价位
+{rej(budget=817)}
+agent_act:req 
+user:不是
+{rej(budget=817)}
+agent_act:req_budget 
+user:200
+{inf(budget=200)}
+agent_act:req_timel 
+user:200
+{inf(pernum=200)}
+agent_act:conf_pernum req_timel 
+user:一个小时
+{inf(timel=一个小时)}
+agent_act:conf_timel req_loc 
+user:?????a???????
+{other()}
+agent_act:req 
+user:没有
+{inf()}
+agent_act:req_loc 
+user:科研楼
+{inf(loc=科研楼)}
+agent_act:req_loc 
+user:没有
+{inf()}
+agent_act:req_loc 
+user:没有
+{inf()}
+agent_act:req 
+user:视频电话会议
+{inf()}
+agent_act:req_pernum req_time 
+user:带摄像头,带电视
+{inf()}
+agent_act:req 
+user:语音室
+{inf()}
+agent_act:req 
+user:你好
+{hello()}
+agent_act:req 
+user:3人会议室
+{inf(pernum=3人)}
+agent_act:req 
+user:817
+{inf(loc=817)}
+agent_act:conf_pernum req_timel 
+user:?2????
+{inf()}
+agent_act:conf_timel req_loc req_pernum req_budget 
+user:时常
+{other()}
+user:两小时
+{inf(timel=两小时)}
+user:人数十人
+{inf(pernum=十人)}
+agent_act:conf_timel req_loc 
+user:一办
+{inf(loc=一办)}
+agent_act:conf_time req_loc 
+user:一办工楼
+{inf(loc=一办工楼)}
+agent_act:req_loc 
+user:办公楼
+{inf(loc=办公楼)}
+agent_act:req_loc 
+user:教室
+{inf(loc=教室)}
+agent_act:req_loc 
+user:航天学院
+{inf(loc=航天学院)}
+agent_act:req_loc 
+user:木有
+{inf()}
+agent_act:req_loc 
+user:没
+{inf()}
+agent_act:req_loc 
+user:航天学院201
+{inf(loc=航天学院201)}
+agent_act:req_loc 
+user:大家都到齐了吗？
+{other()}
+agent_act:req 
+user:圆桌会议室
+{inf()}
+agent_act:req 
+user:面试
+{inf()}
+agent_act:req 
+user:有多媒体播放设备的,
+{inf()}
+user:多人会议室
+{inf()}
+agent_act:req 
+user:哎
+{other()}
+agent_act:req 
+user:hello
+{other()}
+agent_act:req 
+user:50人
+{inf(pernum=50人)}
+agent_act:conf_pernum req_loc req_time 
+user:40多个人
+{inf(pernum=40多个人)}
+agent_act:conf_pernum req_loc 
+user:会议地点定在国家会议中心吧
+{inf(loc=国家会议中心)}
+agent_act:req_loc 
+user:有
+{inf()}
+agent_act:req_loc 
+user:国家会议中心
+{inf(loc=国家会议中心)}
+agent_act:req_loc 
+user:呵呵呵
+{other()}
+agent_act:req_loc 
+user:哈哈
+{other()}
+agent_act:req_pernum req_time 
+user:国家会议中心
+{inf(loc=国家会议中心)}
+agent_act:req_loc 
+user:20人
+{inf(pernum=20人)}
+agent_act:conf_pernum req_time req_loc 
+user:明天上午
+{inf(time=明天上午)}
+user:北邮
+{inf(loc=北邮)}
+agent_act:req_loc 
+user:没有
+{inf()}
+agent_act:req_loc 
+user:没有
+{inf()}
+agent_act:req_loc 
+user:北邮
+{inf(loc=北邮)}
+agent_act:req_loc 
+user:教三
+{inf(loc=教三)}
+agent_act:req 
+user:超大型的
+{inf()}
+agent_act:req 
+user:好玩的
+{inf()}
+agent_act:req 
+user:你怎么这么傻呢
+{other()}
+agent_act:req_pernum req_time 
+user:比较大的,
+{inf()}
+user:10个人左右开会
+{inf(pernum=10个人左右)}
+agent_act:conf_pernum req_time req_loc 
+user:我饿了
+{other()}
+agent_act:req 
+user:后天,
+{inf(time=后天)}
+user:宏福校区
+{inf(loc=宏福校区)}
+agent_act:req_loc 
+user:4-10人的
+{inf(pernum=4-10人)}
+agent_act:req_pernum req_time 
+user:教一楼303
+{inf(loc=教一楼303)}
+agent_act:req_loc 
+user:50人的会议
+{inf(pernum=50人)}
+agent_act:conf_pernum req_budget 
+user:预约207
+{inf(loc=207)}
+agent_act:conf_pernum req_budget 
+user:5-30人
+{inf(pernum=5-30人)}
+user:2015.5.10进行
+{inf(time=2015.5.10)}
+agent_act:conf_budget req_time 
+user:100
+{inf(budget=100)}
+agent_act:req_time 
+user:2015年5月20日
+{inf(time=2015年5月20日)}
+agent_act:conf_time req_timel 
+user:预算低于200
+{inf(budget=200)}
+agent_act:req_time conf_budget 
+user:是
+{ok(budget=200)}
+agent_act:req_timel 
+user:后天
+{inf(time=后天)}
+agent_act:req_time 
+user:30分钟
+{inf(timel=30分钟)}
+agent_act:conf_pernum req_timel 
+user:30min
+{inf(timel=30min)}
+agent_act:req_timel 
+user:中午
+{inf(time=中午)}
+agent_act:conf_time req_loc 
+user:4月30号
+{inf(time=4月30号)}
+agent_act:conf_time req_timel 
+user:你傻呀
+{other()}
+agent_act:req_timel 
+user:教一
+{inf(loc=教一)}
+agent_act:conf_time req_loc 
+user:都告诉你要三十分钟里
+{inf(timel=三十分钟)}
+agent_act:req_timel 
+user:算了
+{other()}
+agent_act:req_timel 
+user:2个小时
+{inf(timel=2个小时)}
+agent_act:conf_timel req_loc 
+user:我找别家了
+{other()}
+agent_act:req_timel 
+user:你推荐一下吧
+{other()}
+agent_act:req_loc 
+user:什么会议啊？
+{other()}
+agent_act:req 
+user:我要开一个读书座谈会
+{inf()}
+agent_act:req 
+user:读书座谈会
+{inf()}
+user:教三333,
+{inf(loc=教三333)}
+user:20人,
+{inf(pernum=20人)}
+user:5月10号,
+{inf(time=5月10号)}
+user:两小时,
+{inf(timel=两小时)}
+user:100块,
+{inf(budget=100块)}
+agent_act:select_pernum select_pernum req_loc 
+user:20人,
+{inf(pernum=20人)}
+user:地点在教三333
+{inf(loc=教三333)}
+agent_act:conf_time conf_timel 
+user:对的
+{ok(time=5月10号,timel=2小时)}
+agent_act:req_loc 
+user:我再说一遍
+{other()}
+user:教三333
+{inf(loc=教三333)}
+agent_act:req_loc 
+user:教三333/~\
+{inf(loc=教三333)}
+agent_act:req_loc 
+user:417
+{inf(loc=417)}
+agent_act:req_loc 
+user:有
+{inf()}
+user:417
+{inf(loc=417)}
+agent_act:req_loc 
+user:......
+{other()}
+agent_act:req_loc 
+user:212
+{inf(loc=212)}
+agent_act:conf_pernum req_loc 
+user:这是啥
+{other()}
+agent_act:req_loc conf_budget 
+user:呵呵
+{other()}
+agent_act:req_pernum req_time 
+user:我要预订会议室
+{inf()}[type]
+agent_act:req 
+user:你是谁？
+{other()}
+agent_act:req 
+user:先告诉我你是谁？要不我不放心
+{other()}
+agent_act:req 
+user:6人
+{inf(pernum=6人)}
+agent_act:conf_pernum req_loc req_time 
+user:凌晨开会
+{inf(time=凌晨)}
+agent_act:req_loc 
+user:有
+{inf()}
+agent_act:req_loc 
+user:303
+{inf(loc=303)}
+agent_act:req_loc 
+user:303
+{inf(loc=303)}
+agent_act:req_loc 
+user:有
+{inf()}
+agent_act:req_loc 
+user:五层
+{inf(loc=五层})}
+agent_act:req_loc 
+user:拜拜
+{bye()}
+agent_act:req_loc 
+user:你好
+{hello()}
+agent_act:req 
+user:北京
+{inf(loc=北京)}
+user:十月三号
+{inf(time=十月三号)}
+agent_act:conf_time 
+user:不对
+{rej(time=十月三号)}
+agent_act:dis_loc dis_time 
+user:是在上海
+{inf(loc=上海)}
+agent_act:req_time conf_loc 
+user:十月三号
+{inf(time=十月三号)}
+agent_act:conf_time req_timel 
+user:几天吧
+{inf(timel=几天)}
+agent_act:conf_timel req_budget 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:北京,
+{inf(loc=北京)}
+user:十月三号的
+{inf(time=十月三号)}
+agent_act:conf_loc conf_time 
+user:不
+{rej(loc=北京,time=十月三号)}
+agent_act:dis_loc dis_time 
+user:在上海
+{inf(loc=上海)}
+agent_act:req_time 
+user:十月三
+{inf(time=十月三)}
+agent_act:conf_time req_pernum 
+user:300人,
+{inf(pernum=300人)}
+user:300000元
+{inf(budget=300000元)}
+agent_act:conf_pernum req_timel 
+user:几天
+{inf(timel=几天)}
+agent_act:conf_budget conf_timel 
+user:恩
+{ok(budget=300000元,timel=几天)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req_pernum req_time 
+user:北京
+{inf(loc=北京)}
+user:十月三号
+{inf(time=十月三号)}
+agent_act:conf_time conf_loc 
+user:不对
+{rej(time=十月三号,loc=北京)}
+agent_act:dis_loc dis_time 
+user:天津
+{inf(loc=天津)}
+agent_act:req_time 
+user:十月三
+{inf(time=十月三)}
+agent_act:conf_time req_timel 
+user:几天
+{inf(timel=几天)}
+agent_act:conf_timel req_pernum 
+user:3000人,
+{inf(pernum=3000人)}
+user:3000元的预算
+{inf(budget=3000元)}
+agent_act:conf_pernum conf_budget 
+user:是ID
+{ok(pernum=3000人,budget=3000元)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:大的
+{inf()}
+agent_act:req 
+user:200人点
+{inf(pernum=200人)}
+agent_act:conf_pernum req_loc req_time 
+user:300人
+{inf(pernum=300人)}
+agent_act:conf_pernum req_loc 
+user:100人
+{inf(pernum=100人)}
+agent_act:conf_pernum req_loc 
+user:校长室
+{inf(loc=校长室)}
+agent_act:req_loc 
+user:学三
+{inf(loc=学三)}
+agent_act:conf_time req_loc 
+user:422
+{inf(loc=422)}
+agent_act:req_loc 
+user:教室2
+{inf(loc=教室2)}
+agent_act:req_loc 
+user:教二
+{inf(loc=教二)}
+agent_act:req_loc 
+user:教三
+{inf(loc=教三)}
+agent_act:req_loc 
+user:12分钟
+{inf(timel=12分钟)}
+agent_act:req_loc 
+user:12min
+{inf(timel=12min)}
+agent_act:req_loc 
+user:学五
+{inf(loc=学五)}
+agent_act:req_loc 
+user:433
+{inf(loc=433)}
+agent_act:req_loc 
+user:科研楼
+{inf(loc=科研楼)}
+agent_act:req_loc 
+user:教三433
+{inf(loc=教三433)}
+agent_act:req_loc 
+user:有
+{inf()}
+agent_act:req_loc 
+user:科研楼
+{inf(loc=科研楼)}
+agent_act:req_loc 
+user:科研楼五楼
+{inf(loc=科研楼五楼)}
+agent_act:req_loc 
+user:你好
+{hello()}
+agent_act:req_pernum req_time 
+user:我要订会议室
+{other()}[type]
+agent_act:req 
+user:10个人
+{inf(pernum=10个人)}
+agent_act:conf_pernum req_loc 
+user:好啊
+{inf()}
+agent_act:req_loc 
+user:你好
+{hello()}
+agent_act:req_loc 
+user:北京郊区吧
+{inf(loc=北京郊区)}
+agent_act:conf_loc req_timel 
+user:是的
+{ok(loc=北京)}
+agent_act:req_timel 
+user:从1号到4号吧
+{inf(timel=1号到4号)}
+agent_act:conf_timel req_timel 
+****************
+user:我想预定5月10号的会议室
+{inf(time=5月10号)}
+agent_act:conf_time req_loc 
+user:恩是的
+{ok(time=5月10号)}
+user:在新科研楼512
+{inf(loc=新科研楼512)}
+agent_act:conf_pernum conf_budget 
+user:预算是333元
+{inf(budget=333元)}
+agent_act:req_timel conf_budget 
+user:5天
+{inf(timel=5天)}
+agent_act:conf_timel req_loc 
+user:新科研楼
+{inf(loc=新科研楼)}
+agent_act:req_loc 
+user:我要预订明天的会议室
+{inf(time=明天)}
+agent_act:req_loc 
+user:我要预订后天的会议室
+{inf(time=后天)}
+agent_act:req_loc 
+user:我要预订200人的会议室
+{inf(pernum=200人)}
+agent_act:req_loc 
+user:预定一个明天的会议室
+{inf(time=明天)}
+agent_act:req_loc 
+user:北京
+{inf(loc=北京)}
+user:十月三号
+{inf(time=十月三号)}
+agent_act:conf_time req_budget 
+user:30000元
+{inf(budget=30000元)}
+user:开三天的会议
+{inf(timel=三天)}
+agent_act:req_pernum conf_budget 
+user:200人
+{inf(pernum=200人)}
+agent_act:conf_pernum conf_loc 
+user:不对
+{rej(pernum=200人,loc=北京)}
+agent_act:dis_loc dis_pernum 
+user:是在天津
+{inf(loc=天津)}
+agent_act:conf_loc conf_time 
+user:恩
+{ok(loc=天津,time=3天)}
+agent_act:req_pernum 
+user:300人
+{inf(pernum=300人)}
+agent_act:conf_pernum 
+user:不
+{rej(pernum=300人)}
+agent_act:req_pernum 
+user:20人
+{inf(pernum=20人)}
+agent_act:conf_pernum 
+user:恩
+{ok(pernum=20人)}
+agent_act:done 
+****************
+user:北京
+{inf(loc=北京)}
+user:十月三号
+{inf(time=十月三号)}
+agent_act:conf_time req_budget 
+user:不对
+{rej(time=十月三号)}
+agent_act:conf_loc req_time 
+user:不对
+{rej(loc=北京)}
+agent_act:req_loc 
+user:上海
+{inf(loc=上海)}
+agent_act:req_budget conf_loc 
+user:20000元
+{inf(budget=20000元)}
+user:开三天
+{inf(timel=三天)}
+agent_act:req_time conf_budget 
+user:十月三号
+{inf(time=十月三号)}
+user:20人的会议
+{inf(pernum=20人)}
+agent_act:conf_pernum conf_time 
+user:不对
+{rej(pernum=20人,time=十月三号)}
+agent_act:dis_pernum dis_time 
+user:10人
+{inf(pernum=10人)}
+agent_act:conf_pernum conf_timel 
+user:不对
+{rej(pernum=10人,timel=3天)}
+agent_act:dis_pernum dis_timel 
+user:20人
+{inf(pernum=20人)}
+agent_act:conf_pernum req_timel 
+user:不对
+{rej(pernum=20人)}
+agent_act:req_pernum 
+user:200人
+{inf(pernum=200人)}
+agent_act:conf_pernum req_timel 
+user:三天,
+{inf(timel=三天)}
+user:十月十号
+{inf(time=十月十号)}
+agent_act:conf_time conf_timel 
+user:不对
+{rej(time=十月十号,timel=3天)}
+agent_act:req_time 
+user:十月十号
+{inf(time=十月十号)}
+agent_act:conf_time req_timel 
+user:不会的
+{rej(time=十月十号)}
+agent_act:req_time 
+user:下周四
+{inf(time=下周四)}
+user:开三天
+{inf(timel=三天)}
+agent_act:conf_time conf_timel 
+user:恩
+{ok(time=下周四,timel=三天)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:北京,
+{inf(loc=北京)}
+user:十月三号
+{inf(time=十月三号)}
+agent_act:conf_time conf_loc 
+user:不对
+{rej(time=十月三号,loc=北京)}
+agent_act:dis_loc dis_time 
+user:在上海
+{inf(loc=上海)}
+agent_act:conf_loc req_time 
+user:十月三号,
+{inf(time=十月三号)}
+user:开三天
+{inf(timel=三天)}
+agent_act:conf_time req_budget 
+user:不对
+{rej(time=十月三号)}
+agent_act:conf_timel req_timel 
+user:不对
+{rej(timel=3天)}
+agent_act:req_timel 
+user:十月十号,
+{inf(time=十月十号)}
+user:开5天
+{inf(timel=5天)}
+agent_act:conf_timel req_budget 
+user:300人30000元
+{inf(pernum=300人,budget=30000元)}
+agent_act:conf_time req_budget 
+user:300人,
+{inf(pernum=300人)}
+user:3000元的会议
+{inf(budget=3000元)}
+agent_act:conf_pernum conf_budget 
+user:不对
+{rej(pernum=300人,budget=3000元)}
+agent_act:dis_pernum dis_budget 
+user:20000元
+{inf(budget=20000元)}
+agent_act:req_pernum conf_budget 
+user:3人
+{inf(pernum=3人)}
+agent_act:req_pernum 
+user:10
+{inf(pernum=10)}
+agent_act:conf_pernum 
+user:对的
+{ok(pernum=10)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:北京
+{inf(loc=北京)}
+agent_act:conf_loc req_budget 
+user:20000元,
+{inf(budget=20000元)}
+user:20人
+{inf(pernum=20人)}
+agent_act:req_timel conf_budget 
+user:十月三号
+{inf(time=十月三号)}
+agent_act:conf_time conf_pernum 
+user:恩
+{ok(time=十月三号,pernum=20人)}
+agent_act:req_timel 
+user:3天
+{inf(timel=3天)}
+agent_act:conf_timel 
+user:恩
+{ok(timel=3天)}
+agent_act:done 
+****************
+user:北京,
+{inf(loc=北京)}
+user:十月三号,
+{inf(time=十月三号)}
+user:20人,
+{inf(pernum=20人)}
+user:20000元,
+{inf(budget=20000元)}
+user:三天
+{inf(timel=三天)}
+agent_act:conf_pernum 
+user:恩
+{ok(pernum=20人)}
+agent_act:conf_time 
+user:恩
+{ok(time=十月三号)}
+agent_act:conf_budget 
+user:恩
+{ok(budget=20000)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:大一点的
+{inf()}
+agent_act:req 
+user:10个人
+{inf(pernum=10个人)}
+agent_act:conf_pernum req_budget 
+user:1000
+{inf(budget=1000)}
+agent_act:req_timel conf_budget 
+user:三天
+{inf(timel=三天)}
+agent_act:conf_timel req_time 
+user:明天
+{inf(time=明天)}
+agent_act:req_time 
+user:明天
+{inf(time=明天)}
+agent_act:req_time 
+user:5号
+{inf(time=5号)}
+agent_act:conf_time req_loc 
+user:北京
+{inf(loc=北京)}
+agent_act:conf_loc 
+user:是的
+{ok(loc=北京)}
+agent_act:done 
+****************
+user:1213
+{other}
+agent_act:req_timel conf_budget 
+user:wewew
+{other()}
+agent_act:conf_pernum req_timel 
+user:1231
+{other}
+agent_act:conf_pernum req_timel 
+user:2
+{inf(timel=2)}
+agent_act:req_timel 
+user:2h
+{inf(timel=2h)}
+agent_act:conf_time req_timel 
+user:2小时
+{inf(timel=2小时)}
+agent_act:conf_timel req_loc 
+user:你好
+{hello()}
+agent_act:req 
+user:北京,
+{inf(loc=北京)}
+user:十月三号,
+{inf(time=十月三号)}
+user:300人
+{inf(pernum=300人)}
+agent_act:conf_pernum conf_loc 
+user:对的
+{ok(pernum=300人,loc=北京)}
+agent_act:conf_time req_budget 
+user:不对
+{rej(time=十月三号)}
+agent_act:req_timel 
+user:2015年十月十号
+{inf(time=2015年十月十号)}
+agent_act:conf_time req_budget 
+user:3000元开三天
+{inf(budget=3000天,timel=三天)}
+agent_act:req_budget 
+user:3000元,
+{inf(budget=3000元)}
+user:开三天
+{inf(timel=三天)}
+agent_act:conf_timel conf_budget 
+user:不对
+{rej(timel=3天,budget=3000元)}
+agent_act:dis_timel dis_budget 
+user:30000元
+{inf(budget=30000元)}
+agent_act:req_timel conf_budget 
+user:几天
+{inf(timel=几天)}
+agent_act:conf_timel 
+user:恩
+{ok(timel=几天)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:上海
+{inf(loc=上海)}
+agent_act:conf req_pernum req_time 
+user:300人,
+{inf(pernum=300人)}
+user:十月三号
+{inf(time=十月三号)}
+agent_act:conf_time req_budget 
+user:30000元
+{inf(budget=30000元)}
+agent_act:req_timel conf_budget 
+user:三天
+{inf(timel=三天)}
+agent_act:conf_timel conf_pernum 
+user:对的
+{ok(timel=3天,pernum=300人)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req_pernum req_time 
+user:北京,
+{inf(loc=北京)}
+user:十月三号
+{inf(time=十月三号)}
+agent_act:conf_time conf_loc 
+user:恩
+{ok(time=十月三号,loc=北京)}
+agent_act:req 
+user:没有了
+{inf()}
+agent_act:req_timel req_pernum 
+user:39人,
+{inf(pernum=39人)}
+user:三天
+{inf(timel=三天)}
+agent_act:conf_pernum req_budget 
+user:3000元
+{inf(budget=3000元)}
+agent_act:conf_timel conf_budget 
+user:是的
+{ok(timel=3天,budget=3000元)}
+agent_act:done 
+****************
+user:我想订一个十月八号北京海淀区的会议室
+{inf(time=十月八号,loc=北京海淀区)}
+agent_act:req_budget conf_loc 
+user:30000吧
+{inf(budget=30000)}
+agent_act:req_timel conf_budget 
+user:下午几个小时吧
+{inf(timel=几个小时,time=下午)}
+agent_act:req_pernum conf_time 
+user:不对
+{rej(time=下午)}
+agent_act:conf_timel req_time 
+user:十月八号
+{inf(time=十月八号)}
+agent_act:req_pernum conf_time 
+user:300人
+{inf(pernum=300人)}
+agent_act:conf_pernum 
+user:恩
+{ok(pernum=300人)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req_pernum req_time 
+user:有300人的会议定在十月八号开
+{inf(pernum=300人,time=十月八号)}
+agent_act:req_pernum req_loc conf_time 
+user:300人,
+{inf(pernum=300人)}
+user:北京市
+{inf(loc=北京市)}
+agent_act:req_budget conf_loc 
+user:30000元,
+{inf(budget=30000元)}
+user:开几个小时
+{inf(timel=几个小时)}
+agent_act:conf_budget conf_pernum 
+user:对
+{ok(budget=30000元,pernum=300人)}
+agent_act:conf_timel 
+user:对
+{ok(timel=几个小时)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:初步定在十月三号的会议,
+{inf(time=十月三号)}
+user:大概有300人
+{inf(pernum=300人)}
+agent_act:conf_pernum conf_time 
+user:对的
+{ok(pernum=300人,time=十月三号)}
+agent_act:req_loc 
+user:海淀区知春路
+{inf(loc=海淀区知春路)}
+agent_act:req_timel conf_loc 
+user:几个小时
+{inf(timel=几个小时)}
+agent_act:req_budget conf_timel 
+user:30000左右吧
+{inf(budget=30000左右)}
+agent_act:req_budget 
+user:300000元左右吧
+{inf(budget=30000左右)}
+agent_act:req_budget 
+user:300000
+{inf(budget=30000)}
+agent_act:conf_budget 
+user:恩
+{ok(budget=30000)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req_pernum req_time 
+user:初步定在六月六号,
+{inf(time=六月六号)}
+user:大概有100人
+{inf(pernum=100人)}
+agent_act:conf_pernum conf_time 
+user:对的
+{ok(pernum=100人,time=六月六号)}
+agent_act:req 
+user:应该没有了
+{inf()}
+agent_act:req_loc req_time 
+user:开三天吧,
+{inf(timel=三天)}
+user:海淀知春路
+{inf(loc=海淀知春路)}
+agent_act:req_budget conf_timel 
+user:30000元
+{inf(budget=30000元)}
+agent_act:req_loc conf_budget 
+user:海淀区知春路
+{inf(loc=海淀区知春路)}
+agent_act:conf_loc 
+user:恩
+{ok(loc=海淀区知春路)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:初步定在六月六号,
+{inf(time=六月六号);}
+user:大概有300人
+{inf(pernum=300人)}
+agent_act:conf_pernum conf_time 
+user:恩
+{ok(pernum=300人,time=六月六号)}
+user:应该木有了
+{inf()}
+agent_act:req_loc req_time 
+user:几个小时,
+{inf(timel=几个小时)}
+user:海淀区知春路
+{inf(loc=海淀区知春路)}
+agent_act:req_budget conf_timel 
+user:30000元
+{inf(budget=30000元)}
+agent_act:req_loc conf_budget 
+user:海淀区知春路
+{inf(loc=海淀区知春路)}
+agent_act:conf_loc 
+user:恩
+{ok(loc=海淀区知春路)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:初步定在六月六号
+{inf(time=六月六号)}
+agent_act:conf_time req_loc req_pernum req_budget 
+user:就在海淀区知春路
+{inf(loc=海淀区知春路)}
+user:大概有200人
+{inf(pernum=200人)}
+agent_act:req_budget conf_loc 
+user:20000元左右
+{inf(budget=20000元左右)}
+agent_act:req_budget conf_pernum 
+user:20000元左右吧
+{inf(budget=20000元左右)}
+agent_act:req_timel req_budget 
+user:几个小时的会议,
+{inf(timel=几个小时)}
+user:20000元左右的预算吧
+{inf(budget=20000元左右)}
+agent_act:req_budget conf_timel 
+user:20000元左右吧
+{inf(budget=20000元左右)}
+agent_act:req_budget 
+user:20000
+{inf(budget=20000)}
+agent_act:conf_budget 
+user:饿
+{ok(budget=20000)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:日期初步定在六月六号
+{inf(time=六月六号)}
+user:大概有200人的会议
+{inf(pernum=200人)}
+agent_act:conf_pernum conf_time 
+user:恩
+{ok(pernum=200人,time=六月六号)}
+agent_act:req 
+user:应该木有了
+{inf()}
+agent_act:req_timel req_loc 
+user:就在海淀区知春路
+{inf(loc=海淀区知春路)}
+user:大概几个小时,
+{inf(timel=几个小时)}
+agent_act:req_budget conf_loc 
+user:20000
+{inf(budget=20000)}
+agent_act:conf_budget conf_timel 
+user:恩
+{ok(budget=20000,timel=几个小时)}
+agent_act:done 
+****************
+user:我想在朝阳三里屯顶一个会议室
+{inf(loc=朝阳三里屯)}
+agent_act:req_budget conf_loc 
+user:30000元
+{inf(budget=30000元)}
+agent_act:req_timel conf_budget 
+user:几个小时吧
+{inf(timel=几个小时)}
+agent_act:req_time conf_timel 
+user:六月八号
+{inf(time=六月八号)}
+agent_act:req_pernum conf_time 
+user:30人
+{inf(pernum=30人)}
+agent_act:conf_pernum 
+user:恩
+{ok(pernum=30人)}
+agent_act:done 
+****************
+user:我想在郑州二七区订一个会议室
+{inf(loc=郑州二七区)}
+user:预算2000元
+{inf(budget=2000元)}
+user:30人的会议开一天
+{inf(pernum=30人,timel=一天)}
+agent_act:req_time conf_timel 
+user:六月八号
+{inf(time=六月八号)}
+agent_act:conf_loc conf_time 
+user:啊
+{other()}
+agent_act:conf_budget conf_pernum 
+user:不对
+{rej(budget=2000元,pernum=27人)}
+agent_act:dis_pernum dis_budget 
+user:与会人数错了
+{rej(pernum=27人)}
+agent_act:req_pernum 
+user:30人
+{inf(pernum=30人)}
+agent_act:req_budget conf_pernum 
+user:2000啊
+{inf(budget=2000)}
+agent_act:conf_budget 
+user:啊
+{ok(budget=2000)}
+agent_act:done 
+****************
+user:我想在许昌魏都区顶一个会议室
+{inf(loc=许昌魏都区)}
+user:20人的
+{inf(pernum=20人)}
+user:会议要开一天
+{inf(timel=一天)}
+agent_act:req_budget conf_timel 
+user:2000元
+{inf(budget=2000元)}
+agent_act:req_time conf_budget 
+user:六月八号
+{inf(time=六月八号)}
+agent_act:conf_loc conf_time 
+user:恩对
+{ok(loc=许昌魏都区,time=六月八号)}
+agent_act:conf_pernum 
+user:对
+{ok(pernum=20人)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:我想在6月6号开一个会,
+{inf(time=6月6号)}
+user:与会人数大概300
+{inf(pernum=300)}
+agent_act:conf_pernum conf_time 
+user:恩
+{ok(pernum=300人,time=6月6号)}
+agent_act:req_loc 
+user:海淀区知春路的西格玛大厦吧
+{inf(loc=海淀区知春路的西格玛大厦)}
+agent_act:req_timel conf_loc 
+user:四天
+{inf(timel=四天)}
+agent_act:req_budget conf_timel 
+user:30000左右
+{inf(budget=30000左右)}
+agent_act:req_budget 
+user:3万左右
+{inf(budget=3万左右)}
+agent_act:req_budget 
+user:大概3万块吧
+{inf(budget=3万块)}
+agent_act:req_budget 
+user:大概30000块
+{inf(budget=30000块)}
+agent_act:req_budget 
+user:30000元
+{inf(budget=30000元)}
+agent_act:conf_budget 
+user:恩
+{ok(budget=30000)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:想在6月6号
+{inf(time=6月6号)}
+user:定一个300人的会议室
+{inf(pernum=300人)}
+agent_act:conf_pernum conf_time 
+user:恩
+{ok(pernum=300人,time=6月6号)}
+agent_act:req 
+user:地点在知春路的西格玛大厦附近
+{inf(loc=知春路的西格玛大厦)}
+agent_act:req_timel select_loc select_loc 
+user:你好
+{hello()}
+agent_act:req_timel req_budget 
+user:3000元
+{inf(budget=3000元)}
+agent_act:req_timel conf_budget 
+user:4天
+{inf(timel=4天)}
+agent_act:conf_timel 
+user:恩
+{ok(timel=4天)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:我想预约一个6月6号
+{inf(time=6月6号)}
+user:大概300人的会议室
+{inf(pernum=300人)}
+agent_act:conf_pernum conf_time 
+user:恩
+{ok(pernum=300人,time=6月6号)}
+agent_act:req 
+user:在海淀知春路那
+{inf(loc=海淀知春路)}
+agent_act:req_timel req_loc 
+user:在海淀区知春路那
+{inf(loc=海淀区知春路)}
+agent_act:req_budget conf_loc 
+user:你好
+{hello()}
+agent_act:req_budget 
+user:3000
+{inf(budget=3000)}
+agent_act:req_timel conf_budget 
+user:4天
+{inf(timel=4天)}
+agent_act:conf_timel 
+user:恩
+{ok(timel=4天)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req_pernum req_time 
+user:我想预约一个6月6号
+{inf(time=6月6号)}
+user:大概300人的会议室
+{inf(pernum=300人)}
+agent_act:conf_pernum conf_time 
+user:恩
+{ok(pernum=300人,time=6月6号)}
+agent_act:req 
+user:在海淀区知春路
+{inf(loc=海淀区知春路)}
+agent_act:req_timel conf_loc 
+user:4天
+{inf(timel=4天)}
+agent_act:req_budget conf_timel 
+user:40000左右
+{inf(budget=40000左右)}
+agent_act:req_budget 
+user:40000
+{inf(budget=40000)}
+agent_act:conf_budget 
+user:恩
+{ok(budget=40000)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:我想预约一个6月6号
+{inf(time=6月6号)}
+user:大概300人的会议室
+{inf(pernum=300人)}
+agent_act:conf_time conf_pernum 
+user:恩
+{ok(time=6月6号,pernum=300人)}
+agent_act:req 
+user:海淀区知春路附近
+{inf(loc=海淀区知春路)}
+agent_act:req_timel conf_loc 
+user:1天
+{inf(time=1天)}
+agent_act:req_budget conf_time 
+user:3000左右
+{inf(budget=3000左右)}
+agent_act:req_budget 
+user:3000吧
+{inf(budget=3000)}
+agent_act:conf_budget 
+user:恩
+{ok(budget=3000)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:我想预约一个6月6号
+{inf(time=6月6号)}
+user:大概300人的会议室
+{inf(pernum=300人)}
+agent_act:conf_pernum conf_time 
+user:恩
+{ok(pernum=300人,time=6月6号)}
+agent_act:req 
+user:海淀区知春路附近
+{inf(loc=海淀区知春路)}
+agent_act:req_timel conf_loc 
+user:1天
+{inf(timel=1天)}
+agent_act:req_budget 
+user:3000
+{inf(budget=3000)}
+agent_act:req_budget 
+user:恩
+{ok(budget=3000)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req_pernum req_time 
+user:我要预定一个300人的对话系统
+{inf(pernum=300人)}
+agent_act:req_loc req_time 
+user:在教三101开会
+{inf(loc=教三101)}
+agent_act:req_loc 
+user:你好
+{hello()}
+agent_act:req 
+user:300人会议
+{inf(pernum=300人)}
+agent_act:req_loc req_time conf_pernum 
+user:13号
+{inf(time=13号)}
+agent_act:req_budget conf_time 
+user:1000
+{inf(budget=1000)}
+agent_act:req_timel conf_budget 
+user:3天
+{inf(timel=3天)}
+agent_act:req_loc conf_timel 
+user:马龙大厦
+{inf(loc=马龙大厦)}
+agent_act:conf_loc 
+user:不是
+{rej(loc=马龙大厦)}
+agent_act:req_loc 
+user:教三的会议室
+{inf(loc=教三)}
+agent_act:req_loc 
+user:北京郊区
+{inf(loc=北京郊区)}
+agent_act:conf_loc 
+user:是的
+{ok(loc=北京)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:你好
+{hello()}
+agent_act:req 
+user:北京
+{inf(loc=北京)}
+user十月三号
+{inf(time=十月三号)}
+agent_act:conf_time conf_loc 
+user:对
+{ok(time=十月三号,loc=北京)}
+agent_act:req 
+user:没有了
+{inf()}
+agent_act:req_pernum req_timel 
+user:300人
+{inf(pernum=300人)}
+user:开三天
+{inf(timel=三天)}
+agent_act:req_budget conf_timel 
+user:不对
+{rej(timel=三天)}
+agent_act:conf_pernum req_timel 
+user:不对
+{rej(pernum=300人)}
+agent_act:req_pernum 
+user:300人
+{inf(pernum=300人)}
+agent_act:req_budget conf_pernum 
+user:30000元
+{inf(budget=30000元)}
+agent_act:req_timel conf_budget 
+user:几天吧
+{inf(timel=几天)}
+agent_act:conf_timel 
+user:恩
+{ok(timel=几天)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:北京
+{inf(loc=北京)}
+user:300人
+{inf(pernum=300人)}
+agent_act:conf_loc conf_pernum 
+user:对
+{ok(loc=北京,pernum=300人)}
+agent_act:req_time 
+user:大概在十月三号
+{inf(time=十月三号)}
+agent_act:req_timel conf_time 
+user:不
+{rej(time=十月三号)}
+agent_act:req_time 
+user:十月十三号
+{inf(time=十月十三号)}
+agent_act:req_budget conf_time 
+user:30000元b
+{inf(budget=30000元)}
+agent_act:req_timel conf_budget 
+user:下午几个小时
+{inf(timel=几个小时)}
+agent_act:conf_timel 
+user:不对
+{rej(timel=几个小时)}
+agent_act:req_timel 
+user:几天
+{inf(timel=几天)}
+agent_act:conf_timel 
+user:对
+{ok(timel=几天)}
+agent_act:done 
+****************
+user:北京
+{inf(loc=北京)}
+user:十月三号的会议
+{inf(time=十月三号)}
+agent_act:req_budget conf_loc 
+user:30000元吧
+{inf(budget=30000元)}
+agent_act:req_timel conf_budget 
+user:一个月
+{inf(timel=一个月)}
+agent_act:req_timel conf_time 
+user:一个礼拜
+{inf(timel=一个礼拜)}
+agent_act:req_pernum conf_timel 
+user:300
+{inf(pernum=300)}
+agent_act:conf_pernum 
+user:不对
+{rej(pernum=300)}
+agent_act:req_pernum 
+user:对
+{ok(pernum=300)}
+agent_act:req_pernum 
+user:400人
+{inf(pernum=400人)}
+agent_act:conf_pernum 
+user:恩
+{ok(pernum=400人)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:北京
+{inf(loc=北京)}
+user:十月三号
+{inf(time=十月三号)}
+user:300人
+{inf(pernum=300人)}
+agent_act:conf_pernum conf_loc 
+user:不
+{rej(pernum=300人,loc=北京)}
+agent_act:dis_loc dis_pernum 
+user:上海
+{inf(loc=上海)}
+user:十月三号
+{inf(time=十月三号)}
+agent_act:req_pernum conf_loc 
+user:30人
+{inf(pernum=30人)}
+agent_act:req_budget conf_pernum 
+user:30000元
+{inf(budget=30000元)}
+agent_act:req_timel conf_budget 
+user:几天
+{inf(timel=几天)}
+agent_act:conf_timel 
+user:对
+{ok(timel=几天)}
+agent_act:done 
+****************
+user:男
+{other()}
+agent_act:req_pernum req_time 
+user:我需要100个人
+{inf(pernum=100个人)}
+agent_act:req_loc req_time conf_pernum 
+user:2年后吧
+{inf(time=2年后)}
+agent_act:req_budget conf_time 
+user:这个我还不知道类
+{other()}
+agent_act:req_loc req_time 
+user:12月3日
+{inf(time=12月3日)}
+agent_act:req_budget conf_time 
+user:2小时
+{inf(timel=2小时)}
+agent_act:req_budget conf_timel 
+user:20万
+{inf(budget=20万)}
+agent_act:req_loc conf_budget 
+user:北邮科技大厦
+{inf(loc=北邮科技大厦)}
+agent_act:conf_loc 
+user:对
+{ok(loc=北邮科技大厦)}
+agent_act:done 
+****************
+user:我要开会
+{hello()}
+agent_act:req_pernum req_time 
+user:初步定在六月六号
+{inf(time=六月六号)}
+agent_act:conf_time req_loc req_pernum 
+user:就在海淀区知春路
+{inf(loc=海淀区知春路)}
+user:大概有200人
+{inf(pernum=200人)}
+agent_act:req_budget conf_loc 
+user:不对
+{rej(loc=海淀区知春路)}
+agent_act:conf_pernum req_loc 
+user:天安门
+{inf(loc=天安门)}
+agent_act:req_budget conf_loc 
+user:20000
+{inf(budget=20000)}
+agent_act:req_timel conf_budget 
+user:3天
+{inf(timel=3天)}
+agent_act:conf_timel 
+user:对
+{ok(timel=3天)}
+agent_act:done 
+****************
+user:北京
+{inf(loc=北京)}
+user:十月三号
+{inf(time=十月三号)}
+agent_act:req_budget conf_loc 
+user:30000元
+{inf(budget=30000元)}
+agent_act:req_timel conf_budget 
+user:三天
+{inf(timel=三天)}
+agent_act:req_pernum conf_timel 
+user:200
+{inf(pernum=200)}
+agent_act:conf_pernum conf_time 
+user:恩
+{ok(pernum=200,time=十月三号)}
+agent_act:done 
+****************
+user:dfas
+{other()}
+agent_act:req 
+user:初步定在六月六号
+{inf(time=六月六号)}
+agent_act:req_pernum req_loc conf_time 
+user:就在海淀区知春路
+{inf(loc=海淀区知春路)}
+user:大概有200人
+{inf(pernum=200人)}
+agent_act:req_budget conf_pernum 
+user:20000元左右
+{inf(budget=20000元左右)}
+agent_act:req_budget conf_loc 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:初步定在六月六号
+{inf(time=六月六号)}
+agent_act:req_loc req_pernum conf_time 
+user:就在海淀区知春路
+{inf(loc=海淀区知春路)}
+user:大概有200人
+{inf(pernum=200人)}
+agent_act:req_budget conf_loc 
+user:20000元左右
+{inf(budget=20000元左右)}
+agent_act:req_timel conf_budget 
+user:几天
+{inf(timel=几天)}
+agent_act:conf_timel conf_pernum 
+user:对
+{ok(timel=几天,pernum=200人)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:北京
+{inf(loc=北京)}
+user:十月三号
+{inf(time=十月三号)}
+agent_act:conf_time conf_loc 
+user:恩
+{ok(time=十月三号,loc=北京)}
+agent_act:req_pernum 
+user:没有
+{inf()}
+agent_act:req_timel req_pernum 
+user:300人
+{inf(pernum=300人)}
+user:几个小时
+{inf(timel=几个小时)}
+agent_act:req_budget conf_pernum 
+user:3000元
+{inf(budget=3000元)}
+agent_act:conf_budget conf_timel 
+user:恩
+{ok(budget=3000元,timel=几个小时)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:北京
+{inf(loc=北京)}
+user:十月三号,
+{inf(time=十月三号)}
+agent_act:conf_time conf_loc 
+user:恩
+{ok(time=十月三号,loc=北京)}
+agent_act:req_pernum 
+user:300人
+{inf(pernum=300人)}
+user:预算30000元
+{inf(budget=30000元)}
+user:开三天
+{inf(timel=三天)}
+agent_act:conf_timel conf_pernum 
+user:恩
+{ok(timel=3天,pernum=300人)}
+agent_act:conf_budget 
+user:对
+{ok(budget=30000)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:北京
+{inf(loc=北京)}
+user:十月三号
+{inf(time=十月三号)}
+agent_act:conf_time conf_loc 
+user:恩
+{ok(time=十月三号,loc=北京)}
+agent_act:req_pernum 
+user:300人
+{inf(pernum=300人)}
+user:30000元
+{inf(budget=30000元)}
+user:3天
+{inf(timel=3天)}
+agent_act:conf_timel conf_pernum 
+user:恩
+{ok(timel=3天,pernum=300人)}
+agent_act:conf_budget 
+user:对
+{ok(budget=30000)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:hello
+{other()}
+agent_act:req 
+user:我要订会议室
+{other()}[type]
+agent_act:req 
+user:?????|?????????????????
+{other()}
+agent_act:req_pernum req_time 
+user:30人5月3日开
+{inf(pernum=30人,time=5月3日)}
+agent_act:req_pernum req_loc conf_time 
+user:30人在西部
+{inf(pernum=30人,loc=西部)}
+agent_act:req_budget conf_pernum 
+user:2000
+{inf(budget=2000)}
+agent_act:req_timel conf_budget 
+user:3-4天
+{inf(timel=3-4天)}
+agent_act:req_loc conf_timel 
+user:在西北地区
+{inf(loc=西北地区)}
+agent_act:conf_loc 
+user:??????????????????o
+{other()}
+agent_act:req_pernum req_time 
+user:是的
+{ok(loc=西北地区)}
+agent_act:done 
+****************
+user:???????
+{other()}
+agent_act:req 
+user:hello
+{hello()}
+agent_act:req 
+user:学术会议
+{inf()}
+agent_act:req_pernum req_time 
+user:100人参会
+{inf(pernum=100人)}
+agent_act:req_budget conf_pernum 
+user:三万
+{inf(budget=三万)}
+agent_act:req_timel conf_budget 
+user:一周吧
+{inf(timel=一周)}
+agent_act:req_time conf_timel 
+user:???????????
+{other()}
+agent_act:req 
+user:下个月中旬
+{inf(time=下个月中旬)}
+agent_act:req_loc conf_time 
+user:?????a?????-???
+{other()}
+agent_act:req 
+user:东湖边吧
+{inf(loc=东湖边)}
+agent_act:conf_loc 
+user:附近
+{inf()}
+agent_act:done 
+****************
+user:我要订一个50人的会议室
+{inf(pernum=50人)}
+agent_act:req_budget conf_pernum 
+user:?????|???????????a50?oo??????????????
+{inf(pernum=50)}
+agent_act:req_budget conf_pernum 
+user:4万左右
+{inf(budget=4万左右)}
+agent_act:req_timel 
+user:4??????|??3
+{other()}
+agent_act:req_budget conf_pernum 
+user:两周
+{inf(timel=两周)}
+agent_act:req_time conf_timel 
+user:????????
+{other()}
+agent_act:req 
+user:下周吧
+{inf(time=下周)}
+agent_act:req_loc conf_time 
+user:下个月
+{inf(time=下个月)}
+agent_act:req_loc conf_time 
+user:西湖边吧
+{inf(loc=西湖边)}
+agent_act:conf_loc 
+user:??????1????1????
+{other()}
+agent_act:req 
+user:是的
+{ok(loc=西湖)}
+agent_act:done 
+****************
+user:我要订一个教三楼的会议室
+{inf(loc=教三楼)}
+agent_act:req 
+user:?????|???????????a????????????????????????
+{other()}
+agent_act:req_pernum req_time 
+user:技术研讨会
+{inf()}
+agent_act:req 
+user:40人开三天
+{inf(pernum=40人,timel=三天)}
+agent_act:req_budget conf_timel 
+user:小于5千
+{inf(budget=小于5千)}
+agent_act:req_time conf_budget 
+user:?????o?5???
+{other()}
+agent_act:req_budget conf_pernum 
+user:下个月8号
+{inf(time=下个月8号)}
+agent_act:req_pernum conf_time 
+user:?????a???8????
+{inf(pernum=8)}
+agent_act:req_budget conf_pernum 
+user:40
+{inf(budget=40)}
+agent_act:req_loc conf_pernum 
+user:40
+{inf(budget=40)}
+agent_act:req_budget conf_pernum 
+user:教三楼
+{inf(loc=教三楼)}
+agent_act:req_loc 
+user:??????????
+{other()}
+agent_act:req_pernum req_time 
+user:北邮
+{inf(loc=北邮)}
+agent_act:req_loc 
+user:北邮教三楼
+{inf(loc=北邮教三楼)}
+agent_act:req_loc 
+user:北邮科技大厦
+{inf(loc=北邮科技大厦)}
+agent_act:conf_loc 
+user:是
+{ok(loc=北邮科技大厦)}
+agent_act:done 
+****************
+user:我要在杭州开个会
+{inf(loc=杭州)}
+agent_act:req_budget conf_loc 
+user:?????|???????-?????????a???
+{other()}
+agent_act:req_pernum req_time 
+user:5万以内
+{inf(budget=5万以内)}
+agent_act:req_timel conf_budget 
+user:8天吧
+{inf(timel=8天)}
+agent_act:req_time conf_timel 
+user:还不确定
+{other()}
+agent_act:req_timel 
+user:一周左右
+{inf(timel=一周左右)}
+agent_act:req_pernum conf_timel 
+user:500多人
+{inf(pernum=500多人)}
+agent_act:conf_pernum conf_time 
+user:500?????oo
+{inf(pernum=500)}
+agent_act:req_timel 
+user:是的
+{ok(pernum=500人)}
+agent_act:done 
+****************
+user:定一个会议室
+{hello()}
+agent_act:req 
+user:500人
+{inf(pernum=500人)}
+agent_act:req_time req_loc conf_pernum 
+user:下周在教三楼
+{inf(time=下周,loc=教三楼)}
+agent_act:req_budget conf_time 
+user:日期是下周
+{inf(time=下周)}
+agent_act:req_budget 
+user:??????????????????
+{other()}
+agent_act:req 
+user:日期是下周,
+{inf(time=下周)}
+user:地点是教三楼
+{inf(loc=教三楼)}
+agent_act:req_loc 
+user:???????????????????????????1??????????????
+{other()}
+agent_act:req 
+user:地点在教三楼
+{inf(loc=教三楼)}
+agent_act:req_timel req_loc 
+user:??????1??????????????
+{other()}
+agent_act:req 
+user:教三楼
+{inf(loc=教三楼)}
+agent_act:req_loc 
+user:500人
+{inf(pernum=500人)}
+agent_act:req_loc req_time 
+user:在苏州科技会堂开
+{inf(loc=苏州科技会堂)}
+agent_act:req_budget conf_loc 
+user:不对
+{rej(loc=苏州科技会堂)}
+user:在扬州开
+{inf(loc=扬州)}
+agent_act:req_loc 
+user:??????1?????????????????
+{other()}
+agent_act:req 
+user:扬州瘦西湖
+{inf(loc=扬州瘦西湖)}
+agent_act:req_budget conf_loc 
+user:不
+{rej(loc=扬州瘦西湖)}
+user:地点改在北京
+{inf(loc=北京)}
+agent_act:req_budget conf_loc 
+user:5000
+{inf(budget=5000)}
+agent_act:req_timel conf_budget 
+user:5000
+{inf(budget=5000)}
+agent_act:req_timel conf_pernum 
+user:一周
+{inf(timel=一周)}
+agent_act:conf_timel 
+user:地点改在广州机场
+{inf(loc=广州机场)}
+agent_act:done 
+****************
+user:我要在广州机场开个会
+{inf(loc=广州机场)}
+agent_act:req_budget conf_loc 
+user:还是在XX开吧
+{inf()}
+agent_act:req_budget 
+user:5000
+{inf(budget=5000)}
+agent_act:req_timel conf_budget 
+user:会场要改一下
+{inf()}
+agent_act:req_timel 
+user:我要改一下会议地点
+{inf()}
+agent_act:req_pernum 
+user:?????|???1???????????????????1
+{other()}
+agent_act:req 
+user:3
+{other()}
+agent_act:req_pernum req_time 
+user:3
+{other()}
+agent_act:req_pernum req_time 
+user:下周
+{inf(time=下周)}
+user:500人
+{inf(pernum=500人)}
+agent_act:req_pernum 
+user:500人
+{inf(pernum=500人)}
+agent_act:req_time conf_pernum 
+user:下周
+{inf(time=下周)}
+agent_act:req_time req_timel 
+user:下周
+{inf(time=下周)}
+agent_act:req_time 
+user:明天
+{inf(time=明天)}
+agent_act:req_time req_timel 
+user:6月9日
+{inf(time=6月9日)}
+agent_act:req_timel conf_time 
+user:6???9????
+{other()}
+agent_act:req_budget select_pernum select_pernum 
+user:3天
+{inf(timel=3天)}
+agent_act:conf_time 
+user:3????
+{other()}
+agent_act:req_pernum req_time 
+user:是
+{ok(time=3天)}
+agent_act:conf_timel 
+user:????
+{other()}
+agent_act:req_pernum req_time 
+user:是的
+{ok(timel=3天)}
+agent_act:done 
+****************
+user:我要订一个西湖的会议室
+{inf(loc=西湖)}
+agent_act:req_budget conf_loc 
+user:?????|???????????a??????1???????????????
+{other()}
+agent_act:req_pernum req_time 
+user:在杭州吧
+{inf(loc=杭州)}
+agent_act:req_budget conf_loc 
+user:地点还在改在广州吧
+{inf(loc=广州)}
+agent_act:req_budget conf_loc 
+user:地点还在改在教三楼吧
+{inf(loc=教三楼)}
+agent_act:req_budget 
+user:??????1??????????1??????????????????
+{other()}
+agent_act:req 
+user:开会
+{inf()}
+agent_act:req_pernum 
+user:??????
+{other()}
+agent_act:req 
+user:地点定在科技大楼
+{inf(loc=科技大楼)}
+agent_act:req_pernum req_time 
+user:??????1??????????????????????
+{other()}
+agent_act:req 
+user:599
+{other()}
+agent_act:req_pernum 
+user:599
+{inf(pernum=599)}
+agent_act:req_timel conf_pernum 
+user:599人
+{inf(pernum=599)}
+agent_act:conf_pernum req_time req_timel 
+user:500人
+{inf(pernum=500人)}
+agent_act:req_budget conf_pernum 
+user:500?oo
+{inf(budget=500)}
+agent_act:req_timel conf_pernum 
+user:4人
+{inf(pernum=4人)}
+agent_act:req_budget conf_pernum 
+user:4?oo
+{inf(pernum)}
+agent_act:req_budget conf_pernum 
+user:2人
+{inf(pernum=2人)}
+agent_act:req_time 
+user:2?oo
+{other()}
+agent_act:req 
+user:下周
+{inf(time=下周)}
+agent_act:req_timel req_time 
+user:???????
+{other()}
+agent_act:req 
+user:过一个月
+{inf(time=过一个月)}
+agent_act:req_budget conf_time 
+user:?????????a???
+{other()}
+agent_act:req 
+user:500
+{other()}
+agent_act:req_timel conf_budget 
+user:500
+{other()}
+agent_act:req_timel conf_pernum 
+user:3
+{inf(timel=3)}
+agent_act:req_timel 
+user:3天
+{inf(timel=3天)}
+agent_act:conf_timel 
+user:di
+{other()}
+agent_act:done 
+****************
+user:di
+{other()}
+agent_act:req 
+user:我要在XXX开个会
+{inf()}
+agent_act:req 
+user:我要在西街开会
+{inf(loc=西街)}
+agent_act:req_pernum req_time 
+user:?????|????????????????????
+{other()}
+agent_act:req_pernum req_time 
+user:我要在西街开会
+{inf(loc=西街)}
+agent_act:req_pernum req_time 
+user:我要在西街开会
+{inf(loc=西街)}
+agent_act:req 
+user:我要在西街开会
+{inf(loc=西街)}
+agent_act:req_pernum req_time 
+user:我要在西街开会
+{inf(loc=西街)}
+agent_act:req 
+user:我要在西街开会
+{inf(loc=西街)}
+agent_act:req_pernum req_time 
+user:我要在西街开会
+{inf(loc=西街)}
+agent_act:req_pernum req_time 
+user:开会地点在西街
+{inf(loc=西街)}
+agent_act:req_pernum req_time 
+user:开会地点在西湖
+{inf(loc=西湖)}
+agent_act:req_pernum req_time conf_loc 
+user:开会地点在西常
+{inf(loc=西常)}
+agent_act:req_pernum 
+user:????????????1????????????
+{other()}
+agent_act:req 
+user:开三天
+{inf(timel=三天)}
+agent_act:conf_timel 
+user:是
+{ok(timel=3天)}
+agent_act:req_pernum req_budget 
+user:5000
+{inf(budget=5000)}
+agent_act:req_pernum 
+user:4人
+{inf(pernum=4人)}
+agent_act:req_budget conf_pernum 
+user:300元
+{inf(budget=300元)}
+agent_act:conf_budget 
+user:是
+{ok(budget=300)}
+agent_act:done 
+****************
+user:300人会议
+{inf(pernum=300人)}
+agent_act:req_budget conf_pernum 
+user:预定一个会议室
+{other()}[type]
+agent_act:req 
+user:10个人
+{inf(pernum=10个人)}
+agent_act:req_loc req_time conf_pernum 
+user:时间是这周末
+{inf(time=这周末)}
+user:地点在教三
+{inf(time=教三)}
+agent_act:req_budget select_time select_time 
+user:你好
+{hello()}
+agent_act:req 
+user:好
+{inf()}
+agent_act:req_pernum req_time 
+user:与会人数40
+{inf(pernum=40)}
+user:开会日期本周日
+{inf(time=本周日)}
+agent_act:req_budget conf_pernum 
+user:环境好一点的,
+{inf()}
+user:高端一点的
+{inf()}
+agent_act:req_budget conf_time 
+user:15000
+{inf(budget=15000)}
+agent_act:req_timel conf_budget 
+user:两个半小时
+{inf(time=两个半小时)}
+agent_act:req_loc conf_timel 
+user:我说的是两个半小时
+{inf(time=两个半小时)}
+user:不是半个小时
+{rej(time=半小时)}
+agent_act:req_loc 
+user:时间错了
+{rej(time)}
+agent_act:req_loc 
+user:没有
+{inf()}
+agent_act:req_loc 
+user:你猜
+{other()}
+agent_act:req_loc 
+user:有
+{inf()}
+agent_act:req_loc 
+user:有
+{inf()}
+agent_act:req_loc 
+user:是
+{inf()}
+agent_act:req_loc 
+user:嗯
+{inf()}
+agent_act:req_loc 
+user:想好了
+{inf()}
+agent_act:req_loc 
+user:海淀区
+{inf(loc=海淀区)}
+agent_act:req_loc 
+user:国家会议中心
+{inf(loc=国家会议中心)}
+agent_act:req_loc 
+user:有
+{inf()}
+agent_act:req_loc 
+user:哈喽
+{hello()}
+agent_act:req 
+user:````````````
+{other()}
+agent_act:req 
+user:是的
+{inf()}
+agent_act:req 
+user:我想你了
+{other()}
+agent_act:req 
+user:你是谁？
+{other()}
+agent_act:req_pernum req_time 
+user:亲亲
+{other()}
+agent_act:req 
+user:目前有多数人
+{other()}
+agent_act:req_pernum req_time 
+user:我爱你
+{other()}
+agent_act:req 
+user:你好
+{helllo()}
+agent_act:req_loc 
+user:北邮科技大厦
+{inf(loc=北邮科技大厦)}
+agent_act:conf_loc 
+user:是
+{ok(loc=北邮科技大厦)}
+agent_act:done 
+****************
+user:目前有多少人
+{other()}
+agent_act:req 
+user:我要订会议室
+{other()}[type]
+agent_act:req 
+user:你好
+{hello()}
+agent_act:req_pernum req_time 
+user:关于国际经济发展研讨会
+{inf()}
+agent_act:req 
+user:30人
+{inf(pernum=30人)}
+user:本周五
+{inf(time=本周五)}
+agent_act:conf_time conf_pernum 
+user:是
+{ok(time=本周五,pernum=30人)}
+agent_act:req_loc 
+user:国家会议中心
+{inf(loc=国家会议中心)}
+agent_act:req_loc req_time 
+user:国际经济发展研讨会
+{inf()}
+agent_act:req 
+user:一个半小时
+{inf(timel=一个半小时)}
+user:在国家会议中心
+{inf(loc=国家会议中心)}
+agent_act:req_budget conf_timel 
+user:···············
+{other()}
+agent_act:req 
+user:111111111111
+{other()}
+agent_act:req 
+user:20000
+{inf(budget=20000)}
+agent_act:req_loc conf_budget 
+user:国家会议中心
+{inf(loc=国家会议中心)}
+agent_act:req_loc 
+user:北京饭店
+{inf(loc=北京饭店)}
+agent_act:conf_loc 
+user:北邮科技大厦
+{inf(loc=北邮科技大厦)}
+agent_act:req_budget 
+user:对
+{ok(loc=北邮科技大厦)}
+agent_act:done 
+****************
+user:你是猪么
+{other()}
+agent_act:req 
+user:京师大厦
+{inf(loc=京师大厦)}
+agent_act:req_budget conf_loc 
+user:万人会议
+{inf(pernum=万人)}
+agent_act:req_pernum req_time 
+user:10000人
+{inf(pernum=10000人)}
+agent_act:req_budget conf_pernum 
+user:1000000
+{inf(budget=100000)}
+agent_act:req_timel conf_budget 
+user:某某大厦
+{inf()}
+agent_act:req_timel req_pernum conf_budget 
+user:三个半小时
+{inf(timel=三个半小时)}
+agent_act:req_time conf_timel 
+user:本周四
+{inf(time=本周四)}
+agent_act:req_loc conf_time 
+user:京师大厦
+{inf(loc=京师大厦)}
+agent_act:conf_loc 
+user:是
+{ok(loc=京师大厦)}
+agent_act:done 
+****************
+user:你很逗唉
+{other()}
+agent_act:req_pernum req_time 
+user:上午八点
+{inf(time=上午八点)}
+agent_act:req_pernum 
+user:哈喽哈~
+{hello()}
+agent_act:req_pernum req_time 
+user:开会人数5人
+{inf(pernum=5人)}
+user:今天开会
+{inf(time=今天)}
+agent_act:conf_pernum req_loc req_time 
+user:5月20日
+{inf(time=5月20日)}
+user:在人民大会堂
+{inf(loc=人民大会堂)}
+agent_act:req_budget conf_loc 
+user:1元
+{inf(budget=1元)}
+agent_act:req_budget conf_time 
+user:100
+{inf(budget=100)}
+agent_act:req_timel conf_budget 
+user:24小时
+{inf(timel=24小时)}
+agent_act:conf_timel 
+user:对
+{ok(timel=24小时)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req_pernum req_time 
+user:与会人数1人
+{inf(pernum=1人)}
+agent_act:req 
+user:高端大气上档次
+{inf()}
+agent_act:req 
+user:好玩的
+{inf()}
+agent_act:req_pernum req_time 
+user:5人
+{inf(pernum=5人)}
+agent_act:req_time req_loc conf_pernum 
+user:6月1日
+{inf(time=6月1日)}
+agent_act:req_budget conf_time 
+user:1
+{inf(budget=1)}
+agent_act:req_budget 
+user:1
+{inf(budget=1)}
+agent_act:req_loc 
+user:中央电视台
+{inf(loc=中央电视台)}
+agent_act:req_timel 
+user:30分钟
+{inf(timel=30分钟)}
+agent_act:req_loc 
+user:啊啊啊
+{other()}
+agent_act:req_loc req_timel 
+user:1小时
+{inf(timel=1小时)}
+agent_act:req_budget conf_timel 
+user:50
+{inf(budget=50)}
+agent_act:req_budget 
+user:50元
+{inf(budget=50元)}
+agent_act:req_loc req_budget 
+user:天安门
+{inf(loc=天安门)}
+agent_act:req_budget conf_loc 
+user:1
+{inf(budget=1)}
+agent_act:req_budget 
+user:1
+{inf(budget=1)}
+agent_act:req_budget 
+user:1
+{inf(budget=1)}
+agent_act:req_budget 
+user:10元
+{inf(budget=10元)}
+agent_act:req_budget 
+user:预算10元
+{inf(budget=10元)}
+agent_act:req_budget 
+user:1000000000
+{inf(budget=1000000000)}
+agent_act:conf_budget 
+user:是
+{ok(budget=1000000000)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req_pernum req_time 
+user:与会人数2人
+{inf(pernum=2人)}
+agent_act:req_pernum req_time 
+user:开会日期5月31日
+{inf(time=5月31日)}
+agent_act:req_budget conf_time 
+user:10元
+{inf(budget=10元)}
+agent_act:req_budget 
+user:有
+{inf()}
+agent_act:req_loc 
+user:我家
+{inf()}
+agent_act:req_loc req_pernum 
+user:是我说了呀
+{other()}
+agent_act:req_loc 
+user:您好
+{hello()}
+agent_act:req 
+user:能容纳100人的
+{inf(pernum=100人)}
+agent_act:req_loc req_time conf_pernum 
+user:日期在3月10号
+{inf(time=3月10号)}
+user:地点在北京
+{inf(loc=北京)}
+agent_act:req_budget conf_loc 
+user:3000元
+{inf(budget=3000元)}
+agent_act:req_timel conf_budget 
+user:3天
+{inf(timel=3天)}
+agent_act:conf_time 
+user:对呀
+{ok(time=3天)}
+agent_act:conf_timel 
+user:对呀
+{ok(timel=3天)}
+agent_act:done 
+****************
+user:nihao
+{other()}
+agent_act:req 
+user:nihao
+{other()}
+agent_act:req 
+user:200?oo??????????????????????
+{inf(pernum=200)}
+agent_act:req_timel conf_pernum 
+user:200人的大会议室吧
+{inf(pernum=200人)}
+agent_act:req_time req_timel req_loc conf_pernum 
+user:2???????
+{other()}
+agent_act:req 
+user:2天半
+{inf(timel=2天半)}
+agent_act:req_budget conf_timel 
+user:3000
+{inf(budget=3000)}
+agent_act:req_time conf_budget 
+user:3000
+{inf(budget=3000)}
+agent_act:req_timel conf_pernum 
+user:???????2
+{other()}
+agent_act:req 
+user:下周2
+{inf(time=下周2)}
+agent_act:req_loc conf_time 
+user:????????????1??????1?????????
+{other()}
+agent_act:req 
+user:开会地点能改一下吗
+{inf()}
+agent_act:req_loc 
+user:??????????
+{other()}
+agent_act:req_pernum req_time 
+user:天津开
+{inf(loc=天津)}
+agent_act:conf_loc req_pernum req_time 
+user:是
+{ok(loc=天津)}
+agent_act:done 
+****************
+user:300人会议
+{inf(pernum=300人)}
+agent_act:req_budget conf_pernum 
+user:你好
+{helllo()}
+agent_act:req 
+user:北京
+{inf(loc=北京)}
+user:300人的会议
+{inf(pernum=300人)}
+agent_act:conf_pernum 
+user:问
+{other()}
+agent_act:req_time 
+user:十月三号
+{inf(time=十月三号)}
+agent_act:req_timel 
+user:三天
+{inf(timel=三天)}
+agent_act:req_budget conf_timel 
+user:3000元
+{inf(budget=3000元)}
+agent_act:conf_budget 
+user:恩
+{ok(budget=3000)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req_pernum req_time 
+user:北京
+{inf(loc=北京)}
+user:300人
+{inf(pernum=300人)}
+user:十月三号
+{inf(time=十月三号)}
+agent_act:conf_pernum conf_loc 
+user:恩
+{ok(pernum=300人,loc=北京)}
+agent_act:req_budget conf_time 
+user:上海
+{inf(loc=上海)}
+user:3000元
+{inf(budget=3000元)}
+agent_act:select_loc select_loc 
+user:北京
+{inf(loc=北京)}
+agent_act:req_timel conf_budget 
+user:几天
+{inf(timel=几天)}
+agent_act:conf_timel 
+user:恩
+{ok(timel=几天)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:北京
+{inf(loc=北京)}
+user:30人
+{inf(pernum=30人)}
+agent_act:conf_loc conf_pernum 
+user:恩,
+{ok(loc=北京,pernum=30人)}
+agent_act:req_time 
+user:十月三号
+{inf(time=十月三号)}
+user:上海
+{inf(loc=上海)}
+agent_act:select_loc select_loc 
+user:上海
+{inf(loc=上海)}
+agent_act:req_budget conf_time 
+user:30000元
+{inf(budget=30000元)}
+agent_act:req_timel conf_budget 
+user:三天
+{inf(timel=三天)}
+agent_act:conf_timel 
+user:恩
+{ok(timel=3天)}
+agent_act:done 
+****************
+user:30000元
+{inf(budget=30000元)}
+agent_act:req_timel 
+user:你好
+{hello()}
+agent_act:req 
+user:1000人开2天
+{inf(pernum=1000人,timel=2天)}
+agent_act:req_pernum req_loc conf_timel 
+user:1000人开
+{inf(pernum=1000人)}
+agent_act:req_budget conf_pernum 
+user:1000?oo???
+{inf(pernum=1000)}
+agent_act:req_timel req_budget conf_pernum 
+user:10000元
+{inf(budget=10000元)}
+agent_act:req_time conf_budget 
+user:10000???
+{inf(budget=10000)}
+agent_act:req_timel conf_pernum 
+user:明天
+{inf(time=明天)}
+agent_act:req_time 
+user:后天
+{inf(time=后天)}
+agent_act:req_loc req_time 
+user:6月8日
+{inf(time=6月8日)}
+agent_act:req_loc conf_time 
+user:????o?
+{other()}
+agent_act:req_pernum req_time 
+user:北京
+{inf(loc=北京)}
+agent_act:conf_loc req_pernum req_time 
+user:对
+{ok(loc=北京)}
+agent_act:done 
+****************
+user:要订一个会议室
+{hello()}
+agent_act:req 
+user:1000人的
+{inf(pernum=1000人)}
+agent_act:req_loc req_time conf_pernum 
+user:1000?oo???
+{inf(pernum=1000)}
+agent_act:req_timel conf_pernum 
+user:北京
+{inf(loc=北京)}
+user:5月10日
+{inf(time=5月10日)}
+agent_act:req_budget conf_loc 
+user:10000
+{inf(budget=10000)}
+agent_act:req_timel conf_budget 
+user:3天
+{inf(timel=3天)}
+agent_act:conf_time 
+user:对
+{ok(time=3天)}
+agent_act:conf_timel 
+user:是
+{ok(timel=3天)}
+agent_act:done 
+****************
+user:????
+{other()}
+agent_act:req 
+user:订个会议室
+{other()}[type]
+agent_act:req 
+user:1000人的
+{inf(pernum=1000人)}
+agent_act:conf_pernum req_loc req_time 
+user:1000?oo???
+{inf(pernum=1000人)}
+agent_act:req_timel conf_pernum 
+user:是5000人的
+{inf(pernum=5000人)}
+agent_act:req_budget conf_pernum 
+user:2000元
+{inf(budget=2000元)}
+agent_act:req_timel conf_budget 
+user:3
+{inf(timel=3)}
+agent_act:req_timel 
+user:3
+{inf(timel=3)}
+agent_act:req_pernum req_time 
+user:3天
+{inf(timel=3天)}
+agent_act:req_loc conf_time 
+user:3????
+{other()}
+agent_act:req 
+user:在北京开
+{inf(loc=北京)}
+agent_act:conf_loc conf_timel 
+user:????????o????
+{other()}
+agent_act:req_pernum req_time 
+user:对的
+{ok(loc=北京,timel=3天)}
+agent_act:done 
+****************
+user:???1???
+{other()}
+agent_act:req_pernum req_time 
+user:会议室预定
+{other()}[type]
+agent_act:req 
+user:3天
+{inf(timel=3天)}
+agent_act:conf_time conf_timel 
+user:是
+{ok(time=3天,timel=3天)}
+agent_act:req_loc 
+user:在南京
+{inf(loc=南京)}
+agent_act:req_pernum conf_loc 
+user:????????o?
+{other()}
+agent_act:req_pernum req_time 
+user:10?????oo
+{inf(pernum=10)}
+agent_act:req_budget conf_pernum 
+user:10多人
+{inf(pernum=10多人)}
+agent_act:req_budget conf_pernum 
+user:1000元左右
+{inf(budget=1000元左右)}
+agent_act:conf_budget 
+user:是的
+{ok(budget=1000元左右)}
+agent_act:done 
+****************
+user:???????
+{other()}
+agent_act:req_pernum req_time 
+user:我要订uiyishi1
+{inf()}
+agent_act:req 
+user:1000人的
+{inf(pernum=1000人)}
+agent_act:req_time req_loc conf_pernum 
+user:1000?oo???
+{inf(pernum=1000)}
+agent_act:req_timel conf_pernum 
+user:????????500?oo????
+{other()}
+agent_act:req_timel conf_pernum 
+user:还是500人吧
+{inf(pernum=500人)}
+agent_act:req_timel req_budget conf_pernum 
+user:改一下
+{inf()}
+user:400人
+{inf(pernum=400人)}
+agent_act:req_budget 
+user:??1??????
+{other()}
+user:400?oo
+{inf(pernum=400人)}
+agent_act:req_timel req_budget conf_pernum 
+user:人数改为400人
+{inf(pernum=400人)}
+agent_act:select_pernum select_pernum 
+user:400
+{inf(pernum=400)}
+agent_act:req_timel conf_budget 
+user:400人
+{inf(pernum=400人)}
+agent_act:req_timel 
+user:预算5000元
+{inf(budget=5000元)}
+agent_act:select_budget select_budget 
+user:5000
+{inf(budget=5000)}
+agent_act:select_pernum select_pernum select_pernum 
+user:5000
+{inf(budget=5000)}
+agent_act:req_timel conf_pernum 
+user:500人参会
+{inf(pernum=500人)}
+agent_act:req_timel conf_budget 
+user:500?oo??????
+{inf(pernum=500)}
+agent_act:req_timel conf_pernum 
+user:9天
+{inf(timel=9天)}
+agent_act:req_time conf_timel 
+user:9????
+{inf(timel=9)}
+agent_act:req_budget conf_pernum 
+user:明天开始
+{inf(time=明天)}
+agent_act:req_time 
+user:下周二
+{inf(time=下周二)}
+agent_act:req_loc conf_time 
+user:下周五吧还是
+{inf(time=下周五)}
+agent_act:req_loc conf_time 
+user:???????????
+{other()}
+agent_act:req_pernum req_time 
+user:在北邮
+{inf(loc=北邮)}
+agent_act:req_loc req_pernum req_time 
+user:南京大学附近
+{inf(loc=南京大学附近)}
+agent_act:req_loc 
+user:南京大学附近都可以
+{inf(loc=南京大学附近)}
+agent_act:req_loc 
+user:就在南京大学边上
+{inf(loc=南京大学边上)}
+agent_act:req_loc 
+user:????????????o??????-|???1???
+{other()}
+agent_act:req 
+user:南京大学附近
+{inf(loc=南京大学附近)}
+agent_act:req_loc 
+user:南京
+{inf(loc=南京)}
+agent_act:conf_loc 
+user:是
+{ok(loc=南京)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:???????
+{other()}
+agent_act:req_pernum req_time 
+user:要一个1000人的会议室
+{inf(pernum=1000人)}
+agent_act:conf_pernum req_loc req_time 
+user:还是500人吧
+{inf(pernum=500人)}
+agent_act:req_budget conf_pernum 
+user:2000元吧
+{inf(budget=2000元)}
+agent_act:req_timel conf_budget 
+user:2000???????
+{inf(budget=2000元)}
+agent_act:req_timel conf_pernum 
+user:1周
+{inf(timel=一周)}
+agent_act:req_time conf_timel 
+user:1????
+{other()}
+agent_act:req_pernum req_time 
+user:明天
+{inf(time=明天)}
+agent_act:req_time 
+user:???????
+{other()}
+agent_act:req 
+user:后天
+{inf(time=后天)}
+agent_act:req_loc req_time 
+user:6月10日
+{inf(time=6月10日)}
+agent_act:req_loc conf_time 
+user:南京大学附近
+{inf(loc=南京大学附近)}
+agent_act:req_loc 
+user:南京大学
+{inf(loc=南京大学)}
+agent_act:req_loc 
+user:????o??????-|
+{other()}
+agent_act:req 
+user:在南京大学
+{inf(loc=南京大学)}
+agent_act:req_loc 
+user:????????o??????-|
+{other()}
+agent_act:req 
+user:在南京
+{inf(loc=南京)}
+agent_act:conf_loc 
+user:????????o?
+{other()}
+agent_act:req_pernum req_time 
+user:对的
+{ok(loc=南京)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req_pernum req_time 
+user:???????
+{other()}
+agent_act:req_pernum req_time 
+user:我要订5人3天的会议室
+{inf(pernum=5人,timel=3天)}
+agent_act:conf_timel req_loc req_pernum 
+user:5人
+{inf(pernum=5人)}
+agent_act:req_budget conf_pernum 
+user:5?oo
+{inf(pernum=5)}
+agent_act:req_budget conf_pernum 
+user:3000
+{inf(budget=3000)}
+agent_act:req_time conf_budget 
+user:3000
+{inf(budget=3000)}
+agent_act:req_timel conf_pernum 
+user:2000元开5天
+{inf(budget=2000元,timel=5天)}
+agent_act:req_time 
+user:要改一下人数
+{inf()}
+agent_act:req_loc req_time 
+user:6人开会
+{inf(pernum=6人)}
+agent_act:select_pernum select_pernum 
+user:6人
+{inf(pernum=6人)}
+agent_act:req_time req_loc 
+user:6?oo
+{inf(pernum=6人)}
+agent_act:req_budget conf_pernum 
+user:6月8日在南京
+{inf(time=6月8日,loc=南京)}
+agent_act:conf_time conf_loc 
+user:是的
+{ok(time=6月8日,loc=南京)}
+agent_act:done 
+****************
+user:5人3天的会议室
+{inf(pernum=5人,timel=3天)}
+agent_act:req_budget 
+user:3000元
+{inf(budget=3000元)}
+agent_act:req_time conf_budget 
+user:3000???
+{inf(budget=3000)}
+agent_act:req_timel conf_pernum 
+user:4号
+{inf(time=4号)}
+agent_act:req_pernum conf_time 
+user:4????
+{inf(time=4)}
+agent_act:req_budget conf_pernum 
+user:3天5人
+{inf(pernum=5人,timel=3天)}
+agent_act:req_pernum 
+user:3????5?oo
+{inf(timel=3)}
+agent_act:req_budget conf_pernum 
+user:4天5人
+{inf(pernum=5人,timel=4天)}
+agent_act:select_timel select_timel 
+user:4????5?oo
+{inf(timel=4)}
+agent_act:req_budget select_pernum select_pernum 
+user:4天
+{inf(timel=4天)}
+agent_act:req_pernum req_loc 
+user:5人
+{inf(pernum=5人)}
+agent_act:req_loc conf_pernum 
+user:5个人开4天
+{inf(pernum=5人,timel=4天)}
+agent_act:req_loc 
+user:6个人开3天吧
+{inf(pernum=6人,timel=3天)}
+agent_act:select_timel select_timel 
+user:6??a?oo???3????????
+{other()}
+agent_act:req_budget conf_pernum 
+user:3天
+{inf(timel=3天)}
+agent_act:select_time select_time 
+user:5号
+{inf(time=5号)}
+agent_act:req_loc conf_time 
+user:5号8个人
+{inf(time=5号,pernum=8个人)}
+agent_act:req_loc 
+user:5????8??a?oo
+{other()}
+agent_act:req_budget select_pernum select_pernum 
+user:8个人开会
+{inf(pernum=8个人)}
+agent_act:select_pernum select_pernum 
+user:8??a?oo??????
+{inf(pernum=8)}
+agent_act:req_budget conf_pernum 
+user:8人
+{inf(pernum=8人)}
+agent_act:req_loc 
+user:南京大学
+{inf(loc=南京大学)}
+agent_act:req_loc 
+user:改为9人
+{inf(pernum=9人)}
+agent_act:select_pernum select_pernum select_pernum 
+user:??1??o9?oo
+{other()}
+agent_act:req_budget conf_pernum 
+user:改为12人吧
+{inf(pernum=12人)}
+agent_act:req_loc conf_pernum 
+user:??1??o12?oo????
+{other()}
+agent_act:req_budget conf_pernum 
+user:12
+{inf(pernum=12)}
+agent_act:req_loc 
+user:12
+{inf(pernum=12)}
+agent_act:req_budget conf_pernum 
+user:200
+{inf(budget=200)}
+agent_act:req_timel conf_pernum 
+user:200人吧
+{inf(pernum=200人)}
+agent_act:req_loc 
+user:300人开
+{inf(pernum=300人)}
+agent_act:select_pernum select_pernum select_pernum 
+user:300人
+{inf(pernum=300人)}
+agent_act:req_loc 
+user:北京大学
+{inf(loc=北京大学)}
+agent_act:req_loc 
+user:北京市
+{inf(loc=北京市)}
+agent_act:conf_loc 
+user:ok
+{ok(loc=北京市)}
+agent_act:done 
+****************
+user:一个人的会议室
+{inf(pernum=一个人)}
+agent_act:req 
+user:?????a?oo??????????????
+{other()}
+agent_act:req_pernum req_time 
+user:一个人
+{inf(pernum=一个人)}
+agent_act:req 
+user:?????a?oo
+{other()}
+agent_act:req_pernum req_time 
+user:1
+{inf(pernum=1)}
+agent_act:req 
+user:1个人
+{inf(pernum=一个人)}
+agent_act:req_pernum req_time 
+user:1人开会
+{inf(pernum=1人)}
+agent_act:req 
+user:3人
+{inf(pernum=3人)}
+agent_act:req_pernum req_time 
+user:4人
+{inf(pernum=4人)}
+agent_act:req_budget conf_pernum 
+user:4?oo
+{inf(pernum=4)}
+agent_act:req_budget conf_pernum 
+user:2人
+{inf(pernum=2人)}
+agent_act:req_budget 
+user:2?oo
+{inf(pernum=2)}
+agent_act:req 
+user:3个人
+{inf(pernum=3个人)}
+agent_act:req_loc 
+user:3??a?oo
+{inf(pernum=3)}
+agent_act:req_pernum req_time 
+user:改一下人数
+{inf()}
+agent_act:req_loc req_time 
+user:??1???????oo????
+{other()}
+agent_act:req_pernum req_time 
+user:8
+{other()}
+agent_act:req_loc 
+user:8
+{other()}
+agent_act:req_budget conf_pernum 
+user:改为8人
+{inf(pernum=8人)}
+agent_act:select_pernum select_pernum 
+user:??1??o8?oo
+{other()}
+agent_act:req_budget conf_pernum 
+user:12
+{other()}
+agent_act:req_budget conf_pernum 
+user:参会人数80
+{inf(pernum=80)}
+agent_act:req_budget conf_pernum 
+user:???????oo????80
+{inf(pernum=80)}
+agent_act:req_budget conf_pernum 
+user:预算8000
+{inf(budget=8000)}
+agent_act:req_timel conf_budget 
+user:????????8000
+{inf(budget=8000)}
+agent_act:req_timel conf_pernum 
+user:会议长80
+{inf(timel=80)}
+agent_act:req_timel 
+user:南京的大学开
+{inf(loc=南京的大学)}
+agent_act:req_timel conf_loc 
+user:????o?????????-|???
+{other()}
+agent_act:req 
+user:在南京的一个大学里开
+{inf(loc=南京的一个大学里)}
+agent_act:req_timel 
+user:????????o?????????a?????-|???????
+{other()}
+agent_act:req_pernum req_time 
+user:改在北京的某个大学开吧
+{inf(loc=北京的某个大学)}
+agent_act:select_loc select_loc 
+user:我想预定明天的会议室
+{inf(time=明天)}
+agent_act:req 
+user:12个人
+{inf(pernum=12个人)}
+agent_act:conf_pernum req_loc req_time 
+user:地点在海淀
+{inf(loc=海淀)}
+agent_act:req_loc 
+user:你好
+{hello()}
+agent_act:req_pernum req_time 
+user:北京
+{inf(loc=北京)}
+user:30人
+{inf(pernum=30人)}
+user:十月三号的
+{inf(time=十月三号)}
+agent_act:conf_pernum conf_loc 
+user:恩
+{ok(pernum=30人,loc=北京)}
+agent_act:req_budget conf_time 
+user:3000元
+{inf(budget=3000元)}
+agent_act:req_timel conf_budget 
+user:几天
+{inf(timel=几天)}
+agent_act:conf_timel 
+user:额n、
+{ok(timel=几天)}
+agent_act:done 
+****************
+user:我日
+{other()}
+agent_act:req_budget 
+user:190
+{inf(budget=190)}
+agent_act:req_timel conf_budget 
+user:2
+{inf(timel=2)}
+agent_act:req_timel 
+user:2h
+{inf(timel=2h)}
+agent_act:select_time select_time 
+user:3小时
+{inf(timel=3小时)}
+agent_act:req_pernum conf_timel 
+user:180人
+{inf(pernum=180人)}
+agent_act:req_loc conf_pernum 
+user:你好
+{hello()}
+agent_act:req 
+user:你好
+{hello()}
+agent_act:req_pernum req_time 
+user:重庆
+{inf(loc=重庆)}
+agent_act:conf_loc 
+user:不送
+{other()}
+agent_act:req_loc 
+user:重庆
+{inf(loc=重庆)}
+agent_act:conf_loc 
+user:开会
+{other()}[type]
+agent_act:req 
+user:是
+{ok(loc=重庆)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req_pernum req_time 
+user:北京
+{inf(loc=北京)}
+agent_act:req_budget conf_loc 
+user:你好
+{hello()}
+agent_act:req_budget 
+user:5000
+{inf(budget=5000)}
+agent_act:req_timel conf_budget 
+user:你吃饭了吗？
+{other()}
+agent_act:req 
+user:12.
+{other()}
+agent_act:req_timel conf_pernum 
+user:好吃的
+{other()}
+agent_act:req 
+user:120
+{other()}
+agent_act:select_budget select_budget 
+user:我要订会议室
+{other()}[type]
+agent_act:req 
+user:?????|?????????????????
+{other()}
+agent_act:req 
+user:吃货会议
+{inf()}
+agent_act:req 
+user:我要订会议室
+{other()}[type]
+agent_act:req 
+user:100人开会
+{inf(pernum=100人)}
+agent_act:req_budget conf_pernum 
+user:100?oo??????
+{inf(pernum=100人)}
+agent_act:req_timel conf_pernum 
+user:大的
+{inf()}
+agent_act:req 
+user:5000元
+{inf(budget=5000元)}
+agent_act:req_timel conf_budget 
+user:5000???
+{inf(budget=5000)}
+agent_act:req_timel conf_pernum 
+user:8天吧
+{inf(timel=8天)}
+agent_act:req_time conf_timel 
+user:10000人开会
+{inf(pernum=10000人)}
+agent_act:req_time req_loc conf_pernum 
+user:容纳300人左右
+{inf(pernum=300人左右)}
+agent_act:req_budget conf_pernum 
+user:8月1日
+{inf(time=8月1日)}
+agent_act:req_loc conf_time 
+user:300
+{inf(budget=300)}
+agent_act:req_timel conf_budget 
+user:北京
+{inf(loc=北京)}
+agent_act:conf_loc 
+user:2h
+{inf(timel=2h)}
+agent_act:req_timel conf_time 
+user:是的
+{ok(loc=北京)}
+agent_act:done 
+****************
+ user:30000人呢？
+{inf(pernum=30000人)}
+agent_act:req_budget conf_pernum 
+user:订会议室
+{other()}[type]
+agent_act:req 
+user:????????????????
+{other()}
+agent_act:req 
+user:500000人呢？
+{inf(pernum=500000人)}
+agent_act:req_budget conf_pernum 
+user:8天
+{inf(timel=8天)}
+agent_act:req_pernum req_loc conf_timel 
+user:8????
+{other()}
+agent_act:req_budget conf_pernum 
+user:你们真的有这么大的会议室吗？
+{other()}[type]
+agent_act:req_loc 
+user:6999元吧
+{inf(budget=6999元)}
+agent_act:conf_budget req_loc req_time 
+user:订会议室
+{other()}[]
+agent_act:req 
+user:是
+{ok(budget=6999)}
+agent_act:req_loc 
+user:????
+{other()}
+agent_act:req_pernum req_time 
+user:谭某某交流会
+{inf()}
+agent_act:req 
+user:上海北京广东都行
+{inf(loc=上海 or 北京 or 广东)}
+agent_act:req_loc 
+user:批斗会
+{inf()}
+agent_act:req 
+user:南京
+{inf(loc=南京)}
+agent_act:req_pernum req_time conf_loc 
+user:北上广
+{inf(loc=北上广)}
+agent_act:req_time req_loc 
+user:500人的
+{inf(pernum=500人)}
+agent_act:req_loc req_time conf_pernum 
+user:你没听清吗？
+{other()}
+user:北上广
+{inf(loc=北上广)}
+agent_act:req_loc 
+user:8月8号,
+{inf(time=8月8号)}
+user:北京
+{inf(loc=北京)}
+agent_act:req_budget 
+user:50000
+{inf(budget=50000)}
+agent_act:req_timel conf_budget 
+user:10天
+{inf(timel=10天)}
+agent_act:conf_timel conf_time 
+user:1000人
+{inf(pernum=1000人)}
+agent_act:req_budget conf_pernum 
+user:80人
+{inf(pernum=80人)}
+agent_act:req_timel conf_pernum 
+user:是8
+{ok(pernum=80人)}
+agent_act:done 
+****************
+user:80人
+{inf(pernum=80人)}
+agent_act:req_timel 
+user:????????????o????????
+{other()}
+agent_act:req_pernum req_time 
+user:还在北京开吧
+{inf(loc=北京)}
+agent_act:req_pernum req_time select_loc select_loc 
+user:beijing
+{other()}
+agent_act:req 
+user:北京
+{inf(loc=北京)}
+agent_act:req_pernum req_time conf_loc 
+user:是
+{ok(loc=北京)}
+agent_act:req_pernum 
+user:80人
+{inf(pernum=80人)}
+agent_act:req_time conf_pernum 
+user:是
+{ok(pernum=80人)}
+agent_act:req_time 
+user:还在南京吧
+{inf(loc=南京)}
+agent_act:req_budget req_time 
+user:????????????o?????
+{other()}
+agent_act:req 
+user:8月8号十点
+{inf(time=8月8号十点)}
+agent_act:req_timel conf_time 
+user:是
+{ok(time=8月8号)}
+agent_act:req_timel req_budget 
+user:还在天津开吧
+{inf(loc=天津)}
+agent_act:select_loc select_loc select_loc 
+user:??????????????????????
+{other()}
+agent_act:req 
+user:北京
+{inf(loc=北京)}
+agent_act:req_time req_budget 
+user:8月1日
+{inf(time=8月1日)}
+user:1000元
+{inf(budget=1000元)}
+agent_act:conf_time conf_budget 
+user:是
+{ok(time=8月1日,budget=1000元)}
+agent_act:done 
+****************
+user:龙岩
+{inf(loc=龙岩)}
+agent_act:req_pernum req_time 
+user:?????2?
+{other()}
+agent_act:req 
+user:你好
+{hello()}
+agent_act:req 
+user:开会人数多
+{inf()}
+agent_act:req 
+user:?????o???????????
+{other()}
+agent_act:req_pernum req_time 
+user:会场高大上
+{inf()}
+agent_act:req 
+user:5人三天的会议
+{inf(pernum=5人,timel=三天)}
+agent_act:req_budget conf_pernum conf_timel 
+user:我要开学术会议
+{inf()}
+agent_act:req 
+user:1000
+{other()}
+agent_act:req_pernum conf_budget 
+user:1000人
+{inf(pernum=1000人)}
+agent_act:req_loc req_time conf_pernum 
+user:不对
+{rej(pernum=1000人)}
+agent_act:req_pernum 
+user:??????1
+{other()}
+agent_act:req 
+user:5人
+{inf(pernum=5人)}
+agent_act:req_loc conf_pernum 
+user:北京
+{inf(loc=北京)}
+agent_act:conf_loc conf_timel 
+user:?????????
+{other()}
+agent_act:req_pernum req_time 
+user:刚刚的
+{other()}
+agent_act:req_pernum req_time 
+user:不是,
+{rej(loc=北京)}
+user:地点在天津
+{inf(loc=天津)}
+agent_act:req_timel conf_loc 
+user:1000人
+{inf(pernum=1000人)}
+user:明天开
+{inf(time=明天)}
+agent_act:req_budget conf_pernum 
+user:1000?oo
+{inf(budget=1000)}
+user:??????????
+{other()}
+agent_act:req_timel conf_pernum 
+user:三天
+{inf(timel=三天)}
+agent_act:conf_timel 
+user:是的
+{ok(timel=三天)}
+agent_act:done 
+****************
+user:预算不高
+{inf()}
+agent_act:req_pernum 
+user:预定5个人开会的会议室,
+{inf(pernum=5个人)}
+user:时间为三天
+{inf(timel=三天)}
+agent_act:req_budget conf_pernum 
+user:还是500人吧
+{inf(pernum=500人)}
+agent_act:req_budget conf_pernum 
+user:有
+{inf()}
+agent_act:req_budget 
+user:???
+{other()}
+agent_act:req_pernum req_time 
+user:500
+{inf(pernum=500)}
+agent_act:req_timel conf_pernum 
+user:500
+{inf(pernum=500)}
+agent_act:req_timel 
+user:5
+{inf(timel=5)}
+agent_act:select_pernum select_pernum 
+user:5天
+{inf(timel=5天)}
+agent_act:req_loc conf_timel 
+user:南京
+{inf(loc=南京)}
+agent_act:conf_timel conf_loc 
+user:????o?
+{other()}
+agent_act:req 
+user:200
+{other()}
+agent_act:req_time conf_budget 
+user:对
+{ok(budget=200)}
+agent_act:done 
+****************
+user:明天
+{inf(time=明天)}
+agent_act:done req_time conf_timel 
+user:???1
+{other()}
+agent_act:req 
+user:6号
+{inf(time=6号)}
+agent_act:req_loc conf_time 
+user:北京大学
+{inf(loc=北京大学)}
+agent_act:req_loc 
+user:订会议室
+{other()}[type]
+agent_act:req 
+user:河南大厦
+{inf(loc=河南大厦)}
+agent_act:conf_loc 
+user:不是
+{rej(loc=河南大厦)}
+agent_act:req_loc 
+user:北邮科技大厦
+{inf(loc=北京邮电大厦)}
+agent_act:conf_loc 
+user:是的
+{ok(loc=北京邮电大厦)}
+agent_act:done 
+****************
+user:啥？
+{other()}
+agent_act:req_timel req_loc 
+user:500人开8天预算5000元
+{inf(pernum=500人,timel=8天,budget=5000元)}
+agent_act:req_pernum req_time 
+user:5人三天的会议
+{inf(pernum=5人,timel=3天)}
+agent_act:req_budget conf_pernum conf_time 
+user:2h
+{inf(timel=2h)}
+user:北邮
+{inf(loc=北邮)}
+agent_act:req_loc 
+user:北邮啊
+{inf(loc=北邮)}
+agent_act:req_timel req_loc 
+user:500人,
+{inf(pernum=500人)}
+user:8天,
+{inf(timel=8天)}
+user:5000元
+{inf(budget=5000元)}
+agent_act:req_time conf_pernum 
+user:8/8
+{inf(time=8/8)}
+agent_act:conf_budget conf_timel 
+user:9天
+{inf(timel=9天)}
+agent_act:req_time conf_timel 
+user:8/8
+{inf(time=8/8)}
+agent_act:req_time 
+user:8/8
+{inf(time=8/8)}
+agent_act:req_loc req_time 
+user:5/8
+{inf(time=5/8)}
+user:北京邮电大学
+{inf(loc=北京邮电大学)}
+agent_act:req_loc 
+user:北京邮电大学
+{inf(loc=北京邮电大学)}
+agent_act:req_loc req_time 
+user:8月8号,
+{inf(time=8月8号)}
+user:北京
+{inf(loc=北京)}
+agent_act:conf_loc conf_time 
+user:你好
+{hello()}
+agent_act:req 
+user:能容纳300人的会议室
+{inf(loc=300人)}
+agent_act:req_time req_loc conf_loc 
+user:6月15日,
+{inf(time=6月15日)}
+user:长沙
+{inf(loc=长沙)}
+agent_act:req_budget conf_time 
+user:1万
+{inf(budget=1万)}
+agent_act:req_timel conf_budget 
+user:1天
+{inf(timel=1天)}
+agent_act:req_loc conf_timel 
+user:长沙
+{inf(loc=长沙)}
+agent_act:conf_loc 
+user:对
+{ok(loc=长沙)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:在北京市海淀区开会
+{inf(loc=北京市海淀区)}
+agent_act:req_pernum req_time conf_loc 
+user:30人左右
+{inf(pernum=30人左右)}
+agent_act:req_budget conf_pernum 
+user:下周四召开
+{inf(time=下周四)}
+agent_act:req_budget conf_time 
+user:会议时长一天
+{inf(timel=一天)}
+agent_act:req_budget conf_imel 
+user:30000元
+{inf(budget=30000元)}
+agent_act:conf_budget 
+user:对
+{ok(budget=30000)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req_pernum req_time 
+user:郑州市二七区
+{inf(loc=郑州市二七区)}
+agent_act:req_pernum req_time conf_loc 
+user:20人与会
+{inf(pernum=20人)}
+agent_act:req_budget conf_pernum 
+user:七月一号召开
+{inf(time=七月一号)}
+agent_act:req_budget conf_time 
+user:时长几个小时
+{inf(timel=几个小时)}
+agent_act:req_budget conf_timel 
+user:预算10000元
+{inf(budget=10000元)}
+agent_act:conf_budget 
+user:对
+{ok(budget=10000)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req_pernum req_time 
+user:北京市朝阳区
+{inf(loc=北京市朝阳区)}
+agent_act:req_pernum req_time conf_loc 
+user:容纳一百人
+{inf(pernum=一百人)}
+agent_act:req_budget conf_pernum 
+user:这周末召开
+{inf(time=这周末)}
+agent_act:req_budget conf_time 
+user:时长一天
+{inf(timel=一天)}
+agent_act:req_budget conf_timel 
+user:100000元
+{inf(budget=100000元)}
+agent_act:conf_budget 
+user:对
+{ok(budget=100000)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:海淀区西直门
+{inf(loc=海淀区西直门)}
+agent_act:req_pernum req_time conf_loc 
+user:有30人的会议
+{inf(pernum=30人)}
+agent_act:req_budget conf_pernum 
+user:25号召开
+{inf(time=25号)}
+agent_act:req_budget conf_time 
+user:一周时间
+{inf(timel=一周)}
+agent_act:req_budget conf_timel 
+user:五千
+{inf(budget=五千)}
+agent_act:conf_budget 
+user:对
+{ok(budget=5000)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req_pernum req_time 
+user:上海市虹口区
+{inf(loc=上海市虹口区)}
+agent_act:req_pernum req_time conf_loc 
+user:30人左右吧
+{inf(pernum=30人左右)}
+agent_act:req_budget conf_pernum 
+user:下个月10号开会
+{inf(time=下个月10号)}
+agent_act:req_budget conf_time 
+user:开一天
+{inf(timel=一天)}
+agent_act:req_budget req_timel 
+user:6000元吧
+{inf(budget=6000元)}
+agent_act:conf_budget 
+user:对
+{ok(budget=6000)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req_pernum req_time 
+user:预算30000元
+{inf(budget=30000元)}
+agent_act:req_loc req_pernum conf_budget 
+user:时长一天
+{inf(timel=一天)}
+agent_act:req_time conf_timel 
+user:下周四
+{inf(time=下周四)}
+agent_act:req_pernum conf_time 
+user:30人左右
+{inf(pernum=30人左右)}
+agent_act:req_loc conf_pernum 
+user:北京市海淀区
+{inf(loc=北京市海淀区)}
+agent_act:conf_loc 
+user:对
+{ok(loc=北京市海淀区)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:预算10000元
+{inf(budget=10000元)}
+agent_act:req_pernum req_loc conf_budget 
+user:时长几个小时
+{inf(timel=几个小时)}
+agent_act:req_time conf_timel 
+user:七月一号的会议
+{inf(time=七月一号)}
+agent_act:req_pernum conf_time 
+user:20人与会
+{inf(pernum=20人)}
+agent_act:req_loc conf_pernum 
+user:郑州市二七区
+{inf(loc=郑州市二七区)}
+agent_act:conf_pernum 
+user:不对
+{rej(pernum=27人)}
+agent_act:req_pernum conf_loc 
+user:20人
+{inf(pernum=20人)}
+agent_act:conf_pernum 
+user:对
+{ok(pernum=20人)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req_pernum req_time 
+user:100000元的预算
+{inf(budget=100000元)}
+agent_act:req_pernum req_loc conf_budget 
+user:开一天
+{inf(timel=一天)}
+agent_act:req_time conf_timel 
+user:这周末
+{inf(time=这周末)}
+agent_act:req_pernum conf_time 
+user:一百人
+{inf(pernum=一百人)}
+agent_act:req_loc conf_pernum 
+user:北京市朝阳区
+{inf(loc=北京市朝阳区)}
+agent_act:conf_loc 
+user:对
+{ok(loc=北京市朝阳区)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req_pernum req_time 
+user:预算五千
+{inf(budget=五千)}
+agent_act:req 
+user:预算50000
+{inf(budget=50000)}
+agent_act:req_timel conf_budget 
+user:会议时长一周
+{inf(timel=一周)}
+agent_act:req_time conf_timel 
+user:25号
+{inf(time=25号)}
+agent_act:req_pernum conf_time 
+user:30人左右
+{inf(pernum=30人左右)}
+agent_act:req_loc conf_pernum 
+user:海淀区西直门
+{inf(loc=海淀区西直门)}
+agent_act:conf_loc 
+user:对
+{ok(loc=海淀区西直门)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req_pernum req_time 
+user:6000元的预算
+{inf(budget=6000元)}
+agent_act:req_pernum req_loc conf_budget 
+user:时长一天
+{inf(timel=一天)}
+agent_act:req_time conf_timel 
+user:下个月10号的会议
+{inf(time=下个月10号)}
+agent_act:req_time 
+user:下个月10号
+{inf(time=下个月10号)}
+agent_act:req_pernum conf_time 
+user:30人
+{inf(pernum=30人)}
+agent_act:req_loc conf_pernum 
+user:上海市虹口区
+{inf(loc=上海市虹口区)}
+agent_act:conf_loc 
+user:对
+{ok(loc=上海市虹口区)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req_pernum req_time 
+user:北京市海淀区
+{inf(loc=北京市海淀区)}
+user:30人左右,
+{inf(pernum=30人左右)}
+user:下周四的会议
+{inf(time=下周四)}
+agent_act:conf_pernum conf_loc 
+user:对
+{ok(pernum=30人,loc=北京市海淀区)}
+agent_act:req_budget 
+user:预算30000元,
+{inf(budget=30000元)}
+user:时长一天
+{inf(timel=一天)}
+agent_act:conf_budget 
+user:对
+{ok(budget=30000)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req_pernum req_time 
+user:郑州市二七区,
+{inf(loc=郑州市二七区)}
+user:20人与会,
+{inf(pernum=20人)}
+user:七月一号召开的会议室
+{inf(time=七月一号)}
+agent_act:conf_loc 
+user:对
+{ok(loc=郑州市)}
+agent_act:req_budget conf_loc 
+user:几个小时
+{inf(timel=几个小时)}
+user:10000元
+{inf(budget=10000元)}
+agent_act:req_timel conf_budget 
+user:几个小时
+{inf(timel=几个小时)}
+agent_act:conf_time conf_timel 
+user:对
+{ok(time=七月一号,timel=几个小时)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:郑州市二七区,
+{inf(loc=郑州市二七区)}
+user:20人与会,
+{inf(pernum=20人)}
+user:7月1号召开
+{inf(time=7月1号)}
+agent_act:conf_loc 
+user:不对
+{rej(loc=郑州市)}
+agent_act:conf_loc req_pernum 
+user:20人,
+{inf(pernum=20人)}
+user:对
+{ok(loc=郑州市)}
+agent_act:req_budget 
+user:一天,
+{inf(timel=一天)}
+user:20000元
+{inf(budget=20000元)}
+agent_act:conf_time 
+user:对
+{ok(budget=20000元)}
+agent_act:conf_timel 
+user:对
+{ok(timel=1天)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:郑州市管城区,
+{inf(loc=郑州市管城区)}
+user:20人与会,
+{inf(pernum=20人)}
+user:七月一号召开
+{inf(time=七月一号)}
+agent_act:conf_loc conf_pernum 
+user:对
+{ok(loc=郑州市,pernum=20人)}
+agent_act:req_budget conf_time 
+user:几个小时
+{inf(timel=几个小时)}
+user:10000元
+{inf(budget=10000元)}
+agent_act:req_timel 
+user:几个小时
+{inf(timel=几个小时)}
+agent_act:conf_timel 
+user:对
+{ok(timel=几个小时)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req_pernum req_time 
+user:郑州市管城区,
+{inf(loc=郑州市管城区)}
+user:20人与会,
+{inf(pernum=20人)}
+user:7月一号召开的会议
+{inf(time=7月一号)}
+agent_act:conf_loc conf_pernum 
+user:对
+{ok(loc=郑州市,pernum=20人)}
+agent_act:req_budget conf_time 
+user:几个小时,
+{inf(time=几个小时)}
+user:预算10000元
+{inf(budget=10000元)}
+agent_act:conf_budget conf_time 
+user:对
+{ok(budget=10000元,time=几个小时)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:北京市朝阳区
+{inf(loc=北京市朝阳区)}
+user:一百人
+{inf(pernum=一百人)}
+user:这周末
+{inf(time=这周末)}
+agent_act:conf_loc conf_pernum 
+user:对
+{ok(loc=北京市朝阳区,pernum=100人)}
+agent_act:req_budget conf_time 
+user:时长一天
+{inf(timel=一天)}
+user:100000元预算
+{inf(budget=100000元)}
+agent_act:conf_budget conf_timel 
+user:对
+{ok(budget=100000元,timel=1天)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req_pernum req_time 
+user:海淀区西直门
+{inf(loc=海淀区西直门)}
+user:30人
+{inf(pernum=30人)}
+user:25号的会议
+{inf(time=25号)}
+agent_act:conf_loc conf_pernum 
+user:对
+{ok(loc=海淀区西直门,pernum=30人)}
+agent_act:req_budget conf_time 
+user:召开一周
+{inf(timel=一周)}
+user:五千预算可以吗
+{inf(budget=五千)}
+agent_act:conf_time 
+user:对
+{ok(time=一周)}
+agent_act:conf_timel conf_budget 
+user:对
+{ok(timel=一周,budget=5000)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:海淀区西直门
+{inf(loc=海淀区西直门)}
+user:30人
+{inf(pernum=30人)}
+user:25号召开
+{inf(time=25号)}
+agent_act:conf_pernum 
+user:对
+{ok(pernum=30人)}
+agent_act:req_budget conf_time 
+user:时长一周
+{inf(timel=一周)}
+user:50000元
+{inf(budget=50000元)}
+agent_act:conf_budget conf_timel 
+user:对
+{ok(budget=50000元,timel=一周)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req_pernum req_time 
+user:上海市虹口区
+{inf(loc=上海市虹口区)}
+user:30人
+{inf(pernum=30人)}
+user:下个月10号召开的会议
+{inf(time=下个月10号)}
+agent_act:conf_pernum conf_loc 
+user:对
+{ok(pernum=30人,loc=上海市虹口区)}
+agent_act:req_budget conf_time 
+user:一天
+{inf(timel=一天)}
+user:6000元预算
+{inf(budget=6000元)}
+agent_act:conf_budget conf_timel 
+user:对
+{ok(budget=6000元,timel=1天)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:下周四
+{inf(time=下周四)}
+user:时长一天
+{inf(timel=一天)}
+user:预算30000元
+{inf(budget=30000元)}
+agent_act:conf_time conf_timel 
+user:对
+{ok(time=下周四,timel=1天)}
+agent_act:req_pernum conf_budget 
+user:北京市海淀区
+{inf(loc=北京市海淀区)}
+user:30人左右的会议室是有吗
+{inf(pernum=30人左右)}
+agent_act:conf_pernum conf_loc 
+user:对
+{ok(pernum=30人,loc=北京市海淀区)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:七月一号召开
+{inf(time=七月一号)}
+user:时长
+{other()}
+user:几个小时
+{inf(timel=几个小时)}
+user:预算10000元
+{inf(budget=10000元)}
+agent_act:conf_time conf_timel 
+user:对
+{ok(time=七月一号,timel=几个小时)}
+agent_act:req_pernum conf_budget 
+user:郑州市管城区
+{inf(loc=郑州市管城区)}
+user:20人与会
+{inf(pernum=20人)}
+agent_act:conf_pernum conf_loc 
+user:对
+{ok(pernum=20人,loc=郑州市)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:这周末
+{inf(time=这周末)}
+user:为期一天
+{inf(timel=一天)}
+user:预算100000元
+{inf(budget=100000元)}
+agent_act:conf_timel conf_time 
+user:对
+{ok(timel=1天,time=这周末)}
+agent_act:req_pernum conf_budget 
+user:北京市朝阳区
+{inf(loc=北京市朝阳区)}
+user:一百人
+{inf(pernum=一百人)}
+agent_act:conf_pernum conf_loc 
+user:对
+{ok(pernum=100人,loc=北京市朝阳区)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:25号
+{inf(time=25号)}
+user:一周
+{inf(timel=一周)}
+user:五千的预算
+{inf(budget=五千)}
+agent_act:conf_time conf_timel 
+user:对
+{ok(time=25号,timel=1周)}
+agent_act:req_loc 
+user:50000元的预算
+{inf(budget=50000元)}
+user:海淀区西直门
+{inf(loc=海淀区西直门)}
+user:30人
+{inf(pernum=30人)}
+agent_act:conf_budget conf_pernum 
+user:对
+{inf(budget=50000元,pernum=30人)}
+agent_act:req_loc 
+user:海淀区西直门
+{inf(loc=海淀区西直门)}
+agent_act:conf_loc 
+user:对
+{inf(loc=海淀区西直门)}
+agent_act:done 
+****************
+user:25号
+{inf(time=25号)}
+user:一周
+{inf(timel=一周)}
+user:预算50000元
+{inf(budget=50000元)}
+agent_act:req_pernum conf_time 
+user:海淀区西直门
+{inf(loc=海淀区西直门)}
+user:30人
+{inf(pernum=30人)}
+agent_act:conf_pernum conf_loc 
+user:对
+{ok(pernum=30人,loc=海淀区西直门)}
+agent_act:conf_budget conf_timel 
+user:对
+{ok(budget=50000元,timel=1周)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:25号
+{inf(time=25号)}
+user:一周
+{inf(timel=一周)}
+user:50000元预算
+{inf(budget=50000元)}
+agent_act:conf_time conf_timel 
+user:对
+{ok(time=25号,timel=1周)}
+agent_act:req_pernum conf_budget 
+user:海淀区西直门
+{inf(loc=海淀区西直门)}
+user:30人
+{inf(pernum=30人)}
+agent_act:conf_pernum conf_loc 
+user:对
+{ok(pernum=30人,loc=海淀区)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:下个月10号
+{inf(time=下个月10号)}
+user:一天
+{inf(timel=一天)}
+user:6000元的预算
+{inf(budget=6000元)}
+agent_act:conf_time conf_timel 
+user:对
+{ok(time=下个月10号,timel=1天)}
+agent_act:req_pernum 
+user:上海市虹口区
+{inf(loc=上海市虹口区)}
+user:30人
+{inf(pernum=30人)}
+agent_act:conf_pernum conf_loc 
+user:对
+{ok(pernum=30人,loc=上海市虹口区)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:北京市海淀区
+{inf(loc=北京市海淀区)}
+user:容纳30人左右的
+{inf(pernum=30人左右)}
+user:下周四召开
+{inf(time=下周四)}
+user:为期一天
+{inf(timel=一天)}
+user:预算30000元
+{inf(budget=30000元)}
+user:有什么推荐吗
+{other()}
+agent_act:conf_pernum conf_loc 
+user:dui
+{other()}
+agent_act:conf_time conf_timel 
+user:对
+{ok(time=下周四,timel=1天)}
+agent_act:conf_budget 
+user:对
+{ok(budget=30000)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:郑州市二七区
+{inf(loc=郑州市二七区)}
+user:会有20人与会的
+{inf(pernum=20人)}
+user:七月一号召开
+{inf(time=七月一号)}
+user:+几个小时的时长
+{inf(timel=几个小时)}
+user:10000元的预算可以吗
+{inf(budget=10000元)}
+agent_act:conf_loc 
+user:不对
+{rej(loc=郑州市)}
+agent_act:conf_loc req_pernum 
+user:20人
+{inf(pernum=20人)}
+agent_act:conf_pernum conf_time 
+user:对
+{ok(pernum=20人,time=七月一号)}
+agent_act:conf_budget conf_timel 
+user:对
+{ok(budget=10000元,timel=几个小时)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:这周末的
+{inf(time=这周末)}
+user:北京市朝阳区的会议室
+{inf(loc=北京市朝阳区)}
+user:能容纳一百人
+{inf(pernum=一百人)}
+user:为期一天
+{inf(timel=一天)}
+user:预算100000元可以吗
+{inf(budget=100000元)}
+agent_act:conf_loc conf_pernum 
+user:对
+{ok(loc=北京市朝阳区,pernum=100人)}
+agent_act:conf_time conf_timel 
+user:对
+{ok(time=这周末,timel=1天)}
+agent_act:conf_budget 
+user:对
+{ok(budget=100000)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:预算50000
+{inf(budget=50000)}
+user:在海淀区西直门
+{inf(loc=在海淀区西直门)}
+user:有30人
+{inf(pernum=30人)}
+user:25号召开
+{inf(time=25号)}
+user:为期一周可以吗
+{inf(timel=一周)}
+agent_act:conf_loc conf_pernum 
+user:对
+{ok(loc=在海淀区西直门,pernum=30人)}
+agent_act:req_budget conf_time 
+user:5000000
+{inf(budget=5000000)}
+agent_act:conf_timel conf_budget 
+user:对
+{ok(timel=1周,budget=5000000)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:预算50000元
+{inf(budget=50000元)}
+user:在海淀区西直门
+{inf(loc=海淀区西直门)}
+user:有30人
+{inf(pernum=30人)}
+user:25号召开
+{inf(time=25号)}
+user:为期一周可以吗
+{inf(timel=一周)}
+agent_act:conf_pernum conf_loc 
+user:对
+{ok(pernum=30人,loc=海淀区西直门)}
+agent_act:conf_time conf_timel 
+user:对
+{ok(time=25号,timel=一周)}
+agent_act:conf_budget 
+user:对
+{ok(budget=50000)}
+agent_act:done 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:上海市虹口区
+{inf(loc=上海市虹口区)}
+user:30人
+{inf(pernum=30人)}
+user:下个月10号
+{inf(time=下个月10号)}
+user:为期一天
+{inf(timel=一天)}
+user:6000元预算
+{inf(budget=6000元)}
+agent_act:conf_pernum conf_loc 
+user:对
+{ok(pernum=30人,loc=上海市虹口区)}
+agent_act:conf_time conf_timel 
+user:对
+{ok(time=下个月10号,timel=1天)}
+agent_act:conf_budget 
+user:对
+{ok(budget=6000)}
+agent_act:done 
+****************
+user:30000元
+{inf(budget=30000元)}
+agent_act:req_timel conf_budget 
+user:铁路系统会议
+{inf()}
+agent_act:req 
+user:关于车辆调度的会议
+{inf()}
+agent_act:req 
+user:14人左右
+{inf(pernum=14人左右)}
+agent_act:req_budget conf_pernum 
+user:1000元
+{inf(budget=1000元)}
+agent_act:req_timel conf_budget 
+user:2小时
+{inf(timel=2小时)}
+agent_act:req_loc conf_timel 
+user:青岛
+{inf(loc=青岛)}
+agent_act:conf_loc conf_pernum 
+user:你好
+{hello()}
+agent_act:req 
+user:3人
+{inf(pernum=3人)}
+agent_act:req 
+user:3人的会议
+{inf(pernum=3人)}
+agent_act:req 
+user:3日开会
+{inf(time=3日)}
+agent_act:req 
+user:300人的会议室
+{inf(pernum=300人)}
+agent_act:req_budget conf_pernum 
+user:3000元
+{inf(budget=3000元)}
+agent_act:req_timel conf_budget 
+user:3000???
+{inf(budget=3000)}
+agent_act:req_timel conf_budget 
+user:3天
+{inf(timel=3天)}
+agent_act:req_loc conf_timel 
+user:北京邮电大学
+{inf(loc=北京邮电大学)}
+agent_act:req_loc conf_time 
+user:北京邮电大学
+{inf(loc=北京邮电大学)}
+agent_act:req_loc 
+user:北京邮电大学
+{inf(loc=北京邮电大学)}
+agent_act:req_loc 
+user:北京邮电大学
+{inf(loc=北京邮电大学)}
+agent_act:req_loc 
+user:北京邮电大学
+{inf(loc=北京邮电大学)}
+agent_act:req_loc 
+user:北邮
+{inf(loc=北邮)}
+agent_act:req_loc 
+user:北京
+{inf(loc=北京)}
+agent_act:conf_loc 
+user:??????
+{other()}
+agent_act:req 
+user:使得
+{other()}
+agent_act:done 
+user:3?oo
+{other()}
+agent_act:req 
+user:????o??????????????-|
+{other()}
+agent_act:req 
+user:????o?
+{other()}
+agent_act:req_pernum req_time 
+user:???????
+{other()}
+agent_act:req 
+user:主会议中心
+{inf(loc=主会议中心)}
+agent_act:req 
+user:30人
+{inf(pernum=30人)}
+agent_act:req_time req_loc conf_pernum 
+user:2015-6-17
+{inf(time=2015-6-17)}
+user:主会议大厅201
+{inf(loc=主会议大厅201)}
+agent_act:req_budget conf_time 
+user:2000
+{inf(budget=2000)}
+agent_act:req_timel conf_budget 
+user:半天
+{inf(timel=半天)}
+agent_act:req_loc conf_timel 
+user:主会议室大厅
+{inf(loc=主会议室大厅)}
+agent_act:req_loc 
+user:北极
+{inf(loc=北极)}
+agent_act:req_loc 
+****************
+user:你好
+{hello()}
+agent_act:req 
+user:北京,
+{inf(loc=北京)}
+user:十月三号,
+{inf(time=十月三号)}
+user:300人
+{inf(pernum=300人)}
+agent_act:conf_loc conf_ pernum 
+****************
+user:你好
+{hello()}
+agent_act:req_pernum req_time 
+user:北京,
+{inf(loc=北京)}
+user:十月三号,
+{inf(time=十月三号)}
+user:300人
+{inf(pernum=300人)}
+agent_act:conf_pernum conf_loc 
+user:是的
+{ok(pernum=300人,loc=北京)}
+agent_act:conf_time req_budget 
+user:30000元
+{inf(budget=30000元)}
+agent_act:conf_budget req_timel 
+user:几天
+{inf(timel=几天)}
+agent_act:conf_timel 
+user:对
+{ok(timel=几天)}
+agent_act:done 
+****************
+user:北京的会议室
+{inf(loc=北京)}
+agent_act:conf_loc req_pernum 
+user:300人
+{inf(pernum=300人)}
+agent_act:conf_pernum req_budget 
+user:3000元
+{inf(budget=3000元)}
+agent_act:conf_budget req_timel 
+user:几天
+{inf(timel=几天)}
+agent_act:conf_timel req_time 
+user:十月三号
+{inf(time=十月三号)}
+agent_act:conf_time 
+user:恩
+{ok(time=十月三号)}
+agent_act:done 
+****************

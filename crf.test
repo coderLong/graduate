@@ -1,0 +1,3763 @@
+
+user:
+???????
+user_tag:O O O O O O O 
+user_intention:other
+user_act:1 other
+agent_act:null
+user:
+我要订uiyishi1
+user_tag:O O O O O O O O O O O 
+user_intention:inf
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+1000人的
+user_tag:B_pernum I_pernum I_pernum I_pernum I_pernum O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req 
+user:
+1000?oo???
+user_tag:B_pernum I_pernum I_pernum I_pernum O O O O O O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_time req_loc conf_pernum 
+user:
+????????500?oo????
+user_tag:O O O O O O O O O O O O O O O O O O 
+user_intention:other
+user_act:1 other
+agent_act:req_timel conf_pernum 
+user:
+还是500人吧
+user_tag:O O B_pernum I_pernum I_pernum I_pernum O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_timel conf_pernum 
+user:
+改一下
+user_tag:O O O 
+user_intention:inf
+user_act:1 inf
+agent_act:req_timel req_budget conf_pernum 
+user:
+400人
+user_tag:B_pernum I_pernum I_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_timel req_budget conf_pernum 
+user:
+??1??????
+user_tag:O O O O O O O O O 
+user_intention:other
+user_act:1 other
+agent_act:req_budget 
+user:
+400?oo
+user_tag:O O O O O O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_budget 
+user:
+人数改为400人
+user_tag:O O O O B_pernum I_pernum I_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_timel req_budget conf_pernum 
+user:
+400
+user_tag:B_pernum I_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:select_pernum 
+user:
+400人
+user_tag:B_pernum I_pernum I_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_timel conf_budget 
+user:
+预算5000元
+user_tag:O O B_budget I_budget I_budget I_budget I_budget 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req_timel 
+user:
+5000
+user_tag:B_budget I_budget I_budget I_budget 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:select_budget 
+user:
+5000
+user_tag:B_budget I_budget I_budget I_budget 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:select_pernum 
+user:
+500人参会
+user_tag:B_pernum I_pernum I_pernum I_pernum O O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_timel conf_pernum 
+user:
+500?oo??????
+user_tag:B_pernum I_pernum I_pernum O O O O O O O O O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_timel conf_budget 
+user:
+9天
+user_tag:B_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req_timel conf_pernum 
+user:
+9????
+user_tag:B_timel O O O O 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req_time conf_timel 
+user:
+明天开始
+user_tag:B_time I_time O O 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req_budget conf_pernum 
+user:
+下周二
+user_tag:B_time I_time I_time 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req_time 
+user:
+下周五吧还是
+user_tag:B_time I_time I_time O O O 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req_loc conf_time 
+user:
+???????????
+user_tag:O O O O O O O O O O O 
+user_intention:other
+user_act:1 other
+agent_act:req_loc conf_time 
+user:
+在北邮
+user_tag:O B_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+南京大学附近
+user_tag:B_loc I_loc I_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_loc req_pernum req_time 
+user:
+南京大学附近都可以
+user_tag:B_loc I_loc I_loc I_loc I_loc I_loc O O O 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_loc 
+user:
+就在南京大学边上
+user_tag:O O B_loc I_loc I_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_loc 
+user:
+????????????o??????-|???1???
+user_tag:O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+user_intention:other
+user_act:1 other
+agent_act:req_loc 
+user:
+南京大学附近
+user_tag:B_loc I_loc I_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req 
+user:
+南京
+user_tag:B_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_loc 
+user:
+是
+user_tag:O 
+user_intention:ok_loc
+user_act:1 ok
+agent_act:conf_loc 
+************
+user:
+你好
+user_tag:O O 
+user_intention:hello
+user_act:1 hello
+agent_act:null
+user:
+???????
+user_tag:O O O O O O O 
+user_intention:other
+user_act:1 other
+agent_act:req 
+user:
+要一个1000人的会议室
+user_tag:O O O B_pernum I_pernum I_pernum I_pernum I_pernum O O O O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+还是500人吧
+user_tag:O O B_pernum I_pernum I_pernum I_pernum O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:conf_pernum req_loc req_time 
+user:
+2000元吧
+user_tag:B_budget I_budget I_budget I_budget I_budget O 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req_budget conf_pernum 
+user:
+2000???????
+user_tag:O O O O O O O O O O O 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req_timel conf_budget 
+user:
+1周
+user_tag:O O 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req_timel conf_pernum 
+user:
+1????
+user_tag:O O O O O 
+user_intention:other
+user_act:1 other
+agent_act:req_time conf_timel 
+user:
+明天
+user_tag:B_time I_time 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+???????
+user_tag:O O O O O O O 
+user_intention:other
+user_act:1 other
+agent_act:req_time 
+user:
+后天
+user_tag:B_time I_time 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req 
+user:
+6月10日
+user_tag:B_time I_time I_time I_time I_time 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req_loc req_time 
+user:
+南京大学附近
+user_tag:B_loc I_loc I_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_loc conf_time 
+user:
+南京大学
+user_tag:B_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_loc 
+user:
+????o??????-|
+user_tag:O O O O O O O O O O O O O 
+user_intention:other
+user_act:1 other
+agent_act:req_loc 
+user:
+在南京大学
+user_tag:O B_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req 
+user:
+????????o??????-|
+user_tag:O O O O O O O O O O O O O O O O O 
+user_intention:other
+user_act:1 other
+agent_act:req_loc 
+user:
+在南京
+user_tag:O B_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req 
+user:
+????????o?
+user_tag:O O O O O O O O O O 
+user_intention:other
+user_act:1 other
+agent_act:conf_loc 
+user:
+对的
+user_tag:O O 
+user_intention:ok_loc
+user_act:1 ok
+agent_act:req_pernum req_time 
+************
+user:
+你好
+user_tag:O O 
+user_intention:hello
+user_act:1 hello
+agent_act:null
+user:
+???????
+user_tag:O O O O O O O 
+user_intention:other
+user_act:1 other
+agent_act:req_pernum req_time 
+user:
+我要订5人3天的会议室
+user_tag:O O O B_pernum I_pernum B_timel I_timel O O O O 
+user_intention:inf_pernum inf_timel
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+5人
+user_tag:B_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:conf_timel req_loc req_pernum 
+user:
+5?oo
+user_tag:B_pernum O O O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_budget conf_pernum 
+user:
+3000
+user_tag:B_budget I_budget I_budget I_budget 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req_budget conf_pernum 
+user:
+3000
+user_tag:B_budget I_budget I_budget I_budget 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req_time conf_budget 
+user:
+2000元开5天
+user_tag:B_budget I_budget I_budget I_budget I_budget O B_timel I_timel 
+user_intention:inf_budget inf_timel
+user_act:1 inf
+agent_act:req_timel conf_pernum 
+user:
+要改一下人数
+user_tag:O O O O O O 
+user_intention:inf
+user_act:1 inf
+agent_act:req_time 
+user:
+6人开会
+user_tag:B_pernum I_pernum O O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_loc req_time 
+user:
+6人
+user_tag:B_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:select_pernum 
+user:
+6?oo
+user_tag:O O O O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_time req_loc 
+user:
+6月8日在南京
+user_tag:B_time I_time I_time I_time O B_loc I_loc 
+user_intention:inf_time inf_loc
+user_act:1 inf
+agent_act:req_budget conf_pernum 
+user:
+是的
+user_tag:O O 
+user_intention:ok_time ok_loc
+user_act:1 ok
+agent_act:conf_time conf_loc 
+************
+user:
+5人3天的会议室
+user_tag:B_pernum I_pernum B_timel I_timel O O O O 
+user_intention:inf_pernum inf_timel
+user_act:1 inf
+agent_act:null
+user:
+3000元
+user_tag:B_budget I_budget I_budget I_budget I_budget 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req_budget 
+user:
+3000???
+user_tag:B_budget I_budget I_budget I_budget O O O 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req_time conf_budget 
+user:
+4号
+user_tag:B_time I_time 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req_timel conf_pernum 
+user:
+4????
+user_tag:B_time O O O O 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req_pernum conf_time 
+user:
+3天5人
+user_tag:B_timel I_timel B_pernum I_pernum 
+user_intention:inf_pernum inf_timel
+user_act:1 inf
+agent_act:req_budget conf_pernum 
+user:
+3????5?oo
+user_tag:B_timel O O O O O O O O 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req_pernum 
+user:
+4天5人
+user_tag:B_timel I_timel B_pernum I_pernum 
+user_intention:inf_pernum inf_timel
+user_act:1 inf
+agent_act:req_budget conf_pernum 
+user:
+4????5?oo
+user_tag:B_timel O O O O O O O O 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:select_timel 
+user:
+4天
+user_tag:B_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:select_pernum req_budget 
+user:
+5人
+user_tag:B_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_pernum req_loc 
+user:
+5个人开4天
+user_tag:O O O O B_timel I_timel 
+user_intention:inf_pernum inf_timel
+user_act:1 inf
+agent_act:req_loc conf_pernum 
+user:
+6个人开3天吧
+user_tag:O O O O B_timel I_timel O 
+user_intention:inf_pernum inf_timel
+user_act:1 inf
+agent_act:req_loc 
+user:
+6??a?oo???3????????
+user_tag:O O O O O O O O O O O O O O O O O O O 
+user_intention:other
+user_act:1 other
+agent_act:select_timel 
+user:
+3天
+user_tag:B_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req_budget conf_pernum 
+user:
+5号
+user_tag:B_time I_time 
+user_intention:inf_time
+user_act:1 inf
+agent_act:select_time 
+user:
+5号8个人
+user_tag:B_time I_time B_pernum I_pernum I_pernum 
+user_intention:inf_time inf_pernum
+user_act:1 inf
+agent_act:req_loc conf_time 
+user:
+5????8??a?oo
+user_tag:O O O O O O O O O O O O 
+user_intention:other
+user_act:1 other
+agent_act:req_loc 
+user:
+8个人开会
+user_tag:B_pernum I_pernum I_pernum O O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:select_pernum req_budget 
+user:
+8??a?oo??????
+user_tag:B_pernum O O O O O O O O O O O O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:select_pernum 
+user:
+8人
+user_tag:B_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_budget conf_pernum 
+user:
+南京大学
+user_tag:B_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_loc 
+user:
+改为9人
+user_tag:O O B_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_loc 
+user:
+??1??o9?oo
+user_tag:O O O O O O O O O O 
+user_intention:other
+user_act:1 other
+agent_act:select_pernum 
+user:
+改为12人吧
+user_tag:O O B_pernum I_pernum I_pernum O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_budget conf_pernum 
+user:
+??1??o12?oo????
+user_tag:O O O O O O O O O O O O O O O 
+user_intention:other
+user_act:1 other
+agent_act:req_loc conf_pernum 
+user:
+12
+user_tag:B_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_budget conf_pernum 
+user:
+12
+user_tag:B_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_loc 
+user:
+200
+user_tag:B_budget I_budget I_budget 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req_budget conf_pernum 
+user:
+200人吧
+user_tag:B_pernum I_pernum I_pernum I_pernum O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_timel conf_pernum 
+user:
+300人开
+user_tag:B_pernum I_pernum I_pernum I_pernum O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_loc 
+user:
+300人
+user_tag:B_pernum I_pernum I_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:select_pernum 
+user:
+北京大学
+user_tag:B_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_loc 
+user:
+北京市
+user_tag:B_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_loc 
+user:
+ok
+user_tag:O O 
+user_intention:ok_loc
+user_act:1 ok
+agent_act:conf_loc 
+************
+user:
+一个人的会议室
+user_tag:B_pernum I_pernum I_pernum O O O O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:null
+user:
+?????a?oo??????????????
+user_tag:O O O O O O O O O O O O O O O O O O O O O O O 
+user_intention:other
+user_act:1 other
+agent_act:req 
+user:
+一个人
+user_tag:B_pernum I_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+?????a?oo
+user_tag:O O O O O O O O O 
+user_intention:other
+user_act:1 other
+agent_act:req 
+user:
+1
+user_tag:B_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+1个人
+user_tag:O O O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req 
+user:
+1人开会
+user_tag:B_pernum I_pernum O O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+3人
+user_tag:B_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req 
+user:
+4人
+user_tag:B_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+4?oo
+user_tag:B_pernum O O O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_budget conf_pernum 
+user:
+2人
+user_tag:B_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_budget conf_pernum 
+user:
+2?oo
+user_tag:B_pernum O O O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_budget 
+user:
+3个人
+user_tag:B_pernum I_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req 
+user:
+3??a?oo
+user_tag:B_pernum O O O O O O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_loc 
+user:
+改一下人数
+user_tag:O O O O O 
+user_intention:inf
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+??1???????oo????
+user_tag:O O O O O O O O O O O O O O O O 
+user_intention:other
+user_act:1 other
+agent_act:req_loc req_time 
+user:
+8
+user_tag:O 
+user_intention:other
+user_act:1 other
+agent_act:req_pernum req_time 
+user:
+8
+user_tag:O 
+user_intention:other
+user_act:1 other
+agent_act:req_loc 
+user:
+改为8人
+user_tag:O O B_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_budget conf_pernum 
+user:
+??1??o8?oo
+user_tag:O O O O O O O O O O 
+user_intention:other
+user_act:1 other
+agent_act:select_pernum 
+user:
+12
+user_tag:O O 
+user_intention:other
+user_act:1 other
+agent_act:req_budget conf_pernum 
+user:
+参会人数80
+user_tag:O O O O B_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_budget conf_pernum 
+user:
+???????oo????80
+user_tag:O O O O O O O O O O O O O B_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_budget conf_pernum 
+user:
+预算8000
+user_tag:O O B_budget I_budget I_budget I_budget 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req_budget conf_pernum 
+user:
+????????8000
+user_tag:O O O O O O O O B_budget I_budget I_budget I_budget 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req_timel conf_budget 
+user:
+会议长80
+user_tag:O O O B_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req_timel conf_pernum 
+user:
+南京的大学开
+user_tag:B_loc I_loc I_loc I_loc I_loc O 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_timel 
+user:
+????o?????????-|???
+user_tag:O O O O O O O O O O O O O O O O O O O 
+user_intention:other
+user_act:1 other
+agent_act:req_timel conf_loc 
+user:
+在南京的一个大学里开
+user_tag:O B_loc I_loc I_loc I_loc I_loc I_loc I_loc I_loc O 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req 
+user:
+????????o?????????a?????-|???????
+user_tag:O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+user_intention:other
+user_act:1 other
+agent_act:req_timel 
+user:
+改在北京的某个大学开吧
+user_tag:O O B_loc I_loc I_loc I_loc I_loc I_loc I_loc O O 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+我想预定明天的会议室
+user_tag:O O O O B_time I_time O O O O 
+user_intention:inf_time
+user_act:1 inf
+agent_act:select_loc 
+user:
+12个人
+user_tag:B_pernum I_pernum I_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req 
+user:
+地点在海淀
+user_tag:O O O B_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:conf_pernum req_loc req_time 
+user:
+你好
+user_tag:O O 
+user_intention:hello
+user_act:1 hello
+agent_act:req_loc 
+user:
+北京
+user_tag:B_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+30人
+user_tag:B_pernum I_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+十月三号的
+user_tag:B_time I_time I_time I_time O 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+恩
+user_tag:O 
+user_intention:ok_pernum ok_loc
+user_act:1 ok
+agent_act:conf_pernum conf_loc 
+user:
+3000元
+user_tag:B_budget I_budget I_budget I_budget I_budget 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req_budget conf_time 
+user:
+几天
+user_tag:B_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req_timel conf_budget 
+user:
+额n、
+user_tag:O O O 
+user_intention:ok_timel
+user_act:1 ok
+agent_act:conf_timel 
+************
+user:
+我日
+user_tag:O O 
+user_intention:other
+user_act:1 other
+agent_act:null
+user:
+190
+user_tag:B_budget I_budget I_budget 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req_budget 
+user:
+2
+user_tag:B_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req_timel conf_budget 
+user:
+2h
+user_tag:B_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req_timel 
+user:
+3小时
+user_tag:B_timel I_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:select_time 
+user:
+180人
+user_tag:B_pernum I_pernum I_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_pernum conf_timel 
+user:
+你好
+user_tag:O O 
+user_intention:hello
+user_act:1 hello
+agent_act:req_loc conf_pernum 
+user:
+你好
+user_tag:O O 
+user_intention:hello
+user_act:1 hello
+agent_act:req 
+user:
+重庆
+user_tag:B_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+不送
+user_tag:O O 
+user_intention:other
+user_act:1 other
+agent_act:conf_loc 
+user:
+重庆
+user_tag:B_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_loc 
+user:
+开会
+user_tag:O O 
+user_intention:other
+user_act:1 other
+agent_act:conf_loc 
+user:
+是
+user_tag:O 
+user_intention:ok_loc
+user_act:1 ok
+agent_act:req 
+************
+user:
+你好
+user_tag:O O 
+user_intention:hello
+user_act:1 hello
+agent_act:null
+user:
+北京
+user_tag:B_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+你好
+user_tag:O O 
+user_intention:hello
+user_act:1 hello
+agent_act:req_budget conf_loc 
+user:
+5000
+user_tag:B_budget I_budget I_budget I_budget 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req_budget 
+user:
+你吃饭了吗？
+user_tag:O O O O O O 
+user_intention:other
+user_act:1 other
+agent_act:req_timel conf_budget 
+user:
+12.
+user_tag:O O O 
+user_intention:other
+user_act:1 other
+agent_act:req 
+user:
+好吃的
+user_tag:O O O 
+user_intention:other
+user_act:1 other
+agent_act:req_timel conf_pernum 
+user:
+120
+user_tag:O O O 
+user_intention:other
+user_act:1 other
+agent_act:req 
+user:
+我要订会议室
+user_tag:O O O O O O 
+user_intention:other
+user_act:1 other
+agent_act:select_budget 
+user:
+?????|?????????????????
+user_tag:O O O O O O O O O O O O O O O O O O O O O O O 
+user_intention:other
+user_act:1 other
+agent_act:req 
+user:
+吃货会议
+user_tag:O O O O 
+user_intention:inf
+user_act:1 inf
+agent_act:req 
+user:
+我要订会议室
+user_tag:O O O O O O 
+user_intention:other
+user_act:1 other
+agent_act:req 
+user:
+100人开会
+user_tag:B_pernum I_pernum I_pernum I_pernum O O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req 
+user:
+100?oo??????
+user_tag:O O O O O O O O O O O O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_budget conf_pernum 
+user:
+大的
+user_tag:O O 
+user_intention:inf
+user_act:1 inf
+agent_act:req_timel conf_pernum 
+user:
+5000元
+user_tag:B_budget I_budget I_budget I_budget I_budget 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req 
+user:
+5000???
+user_tag:B_budget I_budget I_budget I_budget O O O 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req_timel conf_budget 
+user:
+8天吧
+user_tag:B_timel I_timel O 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req_timel conf_pernum 
+user:
+10000人开会
+user_tag:B_pernum I_pernum I_pernum I_pernum I_pernum I_pernum O O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_time conf_timel 
+user:
+容纳300人左右
+user_tag:O O B_pernum I_pernum I_pernum I_pernum I_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_time req_loc conf_pernum 
+user:
+8月1日
+user_tag:B_time I_time I_time I_time 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req_budget conf_pernum 
+user:
+300
+user_tag:B_budget I_budget I_budget 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req_loc conf_time 
+user:
+北京
+user_tag:B_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_timel conf_budget 
+user:
+2h
+user_tag:B_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:conf_loc 
+user:
+是的
+user_tag:O O 
+user_intention:ok_loc
+user_act:1 ok
+agent_act:req_timel conf_time 
+************
+user:
+30000人呢？
+user_tag:B_pernum I_pernum I_pernum I_pernum I_pernum I_pernum O O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:null
+user:
+订会议室
+user_tag:O O O O 
+user_intention:other
+user_act:1 other
+agent_act:req_budget conf_pernum 
+user:
+????????????????
+user_tag:O O O O O O O O O O O O O O O O 
+user_intention:other
+user_act:1 other
+agent_act:req 
+user:
+500000人呢？
+user_tag:B_pernum I_pernum I_pernum I_pernum I_pernum I_pernum I_pernum O O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req 
+user:
+8天
+user_tag:B_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req_budget conf_pernum 
+user:
+8????
+user_tag:O O O O O 
+user_intention:other
+user_act:1 other
+agent_act:req_pernum req_loc conf_timel 
+user:
+你们真的有这么大的会议室吗？
+user_tag:O O O O O O O O O O O O O O 
+user_intention:other
+user_act:1 other
+agent_act:req_budget conf_pernum 
+user:
+6999元吧
+user_tag:B_budget I_budget I_budget I_budget I_budget O 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req_loc 
+user:
+订会议室
+user_tag:O O O O 
+user_intention:other
+user_act:1 other
+agent_act:conf_budget req_loc req_time 
+user:
+是
+user_tag:O 
+user_intention:ok_budget
+user_act:1 ok
+agent_act:req 
+user:
+????
+user_tag:O O O O 
+user_intention:other
+user_act:1 other
+agent_act:req_loc 
+user:
+谭某某交流会
+user_tag:O O O O O O 
+user_intention:inf
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+上海北京广东都行
+user_tag:O O O O O O O O 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req 
+user:
+批斗会
+user_tag:O O O 
+user_intention:inf
+user_act:1 inf
+agent_act:req_loc 
+user:
+南京
+user_tag:B_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req 
+user:
+北上广
+user_tag:B_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_pernum req_time conf_loc 
+user:
+500人的
+user_tag:B_pernum I_pernum I_pernum I_pernum O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_time req_loc 
+user:
+你没听清吗？
+user_tag:O O O O O O 
+user_intention:other
+user_act:1 other
+agent_act:req_loc req_time conf_pernum 
+user:
+北上广
+user_tag:B_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_loc req_time conf_pernum 
+user:
+8月8号,
+user_tag:B_time I_time I_time I_time O 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req_loc 
+user:
+北京
+user_tag:B_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_loc 
+user:
+50000
+user_tag:B_budget I_budget I_budget I_budget I_budget 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req_budget 
+user:
+10天
+user_tag:B_timel I_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req_timel conf_budget 
+user:
+1000人
+user_tag:B_pernum I_pernum I_pernum I_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:conf_timel conf_time 
+user:
+80人
+user_tag:B_pernum I_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_budget conf_pernum 
+user:
+是8
+user_tag:O O 
+user_intention:ok_pernum
+user_act:1 ok
+agent_act:req_timel conf_pernum 
+************
+user:
+80人
+user_tag:B_pernum I_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:null
+user:
+????????????o????????
+user_tag:O O O O O O O O O O O O O O O O O O O O O 
+user_intention:other
+user_act:1 other
+agent_act:req_timel 
+user:
+还在北京开吧
+user_tag:O O B_loc I_loc O O 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+beijing
+user_tag:O O O O O O O 
+user_intention:other
+user_act:1 other
+agent_act:req_time select_loc req_pernum 
+user:
+北京
+user_tag:B_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req 
+user:
+是
+user_tag:O 
+user_intention:ok_loc
+user_act:1 ok
+agent_act:req_pernum req_time conf_loc 
+user:
+80人
+user_tag:B_pernum I_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_pernum 
+user:
+是
+user_tag:O 
+user_intention:ok_pernum
+user_act:1 ok
+agent_act:req_time conf_pernum 
+user:
+还在南京吧
+user_tag:O O B_loc I_loc O 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_time 
+user:
+????????????o?????
+user_tag:O O O O O O O O O O O O O O O O O O 
+user_intention:other
+user_act:1 other
+agent_act:req_budget req_time 
+user:
+8月8号十点
+user_tag:B_time I_time I_time I_time I_time I_time 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req 
+user:
+是
+user_tag:O 
+user_intention:ok_time
+user_act:1 ok
+agent_act:req_timel conf_time 
+user:
+还在天津开吧
+user_tag:O O B_loc I_loc O O 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_timel req_budget 
+user:
+??????????????????????
+user_tag:O O O O O O O O O O O O O O O O O O O O O O 
+user_intention:other
+user_act:1 other
+agent_act:select_loc 
+user:
+北京
+user_tag:B_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req 
+user:
+8月1日
+user_tag:B_time I_time I_time I_time 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req_time req_budget 
+user:
+1000元
+user_tag:B_budget I_budget I_budget I_budget I_budget 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req_time req_budget 
+user:
+是
+user_tag:O 
+user_intention:ok_time ok_budget
+user_act:1 ok
+agent_act:conf_time conf_budget 
+************
+user:
+龙岩
+user_tag:B_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:null
+user:
+?????2?
+user_tag:O O O O O O O 
+user_intention:other
+user_act:1 other
+agent_act:req_pernum req_time 
+user:
+你好
+user_tag:O O 
+user_intention:hello
+user_act:1 hello
+agent_act:req 
+user:
+开会人数多
+user_tag:O O O O O 
+user_intention:inf
+user_act:1 inf
+agent_act:req 
+user:
+?????o???????????
+user_tag:O O O O O O O O O O O O O O O O O 
+user_intention:other
+user_act:1 other
+agent_act:req 
+user:
+会场高大上
+user_tag:O O O O O 
+user_intention:inf
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+5人三天的会议
+user_tag:B_pernum I_pernum B_timel I_timel O O O 
+user_intention:inf_pernum inf_timel
+user_act:1 inf
+agent_act:req 
+user:
+我要开学术会议
+user_tag:O O O O O O O 
+user_intention:inf
+user_act:1 inf
+agent_act:req_budget conf_pernum conf_timel 
+user:
+1000
+user_tag:O O O O 
+user_intention:other
+user_act:1 other
+agent_act:req 
+user:
+1000人
+user_tag:B_pernum I_pernum I_pernum I_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_pernum conf_budget 
+user:
+不对
+user_tag:O O 
+user_intention:rej_pernum
+user_act:1 rej
+agent_act:req_loc req_time conf_pernum 
+user:
+??????1
+user_tag:O O O O O O O 
+user_intention:other
+user_act:1 other
+agent_act:req_pernum 
+user:
+5人
+user_tag:B_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req 
+user:
+北京
+user_tag:B_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_loc conf_pernum 
+user:
+?????????
+user_tag:O O O O O O O O O 
+user_intention:other
+user_act:1 other
+agent_act:conf_loc conf_timel 
+user:
+刚刚的
+user_tag:O O O 
+user_intention:other
+user_act:1 other
+agent_act:req_pernum req_time 
+user:
+不是,
+user_tag:O O O 
+user_intention:rej_loc
+user_act:1 rej
+agent_act:req_pernum req_time 
+user:
+地点在天津
+user_tag:O O O B_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+1000人
+user_tag:B_pernum I_pernum I_pernum I_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_timel conf_loc 
+user:
+明天开
+user_tag:B_time I_time O 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req_timel conf_loc 
+user:
+1000?oo
+user_tag:B_budget I_budget I_budget I_budget O O O 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req_budget conf_pernum 
+user:
+??????????
+user_tag:O O O O O O O O O O 
+user_intention:other
+user_act:1 other
+agent_act:req_budget conf_pernum 
+user:
+三天
+user_tag:B_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req_timel conf_pernum 
+user:
+是的
+user_tag:O O 
+user_intention:ok_timel
+user_act:1 ok
+agent_act:conf_timel 
+************
+user:
+预算不高
+user_tag:O O O O 
+user_intention:inf
+user_act:1 inf
+agent_act:null
+user:
+预定5个人开会的会议室,
+user_tag:O O B_pernum I_pernum I_pernum O O O O O O O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_pernum 
+user:
+时间为三天
+user_tag:O O O B_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req_pernum 
+user:
+还是500人吧
+user_tag:O O B_pernum I_pernum I_pernum I_pernum O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_budget conf_pernum 
+user:
+有
+user_tag:O 
+user_intention:inf
+user_act:1 inf
+agent_act:req_budget conf_pernum 
+user:
+???
+user_tag:O O O 
+user_intention:other
+user_act:1 other
+agent_act:req_budget 
+user:
+500
+user_tag:B_pernum I_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+500
+user_tag:B_pernum I_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_timel conf_pernum 
+user:
+5
+user_tag:B_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req_timel 
+user:
+5天
+user_tag:B_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:select_pernum 
+user:
+南京
+user_tag:B_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_loc conf_timel 
+user:
+????o?
+user_tag:O O O O O O 
+user_intention:other
+user_act:1 other
+agent_act:conf_timel conf_loc 
+user:
+200
+user_tag:O O O 
+user_intention:other
+user_act:1 other
+agent_act:req 
+user:
+对
+user_tag:O 
+user_intention:ok_budget
+user_act:1 ok
+agent_act:req_time conf_budget 
+************
+user:
+明天
+user_tag:B_time I_time 
+user_intention:inf_time
+user_act:1 inf
+agent_act:null
+user:
+???1
+user_tag:O O O O 
+user_intention:other
+user_act:1 other
+agent_act:done req_time conf_timel 
+user:
+6号
+user_tag:B_time I_time 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req 
+user:
+北京大学
+user_tag:B_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_loc conf_time 
+user:
+订会议室
+user_tag:O O O O 
+user_intention:other
+user_act:1 other
+agent_act:req_loc 
+user:
+河南大厦
+user_tag:B_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req 
+user:
+不是
+user_tag:O O 
+user_intention:rej_loc
+user_act:1 rej
+agent_act:conf_loc 
+user:
+北邮科技大厦
+user_tag:O O O O O O 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_loc 
+user:
+是的
+user_tag:O O 
+user_intention:ok_loc
+user_act:1 ok
+agent_act:conf_loc 
+************
+user:
+啥？
+user_tag:O O 
+user_intention:other
+user_act:1 other
+agent_act:null
+user:
+500人开8天预算5000元
+user_tag:B_pernum I_pernum I_pernum I_pernum O B_timel I_timel O O B_budget I_budget I_budget I_budget I_budget 
+user_intention:inf_pernum inf_timel inf_budget
+user_act:1 inf
+agent_act:req_timel req_loc 
+user:
+5人三天的会议
+user_tag:B_pernum I_pernum O O O O O 
+user_intention:inf_pernum inf_timel
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+2h
+user_tag:B_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req_budget conf_pernum conf_time 
+user:
+北邮
+user_tag:B_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_budget conf_pernum conf_time 
+user:
+北邮啊
+user_tag:B_loc I_loc O 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_loc 
+user:
+500人,
+user_tag:B_pernum I_pernum I_pernum I_pernum O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_timel req_loc 
+user:
+8天,
+user_tag:B_timel I_timel O 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req_timel req_loc 
+user:
+5000元
+user_tag:B_budget I_budget I_budget I_budget I_budget 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req_timel req_loc 
+user:
+8/8
+user_tag:B_time I_time I_time 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req_time conf_pernum 
+user:
+9天
+user_tag:B_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:conf_budget conf_timel 
+user:
+8/8
+user_tag:B_time I_time I_time 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req_time conf_timel 
+user:
+8/8
+user_tag:B_time I_time I_time 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req_time 
+user:
+5/8
+user_tag:B_time I_time I_time 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req_loc req_time 
+user:
+北京邮电大学
+user_tag:B_loc I_loc I_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_loc req_time 
+user:
+北京邮电大学
+user_tag:B_loc I_loc I_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_loc 
+user:
+8月8号,
+user_tag:B_time I_time I_time I_time O 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req_loc req_time 
+user:
+北京
+user_tag:B_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_loc req_time 
+user:
+你好
+user_tag:O O 
+user_intention:hello
+user_act:1 hello
+agent_act:conf_loc conf_time 
+user:
+能容纳300人的会议室
+user_tag:O O O B_loc I_loc I_loc I_loc O O O O 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req 
+user:
+6月15日,
+user_tag:B_time I_time I_time I_time I_time O 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req_time req_loc conf_loc 
+user:
+长沙
+user_tag:B_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_time req_loc conf_loc 
+user:
+1万
+user_tag:B_budget I_budget 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req_budget conf_time 
+user:
+1天
+user_tag:B_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req_timel conf_budget 
+user:
+长沙
+user_tag:B_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_loc conf_timel 
+user:
+对
+user_tag:O 
+user_intention:ok_loc
+user_act:1 ok
+agent_act:conf_loc 
+************
+user:
+你好
+user_tag:O O 
+user_intention:hello
+user_act:1 hello
+agent_act:null
+user:
+在北京市海淀区开会
+user_tag:O B_loc I_loc I_loc I_loc I_loc I_loc O O 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req 
+user:
+30人左右
+user_tag:B_pernum I_pernum I_pernum I_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_pernum req_time conf_loc 
+user:
+下周四召开
+user_tag:B_time I_time I_time O O 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req_budget conf_pernum 
+user:
+会议时长一天
+user_tag:O O O O B_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req_budget conf_time 
+user:
+30000元
+user_tag:B_budget I_budget I_budget I_budget I_budget I_budget 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req_budget conf_imel 
+user:
+对
+user_tag:O 
+user_intention:ok_budget
+user_act:1 ok
+agent_act:conf_budget 
+************
+user:
+你好
+user_tag:O O 
+user_intention:hello
+user_act:1 hello
+agent_act:null
+user:
+郑州市二七区
+user_tag:B_loc I_loc I_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+20人与会
+user_tag:B_pernum I_pernum I_pernum O O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_pernum req_time conf_loc 
+user:
+七月一号召开
+user_tag:B_time I_time I_time I_time O O 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req_budget conf_pernum 
+user:
+时长几个小时
+user_tag:O O B_timel I_timel I_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req_budget conf_time 
+user:
+预算10000元
+user_tag:O O B_budget I_budget I_budget I_budget I_budget I_budget 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req_budget conf_timel 
+user:
+对
+user_tag:O 
+user_intention:ok_budget
+user_act:1 ok
+agent_act:conf_budget 
+************
+user:
+你好
+user_tag:O O 
+user_intention:hello
+user_act:1 hello
+agent_act:null
+user:
+北京市朝阳区
+user_tag:B_loc I_loc I_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+容纳一百人
+user_tag:O O B_pernum I_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_pernum req_time conf_loc 
+user:
+这周末召开
+user_tag:B_time I_time I_time O O 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req_budget conf_pernum 
+user:
+时长一天
+user_tag:O O B_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req_budget conf_time 
+user:
+100000元
+user_tag:B_budget I_budget I_budget I_budget I_budget I_budget I_budget 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req_budget conf_timel 
+user:
+对
+user_tag:O 
+user_intention:ok_budget
+user_act:1 ok
+agent_act:conf_budget 
+************
+user:
+你好
+user_tag:O O 
+user_intention:hello
+user_act:1 hello
+agent_act:null
+user:
+海淀区西直门
+user_tag:B_loc I_loc I_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req 
+user:
+有30人的会议
+user_tag:O B_pernum I_pernum I_pernum O O O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_pernum req_time conf_loc 
+user:
+25号召开
+user_tag:B_time I_time I_time O O 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req_budget conf_pernum 
+user:
+一周时间
+user_tag:B_timel I_timel O O 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req_budget conf_time 
+user:
+五千
+user_tag:B_budget I_budget 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req_budget conf_timel 
+user:
+对
+user_tag:O 
+user_intention:ok_budget
+user_act:1 ok
+agent_act:conf_budget 
+************
+user:
+你好
+user_tag:O O 
+user_intention:hello
+user_act:1 hello
+agent_act:null
+user:
+上海市虹口区
+user_tag:B_loc I_loc I_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+30人左右吧
+user_tag:B_pernum I_pernum I_pernum I_pernum I_pernum O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_pernum req_time conf_loc 
+user:
+下个月10号开会
+user_tag:B_time I_time I_time I_time I_time I_time O O 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req_budget conf_pernum 
+user:
+开一天
+user_tag:O B_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req_budget conf_time 
+user:
+6000元吧
+user_tag:B_budget I_budget I_budget I_budget I_budget O 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req_budget req_timel 
+user:
+对
+user_tag:O 
+user_intention:ok_budget
+user_act:1 ok
+agent_act:conf_budget 
+************
+user:
+你好
+user_tag:O O 
+user_intention:hello
+user_act:1 hello
+agent_act:null
+user:
+预算30000元
+user_tag:O O B_budget I_budget I_budget I_budget I_budget I_budget 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+时长一天
+user_tag:O O B_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req_loc req_pernum conf_budget 
+user:
+下周四
+user_tag:B_time I_time I_time 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req_time conf_timel 
+user:
+30人左右
+user_tag:B_pernum I_pernum I_pernum I_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_pernum conf_time 
+user:
+北京市海淀区
+user_tag:B_loc I_loc I_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_loc conf_pernum 
+user:
+对
+user_tag:O 
+user_intention:ok_loc
+user_act:1 ok
+agent_act:conf_loc 
+************
+user:
+你好
+user_tag:O O 
+user_intention:hello
+user_act:1 hello
+agent_act:null
+user:
+预算10000元
+user_tag:O O B_budget I_budget I_budget I_budget I_budget I_budget 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req 
+user:
+时长几个小时
+user_tag:O O B_timel I_timel I_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req_pernum req_loc conf_budget 
+user:
+七月一号的会议
+user_tag:B_time I_time I_time I_time O O O 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req_time conf_timel 
+user:
+20人与会
+user_tag:B_pernum I_pernum I_pernum O O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_pernum conf_time 
+user:
+郑州市二七区
+user_tag:B_loc I_loc I_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_loc conf_pernum 
+user:
+不对
+user_tag:O O 
+user_intention:rej_pernum
+user_act:1 rej
+agent_act:conf_pernum 
+user:
+20人
+user_tag:B_pernum I_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_pernum conf_loc 
+user:
+对
+user_tag:O 
+user_intention:ok_pernum
+user_act:1 ok
+agent_act:conf_pernum 
+************
+user:
+你好
+user_tag:O O 
+user_intention:hello
+user_act:1 hello
+agent_act:null
+user:
+100000元的预算
+user_tag:B_budget I_budget I_budget I_budget I_budget I_budget I_budget O O O 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+开一天
+user_tag:O B_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req_pernum req_loc conf_budget 
+user:
+这周末
+user_tag:B_time I_time I_time 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req_time conf_timel 
+user:
+一百人
+user_tag:B_pernum I_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_pernum conf_time 
+user:
+北京市朝阳区
+user_tag:B_loc I_loc I_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_loc conf_pernum 
+user:
+对
+user_tag:O 
+user_intention:ok_loc
+user_act:1 ok
+agent_act:conf_loc 
+************
+user:
+你好
+user_tag:O O 
+user_intention:hello
+user_act:1 hello
+agent_act:null
+user:
+预算五千
+user_tag:O O B_budget I_budget 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+预算50000
+user_tag:O O B_budget I_budget I_budget I_budget I_budget 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req 
+user:
+会议时长一周
+user_tag:O O O O B_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req_timel conf_budget 
+user:
+25号
+user_tag:B_time I_time I_time 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req_time conf_timel 
+user:
+30人左右
+user_tag:B_pernum I_pernum I_pernum I_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_pernum conf_time 
+user:
+海淀区西直门
+user_tag:B_loc I_loc I_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_loc conf_pernum 
+user:
+对
+user_tag:O 
+user_intention:ok_loc
+user_act:1 ok
+agent_act:conf_loc 
+************
+user:
+你好
+user_tag:O O 
+user_intention:hello
+user_act:1 hello
+agent_act:null
+user:
+6000元的预算
+user_tag:B_budget I_budget I_budget I_budget I_budget O O O 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+时长一天
+user_tag:O O B_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req_pernum req_loc conf_budget 
+user:
+下个月10号的会议
+user_tag:B_time I_time I_time I_time I_time I_time O O O 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req_time conf_timel 
+user:
+下个月10号
+user_tag:B_time I_time I_time I_time I_time I_time 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req_time 
+user:
+30人
+user_tag:B_pernum I_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_pernum conf_time 
+user:
+上海市虹口区
+user_tag:B_loc I_loc I_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_loc conf_pernum 
+user:
+对
+user_tag:O 
+user_intention:ok_loc
+user_act:1 ok
+agent_act:conf_loc 
+************
+user:
+你好
+user_tag:O O 
+user_intention:hello
+user_act:1 hello
+agent_act:null
+user:
+北京市海淀区
+user_tag:B_loc I_loc I_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+30人左右,
+user_tag:B_pernum I_pernum I_pernum I_pernum I_pernum O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+下周四的会议
+user_tag:B_time I_time I_time O O O 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+对
+user_tag:O 
+user_intention:ok_pernum ok_loc
+user_act:1 ok
+agent_act:conf_pernum conf_loc 
+user:
+预算30000元,
+user_tag:O O B_budget I_budget I_budget I_budget I_budget I_budget O 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req_budget 
+user:
+时长一天
+user_tag:O O B_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req_budget 
+user:
+对
+user_tag:O 
+user_intention:ok_budget
+user_act:1 ok
+agent_act:conf_budget 
+************
+user:
+你好
+user_tag:O O 
+user_intention:hello
+user_act:1 hello
+agent_act:null
+user:
+郑州市二七区,
+user_tag:B_loc I_loc I_loc I_loc I_loc I_loc O 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+20人与会,
+user_tag:B_pernum I_pernum I_pernum O O O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+七月一号召开的会议室
+user_tag:B_time I_time I_time I_time O O O O O O 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+对
+user_tag:O 
+user_intention:ok_loc
+user_act:1 ok
+agent_act:conf_loc 
+user:
+几个小时
+user_tag:B_timel I_timel I_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req_budget conf_loc 
+user:
+10000元
+user_tag:B_budget I_budget I_budget I_budget I_budget I_budget 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req_budget conf_loc 
+user:
+几个小时
+user_tag:B_timel I_timel I_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req_timel conf_budget 
+user:
+对
+user_tag:O 
+user_intention:ok_time ok_timel
+user_act:1 ok
+agent_act:conf_time conf_timel 
+************
+user:
+你好
+user_tag:O O 
+user_intention:hello
+user_act:1 hello
+agent_act:null
+user:
+郑州市二七区,
+user_tag:B_loc I_loc I_loc I_loc I_loc I_loc O 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req 
+user:
+20人与会,
+user_tag:B_pernum I_pernum I_pernum O O O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req 
+user:
+7月1号召开
+user_tag:B_time I_time I_time I_time O O 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req 
+user:
+不对
+user_tag:O O 
+user_intention:rej_loc
+user_act:1 rej
+agent_act:conf_loc 
+user:
+20人,
+user_tag:B_pernum I_pernum I_pernum O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:conf_loc req_pernum 
+user:
+对
+user_tag:O 
+user_intention:ok_loc
+user_act:1 ok
+agent_act:conf_loc req_pernum 
+user:
+一天,
+user_tag:B_timel I_timel O 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req_budget 
+user:
+20000元
+user_tag:B_budget I_budget I_budget I_budget I_budget I_budget 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req_budget 
+user:
+对
+user_tag:O 
+user_intention:ok_budget
+user_act:1 ok
+agent_act:conf_time 
+user:
+对
+user_tag:O 
+user_intention:ok_timel
+user_act:1 ok
+agent_act:conf_timel 
+************
+user:
+你好
+user_tag:O O 
+user_intention:hello
+user_act:1 hello
+agent_act:null
+user:
+郑州市管城区,
+user_tag:B_loc I_loc I_loc I_loc I_loc I_loc O 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req 
+user:
+20人与会,
+user_tag:B_pernum I_pernum I_pernum O O O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req 
+user:
+七月一号召开
+user_tag:B_time I_time I_time I_time O O 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req 
+user:
+对
+user_tag:O 
+user_intention:ok_loc ok_pernum
+user_act:1 ok
+agent_act:conf_loc conf_pernum 
+user:
+几个小时
+user_tag:B_timel I_timel I_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req_budget conf_time 
+user:
+10000元
+user_tag:B_budget I_budget I_budget I_budget I_budget I_budget 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req_budget conf_time 
+user:
+几个小时
+user_tag:B_timel I_timel I_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req_timel 
+user:
+对
+user_tag:O 
+user_intention:ok_timel
+user_act:1 ok
+agent_act:conf_timel 
+************
+user:
+你好
+user_tag:O O 
+user_intention:hello
+user_act:1 hello
+agent_act:null
+user:
+郑州市管城区,
+user_tag:B_loc I_loc I_loc I_loc I_loc I_loc O 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+20人与会,
+user_tag:B_pernum I_pernum I_pernum O O O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+7月一号召开的会议
+user_tag:B_time I_time I_time I_time O O O O O 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+对
+user_tag:O 
+user_intention:ok_loc ok_pernum
+user_act:1 ok
+agent_act:conf_loc conf_pernum 
+user:
+几个小时,
+user_tag:B_time I_time I_time I_time O 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req_budget conf_time 
+user:
+预算10000元
+user_tag:O O B_budget I_budget I_budget I_budget I_budget I_budget 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req_budget conf_time 
+user:
+对
+user_tag:O 
+user_intention:ok_budget ok_time
+user_act:1 ok
+agent_act:conf_budget conf_time 
+************
+user:
+你好
+user_tag:O O 
+user_intention:hello
+user_act:1 hello
+agent_act:null
+user:
+北京市朝阳区
+user_tag:B_loc I_loc I_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req 
+user:
+一百人
+user_tag:B_pernum I_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req 
+user:
+这周末
+user_tag:B_time I_time I_time 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req 
+user:
+对
+user_tag:O 
+user_intention:ok_loc ok_pernum
+user_act:1 ok
+agent_act:conf_loc conf_pernum 
+user:
+时长一天
+user_tag:O O B_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req_budget conf_time 
+user:
+100000元预算
+user_tag:B_budget I_budget I_budget I_budget I_budget I_budget I_budget O O 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req_budget conf_time 
+user:
+对
+user_tag:O 
+user_intention:ok_budget ok_timel
+user_act:1 ok
+agent_act:conf_budget conf_timel 
+************
+user:
+你好
+user_tag:O O 
+user_intention:hello
+user_act:1 hello
+agent_act:null
+user:
+海淀区西直门
+user_tag:B_loc I_loc I_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+30人
+user_tag:B_pernum I_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+25号的会议
+user_tag:B_time I_time I_time O O O 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+对
+user_tag:O 
+user_intention:ok_loc ok_pernum
+user_act:1 ok
+agent_act:conf_loc conf_pernum 
+user:
+召开一周
+user_tag:O O B_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req_budget conf_time 
+user:
+五千预算可以吗
+user_tag:B_budget I_budget O O O O O 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req_budget conf_time 
+user:
+对
+user_tag:O 
+user_intention:ok_time
+user_act:1 ok
+agent_act:conf_time 
+user:
+对
+user_tag:O 
+user_intention:ok_timel ok_budget
+user_act:1 ok
+agent_act:conf_timel conf_budget 
+************
+user:
+你好
+user_tag:O O 
+user_intention:hello
+user_act:1 hello
+agent_act:null
+user:
+海淀区西直门
+user_tag:B_loc I_loc I_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req 
+user:
+30人
+user_tag:B_pernum I_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req 
+user:
+25号召开
+user_tag:B_time I_time I_time O O 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req 
+user:
+对
+user_tag:O 
+user_intention:ok_pernum
+user_act:1 ok
+agent_act:conf_pernum 
+user:
+时长一周
+user_tag:O O B_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req_budget conf_time 
+user:
+50000元
+user_tag:B_budget I_budget I_budget I_budget I_budget I_budget 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req_budget conf_time 
+user:
+对
+user_tag:O 
+user_intention:ok_budget ok_timel
+user_act:1 ok
+agent_act:conf_budget conf_timel 
+************
+user:
+你好
+user_tag:O O 
+user_intention:hello
+user_act:1 hello
+agent_act:null
+user:
+上海市虹口区
+user_tag:B_loc I_loc I_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+30人
+user_tag:B_pernum I_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+下个月10号召开的会议
+user_tag:B_time I_time I_time I_time I_time I_time O O O O O 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+对
+user_tag:O 
+user_intention:ok_pernum ok_loc
+user_act:1 ok
+agent_act:conf_pernum conf_loc 
+user:
+一天
+user_tag:B_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req_budget conf_time 
+user:
+6000元预算
+user_tag:B_budget I_budget I_budget I_budget I_budget O O 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req_budget conf_time 
+user:
+对
+user_tag:O 
+user_intention:ok_budget ok_timel
+user_act:1 ok
+agent_act:conf_budget conf_timel 
+************
+user:
+你好
+user_tag:O O 
+user_intention:hello
+user_act:1 hello
+agent_act:null
+user:
+下周四
+user_tag:B_time I_time I_time 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req 
+user:
+时长一天
+user_tag:O O B_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req 
+user:
+预算30000元
+user_tag:O O B_budget I_budget I_budget I_budget I_budget I_budget 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req 
+user:
+对
+user_tag:O 
+user_intention:ok_time ok_timel
+user_act:1 ok
+agent_act:conf_time conf_timel 
+user:
+北京市海淀区
+user_tag:B_loc I_loc I_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_pernum conf_budget 
+user:
+30人左右的会议室是有吗
+user_tag:B_pernum I_pernum I_pernum I_pernum I_pernum O O O O O O O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_pernum conf_budget 
+user:
+对
+user_tag:O 
+user_intention:ok_pernum ok_loc
+user_act:1 ok
+agent_act:conf_pernum conf_loc 
+************
+user:
+你好
+user_tag:O O 
+user_intention:hello
+user_act:1 hello
+agent_act:null
+user:
+七月一号召开
+user_tag:B_time I_time I_time I_time O O 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req 
+user:
+时长
+user_tag:O O 
+user_intention:other
+user_act:1 other
+agent_act:req 
+user:
+几个小时
+user_tag:B_timel I_timel I_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req 
+user:
+预算10000元
+user_tag:O O B_budget I_budget I_budget I_budget I_budget I_budget 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req 
+user:
+对
+user_tag:O 
+user_intention:ok_time ok_timel
+user_act:1 ok
+agent_act:conf_time conf_timel 
+user:
+郑州市管城区
+user_tag:B_loc I_loc I_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_pernum conf_budget 
+user:
+20人与会
+user_tag:B_pernum I_pernum I_pernum O O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_pernum conf_budget 
+user:
+对
+user_tag:O 
+user_intention:ok_pernum ok_loc
+user_act:1 ok
+agent_act:conf_pernum conf_loc 
+************
+user:
+你好
+user_tag:O O 
+user_intention:hello
+user_act:1 hello
+agent_act:null
+user:
+这周末
+user_tag:B_time I_time I_time 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req 
+user:
+为期一天
+user_tag:O O B_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req 
+user:
+预算100000元
+user_tag:O O B_budget I_budget I_budget I_budget I_budget I_budget I_budget 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req 
+user:
+对
+user_tag:O 
+user_intention:ok_timel ok_time
+user_act:1 ok
+agent_act:conf_timel conf_time 
+user:
+北京市朝阳区
+user_tag:B_loc I_loc I_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_pernum conf_budget 
+user:
+一百人
+user_tag:B_pernum I_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_pernum conf_budget 
+user:
+对
+user_tag:O 
+user_intention:ok_pernum ok_loc
+user_act:1 ok
+agent_act:conf_pernum conf_loc 
+************
+user:
+你好
+user_tag:O O 
+user_intention:hello
+user_act:1 hello
+agent_act:null
+user:
+25号
+user_tag:B_time I_time I_time 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req 
+user:
+一周
+user_tag:B_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req 
+user:
+五千的预算
+user_tag:B_budget I_budget O O O 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req 
+user:
+对
+user_tag:O 
+user_intention:ok_time ok_timel
+user_act:1 ok
+agent_act:conf_time conf_timel 
+user:
+50000元的预算
+user_tag:B_budget I_budget I_budget I_budget I_budget I_budget O O O 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req_loc 
+user:
+海淀区西直门
+user_tag:B_loc I_loc I_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_loc 
+user:
+30人
+user_tag:B_pernum I_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_loc 
+user:
+对
+user_tag:O 
+user_intention:inf_budget inf_pernum
+user_act:1 inf
+agent_act:conf_budget conf_pernum 
+user:
+海淀区西直门
+user_tag:B_loc I_loc I_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_loc 
+user:
+对
+user_tag:O 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:conf_loc 
+************
+user:
+25号
+user_tag:B_time I_time I_time 
+user_intention:inf_time
+user_act:1 inf
+agent_act:null
+user:
+一周
+user_tag:B_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:null
+user:
+预算50000元
+user_tag:O O B_budget I_budget I_budget I_budget I_budget I_budget 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:null
+user:
+海淀区西直门
+user_tag:B_loc I_loc I_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_pernum conf_time 
+user:
+30人
+user_tag:B_pernum I_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_pernum conf_time 
+user:
+对
+user_tag:O 
+user_intention:ok_pernum ok_loc
+user_act:1 ok
+agent_act:conf_pernum conf_loc 
+user:
+对
+user_tag:O 
+user_intention:ok_budget ok_timel
+user_act:1 ok
+agent_act:conf_budget conf_timel 
+************
+user:
+你好
+user_tag:O O 
+user_intention:hello
+user_act:1 hello
+agent_act:null
+user:
+25号
+user_tag:B_time I_time I_time 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req 
+user:
+一周
+user_tag:B_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req 
+user:
+50000元预算
+user_tag:B_budget I_budget I_budget I_budget I_budget I_budget O O 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req 
+user:
+对
+user_tag:O 
+user_intention:ok_time ok_timel
+user_act:1 ok
+agent_act:conf_time conf_timel 
+user:
+海淀区西直门
+user_tag:B_loc I_loc I_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_pernum conf_budget 
+user:
+30人
+user_tag:B_pernum I_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_pernum conf_budget 
+user:
+对
+user_tag:O 
+user_intention:ok_pernum ok_loc
+user_act:1 ok
+agent_act:conf_pernum conf_loc 
+************
+user:
+你好
+user_tag:O O 
+user_intention:hello
+user_act:1 hello
+agent_act:null
+user:
+下个月10号
+user_tag:B_time I_time I_time I_time I_time I_time 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req 
+user:
+一天
+user_tag:B_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req 
+user:
+6000元的预算
+user_tag:B_budget I_budget I_budget I_budget I_budget O O O 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req 
+user:
+对
+user_tag:O 
+user_intention:ok_time ok_timel
+user_act:1 ok
+agent_act:conf_time conf_timel 
+user:
+上海市虹口区
+user_tag:B_loc I_loc I_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_pernum 
+user:
+30人
+user_tag:B_pernum I_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_pernum 
+user:
+对
+user_tag:O 
+user_intention:ok_pernum ok_loc
+user_act:1 ok
+agent_act:conf_pernum conf_loc 
+************
+user:
+你好
+user_tag:O O 
+user_intention:hello
+user_act:1 hello
+agent_act:null
+user:
+北京市海淀区
+user_tag:B_loc I_loc I_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req 
+user:
+容纳30人左右的
+user_tag:O O B_pernum I_pernum I_pernum I_pernum I_pernum O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req 
+user:
+下周四召开
+user_tag:B_time I_time I_time O O 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req 
+user:
+为期一天
+user_tag:O O B_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req 
+user:
+预算30000元
+user_tag:O O B_budget I_budget I_budget I_budget I_budget I_budget 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req 
+user:
+有什么推荐吗
+user_tag:O O O O O O 
+user_intention:other
+user_act:1 other
+agent_act:req 
+user:
+dui
+user_tag:O O O 
+user_intention:other
+user_act:1 other
+agent_act:conf_pernum conf_loc 
+user:
+对
+user_tag:O 
+user_intention:ok_time ok_timel
+user_act:1 ok
+agent_act:conf_time conf_timel 
+user:
+对
+user_tag:O 
+user_intention:ok_budget
+user_act:1 ok
+agent_act:conf_budget 
+************
+user:
+你好
+user_tag:O O 
+user_intention:hello
+user_act:1 hello
+agent_act:null
+user:
+郑州市二七区
+user_tag:B_loc I_loc I_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req 
+user:
+会有20人与会的
+user_tag:O O B_pernum I_pernum I_pernum O O O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req 
+user:
+七月一号召开
+user_tag:B_time I_time I_time I_time O O 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req 
+user:
++几个小时的时长
+user_tag:O B_timel I_timel I_timel I_timel O O O 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req 
+user:
+10000元的预算可以吗
+user_tag:B_budget I_budget I_budget I_budget I_budget I_budget O O O O O O 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req 
+user:
+不对
+user_tag:O O 
+user_intention:rej_loc
+user_act:1 rej
+agent_act:conf_loc 
+user:
+20人
+user_tag:B_pernum I_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:conf_loc req_pernum 
+user:
+对
+user_tag:O 
+user_intention:ok_pernum ok_time
+user_act:1 ok
+agent_act:conf_pernum conf_time 
+user:
+对
+user_tag:O 
+user_intention:ok_budget ok_timel
+user_act:1 ok
+agent_act:conf_budget conf_timel 
+************
+user:
+你好
+user_tag:O O 
+user_intention:hello
+user_act:1 hello
+agent_act:null
+user:
+这周末的
+user_tag:B_time I_time I_time O 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req 
+user:
+北京市朝阳区的会议室
+user_tag:B_loc I_loc I_loc I_loc I_loc I_loc O O O O 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req 
+user:
+能容纳一百人
+user_tag:O O O B_pernum I_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req 
+user:
+为期一天
+user_tag:O O B_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req 
+user:
+预算100000元可以吗
+user_tag:O O B_budget I_budget I_budget I_budget I_budget I_budget I_budget O O O 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req 
+user:
+对
+user_tag:O 
+user_intention:ok_loc ok_pernum
+user_act:1 ok
+agent_act:conf_loc conf_pernum 
+user:
+对
+user_tag:O 
+user_intention:ok_time ok_timel
+user_act:1 ok
+agent_act:conf_time conf_timel 
+user:
+对
+user_tag:O 
+user_intention:ok_budget
+user_act:1 ok
+agent_act:conf_budget 
+************
+user:
+你好
+user_tag:O O 
+user_intention:hello
+user_act:1 hello
+agent_act:null
+user:
+预算50000
+user_tag:O O B_budget I_budget I_budget I_budget I_budget 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req 
+user:
+在海淀区西直门
+user_tag:B_loc I_loc I_loc I_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req 
+user:
+有30人
+user_tag:O B_pernum I_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req 
+user:
+25号召开
+user_tag:B_time I_time I_time O O 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req 
+user:
+为期一周可以吗
+user_tag:O O B_timel I_timel O O O 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req 
+user:
+对
+user_tag:O 
+user_intention:ok_loc ok_pernum
+user_act:1 ok
+agent_act:conf_loc conf_pernum 
+user:
+5000000
+user_tag:B_budget I_budget I_budget I_budget I_budget I_budget I_budget 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req_budget conf_time 
+user:
+对
+user_tag:O 
+user_intention:ok_timel ok_budget
+user_act:1 ok
+agent_act:conf_timel conf_budget 
+************
+user:
+你好
+user_tag:O O 
+user_intention:hello
+user_act:1 hello
+agent_act:null
+user:
+预算50000元
+user_tag:O O B_budget I_budget I_budget I_budget I_budget I_budget 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req 
+user:
+在海淀区西直门
+user_tag:O B_loc I_loc I_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req 
+user:
+有30人
+user_tag:O B_pernum I_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req 
+user:
+25号召开
+user_tag:B_time I_time I_time O O 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req 
+user:
+为期一周可以吗
+user_tag:O O B_timel I_timel O O O 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req 
+user:
+对
+user_tag:O 
+user_intention:ok_pernum ok_loc
+user_act:1 ok
+agent_act:conf_pernum conf_loc 
+user:
+对
+user_tag:O 
+user_intention:ok_time ok_timel
+user_act:1 ok
+agent_act:conf_time conf_timel 
+user:
+对
+user_tag:O 
+user_intention:ok_budget
+user_act:1 ok
+agent_act:conf_budget 
+************
+user:
+你好
+user_tag:O O 
+user_intention:hello
+user_act:1 hello
+agent_act:null
+user:
+上海市虹口区
+user_tag:B_loc I_loc I_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req 
+user:
+30人
+user_tag:B_pernum I_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req 
+user:
+下个月10号
+user_tag:B_time I_time I_time I_time I_time I_time 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req 
+user:
+为期一天
+user_tag:O O B_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req 
+user:
+6000元预算
+user_tag:B_budget I_budget I_budget I_budget I_budget O O 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req 
+user:
+对
+user_tag:O 
+user_intention:ok_pernum ok_loc
+user_act:1 ok
+agent_act:conf_pernum conf_loc 
+user:
+对
+user_tag:O 
+user_intention:ok_time ok_timel
+user_act:1 ok
+agent_act:conf_time conf_timel 
+user:
+对
+user_tag:O 
+user_intention:ok_budget
+user_act:1 ok
+agent_act:conf_budget 
+************
+user:
+30000元
+user_tag:B_budget I_budget I_budget I_budget I_budget I_budget 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:null
+user:
+铁路系统会议
+user_tag:O O O O O O 
+user_intention:inf
+user_act:1 inf
+agent_act:req_timel conf_budget 
+user:
+关于车辆调度的会议
+user_tag:O O O O O O O O O 
+user_intention:inf
+user_act:1 inf
+agent_act:req 
+user:
+14人左右
+user_tag:B_pernum I_pernum I_pernum I_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req 
+user:
+1000元
+user_tag:B_budget I_budget I_budget I_budget I_budget 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req_budget conf_pernum 
+user:
+2小时
+user_tag:B_timel I_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req_timel conf_budget 
+user:
+青岛
+user_tag:B_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_loc conf_timel 
+user:
+你好
+user_tag:O O 
+user_intention:hello
+user_act:1 hello
+agent_act:conf_loc conf_pernum 
+user:
+3人
+user_tag:B_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req 
+user:
+3人的会议
+user_tag:B_pernum I_pernum O O O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req 
+user:
+3日开会
+user_tag:B_time I_time O O 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req 
+user:
+300人的会议室
+user_tag:B_pernum I_pernum I_pernum I_pernum O O O O 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req 
+user:
+3000元
+user_tag:B_budget I_budget I_budget I_budget I_budget 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req_budget conf_pernum 
+user:
+3000???
+user_tag:B_budget I_budget I_budget I_budget O O O 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req_timel conf_budget 
+user:
+3天
+user_tag:B_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req_timel conf_budget 
+user:
+北京邮电大学
+user_tag:B_loc I_loc I_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_loc conf_timel 
+user:
+北京邮电大学
+user_tag:B_loc I_loc I_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_loc conf_time 
+user:
+北京邮电大学
+user_tag:B_loc I_loc I_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_loc 
+user:
+北京邮电大学
+user_tag:B_loc I_loc I_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_loc 
+user:
+北京邮电大学
+user_tag:B_loc I_loc I_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_loc 
+user:
+北邮
+user_tag:B_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_loc 
+user:
+北京
+user_tag:B_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_loc 
+user:
+??????
+user_tag:O O O O O O 
+user_intention:other
+user_act:1 other
+agent_act:conf_loc 
+user:
+使得
+user_tag:O O 
+user_intention:other
+user_act:1 other
+agent_act:req 
+user:
+3?oo
+user_tag:O O O O 
+user_intention:other
+user_act:1 other
+agent_act:done 
+user:
+????o??????????????-|
+user_tag:O O O O O O O O O O O O O O O O O O O O O 
+user_intention:other
+user_act:1 other
+agent_act:req 
+user:
+????o?
+user_tag:O O O O O O 
+user_intention:other
+user_act:1 other
+agent_act:req 
+user:
+???????
+user_tag:O O O O O O O 
+user_intention:other
+user_act:1 other
+agent_act:req_pernum req_time 
+user:
+主会议中心
+user_tag:B_loc I_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req 
+user:
+30人
+user_tag:B_pernum I_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req 
+user:
+2015-6-17
+user_tag:B_time I_time I_time I_time I_time I_time I_time I_time I_time 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req_time req_loc conf_pernum 
+user:
+主会议大厅201
+user_tag:B_loc I_loc I_loc I_loc I_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_time req_loc conf_pernum 
+user:
+2000
+user_tag:B_budget I_budget I_budget I_budget 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:req_budget conf_time 
+user:
+半天
+user_tag:B_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:req_timel conf_budget 
+user:
+主会议室大厅
+user_tag:B_loc I_loc I_loc I_loc I_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_loc conf_timel 
+user:
+北极
+user_tag:B_loc I_loc 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_loc 
+************
+user:
+你好
+user_tag:O O 
+user_intention:hello
+user_act:1 hello
+agent_act:null
+user:
+北京,
+user_tag:B_loc I_loc O 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req 
+user:
+十月三号,
+user_tag:B_time I_time I_time I_time O 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req 
+user:
+300人
+user_tag:B_pernum I_pernum I_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req 
+************
+user:
+你好
+user_tag:O O 
+user_intention:hello
+user_act:1 hello
+agent_act:null
+user:
+北京,
+user_tag:B_loc I_loc O 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+十月三号,
+user_tag:B_time I_time I_time I_time O 
+user_intention:inf_time
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+300人
+user_tag:B_pernum I_pernum I_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:req_pernum req_time 
+user:
+是的
+user_tag:O O 
+user_intention:ok_pernum ok_loc
+user_act:1 ok
+agent_act:conf_pernum conf_loc 
+user:
+30000元
+user_tag:B_budget I_budget I_budget I_budget I_budget I_budget 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:conf_time req_budget 
+user:
+几天
+user_tag:B_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:conf_budget req_timel 
+user:
+对
+user_tag:O 
+user_intention:ok_timel
+user_act:1 ok
+agent_act:conf_timel 
+************
+user:
+北京的会议室
+user_tag:B_loc I_loc O O O O 
+user_intention:inf_loc
+user_act:1 inf
+agent_act:null
+user:
+300人
+user_tag:B_pernum I_pernum I_pernum I_pernum 
+user_intention:inf_pernum
+user_act:1 inf
+agent_act:conf_loc req_pernum 
+user:
+3000元
+user_tag:B_budget I_budget I_budget I_budget I_budget 
+user_intention:inf_budget
+user_act:1 inf
+agent_act:conf_pernum req_budget 
+user:
+几天
+user_tag:B_timel I_timel 
+user_intention:inf_timel
+user_act:1 inf
+agent_act:conf_budget req_timel 
+user:
+十月三号
+user_tag:B_time I_time I_time I_time 
+user_intention:inf_time
+user_act:1 inf
+agent_act:conf_timel req_time 
+user:
+恩
+user_tag:O 
+user_intention:ok_time
+user_act:1 ok
+agent_act:conf_time 

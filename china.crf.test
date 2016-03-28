@@ -1,0 +1,4198 @@
+? null null null null O
+? null null null null O
+? null null null null O
+? null null null null O
+? null null null null O
+? null null null null O
+? null null null null O
+ACT null N N N other
+
+我 req_pernum req_time null null O
+要 req_pernum req_time null null O
+订 req_pernum req_time null null O
+u req_pernum req_time null null O
+i req_pernum req_time null null O
+y req_pernum req_time null null O
+i req_pernum req_time null null O
+s req_pernum req_time null null O
+h req_pernum req_time null null O
+i req_pernum req_time null null O
+1 req_pernum req_time null null O
+ACT req_pernum req_time N N inf
+
+1 req null null null B_pernum
+0 req null null null I_pernum
+0 req null null null I_pernum
+0 req null null null I_pernum
+人 req null null null I_pernum
+的 req null null null O
+ACT req N N N inf
+
+1 req_time req_loc conf_pernum null B_pernum
+0 req_time req_loc conf_pernum null I_pernum
+0 req_time req_loc conf_pernum null I_pernum
+0 req_time req_loc conf_pernum null I_pernum
+? req_time req_loc conf_pernum null O
+o req_time req_loc conf_pernum null O
+o req_time req_loc conf_pernum null O
+? req_time req_loc conf_pernum null O
+? req_time req_loc conf_pernum null O
+? req_time req_loc conf_pernum null O
+ACT req_time req_loc conf_pernum N inf
+
+? req_timel conf_pernum null null O
+? req_timel conf_pernum null null O
+? req_timel conf_pernum null null O
+? req_timel conf_pernum null null O
+? req_timel conf_pernum null null O
+? req_timel conf_pernum null null O
+? req_timel conf_pernum null null O
+? req_timel conf_pernum null null O
+5 req_timel conf_pernum null null O
+0 req_timel conf_pernum null null O
+0 req_timel conf_pernum null null O
+? req_timel conf_pernum null null O
+o req_timel conf_pernum null null O
+o req_timel conf_pernum null null O
+? req_timel conf_pernum null null O
+? req_timel conf_pernum null null O
+? req_timel conf_pernum null null O
+? req_timel conf_pernum null null O
+ACT req_timel conf_pernum N N other
+
+还 req_timel conf_pernum null null O
+是 req_timel conf_pernum null null O
+5 req_timel conf_pernum null null B_pernum
+0 req_timel conf_pernum null null I_pernum
+0 req_timel conf_pernum null null I_pernum
+人 req_timel conf_pernum null null I_pernum
+吧 req_timel conf_pernum null null O
+ACT req_timel conf_pernum N N inf
+
+改 req_timel req_budget conf_pernum null O
+一 req_timel req_budget conf_pernum null O
+下 req_timel req_budget conf_pernum null O
+ACT req_timel req_budget conf_pernum N inf
+
+4 req_timel req_budget conf_pernum null B_pernum
+0 req_timel req_budget conf_pernum null I_pernum
+0 req_timel req_budget conf_pernum null I_pernum
+人 req_timel req_budget conf_pernum null I_pernum
+ACT req_timel req_budget conf_pernum N inf
+
+? req_budget null null null O
+? req_budget null null null O
+1 req_budget null null null O
+? req_budget null null null O
+? req_budget null null null O
+? req_budget null null null O
+? req_budget null null null O
+? req_budget null null null O
+? req_budget null null null O
+ACT req_budget N N N other
+
+4 req_budget null null null O
+0 req_budget null null null O
+0 req_budget null null null O
+? req_budget null null null O
+o req_budget null null null O
+o req_budget null null null O
+ACT req_budget N N N inf
+
+人 req_timel req_budget conf_pernum null O
+数 req_timel req_budget conf_pernum null O
+改 req_timel req_budget conf_pernum null O
+为 req_timel req_budget conf_pernum null O
+4 req_timel req_budget conf_pernum null B_pernum
+0 req_timel req_budget conf_pernum null I_pernum
+0 req_timel req_budget conf_pernum null I_pernum
+人 req_timel req_budget conf_pernum null I_pernum
+ACT req_timel req_budget conf_pernum N inf
+
+4 select_pernum null null null B_pernum
+0 select_pernum null null null I_pernum
+0 select_pernum null null null I_pernum
+ACT select_pernum N N N inf
+
+4 req_timel conf_budget null null B_pernum
+0 req_timel conf_budget null null I_pernum
+0 req_timel conf_budget null null I_pernum
+人 req_timel conf_budget null null I_pernum
+ACT req_timel conf_budget N N inf
+
+预 req_timel null null null O
+算 req_timel null null null O
+5 req_timel null null null B_budget
+0 req_timel null null null I_budget
+0 req_timel null null null I_budget
+0 req_timel null null null I_budget
+元 req_timel null null null I_budget
+ACT req_timel N N N inf
+
+5 select_budget null null null B_budget
+0 select_budget null null null I_budget
+0 select_budget null null null I_budget
+0 select_budget null null null I_budget
+ACT select_budget N N N inf
+
+5 select_pernum null null null B_budget
+0 select_pernum null null null I_budget
+0 select_pernum null null null I_budget
+0 select_pernum null null null I_budget
+ACT select_pernum N N N inf
+
+5 req_timel conf_pernum null null B_pernum
+0 req_timel conf_pernum null null I_pernum
+0 req_timel conf_pernum null null I_pernum
+人 req_timel conf_pernum null null I_pernum
+参 req_timel conf_pernum null null O
+会 req_timel conf_pernum null null O
+ACT req_timel conf_pernum N N inf
+
+5 req_timel conf_budget null null B_pernum
+0 req_timel conf_budget null null I_pernum
+0 req_timel conf_budget null null I_pernum
+? req_timel conf_budget null null O
+o req_timel conf_budget null null O
+o req_timel conf_budget null null O
+? req_timel conf_budget null null O
+? req_timel conf_budget null null O
+? req_timel conf_budget null null O
+? req_timel conf_budget null null O
+? req_timel conf_budget null null O
+? req_timel conf_budget null null O
+ACT req_timel conf_budget N N inf
+
+9 req_timel conf_pernum null null B_timel
+天 req_timel conf_pernum null null I_timel
+ACT req_timel conf_pernum N N inf
+
+9 req_time conf_timel null null B_timel
+? req_time conf_timel null null O
+? req_time conf_timel null null O
+? req_time conf_timel null null O
+? req_time conf_timel null null O
+ACT req_time conf_timel N N inf
+
+明 req_budget conf_pernum null null B_time
+天 req_budget conf_pernum null null I_time
+开 req_budget conf_pernum null null O
+始 req_budget conf_pernum null null O
+ACT req_budget conf_pernum N N inf
+
+下 req_time null null null B_time
+周 req_time null null null I_time
+二 req_time null null null I_time
+ACT req_time N N N inf
+
+下 req_loc conf_time null null B_time
+周 req_loc conf_time null null I_time
+五 req_loc conf_time null null I_time
+吧 req_loc conf_time null null O
+还 req_loc conf_time null null O
+是 req_loc conf_time null null O
+ACT req_loc conf_time N N inf
+
+? req_loc conf_time null null O
+? req_loc conf_time null null O
+? req_loc conf_time null null O
+? req_loc conf_time null null O
+? req_loc conf_time null null O
+? req_loc conf_time null null O
+? req_loc conf_time null null O
+? req_loc conf_time null null O
+? req_loc conf_time null null O
+? req_loc conf_time null null O
+? req_loc conf_time null null O
+ACT req_loc conf_time N N other
+
+在 req_pernum req_time null null O
+北 req_pernum req_time null null B_loc
+邮 req_pernum req_time null null I_loc
+ACT req_pernum req_time N N inf
+
+南 req_loc req_pernum req_time null B_loc
+京 req_loc req_pernum req_time null I_loc
+大 req_loc req_pernum req_time null I_loc
+学 req_loc req_pernum req_time null I_loc
+附 req_loc req_pernum req_time null I_loc
+近 req_loc req_pernum req_time null I_loc
+ACT req_loc req_pernum req_time N inf
+
+南 req_loc null null null B_loc
+京 req_loc null null null I_loc
+大 req_loc null null null I_loc
+学 req_loc null null null I_loc
+附 req_loc null null null I_loc
+近 req_loc null null null I_loc
+都 req_loc null null null O
+可 req_loc null null null O
+以 req_loc null null null O
+ACT req_loc N N N inf
+
+就 req_loc null null null O
+在 req_loc null null null O
+南 req_loc null null null B_loc
+京 req_loc null null null I_loc
+大 req_loc null null null I_loc
+学 req_loc null null null I_loc
+边 req_loc null null null I_loc
+上 req_loc null null null I_loc
+ACT req_loc N N N inf
+
+? req_loc null null null O
+? req_loc null null null O
+? req_loc null null null O
+? req_loc null null null O
+? req_loc null null null O
+? req_loc null null null O
+? req_loc null null null O
+? req_loc null null null O
+? req_loc null null null O
+? req_loc null null null O
+? req_loc null null null O
+? req_loc null null null O
+o req_loc null null null O
+? req_loc null null null O
+? req_loc null null null O
+? req_loc null null null O
+? req_loc null null null O
+? req_loc null null null O
+? req_loc null null null O
+- req_loc null null null O
+| req_loc null null null O
+? req_loc null null null O
+? req_loc null null null O
+? req_loc null null null O
+1 req_loc null null null O
+? req_loc null null null O
+? req_loc null null null O
+? req_loc null null null O
+ACT req_loc N N N other
+
+南 req null null null B_loc
+京 req null null null I_loc
+大 req null null null I_loc
+学 req null null null I_loc
+附 req null null null I_loc
+近 req null null null I_loc
+ACT req N N N inf
+
+南 req_loc null null null B_loc
+京 req_loc null null null I_loc
+ACT req_loc N N N inf
+
+是 conf_loc null null null O
+ACT conf_loc N N N ok
+
+你 null null null null O
+好 null null null null O
+ACT null N N N hello
+
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+ACT req N N N other
+
+要 req_pernum req_time null null O
+一 req_pernum req_time null null O
+个 req_pernum req_time null null O
+1 req_pernum req_time null null B_pernum
+0 req_pernum req_time null null I_pernum
+0 req_pernum req_time null null I_pernum
+0 req_pernum req_time null null I_pernum
+人 req_pernum req_time null null I_pernum
+的 req_pernum req_time null null O
+会 req_pernum req_time null null O
+议 req_pernum req_time null null O
+室 req_pernum req_time null null O
+ACT req_pernum req_time N N inf
+
+还 conf_pernum req_loc req_time null O
+是 conf_pernum req_loc req_time null O
+5 conf_pernum req_loc req_time null B_pernum
+0 conf_pernum req_loc req_time null I_pernum
+0 conf_pernum req_loc req_time null I_pernum
+人 conf_pernum req_loc req_time null I_pernum
+吧 conf_pernum req_loc req_time null O
+ACT conf_pernum req_loc req_time N inf
+
+2 req_budget conf_pernum null null B_budget
+0 req_budget conf_pernum null null I_budget
+0 req_budget conf_pernum null null I_budget
+0 req_budget conf_pernum null null I_budget
+元 req_budget conf_pernum null null I_budget
+吧 req_budget conf_pernum null null O
+ACT req_budget conf_pernum N N inf
+
+2 req_timel conf_budget null null O
+0 req_timel conf_budget null null O
+0 req_timel conf_budget null null O
+0 req_timel conf_budget null null O
+? req_timel conf_budget null null O
+? req_timel conf_budget null null O
+? req_timel conf_budget null null O
+? req_timel conf_budget null null O
+? req_timel conf_budget null null O
+? req_timel conf_budget null null O
+? req_timel conf_budget null null O
+ACT req_timel conf_budget N N inf
+
+1 req_timel conf_pernum null null O
+周 req_timel conf_pernum null null O
+ACT req_timel conf_pernum N N inf
+
+1 req_time conf_timel null null O
+? req_time conf_timel null null O
+? req_time conf_timel null null O
+? req_time conf_timel null null O
+? req_time conf_timel null null O
+ACT req_time conf_timel N N other
+
+明 req_pernum req_time null null B_time
+天 req_pernum req_time null null I_time
+ACT req_pernum req_time N N inf
+
+? req_time null null null O
+? req_time null null null O
+? req_time null null null O
+? req_time null null null O
+? req_time null null null O
+? req_time null null null O
+? req_time null null null O
+ACT req_time N N N other
+
+后 req null null null B_time
+天 req null null null I_time
+ACT req N N N inf
+
+6 req_loc req_time null null B_time
+月 req_loc req_time null null I_time
+1 req_loc req_time null null I_time
+0 req_loc req_time null null I_time
+日 req_loc req_time null null I_time
+ACT req_loc req_time N N inf
+
+南 req_loc conf_time null null B_loc
+京 req_loc conf_time null null I_loc
+大 req_loc conf_time null null I_loc
+学 req_loc conf_time null null I_loc
+附 req_loc conf_time null null I_loc
+近 req_loc conf_time null null I_loc
+ACT req_loc conf_time N N inf
+
+南 req_loc null null null B_loc
+京 req_loc null null null I_loc
+大 req_loc null null null I_loc
+学 req_loc null null null I_loc
+ACT req_loc N N N inf
+
+? req_loc null null null O
+? req_loc null null null O
+? req_loc null null null O
+? req_loc null null null O
+o req_loc null null null O
+? req_loc null null null O
+? req_loc null null null O
+? req_loc null null null O
+? req_loc null null null O
+? req_loc null null null O
+? req_loc null null null O
+- req_loc null null null O
+| req_loc null null null O
+ACT req_loc N N N other
+
+在 req null null null O
+南 req null null null B_loc
+京 req null null null I_loc
+大 req null null null I_loc
+学 req null null null I_loc
+ACT req N N N inf
+
+? req_loc null null null O
+? req_loc null null null O
+? req_loc null null null O
+? req_loc null null null O
+? req_loc null null null O
+? req_loc null null null O
+? req_loc null null null O
+? req_loc null null null O
+o req_loc null null null O
+? req_loc null null null O
+? req_loc null null null O
+? req_loc null null null O
+? req_loc null null null O
+? req_loc null null null O
+? req_loc null null null O
+- req_loc null null null O
+| req_loc null null null O
+ACT req_loc N N N other
+
+在 req null null null O
+南 req null null null B_loc
+京 req null null null I_loc
+ACT req N N N inf
+
+? conf_loc null null null O
+? conf_loc null null null O
+? conf_loc null null null O
+? conf_loc null null null O
+? conf_loc null null null O
+? conf_loc null null null O
+? conf_loc null null null O
+? conf_loc null null null O
+o conf_loc null null null O
+? conf_loc null null null O
+ACT conf_loc N N N other
+
+对 req_pernum req_time null null O
+的 req_pernum req_time null null O
+ACT req_pernum req_time N N ok
+
+你 null null null null O
+好 null null null null O
+ACT null N N N hello
+
+? req_pernum req_time null null O
+? req_pernum req_time null null O
+? req_pernum req_time null null O
+? req_pernum req_time null null O
+? req_pernum req_time null null O
+? req_pernum req_time null null O
+? req_pernum req_time null null O
+ACT req_pernum req_time N N other
+
+我 req_pernum req_time null null O
+要 req_pernum req_time null null O
+订 req_pernum req_time null null O
+5 req_pernum req_time null null B_pernum
+人 req_pernum req_time null null I_pernum
+3 req_pernum req_time null null B_timel
+天 req_pernum req_time null null I_timel
+的 req_pernum req_time null null O
+会 req_pernum req_time null null O
+议 req_pernum req_time null null O
+室 req_pernum req_time null null O
+ACT req_pernum req_time N N inf
+
+5 conf_timel req_loc req_pernum null B_pernum
+人 conf_timel req_loc req_pernum null I_pernum
+ACT conf_timel req_loc req_pernum N inf
+
+5 req_budget conf_pernum null null B_pernum
+? req_budget conf_pernum null null O
+o req_budget conf_pernum null null O
+o req_budget conf_pernum null null O
+ACT req_budget conf_pernum N N inf
+
+3 req_budget conf_pernum null null B_budget
+0 req_budget conf_pernum null null I_budget
+0 req_budget conf_pernum null null I_budget
+0 req_budget conf_pernum null null I_budget
+ACT req_budget conf_pernum N N inf
+
+3 req_time conf_budget null null B_budget
+0 req_time conf_budget null null I_budget
+0 req_time conf_budget null null I_budget
+0 req_time conf_budget null null I_budget
+ACT req_time conf_budget N N inf
+
+2 req_timel conf_pernum null null B_budget
+0 req_timel conf_pernum null null I_budget
+0 req_timel conf_pernum null null I_budget
+0 req_timel conf_pernum null null I_budget
+元 req_timel conf_pernum null null I_budget
+开 req_timel conf_pernum null null O
+5 req_timel conf_pernum null null B_timel
+天 req_timel conf_pernum null null I_timel
+ACT req_timel conf_pernum N N inf
+
+要 req_time null null null O
+改 req_time null null null O
+一 req_time null null null O
+下 req_time null null null O
+人 req_time null null null O
+数 req_time null null null O
+ACT req_time N N N inf
+
+6 req_loc req_time null null B_pernum
+人 req_loc req_time null null I_pernum
+开 req_loc req_time null null O
+会 req_loc req_time null null O
+ACT req_loc req_time N N inf
+
+6 select_pernum null null null B_pernum
+人 select_pernum null null null I_pernum
+ACT select_pernum N N N inf
+
+6 req_time req_loc null null O
+? req_time req_loc null null O
+o req_time req_loc null null O
+o req_time req_loc null null O
+ACT req_time req_loc N N inf
+
+6 req_budget conf_pernum null null B_time
+月 req_budget conf_pernum null null I_time
+8 req_budget conf_pernum null null I_time
+日 req_budget conf_pernum null null I_time
+在 req_budget conf_pernum null null O
+南 req_budget conf_pernum null null B_loc
+京 req_budget conf_pernum null null I_loc
+ACT req_budget conf_pernum N N inf
+
+是 conf_time conf_loc null null O
+的 conf_time conf_loc null null O
+ACT conf_time conf_loc N N ok
+
+5 null null null null B_pernum
+人 null null null null I_pernum
+3 null null null null B_timel
+天 null null null null I_timel
+的 null null null null O
+会 null null null null O
+议 null null null null O
+室 null null null null O
+ACT null N N N inf
+
+3 req_budget null null null B_budget
+0 req_budget null null null I_budget
+0 req_budget null null null I_budget
+0 req_budget null null null I_budget
+元 req_budget null null null I_budget
+ACT req_budget N N N inf
+
+3 req_time conf_budget null null B_budget
+0 req_time conf_budget null null I_budget
+0 req_time conf_budget null null I_budget
+0 req_time conf_budget null null I_budget
+? req_time conf_budget null null O
+? req_time conf_budget null null O
+? req_time conf_budget null null O
+ACT req_time conf_budget N N inf
+
+4 req_timel conf_pernum null null B_time
+号 req_timel conf_pernum null null I_time
+ACT req_timel conf_pernum N N inf
+
+4 req_pernum conf_time null null B_time
+? req_pernum conf_time null null O
+? req_pernum conf_time null null O
+? req_pernum conf_time null null O
+? req_pernum conf_time null null O
+ACT req_pernum conf_time N N inf
+
+3 req_budget conf_pernum null null B_timel
+天 req_budget conf_pernum null null I_timel
+5 req_budget conf_pernum null null B_pernum
+人 req_budget conf_pernum null null I_pernum
+ACT req_budget conf_pernum N N inf
+
+3 req_pernum null null null B_timel
+? req_pernum null null null O
+? req_pernum null null null O
+? req_pernum null null null O
+? req_pernum null null null O
+5 req_pernum null null null O
+? req_pernum null null null O
+o req_pernum null null null O
+o req_pernum null null null O
+ACT req_pernum N N N inf
+
+4 req_budget conf_pernum null null B_timel
+天 req_budget conf_pernum null null I_timel
+5 req_budget conf_pernum null null B_pernum
+人 req_budget conf_pernum null null I_pernum
+ACT req_budget conf_pernum N N inf
+
+4 select_timel null null null B_timel
+? select_timel null null null O
+? select_timel null null null O
+? select_timel null null null O
+? select_timel null null null O
+5 select_timel null null null O
+? select_timel null null null O
+o select_timel null null null O
+o select_timel null null null O
+ACT select_timel N N N inf
+
+4 select_pernum req_budget null null B_timel
+天 select_pernum req_budget null null I_timel
+ACT select_pernum req_budget N N inf
+
+5 req_pernum req_loc null null B_pernum
+人 req_pernum req_loc null null I_pernum
+ACT req_pernum req_loc N N inf
+
+5 req_loc conf_pernum null null O
+个 req_loc conf_pernum null null O
+人 req_loc conf_pernum null null O
+开 req_loc conf_pernum null null O
+4 req_loc conf_pernum null null B_timel
+天 req_loc conf_pernum null null I_timel
+ACT req_loc conf_pernum N N inf
+
+6 req_loc null null null O
+个 req_loc null null null O
+人 req_loc null null null O
+开 req_loc null null null O
+3 req_loc null null null B_timel
+天 req_loc null null null I_timel
+吧 req_loc null null null O
+ACT req_loc N N N inf
+
+6 select_timel null null null O
+? select_timel null null null O
+? select_timel null null null O
+a select_timel null null null O
+? select_timel null null null O
+o select_timel null null null O
+o select_timel null null null O
+? select_timel null null null O
+? select_timel null null null O
+? select_timel null null null O
+3 select_timel null null null O
+? select_timel null null null O
+? select_timel null null null O
+? select_timel null null null O
+? select_timel null null null O
+? select_timel null null null O
+? select_timel null null null O
+? select_timel null null null O
+? select_timel null null null O
+ACT select_timel N N N other
+
+3 req_budget conf_pernum null null B_timel
+天 req_budget conf_pernum null null I_timel
+ACT req_budget conf_pernum N N inf
+
+5 select_time null null null B_time
+号 select_time null null null I_time
+ACT select_time N N N inf
+
+5 req_loc conf_time null null B_time
+号 req_loc conf_time null null I_time
+8 req_loc conf_time null null B_pernum
+个 req_loc conf_time null null I_pernum
+人 req_loc conf_time null null I_pernum
+ACT req_loc conf_time N N inf
+
+5 req_loc null null null O
+? req_loc null null null O
+? req_loc null null null O
+? req_loc null null null O
+? req_loc null null null O
+8 req_loc null null null O
+? req_loc null null null O
+? req_loc null null null O
+a req_loc null null null O
+? req_loc null null null O
+o req_loc null null null O
+o req_loc null null null O
+ACT req_loc N N N other
+
+8 select_pernum req_budget null null B_pernum
+个 select_pernum req_budget null null I_pernum
+人 select_pernum req_budget null null I_pernum
+开 select_pernum req_budget null null O
+会 select_pernum req_budget null null O
+ACT select_pernum req_budget N N inf
+
+8 select_pernum null null null B_pernum
+? select_pernum null null null O
+? select_pernum null null null O
+a select_pernum null null null O
+? select_pernum null null null O
+o select_pernum null null null O
+o select_pernum null null null O
+? select_pernum null null null O
+? select_pernum null null null O
+? select_pernum null null null O
+? select_pernum null null null O
+? select_pernum null null null O
+? select_pernum null null null O
+ACT select_pernum N N N inf
+
+8 req_budget conf_pernum null null B_pernum
+人 req_budget conf_pernum null null I_pernum
+ACT req_budget conf_pernum N N inf
+
+南 req_loc null null null B_loc
+京 req_loc null null null I_loc
+大 req_loc null null null I_loc
+学 req_loc null null null I_loc
+ACT req_loc N N N inf
+
+改 req_loc null null null O
+为 req_loc null null null O
+9 req_loc null null null B_pernum
+人 req_loc null null null I_pernum
+ACT req_loc N N N inf
+
+? select_pernum null null null O
+? select_pernum null null null O
+1 select_pernum null null null O
+? select_pernum null null null O
+? select_pernum null null null O
+o select_pernum null null null O
+9 select_pernum null null null O
+? select_pernum null null null O
+o select_pernum null null null O
+o select_pernum null null null O
+ACT select_pernum N N N other
+
+改 req_budget conf_pernum null null O
+为 req_budget conf_pernum null null O
+1 req_budget conf_pernum null null B_pernum
+2 req_budget conf_pernum null null I_pernum
+人 req_budget conf_pernum null null I_pernum
+吧 req_budget conf_pernum null null O
+ACT req_budget conf_pernum N N inf
+
+? req_loc conf_pernum null null O
+? req_loc conf_pernum null null O
+1 req_loc conf_pernum null null O
+? req_loc conf_pernum null null O
+? req_loc conf_pernum null null O
+o req_loc conf_pernum null null O
+1 req_loc conf_pernum null null O
+2 req_loc conf_pernum null null O
+? req_loc conf_pernum null null O
+o req_loc conf_pernum null null O
+o req_loc conf_pernum null null O
+? req_loc conf_pernum null null O
+? req_loc conf_pernum null null O
+? req_loc conf_pernum null null O
+? req_loc conf_pernum null null O
+ACT req_loc conf_pernum N N other
+
+1 req_budget conf_pernum null null B_pernum
+2 req_budget conf_pernum null null I_pernum
+ACT req_budget conf_pernum N N inf
+
+1 req_loc null null null B_pernum
+2 req_loc null null null I_pernum
+ACT req_loc N N N inf
+
+2 req_budget conf_pernum null null B_budget
+0 req_budget conf_pernum null null I_budget
+0 req_budget conf_pernum null null I_budget
+ACT req_budget conf_pernum N N inf
+
+2 req_timel conf_pernum null null B_pernum
+0 req_timel conf_pernum null null I_pernum
+0 req_timel conf_pernum null null I_pernum
+人 req_timel conf_pernum null null I_pernum
+吧 req_timel conf_pernum null null O
+ACT req_timel conf_pernum N N inf
+
+3 req_loc null null null B_pernum
+0 req_loc null null null I_pernum
+0 req_loc null null null I_pernum
+人 req_loc null null null I_pernum
+开 req_loc null null null O
+ACT req_loc N N N inf
+
+3 select_pernum null null null B_pernum
+0 select_pernum null null null I_pernum
+0 select_pernum null null null I_pernum
+人 select_pernum null null null I_pernum
+ACT select_pernum N N N inf
+
+北 req_loc null null null B_loc
+京 req_loc null null null I_loc
+大 req_loc null null null I_loc
+学 req_loc null null null I_loc
+ACT req_loc N N N inf
+
+北 req_loc null null null B_loc
+京 req_loc null null null I_loc
+市 req_loc null null null I_loc
+ACT req_loc N N N inf
+
+o conf_loc null null null O
+k conf_loc null null null O
+ACT conf_loc N N N ok
+
+一 null null null null B_pernum
+个 null null null null I_pernum
+人 null null null null I_pernum
+的 null null null null O
+会 null null null null O
+议 null null null null O
+室 null null null null O
+ACT null N N N inf
+
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+a req null null null O
+? req null null null O
+o req null null null O
+o req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+ACT req N N N other
+
+一 req_pernum req_time null null B_pernum
+个 req_pernum req_time null null I_pernum
+人 req_pernum req_time null null I_pernum
+ACT req_pernum req_time N N inf
+
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+a req null null null O
+? req null null null O
+o req null null null O
+o req null null null O
+ACT req N N N other
+
+1 req_pernum req_time null null B_pernum
+ACT req_pernum req_time N N inf
+
+1 req null null null O
+个 req null null null O
+人 req null null null O
+ACT req N N N inf
+
+1 req_pernum req_time null null B_pernum
+人 req_pernum req_time null null I_pernum
+开 req_pernum req_time null null O
+会 req_pernum req_time null null O
+ACT req_pernum req_time N N inf
+
+3 req null null null B_pernum
+人 req null null null I_pernum
+ACT req N N N inf
+
+4 req_pernum req_time null null B_pernum
+人 req_pernum req_time null null I_pernum
+ACT req_pernum req_time N N inf
+
+4 req_budget conf_pernum null null B_pernum
+? req_budget conf_pernum null null O
+o req_budget conf_pernum null null O
+o req_budget conf_pernum null null O
+ACT req_budget conf_pernum N N inf
+
+2 req_budget conf_pernum null null B_pernum
+人 req_budget conf_pernum null null I_pernum
+ACT req_budget conf_pernum N N inf
+
+2 req_budget null null null B_pernum
+? req_budget null null null O
+o req_budget null null null O
+o req_budget null null null O
+ACT req_budget N N N inf
+
+3 req null null null B_pernum
+个 req null null null I_pernum
+人 req null null null I_pernum
+ACT req N N N inf
+
+3 req_loc null null null B_pernum
+? req_loc null null null O
+? req_loc null null null O
+a req_loc null null null O
+? req_loc null null null O
+o req_loc null null null O
+o req_loc null null null O
+ACT req_loc N N N inf
+
+改 req_pernum req_time null null O
+一 req_pernum req_time null null O
+下 req_pernum req_time null null O
+人 req_pernum req_time null null O
+数 req_pernum req_time null null O
+ACT req_pernum req_time N N inf
+
+? req_loc req_time null null O
+? req_loc req_time null null O
+1 req_loc req_time null null O
+? req_loc req_time null null O
+? req_loc req_time null null O
+? req_loc req_time null null O
+? req_loc req_time null null O
+? req_loc req_time null null O
+? req_loc req_time null null O
+? req_loc req_time null null O
+o req_loc req_time null null O
+o req_loc req_time null null O
+? req_loc req_time null null O
+? req_loc req_time null null O
+? req_loc req_time null null O
+? req_loc req_time null null O
+ACT req_loc req_time N N other
+
+8 req_pernum req_time null null O
+ACT req_pernum req_time N N other
+
+8 req_loc null null null O
+ACT req_loc N N N other
+
+改 req_budget conf_pernum null null O
+为 req_budget conf_pernum null null O
+8 req_budget conf_pernum null null B_pernum
+人 req_budget conf_pernum null null I_pernum
+ACT req_budget conf_pernum N N inf
+
+? select_pernum null null null O
+? select_pernum null null null O
+1 select_pernum null null null O
+? select_pernum null null null O
+? select_pernum null null null O
+o select_pernum null null null O
+8 select_pernum null null null O
+? select_pernum null null null O
+o select_pernum null null null O
+o select_pernum null null null O
+ACT select_pernum N N N other
+
+1 req_budget conf_pernum null null O
+2 req_budget conf_pernum null null O
+ACT req_budget conf_pernum N N other
+
+参 req_budget conf_pernum null null O
+会 req_budget conf_pernum null null O
+人 req_budget conf_pernum null null O
+数 req_budget conf_pernum null null O
+8 req_budget conf_pernum null null B_pernum
+0 req_budget conf_pernum null null I_pernum
+ACT req_budget conf_pernum N N inf
+
+? req_budget conf_pernum null null O
+? req_budget conf_pernum null null O
+? req_budget conf_pernum null null O
+? req_budget conf_pernum null null O
+? req_budget conf_pernum null null O
+? req_budget conf_pernum null null O
+? req_budget conf_pernum null null O
+o req_budget conf_pernum null null O
+o req_budget conf_pernum null null O
+? req_budget conf_pernum null null O
+? req_budget conf_pernum null null O
+? req_budget conf_pernum null null O
+? req_budget conf_pernum null null O
+8 req_budget conf_pernum null null B_pernum
+0 req_budget conf_pernum null null I_pernum
+ACT req_budget conf_pernum N N inf
+
+预 req_budget conf_pernum null null O
+算 req_budget conf_pernum null null O
+8 req_budget conf_pernum null null B_budget
+0 req_budget conf_pernum null null I_budget
+0 req_budget conf_pernum null null I_budget
+0 req_budget conf_pernum null null I_budget
+ACT req_budget conf_pernum N N inf
+
+? req_timel conf_budget null null O
+? req_timel conf_budget null null O
+? req_timel conf_budget null null O
+? req_timel conf_budget null null O
+? req_timel conf_budget null null O
+? req_timel conf_budget null null O
+? req_timel conf_budget null null O
+? req_timel conf_budget null null O
+8 req_timel conf_budget null null B_budget
+0 req_timel conf_budget null null I_budget
+0 req_timel conf_budget null null I_budget
+0 req_timel conf_budget null null I_budget
+ACT req_timel conf_budget N N inf
+
+会 req_timel conf_pernum null null O
+议 req_timel conf_pernum null null O
+长 req_timel conf_pernum null null O
+8 req_timel conf_pernum null null B_timel
+0 req_timel conf_pernum null null I_timel
+ACT req_timel conf_pernum N N inf
+
+南 req_timel null null null B_loc
+京 req_timel null null null I_loc
+的 req_timel null null null I_loc
+大 req_timel null null null I_loc
+学 req_timel null null null I_loc
+开 req_timel null null null O
+ACT req_timel N N N inf
+
+? req_timel conf_loc null null O
+? req_timel conf_loc null null O
+? req_timel conf_loc null null O
+? req_timel conf_loc null null O
+o req_timel conf_loc null null O
+? req_timel conf_loc null null O
+? req_timel conf_loc null null O
+? req_timel conf_loc null null O
+? req_timel conf_loc null null O
+? req_timel conf_loc null null O
+? req_timel conf_loc null null O
+? req_timel conf_loc null null O
+? req_timel conf_loc null null O
+? req_timel conf_loc null null O
+- req_timel conf_loc null null O
+| req_timel conf_loc null null O
+? req_timel conf_loc null null O
+? req_timel conf_loc null null O
+? req_timel conf_loc null null O
+ACT req_timel conf_loc N N other
+
+在 req null null null O
+南 req null null null B_loc
+京 req null null null I_loc
+的 req null null null I_loc
+一 req null null null I_loc
+个 req null null null I_loc
+大 req null null null I_loc
+学 req null null null I_loc
+里 req null null null I_loc
+开 req null null null O
+ACT req N N N inf
+
+? req_timel null null null O
+? req_timel null null null O
+? req_timel null null null O
+? req_timel null null null O
+? req_timel null null null O
+? req_timel null null null O
+? req_timel null null null O
+? req_timel null null null O
+o req_timel null null null O
+? req_timel null null null O
+? req_timel null null null O
+? req_timel null null null O
+? req_timel null null null O
+? req_timel null null null O
+? req_timel null null null O
+? req_timel null null null O
+? req_timel null null null O
+? req_timel null null null O
+a req_timel null null null O
+? req_timel null null null O
+? req_timel null null null O
+? req_timel null null null O
+? req_timel null null null O
+? req_timel null null null O
+- req_timel null null null O
+| req_timel null null null O
+? req_timel null null null O
+? req_timel null null null O
+? req_timel null null null O
+? req_timel null null null O
+? req_timel null null null O
+? req_timel null null null O
+? req_timel null null null O
+ACT req_timel N N N other
+
+改 req_pernum req_time null null O
+在 req_pernum req_time null null O
+北 req_pernum req_time null null B_loc
+京 req_pernum req_time null null I_loc
+的 req_pernum req_time null null I_loc
+某 req_pernum req_time null null I_loc
+个 req_pernum req_time null null I_loc
+大 req_pernum req_time null null I_loc
+学 req_pernum req_time null null I_loc
+开 req_pernum req_time null null O
+吧 req_pernum req_time null null O
+ACT req_pernum req_time N N inf
+
+我 select_loc null null null O
+想 select_loc null null null O
+预 select_loc null null null O
+定 select_loc null null null O
+明 select_loc null null null B_time
+天 select_loc null null null I_time
+的 select_loc null null null O
+会 select_loc null null null O
+议 select_loc null null null O
+室 select_loc null null null O
+ACT select_loc N N N inf
+
+1 req null null null B_pernum
+2 req null null null I_pernum
+个 req null null null I_pernum
+人 req null null null I_pernum
+ACT req N N N inf
+
+地 conf_pernum req_loc req_time null O
+点 conf_pernum req_loc req_time null O
+在 conf_pernum req_loc req_time null O
+海 conf_pernum req_loc req_time null B_loc
+淀 conf_pernum req_loc req_time null I_loc
+ACT conf_pernum req_loc req_time N inf
+
+你 req_loc null null null O
+好 req_loc null null null O
+ACT req_loc N N N hello
+
+北 req_pernum req_time null null B_loc
+京 req_pernum req_time null null I_loc
+ACT req_pernum req_time N N inf
+
+3 req_pernum req_time null null B_pernum
+0 req_pernum req_time null null I_pernum
+人 req_pernum req_time null null I_pernum
+ACT req_pernum req_time N N inf
+
+十 req_pernum req_time null null B_time
+月 req_pernum req_time null null I_time
+三 req_pernum req_time null null I_time
+号 req_pernum req_time null null I_time
+的 req_pernum req_time null null O
+ACT req_pernum req_time N N inf
+
+恩 conf_pernum conf_loc null null O
+ACT conf_pernum conf_loc N N ok
+
+3 req_budget conf_time null null B_budget
+0 req_budget conf_time null null I_budget
+0 req_budget conf_time null null I_budget
+0 req_budget conf_time null null I_budget
+元 req_budget conf_time null null I_budget
+ACT req_budget conf_time N N inf
+
+几 req_timel conf_budget null null B_timel
+天 req_timel conf_budget null null I_timel
+ACT req_timel conf_budget N N inf
+
+额 conf_timel null null null O
+n conf_timel null null null O
+、 conf_timel null null null O
+ACT conf_timel N N N ok
+
+我 null null null null O
+日 null null null null O
+ACT null N N N other
+
+1 req_budget null null null B_budget
+9 req_budget null null null I_budget
+0 req_budget null null null I_budget
+ACT req_budget N N N inf
+
+2 req_timel conf_budget null null B_timel
+ACT req_timel conf_budget N N inf
+
+2 req_timel null null null B_timel
+h req_timel null null null I_timel
+ACT req_timel N N N inf
+
+3 select_time null null null B_timel
+小 select_time null null null I_timel
+时 select_time null null null I_timel
+ACT select_time N N N inf
+
+1 req_pernum conf_timel null null B_pernum
+8 req_pernum conf_timel null null I_pernum
+0 req_pernum conf_timel null null I_pernum
+人 req_pernum conf_timel null null I_pernum
+ACT req_pernum conf_timel N N inf
+
+你 req_loc conf_pernum null null O
+好 req_loc conf_pernum null null O
+ACT req_loc conf_pernum N N hello
+
+你 req null null null O
+好 req null null null O
+ACT req N N N hello
+
+重 req_pernum req_time null null B_loc
+庆 req_pernum req_time null null I_loc
+ACT req_pernum req_time N N inf
+
+不 conf_loc null null null O
+送 conf_loc null null null O
+ACT conf_loc N N N other
+
+重 req_loc null null null B_loc
+庆 req_loc null null null I_loc
+ACT req_loc N N N inf
+
+开 conf_loc null null null O
+会 conf_loc null null null O
+ACT conf_loc N N N other
+
+是 req null null null O
+ACT req N N N ok
+
+你 null null null null O
+好 null null null null O
+ACT null N N N hello
+
+北 req_pernum req_time null null B_loc
+京 req_pernum req_time null null I_loc
+ACT req_pernum req_time N N inf
+
+你 req_budget conf_loc null null O
+好 req_budget conf_loc null null O
+ACT req_budget conf_loc N N hello
+
+5 req_budget null null null B_budget
+0 req_budget null null null I_budget
+0 req_budget null null null I_budget
+0 req_budget null null null I_budget
+ACT req_budget N N N inf
+
+你 req_timel conf_budget null null O
+吃 req_timel conf_budget null null O
+饭 req_timel conf_budget null null O
+了 req_timel conf_budget null null O
+吗 req_timel conf_budget null null O
+？ req_timel conf_budget null null O
+ACT req_timel conf_budget N N other
+
+1 req null null null O
+2 req null null null O
+. req null null null O
+ACT req N N N other
+
+好 req_timel conf_pernum null null O
+吃 req_timel conf_pernum null null O
+的 req_timel conf_pernum null null O
+ACT req_timel conf_pernum N N other
+
+1 req null null null O
+2 req null null null O
+0 req null null null O
+ACT req N N N other
+
+我 select_budget null null null O
+要 select_budget null null null O
+订 select_budget null null null O
+会 select_budget null null null O
+议 select_budget null null null O
+室 select_budget null null null O
+ACT select_budget N N N other
+
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+| req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+ACT req N N N other
+
+吃 req null null null O
+货 req null null null O
+会 req null null null O
+议 req null null null O
+ACT req N N N inf
+
+我 req null null null O
+要 req null null null O
+订 req null null null O
+会 req null null null O
+议 req null null null O
+室 req null null null O
+ACT req N N N other
+
+1 req null null null B_pernum
+0 req null null null I_pernum
+0 req null null null I_pernum
+人 req null null null I_pernum
+开 req null null null O
+会 req null null null O
+ACT req N N N inf
+
+1 req_budget conf_pernum null null O
+0 req_budget conf_pernum null null O
+0 req_budget conf_pernum null null O
+? req_budget conf_pernum null null O
+o req_budget conf_pernum null null O
+o req_budget conf_pernum null null O
+? req_budget conf_pernum null null O
+? req_budget conf_pernum null null O
+? req_budget conf_pernum null null O
+? req_budget conf_pernum null null O
+? req_budget conf_pernum null null O
+? req_budget conf_pernum null null O
+ACT req_budget conf_pernum N N inf
+
+大 req_timel conf_pernum null null O
+的 req_timel conf_pernum null null O
+ACT req_timel conf_pernum N N inf
+
+5 req null null null B_budget
+0 req null null null I_budget
+0 req null null null I_budget
+0 req null null null I_budget
+元 req null null null I_budget
+ACT req N N N inf
+
+5 req_timel conf_budget null null B_budget
+0 req_timel conf_budget null null I_budget
+0 req_timel conf_budget null null I_budget
+0 req_timel conf_budget null null I_budget
+? req_timel conf_budget null null O
+? req_timel conf_budget null null O
+? req_timel conf_budget null null O
+ACT req_timel conf_budget N N inf
+
+8 req_timel conf_pernum null null B_timel
+天 req_timel conf_pernum null null I_timel
+吧 req_timel conf_pernum null null O
+ACT req_timel conf_pernum N N inf
+
+1 req_time conf_timel null null B_pernum
+0 req_time conf_timel null null I_pernum
+0 req_time conf_timel null null I_pernum
+0 req_time conf_timel null null I_pernum
+0 req_time conf_timel null null I_pernum
+人 req_time conf_timel null null I_pernum
+开 req_time conf_timel null null O
+会 req_time conf_timel null null O
+ACT req_time conf_timel N N inf
+
+容 req_time req_loc conf_pernum null O
+纳 req_time req_loc conf_pernum null O
+3 req_time req_loc conf_pernum null B_pernum
+0 req_time req_loc conf_pernum null I_pernum
+0 req_time req_loc conf_pernum null I_pernum
+人 req_time req_loc conf_pernum null I_pernum
+左 req_time req_loc conf_pernum null I_pernum
+右 req_time req_loc conf_pernum null I_pernum
+ACT req_time req_loc conf_pernum N inf
+
+8 req_budget conf_pernum null null B_time
+月 req_budget conf_pernum null null I_time
+1 req_budget conf_pernum null null I_time
+日 req_budget conf_pernum null null I_time
+ACT req_budget conf_pernum N N inf
+
+3 req_loc conf_time null null B_budget
+0 req_loc conf_time null null I_budget
+0 req_loc conf_time null null I_budget
+ACT req_loc conf_time N N inf
+
+北 req_timel conf_budget null null B_loc
+京 req_timel conf_budget null null I_loc
+ACT req_timel conf_budget N N inf
+
+2 conf_loc null null null B_timel
+h conf_loc null null null I_timel
+ACT conf_loc N N N inf
+
+是 req_timel conf_time null null O
+的 req_timel conf_time null null O
+ACT req_timel conf_time N N ok
+
+3 null null null null B_pernum
+0 null null null null I_pernum
+0 null null null null I_pernum
+0 null null null null I_pernum
+0 null null null null I_pernum
+人 null null null null I_pernum
+呢 null null null null O
+？ null null null null O
+ACT null N N N inf
+
+订 req_budget conf_pernum null null O
+会 req_budget conf_pernum null null O
+议 req_budget conf_pernum null null O
+室 req_budget conf_pernum null null O
+ACT req_budget conf_pernum N N other
+
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+ACT req N N N other
+
+5 req null null null B_pernum
+0 req null null null I_pernum
+0 req null null null I_pernum
+0 req null null null I_pernum
+0 req null null null I_pernum
+0 req null null null I_pernum
+人 req null null null I_pernum
+呢 req null null null O
+？ req null null null O
+ACT req N N N inf
+
+8 req_budget conf_pernum null null B_timel
+天 req_budget conf_pernum null null I_timel
+ACT req_budget conf_pernum N N inf
+
+8 req_pernum req_loc conf_timel null O
+? req_pernum req_loc conf_timel null O
+? req_pernum req_loc conf_timel null O
+? req_pernum req_loc conf_timel null O
+? req_pernum req_loc conf_timel null O
+ACT req_pernum req_loc conf_timel N other
+
+你 req_budget conf_pernum null null O
+们 req_budget conf_pernum null null O
+真 req_budget conf_pernum null null O
+的 req_budget conf_pernum null null O
+有 req_budget conf_pernum null null O
+这 req_budget conf_pernum null null O
+么 req_budget conf_pernum null null O
+大 req_budget conf_pernum null null O
+的 req_budget conf_pernum null null O
+会 req_budget conf_pernum null null O
+议 req_budget conf_pernum null null O
+室 req_budget conf_pernum null null O
+吗 req_budget conf_pernum null null O
+？ req_budget conf_pernum null null O
+ACT req_budget conf_pernum N N other
+
+6 req_loc null null null B_budget
+9 req_loc null null null I_budget
+9 req_loc null null null I_budget
+9 req_loc null null null I_budget
+元 req_loc null null null I_budget
+吧 req_loc null null null O
+ACT req_loc N N N inf
+
+订 conf_budget req_loc req_time null O
+会 conf_budget req_loc req_time null O
+议 conf_budget req_loc req_time null O
+室 conf_budget req_loc req_time null O
+ACT conf_budget req_loc req_time N other
+
+是 req null null null O
+ACT req N N N ok
+
+? req_loc null null null O
+? req_loc null null null O
+? req_loc null null null O
+? req_loc null null null O
+ACT req_loc N N N other
+
+谭 req_pernum req_time null null O
+某 req_pernum req_time null null O
+某 req_pernum req_time null null O
+交 req_pernum req_time null null O
+流 req_pernum req_time null null O
+会 req_pernum req_time null null O
+ACT req_pernum req_time N N inf
+
+上 req null null null O
+海 req null null null O
+北 req null null null O
+京 req null null null O
+广 req null null null O
+东 req null null null O
+都 req null null null O
+行 req null null null O
+ACT req N N N inf
+
+批 req_loc null null null O
+斗 req_loc null null null O
+会 req_loc null null null O
+ACT req_loc N N N inf
+
+南 req null null null B_loc
+京 req null null null I_loc
+ACT req N N N inf
+
+北 req_pernum req_time conf_loc null B_loc
+上 req_pernum req_time conf_loc null I_loc
+广 req_pernum req_time conf_loc null I_loc
+ACT req_pernum req_time conf_loc N inf
+
+5 req_time req_loc null null B_pernum
+0 req_time req_loc null null I_pernum
+0 req_time req_loc null null I_pernum
+人 req_time req_loc null null I_pernum
+的 req_time req_loc null null O
+ACT req_time req_loc N N inf
+
+你 req_loc req_time conf_pernum null O
+没 req_loc req_time conf_pernum null O
+听 req_loc req_time conf_pernum null O
+清 req_loc req_time conf_pernum null O
+吗 req_loc req_time conf_pernum null O
+？ req_loc req_time conf_pernum null O
+ACT req_loc req_time conf_pernum N other
+
+北 req_loc req_time conf_pernum null B_loc
+上 req_loc req_time conf_pernum null I_loc
+广 req_loc req_time conf_pernum null I_loc
+ACT req_loc req_time conf_pernum N inf
+
+8 req_loc null null null B_time
+月 req_loc null null null I_time
+8 req_loc null null null I_time
+号 req_loc null null null I_time
+, req_loc null null null O
+ACT req_loc N N N inf
+
+北 req_loc null null null B_loc
+京 req_loc null null null I_loc
+ACT req_loc N N N inf
+
+5 req_budget null null null B_budget
+0 req_budget null null null I_budget
+0 req_budget null null null I_budget
+0 req_budget null null null I_budget
+0 req_budget null null null I_budget
+ACT req_budget N N N inf
+
+1 req_timel conf_budget null null B_timel
+0 req_timel conf_budget null null I_timel
+天 req_timel conf_budget null null I_timel
+ACT req_timel conf_budget N N inf
+
+1 conf_timel conf_time null null B_pernum
+0 conf_timel conf_time null null I_pernum
+0 conf_timel conf_time null null I_pernum
+0 conf_timel conf_time null null I_pernum
+人 conf_timel conf_time null null I_pernum
+ACT conf_timel conf_time N N inf
+
+8 req_budget conf_pernum null null B_pernum
+0 req_budget conf_pernum null null I_pernum
+人 req_budget conf_pernum null null I_pernum
+ACT req_budget conf_pernum N N inf
+
+是 req_timel conf_pernum null null O
+8 req_timel conf_pernum null null O
+ACT req_timel conf_pernum N N ok
+
+8 null null null null B_pernum
+0 null null null null I_pernum
+人 null null null null I_pernum
+ACT null N N N inf
+
+? req_timel null null null O
+? req_timel null null null O
+? req_timel null null null O
+? req_timel null null null O
+? req_timel null null null O
+? req_timel null null null O
+? req_timel null null null O
+? req_timel null null null O
+? req_timel null null null O
+? req_timel null null null O
+? req_timel null null null O
+? req_timel null null null O
+o req_timel null null null O
+? req_timel null null null O
+? req_timel null null null O
+? req_timel null null null O
+? req_timel null null null O
+? req_timel null null null O
+? req_timel null null null O
+? req_timel null null null O
+? req_timel null null null O
+ACT req_timel N N N other
+
+还 req_pernum req_time null null O
+在 req_pernum req_time null null O
+北 req_pernum req_time null null B_loc
+京 req_pernum req_time null null I_loc
+开 req_pernum req_time null null O
+吧 req_pernum req_time null null O
+ACT req_pernum req_time N N inf
+
+b req_time select_loc req_pernum null O
+e req_time select_loc req_pernum null O
+i req_time select_loc req_pernum null O
+j req_time select_loc req_pernum null O
+i req_time select_loc req_pernum null O
+n req_time select_loc req_pernum null O
+g req_time select_loc req_pernum null O
+ACT req_time select_loc req_pernum N other
+
+北 req null null null B_loc
+京 req null null null I_loc
+ACT req N N N inf
+
+是 req_pernum req_time conf_loc null O
+ACT req_pernum req_time conf_loc N ok
+
+8 req_pernum null null null B_pernum
+0 req_pernum null null null I_pernum
+人 req_pernum null null null I_pernum
+ACT req_pernum N N N inf
+
+是 req_time conf_pernum null null O
+ACT req_time conf_pernum N N ok
+
+还 req_time null null null O
+在 req_time null null null O
+南 req_time null null null B_loc
+京 req_time null null null I_loc
+吧 req_time null null null O
+ACT req_time N N N inf
+
+? req_budget req_time null null O
+? req_budget req_time null null O
+? req_budget req_time null null O
+? req_budget req_time null null O
+? req_budget req_time null null O
+? req_budget req_time null null O
+? req_budget req_time null null O
+? req_budget req_time null null O
+? req_budget req_time null null O
+? req_budget req_time null null O
+? req_budget req_time null null O
+? req_budget req_time null null O
+o req_budget req_time null null O
+? req_budget req_time null null O
+? req_budget req_time null null O
+? req_budget req_time null null O
+? req_budget req_time null null O
+? req_budget req_time null null O
+ACT req_budget req_time N N other
+
+8 req null null null B_time
+月 req null null null I_time
+8 req null null null I_time
+号 req null null null I_time
+十 req null null null I_time
+点 req null null null I_time
+ACT req N N N inf
+
+是 req_timel conf_time null null O
+ACT req_timel conf_time N N ok
+
+还 req_timel req_budget null null O
+在 req_timel req_budget null null O
+天 req_timel req_budget null null B_loc
+津 req_timel req_budget null null I_loc
+开 req_timel req_budget null null O
+吧 req_timel req_budget null null O
+ACT req_timel req_budget N N inf
+
+? select_loc null null null O
+? select_loc null null null O
+? select_loc null null null O
+? select_loc null null null O
+? select_loc null null null O
+? select_loc null null null O
+? select_loc null null null O
+? select_loc null null null O
+? select_loc null null null O
+? select_loc null null null O
+? select_loc null null null O
+? select_loc null null null O
+? select_loc null null null O
+? select_loc null null null O
+? select_loc null null null O
+? select_loc null null null O
+? select_loc null null null O
+? select_loc null null null O
+? select_loc null null null O
+? select_loc null null null O
+? select_loc null null null O
+? select_loc null null null O
+ACT select_loc N N N other
+
+北 req null null null B_loc
+京 req null null null I_loc
+ACT req N N N inf
+
+8 req_time req_budget null null B_time
+月 req_time req_budget null null I_time
+1 req_time req_budget null null I_time
+日 req_time req_budget null null I_time
+ACT req_time req_budget N N inf
+
+1 req_time req_budget null null B_budget
+0 req_time req_budget null null I_budget
+0 req_time req_budget null null I_budget
+0 req_time req_budget null null I_budget
+元 req_time req_budget null null I_budget
+ACT req_time req_budget N N inf
+
+是 conf_time conf_budget null null O
+ACT conf_time conf_budget N N ok
+
+龙 null null null null B_loc
+岩 null null null null I_loc
+ACT null N N N inf
+
+? req_pernum req_time null null O
+? req_pernum req_time null null O
+? req_pernum req_time null null O
+? req_pernum req_time null null O
+? req_pernum req_time null null O
+2 req_pernum req_time null null O
+? req_pernum req_time null null O
+ACT req_pernum req_time N N other
+
+你 req null null null O
+好 req null null null O
+ACT req N N N hello
+
+开 req null null null O
+会 req null null null O
+人 req null null null O
+数 req null null null O
+多 req null null null O
+ACT req N N N inf
+
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+o req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+ACT req N N N other
+
+会 req_pernum req_time null null O
+场 req_pernum req_time null null O
+高 req_pernum req_time null null O
+大 req_pernum req_time null null O
+上 req_pernum req_time null null O
+ACT req_pernum req_time N N inf
+
+5 req null null null B_pernum
+人 req null null null I_pernum
+三 req null null null B_timel
+天 req null null null I_timel
+的 req null null null O
+会 req null null null O
+议 req null null null O
+ACT req N N N inf
+
+我 req_budget conf_pernum conf_timel null O
+要 req_budget conf_pernum conf_timel null O
+开 req_budget conf_pernum conf_timel null O
+学 req_budget conf_pernum conf_timel null O
+术 req_budget conf_pernum conf_timel null O
+会 req_budget conf_pernum conf_timel null O
+议 req_budget conf_pernum conf_timel null O
+ACT req_budget conf_pernum conf_timel N inf
+
+1 req null null null O
+0 req null null null O
+0 req null null null O
+0 req null null null O
+ACT req N N N other
+
+1 req_pernum conf_budget null null B_pernum
+0 req_pernum conf_budget null null I_pernum
+0 req_pernum conf_budget null null I_pernum
+0 req_pernum conf_budget null null I_pernum
+人 req_pernum conf_budget null null I_pernum
+ACT req_pernum conf_budget N N inf
+
+不 req_loc req_time conf_pernum null O
+对 req_loc req_time conf_pernum null O
+ACT req_loc req_time conf_pernum N rej
+
+? req_pernum null null null O
+? req_pernum null null null O
+? req_pernum null null null O
+? req_pernum null null null O
+? req_pernum null null null O
+? req_pernum null null null O
+1 req_pernum null null null O
+ACT req_pernum N N N other
+
+5 req null null null B_pernum
+人 req null null null I_pernum
+ACT req N N N inf
+
+北 req_loc conf_pernum null null B_loc
+京 req_loc conf_pernum null null I_loc
+ACT req_loc conf_pernum N N inf
+
+? conf_loc conf_timel null null O
+? conf_loc conf_timel null null O
+? conf_loc conf_timel null null O
+? conf_loc conf_timel null null O
+? conf_loc conf_timel null null O
+? conf_loc conf_timel null null O
+? conf_loc conf_timel null null O
+? conf_loc conf_timel null null O
+? conf_loc conf_timel null null O
+ACT conf_loc conf_timel N N other
+
+刚 req_pernum req_time null null O
+刚 req_pernum req_time null null O
+的 req_pernum req_time null null O
+ACT req_pernum req_time N N other
+
+不 req_pernum req_time null null O
+是 req_pernum req_time null null O
+, req_pernum req_time null null O
+ACT req_pernum req_time N N rej
+
+地 req_pernum req_time null null O
+点 req_pernum req_time null null O
+在 req_pernum req_time null null O
+天 req_pernum req_time null null B_loc
+津 req_pernum req_time null null I_loc
+ACT req_pernum req_time N N inf
+
+1 req_timel conf_loc null null B_pernum
+0 req_timel conf_loc null null I_pernum
+0 req_timel conf_loc null null I_pernum
+0 req_timel conf_loc null null I_pernum
+人 req_timel conf_loc null null I_pernum
+ACT req_timel conf_loc N N inf
+
+明 req_timel conf_loc null null B_time
+天 req_timel conf_loc null null I_time
+开 req_timel conf_loc null null O
+ACT req_timel conf_loc N N inf
+
+1 req_budget conf_pernum null null B_budget
+0 req_budget conf_pernum null null I_budget
+0 req_budget conf_pernum null null I_budget
+0 req_budget conf_pernum null null I_budget
+? req_budget conf_pernum null null O
+o req_budget conf_pernum null null O
+o req_budget conf_pernum null null O
+ACT req_budget conf_pernum N N inf
+
+? req_budget conf_pernum null null O
+? req_budget conf_pernum null null O
+? req_budget conf_pernum null null O
+? req_budget conf_pernum null null O
+? req_budget conf_pernum null null O
+? req_budget conf_pernum null null O
+? req_budget conf_pernum null null O
+? req_budget conf_pernum null null O
+? req_budget conf_pernum null null O
+? req_budget conf_pernum null null O
+ACT req_budget conf_pernum N N other
+
+三 req_timel conf_pernum null null B_timel
+天 req_timel conf_pernum null null I_timel
+ACT req_timel conf_pernum N N inf
+
+是 conf_timel null null null O
+的 conf_timel null null null O
+ACT conf_timel N N N ok
+
+预 null null null null O
+算 null null null null O
+不 null null null null O
+高 null null null null O
+ACT null N N N inf
+
+预 req_pernum null null null O
+定 req_pernum null null null O
+5 req_pernum null null null B_pernum
+个 req_pernum null null null I_pernum
+人 req_pernum null null null I_pernum
+开 req_pernum null null null O
+会 req_pernum null null null O
+的 req_pernum null null null O
+会 req_pernum null null null O
+议 req_pernum null null null O
+室 req_pernum null null null O
+, req_pernum null null null O
+ACT req_pernum N N N inf
+
+时 req_pernum null null null O
+间 req_pernum null null null O
+为 req_pernum null null null O
+三 req_pernum null null null B_timel
+天 req_pernum null null null I_timel
+ACT req_pernum N N N inf
+
+还 req_budget conf_pernum null null O
+是 req_budget conf_pernum null null O
+5 req_budget conf_pernum null null B_pernum
+0 req_budget conf_pernum null null I_pernum
+0 req_budget conf_pernum null null I_pernum
+人 req_budget conf_pernum null null I_pernum
+吧 req_budget conf_pernum null null O
+ACT req_budget conf_pernum N N inf
+
+有 req_budget conf_pernum null null O
+ACT req_budget conf_pernum N N inf
+
+? req_budget null null null O
+? req_budget null null null O
+? req_budget null null null O
+ACT req_budget N N N other
+
+5 req_pernum req_time null null B_pernum
+0 req_pernum req_time null null I_pernum
+0 req_pernum req_time null null I_pernum
+ACT req_pernum req_time N N inf
+
+5 req_timel conf_pernum null null B_pernum
+0 req_timel conf_pernum null null I_pernum
+0 req_timel conf_pernum null null I_pernum
+ACT req_timel conf_pernum N N inf
+
+5 req_timel null null null B_timel
+ACT req_timel N N N inf
+
+5 select_pernum null null null B_timel
+天 select_pernum null null null I_timel
+ACT select_pernum N N N inf
+
+南 req_loc conf_timel null null B_loc
+京 req_loc conf_timel null null I_loc
+ACT req_loc conf_timel N N inf
+
+? conf_timel conf_loc null null O
+? conf_timel conf_loc null null O
+? conf_timel conf_loc null null O
+? conf_timel conf_loc null null O
+o conf_timel conf_loc null null O
+? conf_timel conf_loc null null O
+ACT conf_timel conf_loc N N other
+
+2 req null null null O
+0 req null null null O
+0 req null null null O
+ACT req N N N other
+
+对 req_time conf_budget null null O
+ACT req_time conf_budget N N ok
+
+明 null null null null B_time
+天 null null null null I_time
+ACT null N N N inf
+
+? done req_time conf_timel null O
+? done req_time conf_timel null O
+? done req_time conf_timel null O
+1 done req_time conf_timel null O
+ACT done req_time conf_timel N other
+
+6 req null null null B_time
+号 req null null null I_time
+ACT req N N N inf
+
+北 req_loc conf_time null null B_loc
+京 req_loc conf_time null null I_loc
+大 req_loc conf_time null null I_loc
+学 req_loc conf_time null null I_loc
+ACT req_loc conf_time N N inf
+
+订 req_loc null null null O
+会 req_loc null null null O
+议 req_loc null null null O
+室 req_loc null null null O
+ACT req_loc N N N other
+
+河 req null null null B_loc
+南 req null null null I_loc
+大 req null null null I_loc
+厦 req null null null I_loc
+ACT req N N N inf
+
+不 conf_loc null null null O
+是 conf_loc null null null O
+ACT conf_loc N N N rej
+
+北 req_loc null null null O
+邮 req_loc null null null O
+科 req_loc null null null O
+技 req_loc null null null O
+大 req_loc null null null O
+厦 req_loc null null null O
+ACT req_loc N N N inf
+
+是 conf_loc null null null O
+的 conf_loc null null null O
+ACT conf_loc N N N ok
+
+啥 null null null null O
+？ null null null null O
+ACT null N N N other
+
+5 req_timel req_loc null null B_pernum
+0 req_timel req_loc null null I_pernum
+0 req_timel req_loc null null I_pernum
+人 req_timel req_loc null null I_pernum
+开 req_timel req_loc null null O
+8 req_timel req_loc null null B_timel
+天 req_timel req_loc null null I_timel
+预 req_timel req_loc null null O
+算 req_timel req_loc null null O
+5 req_timel req_loc null null B_budget
+0 req_timel req_loc null null I_budget
+0 req_timel req_loc null null I_budget
+0 req_timel req_loc null null I_budget
+元 req_timel req_loc null null I_budget
+ACT req_timel req_loc N N inf
+
+5 req_pernum req_time null null B_pernum
+人 req_pernum req_time null null I_pernum
+三 req_pernum req_time null null O
+天 req_pernum req_time null null O
+的 req_pernum req_time null null O
+会 req_pernum req_time null null O
+议 req_pernum req_time null null O
+ACT req_pernum req_time N N inf
+
+2 req_budget conf_pernum conf_time null B_timel
+h req_budget conf_pernum conf_time null I_timel
+ACT req_budget conf_pernum conf_time N inf
+
+北 req_budget conf_pernum conf_time null B_loc
+邮 req_budget conf_pernum conf_time null I_loc
+ACT req_budget conf_pernum conf_time N inf
+
+北 req_loc null null null B_loc
+邮 req_loc null null null I_loc
+啊 req_loc null null null O
+ACT req_loc N N N inf
+
+5 req_timel req_loc null null B_pernum
+0 req_timel req_loc null null I_pernum
+0 req_timel req_loc null null I_pernum
+人 req_timel req_loc null null I_pernum
+, req_timel req_loc null null O
+ACT req_timel req_loc N N inf
+
+8 req_timel req_loc null null B_timel
+天 req_timel req_loc null null I_timel
+, req_timel req_loc null null O
+ACT req_timel req_loc N N inf
+
+5 req_timel req_loc null null B_budget
+0 req_timel req_loc null null I_budget
+0 req_timel req_loc null null I_budget
+0 req_timel req_loc null null I_budget
+元 req_timel req_loc null null I_budget
+ACT req_timel req_loc N N inf
+
+8 req_time conf_pernum null null B_time
+/ req_time conf_pernum null null I_time
+8 req_time conf_pernum null null I_time
+ACT req_time conf_pernum N N inf
+
+9 conf_budget conf_timel null null B_timel
+天 conf_budget conf_timel null null I_timel
+ACT conf_budget conf_timel N N inf
+
+8 req_time conf_timel null null B_time
+/ req_time conf_timel null null I_time
+8 req_time conf_timel null null I_time
+ACT req_time conf_timel N N inf
+
+8 req_time null null null B_time
+/ req_time null null null I_time
+8 req_time null null null I_time
+ACT req_time N N N inf
+
+5 req_loc req_time null null B_time
+/ req_loc req_time null null I_time
+8 req_loc req_time null null I_time
+ACT req_loc req_time N N inf
+
+北 req_loc req_time null null B_loc
+京 req_loc req_time null null I_loc
+邮 req_loc req_time null null I_loc
+电 req_loc req_time null null I_loc
+大 req_loc req_time null null I_loc
+学 req_loc req_time null null I_loc
+ACT req_loc req_time N N inf
+
+北 req_loc null null null B_loc
+京 req_loc null null null I_loc
+邮 req_loc null null null I_loc
+电 req_loc null null null I_loc
+大 req_loc null null null I_loc
+学 req_loc null null null I_loc
+ACT req_loc N N N inf
+
+8 req_loc req_time null null B_time
+月 req_loc req_time null null I_time
+8 req_loc req_time null null I_time
+号 req_loc req_time null null I_time
+, req_loc req_time null null O
+ACT req_loc req_time N N inf
+
+北 req_loc req_time null null B_loc
+京 req_loc req_time null null I_loc
+ACT req_loc req_time N N inf
+
+你 conf_loc conf_time null null O
+好 conf_loc conf_time null null O
+ACT conf_loc conf_time N N hello
+
+能 req null null null O
+容 req null null null O
+纳 req null null null O
+3 req null null null B_loc
+0 req null null null I_loc
+0 req null null null I_loc
+人 req null null null I_loc
+的 req null null null O
+会 req null null null O
+议 req null null null O
+室 req null null null O
+ACT req N N N inf
+
+6 req_time req_loc conf_loc null B_time
+月 req_time req_loc conf_loc null I_time
+1 req_time req_loc conf_loc null I_time
+5 req_time req_loc conf_loc null I_time
+日 req_time req_loc conf_loc null I_time
+, req_time req_loc conf_loc null O
+ACT req_time req_loc conf_loc N inf
+
+长 req_time req_loc conf_loc null B_loc
+沙 req_time req_loc conf_loc null I_loc
+ACT req_time req_loc conf_loc N inf
+
+1 req_budget conf_time null null B_budget
+万 req_budget conf_time null null I_budget
+ACT req_budget conf_time N N inf
+
+1 req_timel conf_budget null null B_timel
+天 req_timel conf_budget null null I_timel
+ACT req_timel conf_budget N N inf
+
+长 req_loc conf_timel null null B_loc
+沙 req_loc conf_timel null null I_loc
+ACT req_loc conf_timel N N inf
+
+对 conf_loc null null null O
+ACT conf_loc N N N ok
+
+你 null null null null O
+好 null null null null O
+ACT null N N N hello
+
+在 req null null null O
+北 req null null null B_loc
+京 req null null null I_loc
+市 req null null null I_loc
+海 req null null null I_loc
+淀 req null null null I_loc
+区 req null null null I_loc
+开 req null null null O
+会 req null null null O
+ACT req N N N inf
+
+3 req_pernum req_time conf_loc null B_pernum
+0 req_pernum req_time conf_loc null I_pernum
+人 req_pernum req_time conf_loc null I_pernum
+左 req_pernum req_time conf_loc null I_pernum
+右 req_pernum req_time conf_loc null I_pernum
+ACT req_pernum req_time conf_loc N inf
+
+下 req_budget conf_pernum null null B_time
+周 req_budget conf_pernum null null I_time
+四 req_budget conf_pernum null null I_time
+召 req_budget conf_pernum null null O
+开 req_budget conf_pernum null null O
+ACT req_budget conf_pernum N N inf
+
+会 req_budget conf_time null null O
+议 req_budget conf_time null null O
+时 req_budget conf_time null null O
+长 req_budget conf_time null null O
+一 req_budget conf_time null null B_timel
+天 req_budget conf_time null null I_timel
+ACT req_budget conf_time N N inf
+
+3 req_budget conf_imel null null B_budget
+0 req_budget conf_imel null null I_budget
+0 req_budget conf_imel null null I_budget
+0 req_budget conf_imel null null I_budget
+0 req_budget conf_imel null null I_budget
+元 req_budget conf_imel null null I_budget
+ACT req_budget conf_imel N N inf
+
+对 conf_budget null null null O
+ACT conf_budget N N N ok
+
+你 null null null null O
+好 null null null null O
+ACT null N N N hello
+
+郑 req_pernum req_time null null B_loc
+州 req_pernum req_time null null I_loc
+市 req_pernum req_time null null I_loc
+二 req_pernum req_time null null I_loc
+七 req_pernum req_time null null I_loc
+区 req_pernum req_time null null I_loc
+ACT req_pernum req_time N N inf
+
+2 req_pernum req_time conf_loc null B_pernum
+0 req_pernum req_time conf_loc null I_pernum
+人 req_pernum req_time conf_loc null I_pernum
+与 req_pernum req_time conf_loc null O
+会 req_pernum req_time conf_loc null O
+ACT req_pernum req_time conf_loc N inf
+
+七 req_budget conf_pernum null null B_time
+月 req_budget conf_pernum null null I_time
+一 req_budget conf_pernum null null I_time
+号 req_budget conf_pernum null null I_time
+召 req_budget conf_pernum null null O
+开 req_budget conf_pernum null null O
+ACT req_budget conf_pernum N N inf
+
+时 req_budget conf_time null null O
+长 req_budget conf_time null null O
+几 req_budget conf_time null null B_timel
+个 req_budget conf_time null null I_timel
+小 req_budget conf_time null null I_timel
+时 req_budget conf_time null null I_timel
+ACT req_budget conf_time N N inf
+
+预 req_budget conf_timel null null O
+算 req_budget conf_timel null null O
+1 req_budget conf_timel null null B_budget
+0 req_budget conf_timel null null I_budget
+0 req_budget conf_timel null null I_budget
+0 req_budget conf_timel null null I_budget
+0 req_budget conf_timel null null I_budget
+元 req_budget conf_timel null null I_budget
+ACT req_budget conf_timel N N inf
+
+对 conf_budget null null null O
+ACT conf_budget N N N ok
+
+你 null null null null O
+好 null null null null O
+ACT null N N N hello
+
+北 req_pernum req_time null null B_loc
+京 req_pernum req_time null null I_loc
+市 req_pernum req_time null null I_loc
+朝 req_pernum req_time null null I_loc
+阳 req_pernum req_time null null I_loc
+区 req_pernum req_time null null I_loc
+ACT req_pernum req_time N N inf
+
+容 req_pernum req_time conf_loc null O
+纳 req_pernum req_time conf_loc null O
+一 req_pernum req_time conf_loc null B_pernum
+百 req_pernum req_time conf_loc null I_pernum
+人 req_pernum req_time conf_loc null I_pernum
+ACT req_pernum req_time conf_loc N inf
+
+这 req_budget conf_pernum null null B_time
+周 req_budget conf_pernum null null I_time
+末 req_budget conf_pernum null null I_time
+召 req_budget conf_pernum null null O
+开 req_budget conf_pernum null null O
+ACT req_budget conf_pernum N N inf
+
+时 req_budget conf_time null null O
+长 req_budget conf_time null null O
+一 req_budget conf_time null null B_timel
+天 req_budget conf_time null null I_timel
+ACT req_budget conf_time N N inf
+
+1 req_budget conf_timel null null B_budget
+0 req_budget conf_timel null null I_budget
+0 req_budget conf_timel null null I_budget
+0 req_budget conf_timel null null I_budget
+0 req_budget conf_timel null null I_budget
+0 req_budget conf_timel null null I_budget
+元 req_budget conf_timel null null I_budget
+ACT req_budget conf_timel N N inf
+
+对 conf_budget null null null O
+ACT conf_budget N N N ok
+
+你 null null null null O
+好 null null null null O
+ACT null N N N hello
+
+海 req null null null B_loc
+淀 req null null null I_loc
+区 req null null null I_loc
+西 req null null null I_loc
+直 req null null null I_loc
+门 req null null null I_loc
+ACT req N N N inf
+
+有 req_pernum req_time conf_loc null O
+3 req_pernum req_time conf_loc null B_pernum
+0 req_pernum req_time conf_loc null I_pernum
+人 req_pernum req_time conf_loc null I_pernum
+的 req_pernum req_time conf_loc null O
+会 req_pernum req_time conf_loc null O
+议 req_pernum req_time conf_loc null O
+ACT req_pernum req_time conf_loc N inf
+
+2 req_budget conf_pernum null null B_time
+5 req_budget conf_pernum null null I_time
+号 req_budget conf_pernum null null I_time
+召 req_budget conf_pernum null null O
+开 req_budget conf_pernum null null O
+ACT req_budget conf_pernum N N inf
+
+一 req_budget conf_time null null B_timel
+周 req_budget conf_time null null I_timel
+时 req_budget conf_time null null O
+间 req_budget conf_time null null O
+ACT req_budget conf_time N N inf
+
+五 req_budget conf_timel null null B_budget
+千 req_budget conf_timel null null I_budget
+ACT req_budget conf_timel N N inf
+
+对 conf_budget null null null O
+ACT conf_budget N N N ok
+
+你 null null null null O
+好 null null null null O
+ACT null N N N hello
+
+上 req_pernum req_time null null B_loc
+海 req_pernum req_time null null I_loc
+市 req_pernum req_time null null I_loc
+虹 req_pernum req_time null null I_loc
+口 req_pernum req_time null null I_loc
+区 req_pernum req_time null null I_loc
+ACT req_pernum req_time N N inf
+
+3 req_pernum req_time conf_loc null B_pernum
+0 req_pernum req_time conf_loc null I_pernum
+人 req_pernum req_time conf_loc null I_pernum
+左 req_pernum req_time conf_loc null I_pernum
+右 req_pernum req_time conf_loc null I_pernum
+吧 req_pernum req_time conf_loc null O
+ACT req_pernum req_time conf_loc N inf
+
+下 req_budget conf_pernum null null B_time
+个 req_budget conf_pernum null null I_time
+月 req_budget conf_pernum null null I_time
+1 req_budget conf_pernum null null I_time
+0 req_budget conf_pernum null null I_time
+号 req_budget conf_pernum null null I_time
+开 req_budget conf_pernum null null O
+会 req_budget conf_pernum null null O
+ACT req_budget conf_pernum N N inf
+
+开 req_budget conf_time null null O
+一 req_budget conf_time null null B_timel
+天 req_budget conf_time null null I_timel
+ACT req_budget conf_time N N inf
+
+6 req_budget req_timel null null B_budget
+0 req_budget req_timel null null I_budget
+0 req_budget req_timel null null I_budget
+0 req_budget req_timel null null I_budget
+元 req_budget req_timel null null I_budget
+吧 req_budget req_timel null null O
+ACT req_budget req_timel N N inf
+
+对 conf_budget null null null O
+ACT conf_budget N N N ok
+
+你 null null null null O
+好 null null null null O
+ACT null N N N hello
+
+预 req_pernum req_time null null O
+算 req_pernum req_time null null O
+3 req_pernum req_time null null B_budget
+0 req_pernum req_time null null I_budget
+0 req_pernum req_time null null I_budget
+0 req_pernum req_time null null I_budget
+0 req_pernum req_time null null I_budget
+元 req_pernum req_time null null I_budget
+ACT req_pernum req_time N N inf
+
+时 req_loc req_pernum conf_budget null O
+长 req_loc req_pernum conf_budget null O
+一 req_loc req_pernum conf_budget null B_timel
+天 req_loc req_pernum conf_budget null I_timel
+ACT req_loc req_pernum conf_budget N inf
+
+下 req_time conf_timel null null B_time
+周 req_time conf_timel null null I_time
+四 req_time conf_timel null null I_time
+ACT req_time conf_timel N N inf
+
+3 req_pernum conf_time null null B_pernum
+0 req_pernum conf_time null null I_pernum
+人 req_pernum conf_time null null I_pernum
+左 req_pernum conf_time null null I_pernum
+右 req_pernum conf_time null null I_pernum
+ACT req_pernum conf_time N N inf
+
+北 req_loc conf_pernum null null B_loc
+京 req_loc conf_pernum null null I_loc
+市 req_loc conf_pernum null null I_loc
+海 req_loc conf_pernum null null I_loc
+淀 req_loc conf_pernum null null I_loc
+区 req_loc conf_pernum null null I_loc
+ACT req_loc conf_pernum N N inf
+
+对 conf_loc null null null O
+ACT conf_loc N N N ok
+
+你 null null null null O
+好 null null null null O
+ACT null N N N hello
+
+预 req null null null O
+算 req null null null O
+1 req null null null B_budget
+0 req null null null I_budget
+0 req null null null I_budget
+0 req null null null I_budget
+0 req null null null I_budget
+元 req null null null I_budget
+ACT req N N N inf
+
+时 req_pernum req_loc conf_budget null O
+长 req_pernum req_loc conf_budget null O
+几 req_pernum req_loc conf_budget null B_timel
+个 req_pernum req_loc conf_budget null I_timel
+小 req_pernum req_loc conf_budget null I_timel
+时 req_pernum req_loc conf_budget null I_timel
+ACT req_pernum req_loc conf_budget N inf
+
+七 req_time conf_timel null null B_time
+月 req_time conf_timel null null I_time
+一 req_time conf_timel null null I_time
+号 req_time conf_timel null null I_time
+的 req_time conf_timel null null O
+会 req_time conf_timel null null O
+议 req_time conf_timel null null O
+ACT req_time conf_timel N N inf
+
+2 req_pernum conf_time null null B_pernum
+0 req_pernum conf_time null null I_pernum
+人 req_pernum conf_time null null I_pernum
+与 req_pernum conf_time null null O
+会 req_pernum conf_time null null O
+ACT req_pernum conf_time N N inf
+
+郑 req_loc conf_pernum null null B_loc
+州 req_loc conf_pernum null null I_loc
+市 req_loc conf_pernum null null I_loc
+二 req_loc conf_pernum null null I_loc
+七 req_loc conf_pernum null null I_loc
+区 req_loc conf_pernum null null I_loc
+ACT req_loc conf_pernum N N inf
+
+不 conf_pernum null null null O
+对 conf_pernum null null null O
+ACT conf_pernum N N N rej
+
+2 req_pernum conf_loc null null B_pernum
+0 req_pernum conf_loc null null I_pernum
+人 req_pernum conf_loc null null I_pernum
+ACT req_pernum conf_loc N N inf
+
+对 conf_pernum null null null O
+ACT conf_pernum N N N ok
+
+你 null null null null O
+好 null null null null O
+ACT null N N N hello
+
+1 req_pernum req_time null null B_budget
+0 req_pernum req_time null null I_budget
+0 req_pernum req_time null null I_budget
+0 req_pernum req_time null null I_budget
+0 req_pernum req_time null null I_budget
+0 req_pernum req_time null null I_budget
+元 req_pernum req_time null null I_budget
+的 req_pernum req_time null null O
+预 req_pernum req_time null null O
+算 req_pernum req_time null null O
+ACT req_pernum req_time N N inf
+
+开 req_pernum req_loc conf_budget null O
+一 req_pernum req_loc conf_budget null B_timel
+天 req_pernum req_loc conf_budget null I_timel
+ACT req_pernum req_loc conf_budget N inf
+
+这 req_time conf_timel null null B_time
+周 req_time conf_timel null null I_time
+末 req_time conf_timel null null I_time
+ACT req_time conf_timel N N inf
+
+一 req_pernum conf_time null null B_pernum
+百 req_pernum conf_time null null I_pernum
+人 req_pernum conf_time null null I_pernum
+ACT req_pernum conf_time N N inf
+
+北 req_loc conf_pernum null null B_loc
+京 req_loc conf_pernum null null I_loc
+市 req_loc conf_pernum null null I_loc
+朝 req_loc conf_pernum null null I_loc
+阳 req_loc conf_pernum null null I_loc
+区 req_loc conf_pernum null null I_loc
+ACT req_loc conf_pernum N N inf
+
+对 conf_loc null null null O
+ACT conf_loc N N N ok
+
+你 null null null null O
+好 null null null null O
+ACT null N N N hello
+
+预 req_pernum req_time null null O
+算 req_pernum req_time null null O
+五 req_pernum req_time null null B_budget
+千 req_pernum req_time null null I_budget
+ACT req_pernum req_time N N inf
+
+预 req null null null O
+算 req null null null O
+5 req null null null B_budget
+0 req null null null I_budget
+0 req null null null I_budget
+0 req null null null I_budget
+0 req null null null I_budget
+ACT req N N N inf
+
+会 req_timel conf_budget null null O
+议 req_timel conf_budget null null O
+时 req_timel conf_budget null null O
+长 req_timel conf_budget null null O
+一 req_timel conf_budget null null B_timel
+周 req_timel conf_budget null null I_timel
+ACT req_timel conf_budget N N inf
+
+2 req_time conf_timel null null B_time
+5 req_time conf_timel null null I_time
+号 req_time conf_timel null null I_time
+ACT req_time conf_timel N N inf
+
+3 req_pernum conf_time null null B_pernum
+0 req_pernum conf_time null null I_pernum
+人 req_pernum conf_time null null I_pernum
+左 req_pernum conf_time null null I_pernum
+右 req_pernum conf_time null null I_pernum
+ACT req_pernum conf_time N N inf
+
+海 req_loc conf_pernum null null B_loc
+淀 req_loc conf_pernum null null I_loc
+区 req_loc conf_pernum null null I_loc
+西 req_loc conf_pernum null null I_loc
+直 req_loc conf_pernum null null I_loc
+门 req_loc conf_pernum null null I_loc
+ACT req_loc conf_pernum N N inf
+
+对 conf_loc null null null O
+ACT conf_loc N N N ok
+
+你 null null null null O
+好 null null null null O
+ACT null N N N hello
+
+6 req_pernum req_time null null B_budget
+0 req_pernum req_time null null I_budget
+0 req_pernum req_time null null I_budget
+0 req_pernum req_time null null I_budget
+元 req_pernum req_time null null I_budget
+的 req_pernum req_time null null O
+预 req_pernum req_time null null O
+算 req_pernum req_time null null O
+ACT req_pernum req_time N N inf
+
+时 req_pernum req_loc conf_budget null O
+长 req_pernum req_loc conf_budget null O
+一 req_pernum req_loc conf_budget null B_timel
+天 req_pernum req_loc conf_budget null I_timel
+ACT req_pernum req_loc conf_budget N inf
+
+下 req_time conf_timel null null B_time
+个 req_time conf_timel null null I_time
+月 req_time conf_timel null null I_time
+1 req_time conf_timel null null I_time
+0 req_time conf_timel null null I_time
+号 req_time conf_timel null null I_time
+的 req_time conf_timel null null O
+会 req_time conf_timel null null O
+议 req_time conf_timel null null O
+ACT req_time conf_timel N N inf
+
+下 req_time null null null B_time
+个 req_time null null null I_time
+月 req_time null null null I_time
+1 req_time null null null I_time
+0 req_time null null null I_time
+号 req_time null null null I_time
+ACT req_time N N N inf
+
+3 req_pernum conf_time null null B_pernum
+0 req_pernum conf_time null null I_pernum
+人 req_pernum conf_time null null I_pernum
+ACT req_pernum conf_time N N inf
+
+上 req_loc conf_pernum null null B_loc
+海 req_loc conf_pernum null null I_loc
+市 req_loc conf_pernum null null I_loc
+虹 req_loc conf_pernum null null I_loc
+口 req_loc conf_pernum null null I_loc
+区 req_loc conf_pernum null null I_loc
+ACT req_loc conf_pernum N N inf
+
+对 conf_loc null null null O
+ACT conf_loc N N N ok
+
+你 null null null null O
+好 null null null null O
+ACT null N N N hello
+
+北 req_pernum req_time null null B_loc
+京 req_pernum req_time null null I_loc
+市 req_pernum req_time null null I_loc
+海 req_pernum req_time null null I_loc
+淀 req_pernum req_time null null I_loc
+区 req_pernum req_time null null I_loc
+ACT req_pernum req_time N N inf
+
+3 req_pernum req_time null null B_pernum
+0 req_pernum req_time null null I_pernum
+人 req_pernum req_time null null I_pernum
+左 req_pernum req_time null null I_pernum
+右 req_pernum req_time null null I_pernum
+, req_pernum req_time null null O
+ACT req_pernum req_time N N inf
+
+下 req_pernum req_time null null B_time
+周 req_pernum req_time null null I_time
+四 req_pernum req_time null null I_time
+的 req_pernum req_time null null O
+会 req_pernum req_time null null O
+议 req_pernum req_time null null O
+ACT req_pernum req_time N N inf
+
+对 conf_pernum conf_loc null null O
+ACT conf_pernum conf_loc N N ok
+
+预 req_budget null null null O
+算 req_budget null null null O
+3 req_budget null null null B_budget
+0 req_budget null null null I_budget
+0 req_budget null null null I_budget
+0 req_budget null null null I_budget
+0 req_budget null null null I_budget
+元 req_budget null null null I_budget
+, req_budget null null null O
+ACT req_budget N N N inf
+
+时 req_budget null null null O
+长 req_budget null null null O
+一 req_budget null null null B_timel
+天 req_budget null null null I_timel
+ACT req_budget N N N inf
+
+对 conf_budget null null null O
+ACT conf_budget N N N ok
+
+你 null null null null O
+好 null null null null O
+ACT null N N N hello
+
+郑 req_pernum req_time null null B_loc
+州 req_pernum req_time null null I_loc
+市 req_pernum req_time null null I_loc
+二 req_pernum req_time null null I_loc
+七 req_pernum req_time null null I_loc
+区 req_pernum req_time null null I_loc
+, req_pernum req_time null null O
+ACT req_pernum req_time N N inf
+
+2 req_pernum req_time null null B_pernum
+0 req_pernum req_time null null I_pernum
+人 req_pernum req_time null null I_pernum
+与 req_pernum req_time null null O
+会 req_pernum req_time null null O
+, req_pernum req_time null null O
+ACT req_pernum req_time N N inf
+
+七 req_pernum req_time null null B_time
+月 req_pernum req_time null null I_time
+一 req_pernum req_time null null I_time
+号 req_pernum req_time null null I_time
+召 req_pernum req_time null null O
+开 req_pernum req_time null null O
+的 req_pernum req_time null null O
+会 req_pernum req_time null null O
+议 req_pernum req_time null null O
+室 req_pernum req_time null null O
+ACT req_pernum req_time N N inf
+
+对 conf_loc null null null O
+ACT conf_loc N N N ok
+
+几 req_budget conf_loc null null B_timel
+个 req_budget conf_loc null null I_timel
+小 req_budget conf_loc null null I_timel
+时 req_budget conf_loc null null I_timel
+ACT req_budget conf_loc N N inf
+
+1 req_budget conf_loc null null B_budget
+0 req_budget conf_loc null null I_budget
+0 req_budget conf_loc null null I_budget
+0 req_budget conf_loc null null I_budget
+0 req_budget conf_loc null null I_budget
+元 req_budget conf_loc null null I_budget
+ACT req_budget conf_loc N N inf
+
+几 req_timel conf_budget null null B_timel
+个 req_timel conf_budget null null I_timel
+小 req_timel conf_budget null null I_timel
+时 req_timel conf_budget null null I_timel
+ACT req_timel conf_budget N N inf
+
+对 conf_time conf_timel null null O
+ACT conf_time conf_timel N N ok
+
+你 null null null null O
+好 null null null null O
+ACT null N N N hello
+
+郑 req null null null B_loc
+州 req null null null I_loc
+市 req null null null I_loc
+二 req null null null I_loc
+七 req null null null I_loc
+区 req null null null I_loc
+, req null null null O
+ACT req N N N inf
+
+2 req null null null B_pernum
+0 req null null null I_pernum
+人 req null null null I_pernum
+与 req null null null O
+会 req null null null O
+, req null null null O
+ACT req N N N inf
+
+7 req null null null B_time
+月 req null null null I_time
+1 req null null null I_time
+号 req null null null I_time
+召 req null null null O
+开 req null null null O
+ACT req N N N inf
+
+不 conf_loc null null null O
+对 conf_loc null null null O
+ACT conf_loc N N N rej
+
+2 conf_loc req_pernum null null B_pernum
+0 conf_loc req_pernum null null I_pernum
+人 conf_loc req_pernum null null I_pernum
+, conf_loc req_pernum null null O
+ACT conf_loc req_pernum N N inf
+
+对 conf_loc req_pernum null null O
+ACT conf_loc req_pernum N N ok
+
+一 req_budget null null null B_timel
+天 req_budget null null null I_timel
+, req_budget null null null O
+ACT req_budget N N N inf
+
+2 req_budget null null null B_budget
+0 req_budget null null null I_budget
+0 req_budget null null null I_budget
+0 req_budget null null null I_budget
+0 req_budget null null null I_budget
+元 req_budget null null null I_budget
+ACT req_budget N N N inf
+
+对 conf_time null null null O
+ACT conf_time N N N ok
+
+对 conf_timel null null null O
+ACT conf_timel N N N ok
+
+你 null null null null O
+好 null null null null O
+ACT null N N N hello
+
+郑 req null null null B_loc
+州 req null null null I_loc
+市 req null null null I_loc
+管 req null null null I_loc
+城 req null null null I_loc
+区 req null null null I_loc
+, req null null null O
+ACT req N N N inf
+
+2 req null null null B_pernum
+0 req null null null I_pernum
+人 req null null null I_pernum
+与 req null null null O
+会 req null null null O
+, req null null null O
+ACT req N N N inf
+
+七 req null null null B_time
+月 req null null null I_time
+一 req null null null I_time
+号 req null null null I_time
+召 req null null null O
+开 req null null null O
+ACT req N N N inf
+
+对 conf_loc conf_pernum null null O
+ACT conf_loc conf_pernum N N ok
+
+几 req_budget conf_time null null B_timel
+个 req_budget conf_time null null I_timel
+小 req_budget conf_time null null I_timel
+时 req_budget conf_time null null I_timel
+ACT req_budget conf_time N N inf
+
+1 req_budget conf_time null null B_budget
+0 req_budget conf_time null null I_budget
+0 req_budget conf_time null null I_budget
+0 req_budget conf_time null null I_budget
+0 req_budget conf_time null null I_budget
+元 req_budget conf_time null null I_budget
+ACT req_budget conf_time N N inf
+
+几 req_timel null null null B_timel
+个 req_timel null null null I_timel
+小 req_timel null null null I_timel
+时 req_timel null null null I_timel
+ACT req_timel N N N inf
+
+对 conf_timel null null null O
+ACT conf_timel N N N ok
+
+你 null null null null O
+好 null null null null O
+ACT null N N N hello
+
+郑 req_pernum req_time null null B_loc
+州 req_pernum req_time null null I_loc
+市 req_pernum req_time null null I_loc
+管 req_pernum req_time null null I_loc
+城 req_pernum req_time null null I_loc
+区 req_pernum req_time null null I_loc
+, req_pernum req_time null null O
+ACT req_pernum req_time N N inf
+
+2 req_pernum req_time null null B_pernum
+0 req_pernum req_time null null I_pernum
+人 req_pernum req_time null null I_pernum
+与 req_pernum req_time null null O
+会 req_pernum req_time null null O
+, req_pernum req_time null null O
+ACT req_pernum req_time N N inf
+
+7 req_pernum req_time null null B_time
+月 req_pernum req_time null null I_time
+一 req_pernum req_time null null I_time
+号 req_pernum req_time null null I_time
+召 req_pernum req_time null null O
+开 req_pernum req_time null null O
+的 req_pernum req_time null null O
+会 req_pernum req_time null null O
+议 req_pernum req_time null null O
+ACT req_pernum req_time N N inf
+
+对 conf_loc conf_pernum null null O
+ACT conf_loc conf_pernum N N ok
+
+几 req_budget conf_time null null B_time
+个 req_budget conf_time null null I_time
+小 req_budget conf_time null null I_time
+时 req_budget conf_time null null I_time
+, req_budget conf_time null null O
+ACT req_budget conf_time N N inf
+
+预 req_budget conf_time null null O
+算 req_budget conf_time null null O
+1 req_budget conf_time null null B_budget
+0 req_budget conf_time null null I_budget
+0 req_budget conf_time null null I_budget
+0 req_budget conf_time null null I_budget
+0 req_budget conf_time null null I_budget
+元 req_budget conf_time null null I_budget
+ACT req_budget conf_time N N inf
+
+对 conf_budget conf_time null null O
+ACT conf_budget conf_time N N ok
+
+你 null null null null O
+好 null null null null O
+ACT null N N N hello
+
+北 req null null null B_loc
+京 req null null null I_loc
+市 req null null null I_loc
+朝 req null null null I_loc
+阳 req null null null I_loc
+区 req null null null I_loc
+ACT req N N N inf
+
+一 req null null null B_pernum
+百 req null null null I_pernum
+人 req null null null I_pernum
+ACT req N N N inf
+
+这 req null null null B_time
+周 req null null null I_time
+末 req null null null I_time
+ACT req N N N inf
+
+对 conf_loc conf_pernum null null O
+ACT conf_loc conf_pernum N N ok
+
+时 req_budget conf_time null null O
+长 req_budget conf_time null null O
+一 req_budget conf_time null null B_timel
+天 req_budget conf_time null null I_timel
+ACT req_budget conf_time N N inf
+
+1 req_budget conf_time null null B_budget
+0 req_budget conf_time null null I_budget
+0 req_budget conf_time null null I_budget
+0 req_budget conf_time null null I_budget
+0 req_budget conf_time null null I_budget
+0 req_budget conf_time null null I_budget
+元 req_budget conf_time null null I_budget
+预 req_budget conf_time null null O
+算 req_budget conf_time null null O
+ACT req_budget conf_time N N inf
+
+对 conf_budget conf_timel null null O
+ACT conf_budget conf_timel N N ok
+
+你 null null null null O
+好 null null null null O
+ACT null N N N hello
+
+海 req_pernum req_time null null B_loc
+淀 req_pernum req_time null null I_loc
+区 req_pernum req_time null null I_loc
+西 req_pernum req_time null null I_loc
+直 req_pernum req_time null null I_loc
+门 req_pernum req_time null null I_loc
+ACT req_pernum req_time N N inf
+
+3 req_pernum req_time null null B_pernum
+0 req_pernum req_time null null I_pernum
+人 req_pernum req_time null null I_pernum
+ACT req_pernum req_time N N inf
+
+2 req_pernum req_time null null B_time
+5 req_pernum req_time null null I_time
+号 req_pernum req_time null null I_time
+的 req_pernum req_time null null O
+会 req_pernum req_time null null O
+议 req_pernum req_time null null O
+ACT req_pernum req_time N N inf
+
+对 conf_loc conf_pernum null null O
+ACT conf_loc conf_pernum N N ok
+
+召 req_budget conf_time null null O
+开 req_budget conf_time null null O
+一 req_budget conf_time null null B_timel
+周 req_budget conf_time null null I_timel
+ACT req_budget conf_time N N inf
+
+五 req_budget conf_time null null B_budget
+千 req_budget conf_time null null I_budget
+预 req_budget conf_time null null O
+算 req_budget conf_time null null O
+可 req_budget conf_time null null O
+以 req_budget conf_time null null O
+吗 req_budget conf_time null null O
+ACT req_budget conf_time N N inf
+
+对 conf_time null null null O
+ACT conf_time N N N ok
+
+对 conf_timel conf_budget null null O
+ACT conf_timel conf_budget N N ok
+
+你 null null null null O
+好 null null null null O
+ACT null N N N hello
+
+海 req null null null B_loc
+淀 req null null null I_loc
+区 req null null null I_loc
+西 req null null null I_loc
+直 req null null null I_loc
+门 req null null null I_loc
+ACT req N N N inf
+
+3 req null null null B_pernum
+0 req null null null I_pernum
+人 req null null null I_pernum
+ACT req N N N inf
+
+2 req null null null B_time
+5 req null null null I_time
+号 req null null null I_time
+召 req null null null O
+开 req null null null O
+ACT req N N N inf
+
+对 conf_pernum null null null O
+ACT conf_pernum N N N ok
+
+时 req_budget conf_time null null O
+长 req_budget conf_time null null O
+一 req_budget conf_time null null B_timel
+周 req_budget conf_time null null I_timel
+ACT req_budget conf_time N N inf
+
+5 req_budget conf_time null null B_budget
+0 req_budget conf_time null null I_budget
+0 req_budget conf_time null null I_budget
+0 req_budget conf_time null null I_budget
+0 req_budget conf_time null null I_budget
+元 req_budget conf_time null null I_budget
+ACT req_budget conf_time N N inf
+
+对 conf_budget conf_timel null null O
+ACT conf_budget conf_timel N N ok
+
+你 null null null null O
+好 null null null null O
+ACT null N N N hello
+
+上 req_pernum req_time null null B_loc
+海 req_pernum req_time null null I_loc
+市 req_pernum req_time null null I_loc
+虹 req_pernum req_time null null I_loc
+口 req_pernum req_time null null I_loc
+区 req_pernum req_time null null I_loc
+ACT req_pernum req_time N N inf
+
+3 req_pernum req_time null null B_pernum
+0 req_pernum req_time null null I_pernum
+人 req_pernum req_time null null I_pernum
+ACT req_pernum req_time N N inf
+
+下 req_pernum req_time null null B_time
+个 req_pernum req_time null null I_time
+月 req_pernum req_time null null I_time
+1 req_pernum req_time null null I_time
+0 req_pernum req_time null null I_time
+号 req_pernum req_time null null I_time
+召 req_pernum req_time null null O
+开 req_pernum req_time null null O
+的 req_pernum req_time null null O
+会 req_pernum req_time null null O
+议 req_pernum req_time null null O
+ACT req_pernum req_time N N inf
+
+对 conf_pernum conf_loc null null O
+ACT conf_pernum conf_loc N N ok
+
+一 req_budget conf_time null null B_timel
+天 req_budget conf_time null null I_timel
+ACT req_budget conf_time N N inf
+
+6 req_budget conf_time null null B_budget
+0 req_budget conf_time null null I_budget
+0 req_budget conf_time null null I_budget
+0 req_budget conf_time null null I_budget
+元 req_budget conf_time null null I_budget
+预 req_budget conf_time null null O
+算 req_budget conf_time null null O
+ACT req_budget conf_time N N inf
+
+对 conf_budget conf_timel null null O
+ACT conf_budget conf_timel N N ok
+
+你 null null null null O
+好 null null null null O
+ACT null N N N hello
+
+下 req null null null B_time
+周 req null null null I_time
+四 req null null null I_time
+ACT req N N N inf
+
+时 req null null null O
+长 req null null null O
+一 req null null null B_timel
+天 req null null null I_timel
+ACT req N N N inf
+
+预 req null null null O
+算 req null null null O
+3 req null null null B_budget
+0 req null null null I_budget
+0 req null null null I_budget
+0 req null null null I_budget
+0 req null null null I_budget
+元 req null null null I_budget
+ACT req N N N inf
+
+对 conf_time conf_timel null null O
+ACT conf_time conf_timel N N ok
+
+北 req_pernum conf_budget null null B_loc
+京 req_pernum conf_budget null null I_loc
+市 req_pernum conf_budget null null I_loc
+海 req_pernum conf_budget null null I_loc
+淀 req_pernum conf_budget null null I_loc
+区 req_pernum conf_budget null null I_loc
+ACT req_pernum conf_budget N N inf
+
+3 req_pernum conf_budget null null B_pernum
+0 req_pernum conf_budget null null I_pernum
+人 req_pernum conf_budget null null I_pernum
+左 req_pernum conf_budget null null I_pernum
+右 req_pernum conf_budget null null I_pernum
+的 req_pernum conf_budget null null O
+会 req_pernum conf_budget null null O
+议 req_pernum conf_budget null null O
+室 req_pernum conf_budget null null O
+是 req_pernum conf_budget null null O
+有 req_pernum conf_budget null null O
+吗 req_pernum conf_budget null null O
+ACT req_pernum conf_budget N N inf
+
+对 conf_pernum conf_loc null null O
+ACT conf_pernum conf_loc N N ok
+
+你 null null null null O
+好 null null null null O
+ACT null N N N hello
+
+七 req null null null B_time
+月 req null null null I_time
+一 req null null null I_time
+号 req null null null I_time
+召 req null null null O
+开 req null null null O
+ACT req N N N inf
+
+时 req null null null O
+长 req null null null O
+ACT req N N N other
+
+几 req null null null B_timel
+个 req null null null I_timel
+小 req null null null I_timel
+时 req null null null I_timel
+ACT req N N N inf
+
+预 req null null null O
+算 req null null null O
+1 req null null null B_budget
+0 req null null null I_budget
+0 req null null null I_budget
+0 req null null null I_budget
+0 req null null null I_budget
+元 req null null null I_budget
+ACT req N N N inf
+
+对 conf_time conf_timel null null O
+ACT conf_time conf_timel N N ok
+
+郑 req_pernum conf_budget null null B_loc
+州 req_pernum conf_budget null null I_loc
+市 req_pernum conf_budget null null I_loc
+管 req_pernum conf_budget null null I_loc
+城 req_pernum conf_budget null null I_loc
+区 req_pernum conf_budget null null I_loc
+ACT req_pernum conf_budget N N inf
+
+2 req_pernum conf_budget null null B_pernum
+0 req_pernum conf_budget null null I_pernum
+人 req_pernum conf_budget null null I_pernum
+与 req_pernum conf_budget null null O
+会 req_pernum conf_budget null null O
+ACT req_pernum conf_budget N N inf
+
+对 conf_pernum conf_loc null null O
+ACT conf_pernum conf_loc N N ok
+
+你 null null null null O
+好 null null null null O
+ACT null N N N hello
+
+这 req null null null B_time
+周 req null null null I_time
+末 req null null null I_time
+ACT req N N N inf
+
+为 req null null null O
+期 req null null null O
+一 req null null null B_timel
+天 req null null null I_timel
+ACT req N N N inf
+
+预 req null null null O
+算 req null null null O
+1 req null null null B_budget
+0 req null null null I_budget
+0 req null null null I_budget
+0 req null null null I_budget
+0 req null null null I_budget
+0 req null null null I_budget
+元 req null null null I_budget
+ACT req N N N inf
+
+对 conf_timel conf_time null null O
+ACT conf_timel conf_time N N ok
+
+北 req_pernum conf_budget null null B_loc
+京 req_pernum conf_budget null null I_loc
+市 req_pernum conf_budget null null I_loc
+朝 req_pernum conf_budget null null I_loc
+阳 req_pernum conf_budget null null I_loc
+区 req_pernum conf_budget null null I_loc
+ACT req_pernum conf_budget N N inf
+
+一 req_pernum conf_budget null null B_pernum
+百 req_pernum conf_budget null null I_pernum
+人 req_pernum conf_budget null null I_pernum
+ACT req_pernum conf_budget N N inf
+
+对 conf_pernum conf_loc null null O
+ACT conf_pernum conf_loc N N ok
+
+你 null null null null O
+好 null null null null O
+ACT null N N N hello
+
+2 req null null null B_time
+5 req null null null I_time
+号 req null null null I_time
+ACT req N N N inf
+
+一 req null null null B_timel
+周 req null null null I_timel
+ACT req N N N inf
+
+五 req null null null B_budget
+千 req null null null I_budget
+的 req null null null O
+预 req null null null O
+算 req null null null O
+ACT req N N N inf
+
+对 conf_time conf_timel null null O
+ACT conf_time conf_timel N N ok
+
+5 req_loc null null null B_budget
+0 req_loc null null null I_budget
+0 req_loc null null null I_budget
+0 req_loc null null null I_budget
+0 req_loc null null null I_budget
+元 req_loc null null null I_budget
+的 req_loc null null null O
+预 req_loc null null null O
+算 req_loc null null null O
+ACT req_loc N N N inf
+
+海 req_loc null null null B_loc
+淀 req_loc null null null I_loc
+区 req_loc null null null I_loc
+西 req_loc null null null I_loc
+直 req_loc null null null I_loc
+门 req_loc null null null I_loc
+ACT req_loc N N N inf
+
+3 req_loc null null null B_pernum
+0 req_loc null null null I_pernum
+人 req_loc null null null I_pernum
+ACT req_loc N N N inf
+
+对 conf_budget conf_pernum null null O
+ACT conf_budget conf_pernum N N inf
+
+海 req_loc null null null B_loc
+淀 req_loc null null null I_loc
+区 req_loc null null null I_loc
+西 req_loc null null null I_loc
+直 req_loc null null null I_loc
+门 req_loc null null null I_loc
+ACT req_loc N N N inf
+
+对 conf_loc null null null O
+ACT conf_loc N N N inf
+
+2 null null null null B_time
+5 null null null null I_time
+号 null null null null I_time
+ACT null N N N inf
+
+一 null null null null B_timel
+周 null null null null I_timel
+ACT null N N N inf
+
+预 null null null null O
+算 null null null null O
+5 null null null null B_budget
+0 null null null null I_budget
+0 null null null null I_budget
+0 null null null null I_budget
+0 null null null null I_budget
+元 null null null null I_budget
+ACT null N N N inf
+
+海 req_pernum conf_time null null B_loc
+淀 req_pernum conf_time null null I_loc
+区 req_pernum conf_time null null I_loc
+西 req_pernum conf_time null null I_loc
+直 req_pernum conf_time null null I_loc
+门 req_pernum conf_time null null I_loc
+ACT req_pernum conf_time N N inf
+
+3 req_pernum conf_time null null B_pernum
+0 req_pernum conf_time null null I_pernum
+人 req_pernum conf_time null null I_pernum
+ACT req_pernum conf_time N N inf
+
+对 conf_pernum conf_loc null null O
+ACT conf_pernum conf_loc N N ok
+
+对 conf_budget conf_timel null null O
+ACT conf_budget conf_timel N N ok
+
+你 null null null null O
+好 null null null null O
+ACT null N N N hello
+
+2 req null null null B_time
+5 req null null null I_time
+号 req null null null I_time
+ACT req N N N inf
+
+一 req null null null B_timel
+周 req null null null I_timel
+ACT req N N N inf
+
+5 req null null null B_budget
+0 req null null null I_budget
+0 req null null null I_budget
+0 req null null null I_budget
+0 req null null null I_budget
+元 req null null null I_budget
+预 req null null null O
+算 req null null null O
+ACT req N N N inf
+
+对 conf_time conf_timel null null O
+ACT conf_time conf_timel N N ok
+
+海 req_pernum conf_budget null null B_loc
+淀 req_pernum conf_budget null null I_loc
+区 req_pernum conf_budget null null I_loc
+西 req_pernum conf_budget null null I_loc
+直 req_pernum conf_budget null null I_loc
+门 req_pernum conf_budget null null I_loc
+ACT req_pernum conf_budget N N inf
+
+3 req_pernum conf_budget null null B_pernum
+0 req_pernum conf_budget null null I_pernum
+人 req_pernum conf_budget null null I_pernum
+ACT req_pernum conf_budget N N inf
+
+对 conf_pernum conf_loc null null O
+ACT conf_pernum conf_loc N N ok
+
+你 null null null null O
+好 null null null null O
+ACT null N N N hello
+
+下 req null null null B_time
+个 req null null null I_time
+月 req null null null I_time
+1 req null null null I_time
+0 req null null null I_time
+号 req null null null I_time
+ACT req N N N inf
+
+一 req null null null B_timel
+天 req null null null I_timel
+ACT req N N N inf
+
+6 req null null null B_budget
+0 req null null null I_budget
+0 req null null null I_budget
+0 req null null null I_budget
+元 req null null null I_budget
+的 req null null null O
+预 req null null null O
+算 req null null null O
+ACT req N N N inf
+
+对 conf_time conf_timel null null O
+ACT conf_time conf_timel N N ok
+
+上 req_pernum null null null B_loc
+海 req_pernum null null null I_loc
+市 req_pernum null null null I_loc
+虹 req_pernum null null null I_loc
+口 req_pernum null null null I_loc
+区 req_pernum null null null I_loc
+ACT req_pernum N N N inf
+
+3 req_pernum null null null B_pernum
+0 req_pernum null null null I_pernum
+人 req_pernum null null null I_pernum
+ACT req_pernum N N N inf
+
+对 conf_pernum conf_loc null null O
+ACT conf_pernum conf_loc N N ok
+
+你 null null null null O
+好 null null null null O
+ACT null N N N hello
+
+北 req null null null B_loc
+京 req null null null I_loc
+市 req null null null I_loc
+海 req null null null I_loc
+淀 req null null null I_loc
+区 req null null null I_loc
+ACT req N N N inf
+
+容 req null null null O
+纳 req null null null O
+3 req null null null B_pernum
+0 req null null null I_pernum
+人 req null null null I_pernum
+左 req null null null I_pernum
+右 req null null null I_pernum
+的 req null null null O
+ACT req N N N inf
+
+下 req null null null B_time
+周 req null null null I_time
+四 req null null null I_time
+召 req null null null O
+开 req null null null O
+ACT req N N N inf
+
+为 req null null null O
+期 req null null null O
+一 req null null null B_timel
+天 req null null null I_timel
+ACT req N N N inf
+
+预 req null null null O
+算 req null null null O
+3 req null null null B_budget
+0 req null null null I_budget
+0 req null null null I_budget
+0 req null null null I_budget
+0 req null null null I_budget
+元 req null null null I_budget
+ACT req N N N inf
+
+有 req null null null O
+什 req null null null O
+么 req null null null O
+推 req null null null O
+荐 req null null null O
+吗 req null null null O
+ACT req N N N other
+
+d conf_pernum conf_loc null null O
+u conf_pernum conf_loc null null O
+i conf_pernum conf_loc null null O
+ACT conf_pernum conf_loc N N other
+
+对 conf_time conf_timel null null O
+ACT conf_time conf_timel N N ok
+
+对 conf_budget null null null O
+ACT conf_budget N N N ok
+
+你 null null null null O
+好 null null null null O
+ACT null N N N hello
+
+郑 req null null null B_loc
+州 req null null null I_loc
+市 req null null null I_loc
+二 req null null null I_loc
+七 req null null null I_loc
+区 req null null null I_loc
+ACT req N N N inf
+
+会 req null null null O
+有 req null null null O
+2 req null null null B_pernum
+0 req null null null I_pernum
+人 req null null null I_pernum
+与 req null null null O
+会 req null null null O
+的 req null null null O
+ACT req N N N inf
+
+七 req null null null B_time
+月 req null null null I_time
+一 req null null null I_time
+号 req null null null I_time
+召 req null null null O
+开 req null null null O
+ACT req N N N inf
+
++ req null null null O
+几 req null null null B_timel
+个 req null null null I_timel
+小 req null null null I_timel
+时 req null null null I_timel
+的 req null null null O
+时 req null null null O
+长 req null null null O
+ACT req N N N inf
+
+1 req null null null B_budget
+0 req null null null I_budget
+0 req null null null I_budget
+0 req null null null I_budget
+0 req null null null I_budget
+元 req null null null I_budget
+的 req null null null O
+预 req null null null O
+算 req null null null O
+可 req null null null O
+以 req null null null O
+吗 req null null null O
+ACT req N N N inf
+
+不 conf_loc null null null O
+对 conf_loc null null null O
+ACT conf_loc N N N rej
+
+2 conf_loc req_pernum null null B_pernum
+0 conf_loc req_pernum null null I_pernum
+人 conf_loc req_pernum null null I_pernum
+ACT conf_loc req_pernum N N inf
+
+对 conf_pernum conf_time null null O
+ACT conf_pernum conf_time N N ok
+
+对 conf_budget conf_timel null null O
+ACT conf_budget conf_timel N N ok
+
+你 null null null null O
+好 null null null null O
+ACT null N N N hello
+
+这 req null null null B_time
+周 req null null null I_time
+末 req null null null I_time
+的 req null null null O
+ACT req N N N inf
+
+北 req null null null B_loc
+京 req null null null I_loc
+市 req null null null I_loc
+朝 req null null null I_loc
+阳 req null null null I_loc
+区 req null null null I_loc
+的 req null null null O
+会 req null null null O
+议 req null null null O
+室 req null null null O
+ACT req N N N inf
+
+能 req null null null O
+容 req null null null O
+纳 req null null null O
+一 req null null null B_pernum
+百 req null null null I_pernum
+人 req null null null I_pernum
+ACT req N N N inf
+
+为 req null null null O
+期 req null null null O
+一 req null null null B_timel
+天 req null null null I_timel
+ACT req N N N inf
+
+预 req null null null O
+算 req null null null O
+1 req null null null B_budget
+0 req null null null I_budget
+0 req null null null I_budget
+0 req null null null I_budget
+0 req null null null I_budget
+0 req null null null I_budget
+元 req null null null I_budget
+可 req null null null O
+以 req null null null O
+吗 req null null null O
+ACT req N N N inf
+
+对 conf_loc conf_pernum null null O
+ACT conf_loc conf_pernum N N ok
+
+对 conf_time conf_timel null null O
+ACT conf_time conf_timel N N ok
+
+对 conf_budget null null null O
+ACT conf_budget N N N ok
+
+你 null null null null O
+好 null null null null O
+ACT null N N N hello
+
+预 req null null null O
+算 req null null null O
+5 req null null null B_budget
+0 req null null null I_budget
+0 req null null null I_budget
+0 req null null null I_budget
+0 req null null null I_budget
+ACT req N N N inf
+
+在 req null null null B_loc
+海 req null null null I_loc
+淀 req null null null I_loc
+区 req null null null I_loc
+西 req null null null I_loc
+直 req null null null I_loc
+门 req null null null I_loc
+ACT req N N N inf
+
+有 req null null null O
+3 req null null null B_pernum
+0 req null null null I_pernum
+人 req null null null I_pernum
+ACT req N N N inf
+
+2 req null null null B_time
+5 req null null null I_time
+号 req null null null I_time
+召 req null null null O
+开 req null null null O
+ACT req N N N inf
+
+为 req null null null O
+期 req null null null O
+一 req null null null B_timel
+周 req null null null I_timel
+可 req null null null O
+以 req null null null O
+吗 req null null null O
+ACT req N N N inf
+
+对 conf_loc conf_pernum null null O
+ACT conf_loc conf_pernum N N ok
+
+5 req_budget conf_time null null B_budget
+0 req_budget conf_time null null I_budget
+0 req_budget conf_time null null I_budget
+0 req_budget conf_time null null I_budget
+0 req_budget conf_time null null I_budget
+0 req_budget conf_time null null I_budget
+0 req_budget conf_time null null I_budget
+ACT req_budget conf_time N N inf
+
+对 conf_timel conf_budget null null O
+ACT conf_timel conf_budget N N ok
+
+你 null null null null O
+好 null null null null O
+ACT null N N N hello
+
+预 req null null null O
+算 req null null null O
+5 req null null null B_budget
+0 req null null null I_budget
+0 req null null null I_budget
+0 req null null null I_budget
+0 req null null null I_budget
+元 req null null null I_budget
+ACT req N N N inf
+
+在 req null null null O
+海 req null null null B_loc
+淀 req null null null I_loc
+区 req null null null I_loc
+西 req null null null I_loc
+直 req null null null I_loc
+门 req null null null I_loc
+ACT req N N N inf
+
+有 req null null null O
+3 req null null null B_pernum
+0 req null null null I_pernum
+人 req null null null I_pernum
+ACT req N N N inf
+
+2 req null null null B_time
+5 req null null null I_time
+号 req null null null I_time
+召 req null null null O
+开 req null null null O
+ACT req N N N inf
+
+为 req null null null O
+期 req null null null O
+一 req null null null B_timel
+周 req null null null I_timel
+可 req null null null O
+以 req null null null O
+吗 req null null null O
+ACT req N N N inf
+
+对 conf_pernum conf_loc null null O
+ACT conf_pernum conf_loc N N ok
+
+对 conf_time conf_timel null null O
+ACT conf_time conf_timel N N ok
+
+对 conf_budget null null null O
+ACT conf_budget N N N ok
+
+你 null null null null O
+好 null null null null O
+ACT null N N N hello
+
+上 req null null null B_loc
+海 req null null null I_loc
+市 req null null null I_loc
+虹 req null null null I_loc
+口 req null null null I_loc
+区 req null null null I_loc
+ACT req N N N inf
+
+3 req null null null B_pernum
+0 req null null null I_pernum
+人 req null null null I_pernum
+ACT req N N N inf
+
+下 req null null null B_time
+个 req null null null I_time
+月 req null null null I_time
+1 req null null null I_time
+0 req null null null I_time
+号 req null null null I_time
+ACT req N N N inf
+
+为 req null null null O
+期 req null null null O
+一 req null null null B_timel
+天 req null null null I_timel
+ACT req N N N inf
+
+6 req null null null B_budget
+0 req null null null I_budget
+0 req null null null I_budget
+0 req null null null I_budget
+元 req null null null I_budget
+预 req null null null O
+算 req null null null O
+ACT req N N N inf
+
+对 conf_pernum conf_loc null null O
+ACT conf_pernum conf_loc N N ok
+
+对 conf_time conf_timel null null O
+ACT conf_time conf_timel N N ok
+
+对 conf_budget null null null O
+ACT conf_budget N N N ok
+
+3 null null null null B_budget
+0 null null null null I_budget
+0 null null null null I_budget
+0 null null null null I_budget
+0 null null null null I_budget
+元 null null null null I_budget
+ACT null N N N inf
+
+铁 req_timel conf_budget null null O
+路 req_timel conf_budget null null O
+系 req_timel conf_budget null null O
+统 req_timel conf_budget null null O
+会 req_timel conf_budget null null O
+议 req_timel conf_budget null null O
+ACT req_timel conf_budget N N inf
+
+关 req null null null O
+于 req null null null O
+车 req null null null O
+辆 req null null null O
+调 req null null null O
+度 req null null null O
+的 req null null null O
+会 req null null null O
+议 req null null null O
+ACT req N N N inf
+
+1 req null null null B_pernum
+4 req null null null I_pernum
+人 req null null null I_pernum
+左 req null null null I_pernum
+右 req null null null I_pernum
+ACT req N N N inf
+
+1 req_budget conf_pernum null null B_budget
+0 req_budget conf_pernum null null I_budget
+0 req_budget conf_pernum null null I_budget
+0 req_budget conf_pernum null null I_budget
+元 req_budget conf_pernum null null I_budget
+ACT req_budget conf_pernum N N inf
+
+2 req_timel conf_budget null null B_timel
+小 req_timel conf_budget null null I_timel
+时 req_timel conf_budget null null I_timel
+ACT req_timel conf_budget N N inf
+
+青 req_loc conf_timel null null B_loc
+岛 req_loc conf_timel null null I_loc
+ACT req_loc conf_timel N N inf
+
+你 conf_loc conf_pernum null null O
+好 conf_loc conf_pernum null null O
+ACT conf_loc conf_pernum N N hello
+
+3 req null null null B_pernum
+人 req null null null I_pernum
+ACT req N N N inf
+
+3 req null null null B_pernum
+人 req null null null I_pernum
+的 req null null null O
+会 req null null null O
+议 req null null null O
+ACT req N N N inf
+
+3 req null null null B_time
+日 req null null null I_time
+开 req null null null O
+会 req null null null O
+ACT req N N N inf
+
+3 req null null null B_pernum
+0 req null null null I_pernum
+0 req null null null I_pernum
+人 req null null null I_pernum
+的 req null null null O
+会 req null null null O
+议 req null null null O
+室 req null null null O
+ACT req N N N inf
+
+3 req_budget conf_pernum null null B_budget
+0 req_budget conf_pernum null null I_budget
+0 req_budget conf_pernum null null I_budget
+0 req_budget conf_pernum null null I_budget
+元 req_budget conf_pernum null null I_budget
+ACT req_budget conf_pernum N N inf
+
+3 req_timel conf_budget null null B_budget
+0 req_timel conf_budget null null I_budget
+0 req_timel conf_budget null null I_budget
+0 req_timel conf_budget null null I_budget
+? req_timel conf_budget null null O
+? req_timel conf_budget null null O
+? req_timel conf_budget null null O
+ACT req_timel conf_budget N N inf
+
+3 req_timel conf_budget null null B_timel
+天 req_timel conf_budget null null I_timel
+ACT req_timel conf_budget N N inf
+
+北 req_loc conf_timel null null B_loc
+京 req_loc conf_timel null null I_loc
+邮 req_loc conf_timel null null I_loc
+电 req_loc conf_timel null null I_loc
+大 req_loc conf_timel null null I_loc
+学 req_loc conf_timel null null I_loc
+ACT req_loc conf_timel N N inf
+
+北 req_loc conf_time null null B_loc
+京 req_loc conf_time null null I_loc
+邮 req_loc conf_time null null I_loc
+电 req_loc conf_time null null I_loc
+大 req_loc conf_time null null I_loc
+学 req_loc conf_time null null I_loc
+ACT req_loc conf_time N N inf
+
+北 req_loc null null null B_loc
+京 req_loc null null null I_loc
+邮 req_loc null null null I_loc
+电 req_loc null null null I_loc
+大 req_loc null null null I_loc
+学 req_loc null null null I_loc
+ACT req_loc N N N inf
+
+北 req_loc null null null B_loc
+京 req_loc null null null I_loc
+邮 req_loc null null null I_loc
+电 req_loc null null null I_loc
+大 req_loc null null null I_loc
+学 req_loc null null null I_loc
+ACT req_loc N N N inf
+
+北 req_loc null null null B_loc
+京 req_loc null null null I_loc
+邮 req_loc null null null I_loc
+电 req_loc null null null I_loc
+大 req_loc null null null I_loc
+学 req_loc null null null I_loc
+ACT req_loc N N N inf
+
+北 req_loc null null null B_loc
+邮 req_loc null null null I_loc
+ACT req_loc N N N inf
+
+北 req_loc null null null B_loc
+京 req_loc null null null I_loc
+ACT req_loc N N N inf
+
+? conf_loc null null null O
+? conf_loc null null null O
+? conf_loc null null null O
+? conf_loc null null null O
+? conf_loc null null null O
+? conf_loc null null null O
+ACT conf_loc N N N other
+
+使 req null null null O
+得 req null null null O
+ACT req N N N other
+
+3 done null null null O
+? done null null null O
+o done null null null O
+o done null null null O
+ACT done N N N other
+
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+o req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+- req null null null O
+| req null null null O
+ACT req N N N other
+
+? req null null null O
+? req null null null O
+? req null null null O
+? req null null null O
+o req null null null O
+? req null null null O
+ACT req N N N other
+
+? req_pernum req_time null null O
+? req_pernum req_time null null O
+? req_pernum req_time null null O
+? req_pernum req_time null null O
+? req_pernum req_time null null O
+? req_pernum req_time null null O
+? req_pernum req_time null null O
+ACT req_pernum req_time N N other
+
+主 req null null null B_loc
+会 req null null null I_loc
+议 req null null null I_loc
+中 req null null null I_loc
+心 req null null null I_loc
+ACT req N N N inf
+
+3 req null null null B_pernum
+0 req null null null I_pernum
+人 req null null null I_pernum
+ACT req N N N inf
+
+2 req_time req_loc conf_pernum null B_time
+0 req_time req_loc conf_pernum null I_time
+1 req_time req_loc conf_pernum null I_time
+5 req_time req_loc conf_pernum null I_time
+- req_time req_loc conf_pernum null I_time
+6 req_time req_loc conf_pernum null I_time
+- req_time req_loc conf_pernum null I_time
+1 req_time req_loc conf_pernum null I_time
+7 req_time req_loc conf_pernum null I_time
+ACT req_time req_loc conf_pernum N inf
+
+主 req_time req_loc conf_pernum null B_loc
+会 req_time req_loc conf_pernum null I_loc
+议 req_time req_loc conf_pernum null I_loc
+大 req_time req_loc conf_pernum null I_loc
+厅 req_time req_loc conf_pernum null I_loc
+2 req_time req_loc conf_pernum null I_loc
+0 req_time req_loc conf_pernum null I_loc
+1 req_time req_loc conf_pernum null I_loc
+ACT req_time req_loc conf_pernum N inf
+
+2 req_budget conf_time null null B_budget
+0 req_budget conf_time null null I_budget
+0 req_budget conf_time null null I_budget
+0 req_budget conf_time null null I_budget
+ACT req_budget conf_time N N inf
+
+半 req_timel conf_budget null null B_timel
+天 req_timel conf_budget null null I_timel
+ACT req_timel conf_budget N N inf
+
+主 req_loc conf_timel null null B_loc
+会 req_loc conf_timel null null I_loc
+议 req_loc conf_timel null null I_loc
+室 req_loc conf_timel null null I_loc
+大 req_loc conf_timel null null I_loc
+厅 req_loc conf_timel null null I_loc
+ACT req_loc conf_timel N N inf
+
+北 req_loc null null null B_loc
+极 req_loc null null null I_loc
+ACT req_loc N N N inf
+
+你 null null null null O
+好 null null null null O
+ACT null N N N hello
+
+北 req null null null B_loc
+京 req null null null I_loc
+, req null null null O
+ACT req N N N inf
+
+十 req null null null B_time
+月 req null null null I_time
+三 req null null null I_time
+号 req null null null I_time
+, req null null null O
+ACT req N N N inf
+
+3 req null null null B_pernum
+0 req null null null I_pernum
+0 req null null null I_pernum
+人 req null null null I_pernum
+ACT req N N N inf
+
+你 null null null null O
+好 null null null null O
+ACT null N N N hello
+
+北 req_pernum req_time null null B_loc
+京 req_pernum req_time null null I_loc
+, req_pernum req_time null null O
+ACT req_pernum req_time N N inf
+
+十 req_pernum req_time null null B_time
+月 req_pernum req_time null null I_time
+三 req_pernum req_time null null I_time
+号 req_pernum req_time null null I_time
+, req_pernum req_time null null O
+ACT req_pernum req_time N N inf
+
+3 req_pernum req_time null null B_pernum
+0 req_pernum req_time null null I_pernum
+0 req_pernum req_time null null I_pernum
+人 req_pernum req_time null null I_pernum
+ACT req_pernum req_time N N inf
+
+是 conf_pernum conf_loc null null O
+的 conf_pernum conf_loc null null O
+ACT conf_pernum conf_loc N N ok
+
+3 conf_time req_budget null null B_budget
+0 conf_time req_budget null null I_budget
+0 conf_time req_budget null null I_budget
+0 conf_time req_budget null null I_budget
+0 conf_time req_budget null null I_budget
+元 conf_time req_budget null null I_budget
+ACT conf_time req_budget N N inf
+
+几 conf_budget req_timel null null B_timel
+天 conf_budget req_timel null null I_timel
+ACT conf_budget req_timel N N inf
+
+对 conf_timel null null null O
+ACT conf_timel N N N ok
+
+北 null null null null B_loc
+京 null null null null I_loc
+的 null null null null O
+会 null null null null O
+议 null null null null O
+室 null null null null O
+ACT null N N N inf
+
+3 conf_loc req_pernum null null B_pernum
+0 conf_loc req_pernum null null I_pernum
+0 conf_loc req_pernum null null I_pernum
+人 conf_loc req_pernum null null I_pernum
+ACT conf_loc req_pernum N N inf
+
+3 conf_pernum req_budget null null B_budget
+0 conf_pernum req_budget null null I_budget
+0 conf_pernum req_budget null null I_budget
+0 conf_pernum req_budget null null I_budget
+元 conf_pernum req_budget null null I_budget
+ACT conf_pernum req_budget N N inf
+
+几 conf_budget req_timel null null B_timel
+天 conf_budget req_timel null null I_timel
+ACT conf_budget req_timel N N inf
+
+十 conf_timel req_time null null B_time
+月 conf_timel req_time null null I_time
+三 conf_timel req_time null null I_time
+号 conf_timel req_time null null I_time
+ACT conf_timel req_time N N inf
+
+恩 conf_time null null null O
+ACT conf_time N N N ok
+

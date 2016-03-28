@@ -1,0 +1,56 @@
+3-11（3） 是初始处理过的语料  这个里面有agent 动作是select 时候会出现几个同样的 select_slotname  有hello 应该是写错了
+一共28个 agent intention
+测试语料619句，训练语料2429句
+21 个 user intention
+null
+req_pernum
+req_time
+conf_timel
+req_loc
+conf_pernum
+req_budget
+conf_budget
+conf_time
+conf_loc
+req
+select_loc
+req_timel
+select_pernum
+select_budget
+select_timel
+dis_time
+dis_pernum
+select_time
+inf_timel
+inf_pernum
+dis_timel
+inf_loc
+conf
+dis_budget
+dis_loc
+done
+conf_imel
+28
+user act:
+hello
+inf_pernum
+inf_timel
+inf_budget
+inf_time
+inf_loc
+ok_loc
+other
+ok_pernum
+inf
+rej_time
+ok_timel
+rej_loc
+rej_timel
+ok_time
+rej_pernum
+ok_budget
+rej_budget
+rej
+bye
+helllo
+21

@@ -1,0 +1,5 @@
+从fulldialogue开始处理语料->fulldialogue-311
+process1 去掉agent句子
+process4 在每个user sentence 单元中加入agent history act 然后 去重
+process5 把user act 及个数提取出来
+process6 开始做训练数据集
