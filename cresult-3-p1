@@ -1,0 +1,1857 @@
+? ? ? ? ? ? ? ACT 
+O O O O O O O other 
+O O O O O O O other 
+我 要 订 u i y i s h i 1 ACT 
+O O O O O O O O O O O inf 
+O O O O O O O O O O O other 
+1 0 0 0 人 的 ACT 
+B_pernum I_pernum I_pernum I_pernum I_pernum O inf 
+B_pernum I_pernum I_pernum I_pernum I_pernum O inf 
+1 0 0 0 ? o o ? ? ? ACT 
+B_pernum I_pernum I_pernum I_pernum O O O O O O inf 
+B_pernum I_pernum I_pernum I_pernum O O O O O O inf 
+? ? ? ? ? ? ? ? 5 0 0 ? o o ? ? ? ? ACT 
+O O O O O O O O O O O O O O O O O O other 
+O O O O O O O O O O O O O O O O O O other 
+还 是 5 0 0 人 吧 ACT 
+O O B_pernum I_pernum I_pernum I_pernum O inf 
+O O B_pernum I_pernum I_pernum I_pernum O inf 
+改 一 下 ACT 
+O O O inf 
+O O O inf 
+4 0 0 人 ACT 
+B_pernum I_pernum I_pernum I_pernum inf 
+B_pernum I_pernum I_pernum I_pernum inf 
+? ? 1 ? ? ? ? ? ? ACT 
+O O O O O O O O O other 
+O O O O O O O O O other 
+4 0 0 ? o o ACT 
+O O O O O O inf 
+B_budget I_budget I_budget O O O other 
+人 数 改 为 4 0 0 人 ACT 
+O O O O B_pernum I_pernum I_pernum I_pernum inf 
+O O O O B_pernum I_pernum I_pernum I_pernum inf 
+4 0 0 ACT 
+B_pernum I_pernum I_pernum inf 
+B_pernum I_pernum I_pernum inf 
+4 0 0 人 ACT 
+B_pernum I_pernum I_pernum I_pernum inf 
+B_pernum I_pernum I_pernum I_pernum inf 
+预 算 5 0 0 0 元 ACT 
+O O B_budget I_budget I_budget I_budget I_budget inf 
+O O B_budget I_budget I_budget I_budget I_budget inf 
+5 0 0 0 ACT 
+B_budget I_budget I_budget I_budget inf 
+B_budget I_budget I_budget I_budget inf 
+5 0 0 0 ACT 
+B_budget I_budget I_budget I_budget inf 
+B_budget I_budget I_budget I_budget inf 
+5 0 0 人 参 会 ACT 
+B_pernum I_pernum I_pernum I_pernum O O inf 
+B_pernum I_pernum I_pernum I_pernum O O inf 
+5 0 0 ? o o ? ? ? ? ? ? ACT 
+B_pernum I_pernum I_pernum O O O O O O O O O inf 
+O O O O O O O O O O O O other 
+9 天 ACT 
+B_timel I_timel inf 
+B_timel I_timel inf 
+9 ? ? ? ? ACT 
+B_timel O O O O inf 
+O O O O O other 
+明 天 开 始 ACT 
+B_time I_time O O inf 
+B_time I_time O O inf 
+下 周 二 ACT 
+B_time I_time I_time inf 
+B_time I_time I_time inf 
+下 周 五 吧 还 是 ACT 
+B_time I_time I_time O O O inf 
+B_time I_time I_time O O O rej 
+? ? ? ? ? ? ? ? ? ? ? ACT 
+O O O O O O O O O O O other 
+O O O O O O O O O O O other 
+在 北 邮 ACT 
+O B_loc I_loc inf 
+O B_loc I_loc inf 
+南 京 大 学 附 近 ACT 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+南 京 大 学 附 近 都 可 以 ACT 
+B_loc I_loc I_loc I_loc I_loc I_loc O O O inf 
+B_loc I_loc I_loc I_loc I_loc I_loc O O O inf 
+就 在 南 京 大 学 边 上 ACT 
+O O B_loc I_loc I_loc I_loc I_loc I_loc inf 
+O O B_loc I_loc I_loc I_loc I_loc I_loc inf 
+? ? ? ? ? ? ? ? ? ? ? ? o ? ? ? ? ? ? - | ? ? ? 1 ? ? ? ACT 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O other 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O other 
+南 京 大 学 附 近 ACT 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+南 京 ACT 
+B_loc I_loc inf 
+B_loc I_loc inf 
+是 ACT 
+O ok 
+O ok 
+你 好 ACT 
+O O hello 
+O O hello 
+? ? ? ? ? ? ? ACT 
+O O O O O O O other 
+O O O O O O O other 
+要 一 个 1 0 0 0 人 的 会 议 室 ACT 
+O O O B_pernum I_pernum I_pernum I_pernum I_pernum O O O O inf 
+O O O B_pernum I_pernum I_pernum I_pernum I_pernum O O O O inf 
+还 是 5 0 0 人 吧 ACT 
+O O B_pernum I_pernum I_pernum I_pernum O inf 
+O O B_pernum I_pernum I_pernum I_pernum O inf 
+2 0 0 0 元 吧 ACT 
+B_budget I_budget I_budget I_budget I_budget O inf 
+B_budget I_budget I_budget I_budget I_budget O inf 
+2 0 0 0 ? ? ? ? ? ? ? ACT 
+O O O O O O O O O O O inf 
+B_budget I_budget I_budget I_budget O O O O O O O other 
+1 周 ACT 
+O O inf 
+B_timel I_timel inf 
+1 ? ? ? ? ACT 
+O O O O O other 
+O O O O O other 
+明 天 ACT 
+B_time I_time inf 
+B_time I_time inf 
+? ? ? ? ? ? ? ACT 
+O O O O O O O other 
+O O O O O O O other 
+后 天 ACT 
+B_time I_time inf 
+B_time I_time inf 
+6 月 1 0 日 ACT 
+B_time I_time I_time I_time I_time inf 
+B_time I_time I_time I_time I_time inf 
+南 京 大 学 附 近 ACT 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+南 京 大 学 ACT 
+B_loc I_loc I_loc I_loc inf 
+B_loc I_loc I_loc I_loc inf 
+? ? ? ? o ? ? ? ? ? ? - | ACT 
+O O O O O O O O O O O O O other 
+O O O O O O O O O O O O O other 
+在 南 京 大 学 ACT 
+O B_loc I_loc I_loc I_loc inf 
+O B_loc I_loc I_loc I_loc inf 
+? ? ? ? ? ? ? ? o ? ? ? ? ? ? - | ACT 
+O O O O O O O O O O O O O O O O O other 
+O O O O O O O O O O O O O O O O O other 
+在 南 京 ACT 
+O B_loc I_loc inf 
+O B_loc I_loc inf 
+? ? ? ? ? ? ? ? o ? ACT 
+O O O O O O O O O O other 
+O O O O O O O O O O other 
+对 的 ACT 
+O O ok 
+O O ok 
+你 好 ACT 
+O O hello 
+O O hello 
+? ? ? ? ? ? ? ACT 
+O O O O O O O other 
+O O O O O O O other 
+我 要 订 5 人 3 天 的 会 议 室 ACT 
+O O O B_pernum I_pernum B_timel I_timel O O O O inf 
+O O O B_pernum I_pernum B_timel I_timel O O O O inf 
+5 人 ACT 
+B_pernum I_pernum inf 
+B_pernum I_pernum inf 
+5 ? o o ACT 
+B_pernum O O O inf 
+O O O O inf 
+3 0 0 0 ACT 
+B_budget I_budget I_budget I_budget inf 
+B_budget I_budget I_budget I_budget inf 
+3 0 0 0 ACT 
+B_budget I_budget I_budget I_budget inf 
+B_budget I_budget I_budget I_budget inf 
+2 0 0 0 元 开 5 天 ACT 
+B_budget I_budget I_budget I_budget I_budget O B_timel I_timel inf 
+B_budget I_budget I_budget I_budget I_budget O B_timel I_timel inf 
+要 改 一 下 人 数 ACT 
+O O O O O O inf 
+O O O O O O inf 
+6 人 开 会 ACT 
+B_pernum I_pernum O O inf 
+B_time I_time O O inf 
+6 人 ACT 
+B_pernum I_pernum inf 
+B_pernum I_pernum inf 
+6 ? o o ACT 
+O O O O inf 
+O O O O other 
+6 月 8 日 在 南 京 ACT 
+B_time I_time I_time I_time O B_loc I_loc inf 
+B_time I_time I_time I_time O B_loc I_loc inf 
+是 的 ACT 
+O O ok 
+O O ok 
+5 人 3 天 的 会 议 室 ACT 
+B_pernum I_pernum B_timel I_timel O O O O inf 
+B_pernum I_pernum B_timel I_timel O O O O inf 
+3 0 0 0 元 ACT 
+B_budget I_budget I_budget I_budget I_budget inf 
+B_budget I_budget I_budget I_budget I_budget inf 
+3 0 0 0 ? ? ? ACT 
+B_budget I_budget I_budget I_budget O O O inf 
+B_budget I_budget I_budget I_budget O O O other 
+4 号 ACT 
+B_time I_time inf 
+B_time I_time inf 
+4 ? ? ? ? ACT 
+B_time O O O O inf 
+O O O O O other 
+3 天 5 人 ACT 
+B_timel I_timel B_pernum I_pernum inf 
+B_timel I_timel I_timel I_timel inf 
+3 ? ? ? ? 5 ? o o ACT 
+B_timel O O O O O O O O inf 
+O O O O O O O O O other 
+4 天 5 人 ACT 
+B_timel I_timel B_pernum I_pernum inf 
+B_timel I_timel B_pernum I_pernum inf 
+4 ? ? ? ? 5 ? o o ACT 
+B_timel O O O O O O O O inf 
+O O O O O O O O O other 
+4 天 ACT 
+B_timel I_timel inf 
+B_timel I_timel inf 
+5 人 ACT 
+B_pernum I_pernum inf 
+B_pernum I_pernum inf 
+5 个 人 开 4 天 ACT 
+O O O O B_timel I_timel inf 
+B_pernum I_pernum O O B_timel I_timel inf 
+6 个 人 开 3 天 吧 ACT 
+O O O O B_timel I_timel O inf 
+B_pernum I_pernum I_pernum O B_timel I_timel O inf 
+6 ? ? a ? o o ? ? ? 3 ? ? ? ? ? ? ? ? ACT 
+O O O O O O O O O O O O O O O O O O O other 
+O O O O O O O O O O O O O O O O O O O other 
+3 天 ACT 
+B_timel I_timel inf 
+B_timel I_timel inf 
+5 号 ACT 
+B_time I_time inf 
+B_time I_time inf 
+5 号 8 个 人 ACT 
+B_time I_time B_pernum I_pernum I_pernum inf 
+B_pernum I_pernum I_pernum I_pernum I_pernum inf 
+5 ? ? ? ? 8 ? ? a ? o o ACT 
+O O O O O O O O O O O O other 
+O O O O O O O O O O O O other 
+8 个 人 开 会 ACT 
+B_pernum I_pernum I_pernum O O inf 
+O O O O O inf 
+8 ? ? a ? o o ? ? ? ? ? ? ACT 
+B_pernum O O O O O O O O O O O O inf 
+O O O O O O O O O O O O O other 
+8 人 ACT 
+B_pernum I_pernum inf 
+B_pernum I_pernum inf 
+南 京 大 学 ACT 
+B_loc I_loc I_loc I_loc inf 
+B_loc I_loc I_loc I_loc inf 
+改 为 9 人 ACT 
+O O B_pernum I_pernum inf 
+O O O O inf 
+? ? 1 ? ? o 9 ? o o ACT 
+O O O O O O O O O O other 
+O O O O O O O O O O other 
+改 为 1 2 人 吧 ACT 
+O O B_pernum I_pernum I_pernum O inf 
+O O B_pernum I_pernum I_pernum O inf 
+? ? 1 ? ? o 1 2 ? o o ? ? ? ? ACT 
+O O O O O O O O O O O O O O O other 
+O O O O O O O O O O O O O O O other 
+1 2 ACT 
+B_pernum I_pernum inf 
+B_budget I_budget inf 
+1 2 ACT 
+B_pernum I_pernum inf 
+B_loc I_loc inf 
+2 0 0 ACT 
+B_budget I_budget I_budget inf 
+B_budget I_budget I_budget inf 
+2 0 0 人 吧 ACT 
+B_pernum I_pernum I_pernum I_pernum O inf 
+B_pernum I_pernum I_pernum I_pernum O inf 
+3 0 0 人 开 ACT 
+B_pernum I_pernum I_pernum I_pernum O inf 
+B_pernum I_pernum I_pernum I_pernum O inf 
+3 0 0 人 ACT 
+B_pernum I_pernum I_pernum I_pernum inf 
+B_pernum I_pernum I_pernum I_pernum inf 
+北 京 大 学 ACT 
+B_loc I_loc I_loc I_loc inf 
+B_loc I_loc I_loc I_loc inf 
+北 京 市 ACT 
+B_loc I_loc I_loc inf 
+B_loc I_loc I_loc inf 
+o k ACT 
+O O ok 
+O O other 
+一 个 人 的 会 议 室 ACT 
+B_pernum I_pernum I_pernum O O O O inf 
+O O O O O O O inf 
+? ? ? ? ? a ? o o ? ? ? ? ? ? ? ? ? ? ? ? ? ? ACT 
+O O O O O O O O O O O O O O O O O O O O O O O other 
+O O O O O O O O O O O O O O O O O O O O O O O other 
+一 个 人 ACT 
+B_pernum I_pernum I_pernum inf 
+B_pernum I_pernum I_pernum inf 
+? ? ? ? ? a ? o o ACT 
+O O O O O O O O O other 
+O O O O O O O O O other 
+1 ACT 
+B_pernum inf 
+O other 
+1 个 人 ACT 
+O O O inf 
+B_pernum I_pernum I_pernum inf 
+1 人 开 会 ACT 
+B_pernum I_pernum O O inf 
+B_pernum I_pernum O O inf 
+3 人 ACT 
+B_pernum I_pernum inf 
+B_pernum I_pernum inf 
+4 人 ACT 
+B_pernum I_pernum inf 
+B_pernum I_pernum inf 
+4 ? o o ACT 
+B_pernum O O O inf 
+O O O O inf 
+2 人 ACT 
+B_pernum I_pernum inf 
+B_pernum I_pernum inf 
+2 ? o o ACT 
+B_pernum O O O inf 
+O O O O other 
+3 个 人 ACT 
+B_pernum I_pernum I_pernum inf 
+B_pernum I_pernum I_pernum inf 
+3 ? ? a ? o o ACT 
+B_pernum O O O O O O inf 
+O O O O O O O other 
+改 一 下 人 数 ACT 
+O O O O O inf 
+O O O O O other 
+? ? 1 ? ? ? ? ? ? ? o o ? ? ? ? ACT 
+O O O O O O O O O O O O O O O O other 
+O O O O O O O O O O O O O O O O other 
+8 ACT 
+O other 
+O inf 
+8 ACT 
+O other 
+O inf 
+改 为 8 人 ACT 
+O O B_pernum I_pernum inf 
+O O B_pernum I_pernum inf 
+? ? 1 ? ? o 8 ? o o ACT 
+O O O O O O O O O O other 
+O O O O O O O O O O other 
+1 2 ACT 
+O O other 
+B_budget I_budget inf 
+参 会 人 数 8 0 ACT 
+O O O O B_pernum I_pernum inf 
+O O O O B_pernum I_pernum inf 
+? ? ? ? ? ? ? o o ? ? ? ? 8 0 ACT 
+O O O O O O O O O O O O O B_pernum I_pernum inf 
+O O O O O O O O O O O O O O O inf 
+预 算 8 0 0 0 ACT 
+O O B_budget I_budget I_budget I_budget inf 
+O O B_budget I_budget I_budget I_budget inf 
+? ? ? ? ? ? ? ? 8 0 0 0 ACT 
+O O O O O O O O B_budget I_budget I_budget I_budget inf 
+O O O O O O O O O O O O inf 
+会 议 长 8 0 ACT 
+O O O B_timel I_timel inf 
+O O O O O inf 
+南 京 的 大 学 开 ACT 
+B_loc I_loc I_loc I_loc I_loc O inf 
+B_loc I_loc I_loc I_loc I_loc O inf 
+? ? ? ? o ? ? ? ? ? ? ? ? ? - | ? ? ? ACT 
+O O O O O O O O O O O O O O O O O O O other 
+O O O O O O O O O O O O O O O O O O O other 
+在 南 京 的 一 个 大 学 里 开 ACT 
+O B_loc I_loc I_loc I_loc I_loc I_loc I_loc I_loc O inf 
+O B_loc I_loc O O O O O O O inf 
+? ? ? ? ? ? ? ? o ? ? ? ? ? ? ? ? ? a ? ? ? ? ? - | ? ? ? ? ? ? ? ACT 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O other 
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O other 
+改 在 北 京 的 某 个 大 学 开 吧 ACT 
+O O B_loc I_loc I_loc I_loc I_loc I_loc I_loc O O inf 
+O O B_loc I_loc O O O O O O O inf 
+我 想 预 定 明 天 的 会 议 室 ACT 
+O O O O B_time I_time O O O O inf 
+O O O O B_time I_time O O O O inf 
+1 2 个 人 ACT 
+B_pernum I_pernum I_pernum I_pernum inf 
+B_pernum I_pernum I_pernum I_pernum inf 
+地 点 在 海 淀 ACT 
+O O O B_loc I_loc inf 
+O O O B_loc I_loc inf 
+你 好 ACT 
+O O hello 
+O O hello 
+北 京 ACT 
+B_loc I_loc inf 
+B_loc I_loc inf 
+3 0 人 ACT 
+B_pernum I_pernum I_pernum inf 
+B_pernum I_pernum I_pernum inf 
+十 月 三 号 的 ACT 
+B_time I_time I_time I_time O inf 
+B_time I_time I_time I_time O inf 
+恩 ACT 
+O ok 
+O ok 
+3 0 0 0 元 ACT 
+B_budget I_budget I_budget I_budget I_budget inf 
+B_budget I_budget I_budget I_budget I_budget inf 
+几 天 ACT 
+B_timel I_timel inf 
+B_timel I_timel inf 
+额 n 、 ACT 
+O O O ok 
+O O O inf 
+我 日 ACT 
+O O other 
+O O inf 
+1 9 0 ACT 
+B_budget I_budget I_budget inf 
+B_budget I_budget I_budget inf 
+2 ACT 
+B_timel inf 
+O other 
+2 h ACT 
+B_timel I_timel inf 
+B_timel I_timel inf 
+3 小 时 ACT 
+B_timel I_timel I_timel inf 
+B_timel I_timel I_timel inf 
+1 8 0 人 ACT 
+B_pernum I_pernum I_pernum I_pernum inf 
+B_pernum I_pernum I_pernum I_pernum inf 
+你 好 ACT 
+O O hello 
+O O hello 
+你 好 ACT 
+O O hello 
+O O hello 
+重 庆 ACT 
+B_loc I_loc inf 
+O O other 
+不 送 ACT 
+O O other 
+O O rej 
+重 庆 ACT 
+B_loc I_loc inf 
+O O inf 
+开 会 ACT 
+O O other 
+O O inf 
+是 ACT 
+O ok 
+O ok 
+你 好 ACT 
+O O hello 
+O O hello 
+北 京 ACT 
+B_loc I_loc inf 
+B_loc I_loc inf 
+你 好 ACT 
+O O hello 
+O O hello 
+5 0 0 0 ACT 
+B_budget I_budget I_budget I_budget inf 
+B_budget I_budget I_budget I_budget inf 
+你 吃 饭 了 吗 ？ ACT 
+O O O O O O other 
+O O O O O O other 
+1 2 . ACT 
+O O O other 
+O O O other 
+好 吃 的 ACT 
+O O O other 
+O O O inf 
+1 2 0 ACT 
+O O O other 
+O B_pernum I_pernum inf 
+我 要 订 会 议 室 ACT 
+O O O O O O other 
+O O O O O O inf 
+? ? ? ? ? | ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ACT 
+O O O O O O O O O O O O O O O O O O O O O O O other 
+O O O O O O O O O O O O O O O O O O O O O O O other 
+吃 货 会 议 ACT 
+O O O O inf 
+O O O O inf 
+我 要 订 会 议 室 ACT 
+O O O O O O other 
+O O O O O O inf 
+1 0 0 人 开 会 ACT 
+B_pernum I_pernum I_pernum I_pernum O O inf 
+B_pernum I_pernum I_pernum I_pernum O O inf 
+1 0 0 ? o o ? ? ? ? ? ? ACT 
+O O O O O O O O O O O O inf 
+B_pernum I_pernum I_pernum O O O O O O O O O other 
+大 的 ACT 
+O O inf 
+O O inf 
+5 0 0 0 元 ACT 
+B_budget I_budget I_budget I_budget I_budget inf 
+B_budget I_budget I_budget I_budget I_budget inf 
+5 0 0 0 ? ? ? ACT 
+B_budget I_budget I_budget I_budget O O O inf 
+O O O O O O O other 
+8 天 吧 ACT 
+B_timel I_timel O inf 
+B_timel I_timel O inf 
+1 0 0 0 0 人 开 会 ACT 
+B_pernum I_pernum I_pernum I_pernum I_pernum I_pernum O O inf 
+B_pernum I_pernum I_pernum I_pernum I_pernum I_pernum O O inf 
+容 纳 3 0 0 人 左 右 ACT 
+O O B_pernum I_pernum I_pernum I_pernum I_pernum I_pernum inf 
+O O B_pernum I_pernum I_pernum I_pernum I_pernum I_pernum inf 
+8 月 1 日 ACT 
+B_time I_time I_time I_time inf 
+B_time I_time I_time I_time inf 
+3 0 0 ACT 
+B_budget I_budget I_budget inf 
+B_budget I_budget I_budget inf 
+北 京 ACT 
+B_loc I_loc inf 
+B_loc I_loc inf 
+2 h ACT 
+B_timel I_timel inf 
+O O other 
+是 的 ACT 
+O O ok 
+O O ok 
+3 0 0 0 0 人 呢 ？ ACT 
+B_pernum I_pernum I_pernum I_pernum I_pernum I_pernum O O inf 
+B_budget I_budget I_budget I_budget I_pernum I_pernum O O other 
+订 会 议 室 ACT 
+O O O O other 
+O O O O inf 
+? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ACT 
+O O O O O O O O O O O O O O O O other 
+O O O O O O O O O O O O O O O O other 
+5 0 0 0 0 0 人 呢 ？ ACT 
+B_pernum I_pernum I_pernum I_pernum I_pernum I_pernum I_pernum O O inf 
+B_pernum I_pernum I_pernum I_pernum I_pernum I_pernum I_pernum O O other 
+8 天 ACT 
+B_timel I_timel inf 
+B_timel I_timel inf 
+8 ? ? ? ? ACT 
+O O O O O other 
+O O O O O other 
+你 们 真 的 有 这 么 大 的 会 议 室 吗 ？ ACT 
+O O O O O O O O O O O O O O other 
+O O O O O O O O O O O O O O inf 
+6 9 9 9 元 吧 ACT 
+B_budget I_budget I_budget I_budget I_budget O inf 
+O O O O O O inf 
+订 会 议 室 ACT 
+O O O O other 
+O O O O inf 
+是 ACT 
+O ok 
+O ok 
+? ? ? ? ACT 
+O O O O other 
+O O O O other 
+谭 某 某 交 流 会 ACT 
+O O O O O O inf 
+O O O O O O inf 
+上 海 北 京 广 东 都 行 ACT 
+O O O O O O O O inf 
+B_loc I_loc I_loc I_loc I_loc I_loc I_loc I_loc inf 
+批 斗 会 ACT 
+O O O inf 
+O O O inf 
+南 京 ACT 
+B_loc I_loc inf 
+B_loc I_loc inf 
+北 上 广 ACT 
+B_loc I_loc I_loc inf 
+B_loc I_loc I_loc inf 
+5 0 0 人 的 ACT 
+B_pernum I_pernum I_pernum I_pernum O inf 
+B_pernum I_pernum I_pernum I_pernum O inf 
+你 没 听 清 吗 ？ ACT 
+O O O O O O other 
+O O O O O O inf 
+北 上 广 ACT 
+B_loc I_loc I_loc inf 
+B_loc I_loc I_loc inf 
+8 月 8 号 , ACT 
+B_time I_time I_time I_time O inf 
+B_time I_time I_time I_time O inf 
+北 京 ACT 
+B_loc I_loc inf 
+B_loc I_loc inf 
+5 0 0 0 0 ACT 
+B_budget I_budget I_budget I_budget I_budget inf 
+B_budget I_budget I_budget I_budget I_budget inf 
+1 0 天 ACT 
+B_timel I_timel I_timel inf 
+B_timel I_timel I_timel inf 
+1 0 0 0 人 ACT 
+B_pernum I_pernum I_pernum I_pernum I_pernum inf 
+B_pernum I_pernum I_pernum I_pernum I_pernum inf 
+8 0 人 ACT 
+B_pernum I_pernum I_pernum inf 
+B_pernum I_pernum I_pernum inf 
+是 8 ACT 
+O O ok 
+O O inf 
+8 0 人 ACT 
+B_pernum I_pernum I_pernum inf 
+B_pernum I_pernum I_pernum inf 
+? ? ? ? ? ? ? ? ? ? ? ? o ? ? ? ? ? ? ? ? ACT 
+O O O O O O O O O O O O O O O O O O O O O other 
+O O O O O O O O O O O O O O O O O O O O O other 
+还 在 北 京 开 吧 ACT 
+O O B_loc I_loc O O inf 
+O O B_loc I_loc O O inf 
+b e i j i n g ACT 
+O O O O O O O other 
+O O O O O O O inf 
+北 京 ACT 
+B_loc I_loc inf 
+B_loc I_loc inf 
+是 ACT 
+O ok 
+O ok 
+8 0 人 ACT 
+B_pernum I_pernum I_pernum inf 
+B_pernum I_pernum I_pernum inf 
+是 ACT 
+O ok 
+O ok 
+还 在 南 京 吧 ACT 
+O O B_loc I_loc O inf 
+O O B_loc I_loc O inf 
+? ? ? ? ? ? ? ? ? ? ? ? o ? ? ? ? ? ACT 
+O O O O O O O O O O O O O O O O O O other 
+O O O O O O O O O O O O O O O O O O other 
+8 月 8 号 十 点 ACT 
+B_time I_time I_time I_time I_time I_time inf 
+B_time I_time I_time I_time I_time I_time inf 
+是 ACT 
+O ok 
+O ok 
+还 在 天 津 开 吧 ACT 
+O O B_loc I_loc O O inf 
+O O B_loc I_loc O O inf 
+? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ACT 
+O O O O O O O O O O O O O O O O O O O O O O other 
+O O O O O O O O O O O O O O O O O O O O O O other 
+北 京 ACT 
+B_loc I_loc inf 
+B_loc I_loc inf 
+8 月 1 日 ACT 
+B_time I_time I_time I_time inf 
+B_time I_time I_time I_time inf 
+1 0 0 0 元 ACT 
+B_budget I_budget I_budget I_budget I_budget inf 
+B_budget I_budget I_budget I_budget I_budget inf 
+是 ACT 
+O ok 
+O ok 
+龙 岩 ACT 
+B_loc I_loc inf 
+O O other 
+? ? ? ? ? 2 ? ACT 
+O O O O O O O other 
+O O O O O O O other 
+你 好 ACT 
+O O hello 
+O O hello 
+开 会 人 数 多 ACT 
+O O O O O inf 
+O O O O O inf 
+? ? ? ? ? o ? ? ? ? ? ? ? ? ? ? ? ACT 
+O O O O O O O O O O O O O O O O O other 
+O O O O O O O O O O O O O O O O O other 
+会 场 高 大 上 ACT 
+O O O O O inf 
+O O O O O inf 
+5 人 三 天 的 会 议 ACT 
+B_pernum I_pernum B_timel I_timel O O O inf 
+B_pernum I_pernum B_timel I_timel O O O inf 
+我 要 开 学 术 会 议 ACT 
+O O O O O O O inf 
+O O O O O O O inf 
+1 0 0 0 ACT 
+O O O O other 
+B_budget I_budget I_budget I_budget inf 
+1 0 0 0 人 ACT 
+B_pernum I_pernum I_pernum I_pernum I_pernum inf 
+B_pernum I_pernum I_pernum I_pernum I_pernum inf 
+不 对 ACT 
+O O rej 
+O O rej 
+? ? ? ? ? ? 1 ACT 
+O O O O O O O other 
+O O O O O O O other 
+5 人 ACT 
+B_pernum I_pernum inf 
+B_pernum I_pernum inf 
+北 京 ACT 
+B_loc I_loc inf 
+B_loc I_loc inf 
+? ? ? ? ? ? ? ? ? ACT 
+O O O O O O O O O other 
+O O O O O O O O O other 
+刚 刚 的 ACT 
+O O O other 
+O O O inf 
+不 是 , ACT 
+O O O rej 
+O O O inf 
+地 点 在 天 津 ACT 
+O O O B_loc I_loc inf 
+O O O B_loc I_loc inf 
+1 0 0 0 人 ACT 
+B_pernum I_pernum I_pernum I_pernum I_pernum inf 
+B_pernum I_pernum I_pernum I_pernum I_pernum inf 
+明 天 开 ACT 
+B_time I_time O inf 
+B_time I_time O inf 
+1 0 0 0 ? o o ACT 
+B_budget I_budget I_budget I_budget O O O inf 
+B_budget I_budget I_budget I_budget O O O inf 
+? ? ? ? ? ? ? ? ? ? ACT 
+O O O O O O O O O O other 
+O O O O O O O O O O other 
+三 天 ACT 
+B_timel I_timel inf 
+B_timel I_timel inf 
+是 的 ACT 
+O O ok 
+O O ok 
+预 算 不 高 ACT 
+O O O O inf 
+O O O O other 
+预 定 5 个 人 开 会 的 会 议 室 , ACT 
+O O B_pernum I_pernum I_pernum O O O O O O O inf 
+O O B_pernum I_pernum O O O O O O O O inf 
+时 间 为 三 天 ACT 
+O O O B_timel I_timel inf 
+O O O B_timel I_timel inf 
+还 是 5 0 0 人 吧 ACT 
+O O B_pernum I_pernum I_pernum I_pernum O inf 
+O O B_pernum I_pernum I_pernum I_pernum O inf 
+有 ACT 
+O inf 
+O inf 
+? ? ? ACT 
+O O O other 
+O O O other 
+5 0 0 ACT 
+B_pernum I_pernum I_pernum inf 
+B_budget I_budget I_budget inf 
+5 0 0 ACT 
+B_pernum I_pernum I_pernum inf 
+B_budget I_budget I_budget inf 
+5 ACT 
+B_timel inf 
+O inf 
+5 天 ACT 
+B_timel I_timel inf 
+B_timel I_timel inf 
+南 京 ACT 
+B_loc I_loc inf 
+B_loc I_loc inf 
+? ? ? ? o ? ACT 
+O O O O O O other 
+O O O O O O other 
+2 0 0 ACT 
+O O O other 
+B_budget I_budget I_budget inf 
+对 ACT 
+O ok 
+O ok 
+明 天 ACT 
+B_time I_time inf 
+B_time I_time inf 
+? ? ? 1 ACT 
+O O O O other 
+O O O O other 
+6 号 ACT 
+B_time I_time inf 
+B_time I_time inf 
+北 京 大 学 ACT 
+B_loc I_loc I_loc I_loc inf 
+B_loc I_loc I_loc I_loc inf 
+订 会 议 室 ACT 
+O O O O other 
+O O O O inf 
+河 南 大 厦 ACT 
+B_loc I_loc I_loc I_loc inf 
+B_loc I_loc I_loc I_loc inf 
+不 是 ACT 
+O O rej 
+O O rej 
+北 邮 科 技 大 厦 ACT 
+O O O O O O inf 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+是 的 ACT 
+O O ok 
+O O ok 
+啥 ？ ACT 
+O O other 
+O O other 
+5 0 0 人 开 8 天 预 算 5 0 0 0 元 ACT 
+B_pernum I_pernum I_pernum I_pernum O B_timel I_timel O O B_budget I_budget I_budget I_budget I_budget inf 
+B_pernum I_pernum I_pernum I_pernum O O O O O B_budget I_budget I_budget I_budget I_budget inf 
+5 人 三 天 的 会 议 ACT 
+B_pernum I_pernum O O O O O inf 
+B_pernum I_pernum B_timel I_timel O O O inf 
+2 h ACT 
+B_timel I_timel inf 
+B_timel I_timel inf 
+北 邮 ACT 
+B_loc I_loc inf 
+B_loc I_loc inf 
+北 邮 啊 ACT 
+B_loc I_loc O inf 
+B_loc I_loc O inf 
+5 0 0 人 , ACT 
+B_pernum I_pernum I_pernum I_pernum O inf 
+B_pernum I_pernum I_pernum I_pernum O inf 
+8 天 , ACT 
+B_timel I_timel O inf 
+B_timel I_timel O inf 
+5 0 0 0 元 ACT 
+B_budget I_budget I_budget I_budget I_budget inf 
+B_budget I_budget I_budget I_budget I_budget inf 
+8 / 8 ACT 
+B_time I_time I_time inf 
+O O O inf 
+9 天 ACT 
+B_timel I_timel inf 
+B_timel I_timel inf 
+8 / 8 ACT 
+B_time I_time I_time inf 
+O O O inf 
+8 / 8 ACT 
+B_time I_time I_time inf 
+O O O inf 
+5 / 8 ACT 
+B_time I_time I_time inf 
+O O O inf 
+北 京 邮 电 大 学 ACT 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+北 京 邮 电 大 学 ACT 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+8 月 8 号 , ACT 
+B_time I_time I_time I_time O inf 
+B_time I_time I_time I_time O inf 
+北 京 ACT 
+B_loc I_loc inf 
+B_loc I_loc inf 
+你 好 ACT 
+O O hello 
+O O hello 
+能 容 纳 3 0 0 人 的 会 议 室 ACT 
+O O O B_loc I_loc I_loc I_loc O O O O inf 
+O O O B_pernum I_pernum I_pernum I_pernum O O O O inf 
+6 月 1 5 日 , ACT 
+B_time I_time I_time I_time I_time O inf 
+B_time I_time I_time I_time I_time O inf 
+长 沙 ACT 
+B_loc I_loc inf 
+O O inf 
+1 万 ACT 
+B_budget I_budget inf 
+B_budget I_budget inf 
+1 天 ACT 
+B_timel I_timel inf 
+B_timel I_timel inf 
+长 沙 ACT 
+B_loc I_loc inf 
+O O inf 
+对 ACT 
+O ok 
+O ok 
+你 好 ACT 
+O O hello 
+O O hello 
+在 北 京 市 海 淀 区 开 会 ACT 
+O B_loc I_loc I_loc I_loc I_loc I_loc O O inf 
+O B_loc I_loc I_loc I_loc I_loc I_loc O O inf 
+3 0 人 左 右 ACT 
+B_pernum I_pernum I_pernum I_pernum I_pernum inf 
+B_pernum I_pernum I_pernum I_pernum I_pernum inf 
+下 周 四 召 开 ACT 
+B_time I_time I_time O O inf 
+B_time I_time I_time I_time O inf 
+会 议 时 长 一 天 ACT 
+O O O O B_timel I_timel inf 
+O O O O B_timel I_timel inf 
+3 0 0 0 0 元 ACT 
+B_budget I_budget I_budget I_budget I_budget I_budget inf 
+B_budget I_budget I_budget I_budget I_budget I_budget inf 
+对 ACT 
+O ok 
+O ok 
+你 好 ACT 
+O O hello 
+O O hello 
+郑 州 市 二 七 区 ACT 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+2 0 人 与 会 ACT 
+B_pernum I_pernum I_pernum O O inf 
+B_pernum I_pernum I_pernum O O inf 
+七 月 一 号 召 开 ACT 
+B_time I_time I_time I_time O O inf 
+B_time I_time I_time I_time I_time O inf 
+时 长 几 个 小 时 ACT 
+O O B_timel I_timel I_timel I_timel inf 
+O O B_timel I_timel I_timel I_timel inf 
+预 算 1 0 0 0 0 元 ACT 
+O O B_budget I_budget I_budget I_budget I_budget I_budget inf 
+O O B_budget I_budget I_budget I_budget I_budget I_budget inf 
+对 ACT 
+O ok 
+O ok 
+你 好 ACT 
+O O hello 
+O O hello 
+北 京 市 朝 阳 区 ACT 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+容 纳 一 百 人 ACT 
+O O B_pernum I_pernum I_pernum inf 
+O O B_pernum I_pernum I_pernum inf 
+这 周 末 召 开 ACT 
+B_time I_time I_time O O inf 
+O O O O O inf 
+时 长 一 天 ACT 
+O O B_timel I_timel inf 
+O O B_timel I_timel inf 
+1 0 0 0 0 0 元 ACT 
+B_budget I_budget I_budget I_budget I_budget I_budget I_budget inf 
+B_budget I_budget I_budget I_budget I_budget I_budget I_budget inf 
+对 ACT 
+O ok 
+O ok 
+你 好 ACT 
+O O hello 
+O O hello 
+海 淀 区 西 直 门 ACT 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+有 3 0 人 的 会 议 ACT 
+O B_pernum I_pernum I_pernum O O O inf 
+O B_pernum I_pernum I_pernum O O O inf 
+2 5 号 召 开 ACT 
+B_time I_time I_time O O inf 
+B_time I_time I_time O O inf 
+一 周 时 间 ACT 
+B_timel I_timel O O inf 
+B_timel I_timel I_timel I_timel inf 
+五 千 ACT 
+B_budget I_budget inf 
+O O inf 
+对 ACT 
+O ok 
+O ok 
+你 好 ACT 
+O O hello 
+O O hello 
+上 海 市 虹 口 区 ACT 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+3 0 人 左 右 吧 ACT 
+B_pernum I_pernum I_pernum I_pernum I_pernum O inf 
+B_pernum I_pernum I_pernum I_pernum I_pernum O inf 
+下 个 月 1 0 号 开 会 ACT 
+B_time I_time I_time I_time I_time I_time O O inf 
+B_time I_time I_time I_time I_time I_time O O inf 
+开 一 天 ACT 
+O B_timel I_timel inf 
+O B_timel I_timel inf 
+6 0 0 0 元 吧 ACT 
+B_budget I_budget I_budget I_budget I_budget O inf 
+B_budget I_budget I_budget I_budget I_budget O inf 
+对 ACT 
+O ok 
+O ok 
+你 好 ACT 
+O O hello 
+O O hello 
+预 算 3 0 0 0 0 元 ACT 
+O O B_budget I_budget I_budget I_budget I_budget I_budget inf 
+O O B_budget I_budget I_budget I_budget I_budget I_budget inf 
+时 长 一 天 ACT 
+O O B_timel I_timel inf 
+O O B_timel I_timel inf 
+下 周 四 ACT 
+B_time I_time I_time inf 
+B_time I_time I_time inf 
+3 0 人 左 右 ACT 
+B_pernum I_pernum I_pernum I_pernum I_pernum inf 
+B_pernum I_pernum I_pernum I_pernum I_pernum inf 
+北 京 市 海 淀 区 ACT 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+对 ACT 
+O ok 
+O ok 
+你 好 ACT 
+O O hello 
+O O hello 
+预 算 1 0 0 0 0 元 ACT 
+O O B_budget I_budget I_budget I_budget I_budget I_budget inf 
+O O B_budget I_budget I_budget I_budget I_budget I_budget inf 
+时 长 几 个 小 时 ACT 
+O O B_timel I_timel I_timel I_timel inf 
+O O B_timel I_timel I_timel I_timel inf 
+七 月 一 号 的 会 议 ACT 
+B_time I_time I_time I_time O O O inf 
+B_time I_time I_time I_time O O O inf 
+2 0 人 与 会 ACT 
+B_pernum I_pernum I_pernum O O inf 
+B_pernum I_pernum I_pernum O O inf 
+郑 州 市 二 七 区 ACT 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+不 对 ACT 
+O O rej 
+O O rej 
+2 0 人 ACT 
+B_pernum I_pernum I_pernum inf 
+B_pernum I_pernum I_pernum inf 
+对 ACT 
+O ok 
+O ok 
+你 好 ACT 
+O O hello 
+O O hello 
+1 0 0 0 0 0 元 的 预 算 ACT 
+B_budget I_budget I_budget I_budget I_budget I_budget I_budget O O O inf 
+B_budget I_budget I_budget I_budget I_budget I_budget I_budget O O O inf 
+开 一 天 ACT 
+O B_timel I_timel inf 
+O B_timel I_timel inf 
+这 周 末 ACT 
+B_time I_time I_time inf 
+B_time I_time I_time inf 
+一 百 人 ACT 
+B_pernum I_pernum I_pernum inf 
+B_pernum I_pernum I_pernum inf 
+北 京 市 朝 阳 区 ACT 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+对 ACT 
+O ok 
+O ok 
+你 好 ACT 
+O O hello 
+O O hello 
+预 算 五 千 ACT 
+O O B_budget I_budget inf 
+O O O O inf 
+预 算 5 0 0 0 0 ACT 
+O O B_budget I_budget I_budget I_budget I_budget inf 
+O O B_budget I_budget I_budget I_budget I_budget inf 
+会 议 时 长 一 周 ACT 
+O O O O B_timel I_timel inf 
+O O O O B_timel I_timel inf 
+2 5 号 ACT 
+B_time I_time I_time inf 
+B_time I_time I_time inf 
+3 0 人 左 右 ACT 
+B_pernum I_pernum I_pernum I_pernum I_pernum inf 
+B_pernum I_pernum I_pernum I_pernum I_pernum inf 
+海 淀 区 西 直 门 ACT 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+对 ACT 
+O ok 
+O ok 
+你 好 ACT 
+O O hello 
+O O hello 
+6 0 0 0 元 的 预 算 ACT 
+B_budget I_budget I_budget I_budget I_budget O O O inf 
+B_budget I_budget I_budget I_budget I_budget O O O inf 
+时 长 一 天 ACT 
+O O B_timel I_timel inf 
+O O B_timel I_timel inf 
+下 个 月 1 0 号 的 会 议 ACT 
+B_time I_time I_time I_time I_time I_time O O O inf 
+B_time I_time I_time I_time I_time I_time O O O inf 
+下 个 月 1 0 号 ACT 
+B_time I_time I_time I_time I_time I_time inf 
+B_time I_time I_time I_time I_time I_time inf 
+3 0 人 ACT 
+B_pernum I_pernum I_pernum inf 
+B_pernum I_pernum I_pernum inf 
+上 海 市 虹 口 区 ACT 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+对 ACT 
+O ok 
+O ok 
+你 好 ACT 
+O O hello 
+O O hello 
+北 京 市 海 淀 区 ACT 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+3 0 人 左 右 , ACT 
+B_pernum I_pernum I_pernum I_pernum I_pernum O inf 
+B_pernum I_pernum I_pernum I_pernum I_pernum O inf 
+下 周 四 的 会 议 ACT 
+B_time I_time I_time O O O inf 
+B_time I_time I_time O O O inf 
+对 ACT 
+O ok 
+O ok 
+预 算 3 0 0 0 0 元 , ACT 
+O O B_budget I_budget I_budget I_budget I_budget I_budget O inf 
+O O B_budget I_budget I_budget I_budget I_budget I_budget O inf 
+时 长 一 天 ACT 
+O O B_timel I_timel inf 
+O O B_timel I_timel inf 
+对 ACT 
+O ok 
+O ok 
+你 好 ACT 
+O O hello 
+O O hello 
+郑 州 市 二 七 区 , ACT 
+B_loc I_loc I_loc I_loc I_loc I_loc O inf 
+B_loc I_loc I_loc I_loc I_loc I_loc O inf 
+2 0 人 与 会 , ACT 
+B_pernum I_pernum I_pernum O O O inf 
+B_pernum I_pernum I_pernum O O O inf 
+七 月 一 号 召 开 的 会 议 室 ACT 
+B_time I_time I_time I_time O O O O O O inf 
+B_time I_time I_time I_time I_time O O O O O inf 
+对 ACT 
+O ok 
+O ok 
+几 个 小 时 ACT 
+B_timel I_timel I_timel I_timel inf 
+B_timel I_timel I_timel I_timel inf 
+1 0 0 0 0 元 ACT 
+B_budget I_budget I_budget I_budget I_budget I_budget inf 
+B_budget I_budget I_budget I_budget I_budget I_budget inf 
+几 个 小 时 ACT 
+B_timel I_timel I_timel I_timel inf 
+B_timel I_timel I_timel I_timel inf 
+对 ACT 
+O ok 
+O ok 
+你 好 ACT 
+O O hello 
+O O hello 
+郑 州 市 二 七 区 , ACT 
+B_loc I_loc I_loc I_loc I_loc I_loc O inf 
+B_loc I_loc I_loc I_loc I_loc I_loc O inf 
+2 0 人 与 会 , ACT 
+B_pernum I_pernum I_pernum O O O inf 
+B_pernum I_pernum I_pernum O O O inf 
+7 月 1 号 召 开 ACT 
+B_time I_time I_time I_time O O inf 
+B_time I_time I_time I_time I_time O inf 
+不 对 ACT 
+O O rej 
+O O rej 
+2 0 人 , ACT 
+B_pernum I_pernum I_pernum O inf 
+B_pernum I_pernum I_pernum O inf 
+对 ACT 
+O ok 
+O ok 
+一 天 , ACT 
+B_timel I_timel O inf 
+B_timel I_timel O inf 
+2 0 0 0 0 元 ACT 
+B_budget I_budget I_budget I_budget I_budget I_budget inf 
+B_budget I_budget I_budget I_budget I_budget I_budget inf 
+对 ACT 
+O ok 
+O ok 
+对 ACT 
+O ok 
+O ok 
+你 好 ACT 
+O O hello 
+O O hello 
+郑 州 市 管 城 区 , ACT 
+B_loc I_loc I_loc I_loc I_loc I_loc O inf 
+O O O O O O O inf 
+2 0 人 与 会 , ACT 
+B_pernum I_pernum I_pernum O O O inf 
+B_pernum I_pernum I_pernum O O O inf 
+七 月 一 号 召 开 ACT 
+B_time I_time I_time I_time O O inf 
+B_time I_time I_time I_time I_time O inf 
+对 ACT 
+O ok 
+O ok 
+几 个 小 时 ACT 
+B_timel I_timel I_timel I_timel inf 
+B_timel I_timel I_timel I_timel inf 
+1 0 0 0 0 元 ACT 
+B_budget I_budget I_budget I_budget I_budget I_budget inf 
+B_budget I_budget I_budget I_budget I_budget I_budget inf 
+几 个 小 时 ACT 
+B_timel I_timel I_timel I_timel inf 
+B_timel I_timel I_timel I_timel inf 
+对 ACT 
+O ok 
+O ok 
+你 好 ACT 
+O O hello 
+O O hello 
+郑 州 市 管 城 区 , ACT 
+B_loc I_loc I_loc I_loc I_loc I_loc O inf 
+B_loc I_loc I_loc I_loc I_loc I_loc O inf 
+2 0 人 与 会 , ACT 
+B_pernum I_pernum I_pernum O O O inf 
+B_pernum I_pernum I_pernum O O O inf 
+7 月 一 号 召 开 的 会 议 ACT 
+B_time I_time I_time I_time O O O O O inf 
+B_time I_time I_time I_time I_time O O O O inf 
+对 ACT 
+O ok 
+O ok 
+几 个 小 时 , ACT 
+B_time I_time I_time I_time O inf 
+B_timel I_timel I_timel I_timel O inf 
+预 算 1 0 0 0 0 元 ACT 
+O O B_budget I_budget I_budget I_budget I_budget I_budget inf 
+O O B_budget I_budget I_budget I_budget I_budget I_budget inf 
+对 ACT 
+O ok 
+O ok 
+你 好 ACT 
+O O hello 
+O O hello 
+北 京 市 朝 阳 区 ACT 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+一 百 人 ACT 
+B_pernum I_pernum I_pernum inf 
+B_pernum I_pernum I_pernum inf 
+这 周 末 ACT 
+B_time I_time I_time inf 
+B_time I_time I_time inf 
+对 ACT 
+O ok 
+O ok 
+时 长 一 天 ACT 
+O O B_timel I_timel inf 
+O O B_timel I_timel inf 
+1 0 0 0 0 0 元 预 算 ACT 
+B_budget I_budget I_budget I_budget I_budget I_budget I_budget O O inf 
+B_budget I_budget I_budget I_budget I_budget I_budget I_budget O O inf 
+对 ACT 
+O ok 
+O ok 
+你 好 ACT 
+O O hello 
+O O hello 
+海 淀 区 西 直 门 ACT 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+3 0 人 ACT 
+B_pernum I_pernum I_pernum inf 
+B_pernum I_pernum I_pernum inf 
+2 5 号 的 会 议 ACT 
+B_time I_time I_time O O O inf 
+B_time I_time I_time O O O inf 
+对 ACT 
+O ok 
+O ok 
+召 开 一 周 ACT 
+O O B_timel I_timel inf 
+O O O O inf 
+五 千 预 算 可 以 吗 ACT 
+B_budget I_budget O O O O O inf 
+O O O O O O O inf 
+对 ACT 
+O ok 
+O ok 
+对 ACT 
+O ok 
+O ok 
+你 好 ACT 
+O O hello 
+O O hello 
+海 淀 区 西 直 门 ACT 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+3 0 人 ACT 
+B_pernum I_pernum I_pernum inf 
+B_pernum I_pernum I_pernum inf 
+2 5 号 召 开 ACT 
+B_time I_time I_time O O inf 
+B_time I_time I_time O O inf 
+对 ACT 
+O ok 
+O ok 
+时 长 一 周 ACT 
+O O B_timel I_timel inf 
+O O O O inf 
+5 0 0 0 0 元 ACT 
+B_budget I_budget I_budget I_budget I_budget I_budget inf 
+B_budget I_budget I_budget I_budget I_budget I_budget inf 
+对 ACT 
+O ok 
+O ok 
+你 好 ACT 
+O O hello 
+O O hello 
+上 海 市 虹 口 区 ACT 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+3 0 人 ACT 
+B_pernum I_pernum I_pernum inf 
+B_pernum I_pernum I_pernum inf 
+下 个 月 1 0 号 召 开 的 会 议 ACT 
+B_time I_time I_time I_time I_time I_time O O O O O inf 
+B_time I_time I_time I_time I_time I_time O O O O O inf 
+对 ACT 
+O ok 
+O ok 
+一 天 ACT 
+B_timel I_timel inf 
+B_timel I_timel inf 
+6 0 0 0 元 预 算 ACT 
+B_budget I_budget I_budget I_budget I_budget O O inf 
+B_budget I_budget I_budget I_budget I_budget O O inf 
+对 ACT 
+O ok 
+O ok 
+你 好 ACT 
+O O hello 
+O O hello 
+下 周 四 ACT 
+B_time I_time I_time inf 
+B_time I_time I_time inf 
+时 长 一 天 ACT 
+O O B_timel I_timel inf 
+O O B_timel I_timel inf 
+预 算 3 0 0 0 0 元 ACT 
+O O B_budget I_budget I_budget I_budget I_budget I_budget inf 
+O O B_budget I_budget I_budget I_budget I_budget I_budget inf 
+对 ACT 
+O ok 
+O ok 
+北 京 市 海 淀 区 ACT 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+3 0 人 左 右 的 会 议 室 是 有 吗 ACT 
+B_pernum I_pernum I_pernum I_pernum I_pernum O O O O O O O inf 
+B_pernum I_pernum I_pernum I_pernum I_pernum O O O O O O O inf 
+对 ACT 
+O ok 
+O ok 
+你 好 ACT 
+O O hello 
+O O hello 
+七 月 一 号 召 开 ACT 
+B_time I_time I_time I_time O O inf 
+B_time I_time I_time I_time I_time O inf 
+时 长 ACT 
+O O other 
+O O inf 
+几 个 小 时 ACT 
+B_timel I_timel I_timel I_timel inf 
+B_timel I_timel I_timel I_timel inf 
+预 算 1 0 0 0 0 元 ACT 
+O O B_budget I_budget I_budget I_budget I_budget I_budget inf 
+O O B_budget I_budget I_budget I_budget I_budget I_budget inf 
+对 ACT 
+O ok 
+O ok 
+郑 州 市 管 城 区 ACT 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+2 0 人 与 会 ACT 
+B_pernum I_pernum I_pernum O O inf 
+B_pernum I_pernum I_pernum O O inf 
+对 ACT 
+O ok 
+O ok 
+你 好 ACT 
+O O hello 
+O O hello 
+这 周 末 ACT 
+B_time I_time I_time inf 
+B_time I_time I_time inf 
+为 期 一 天 ACT 
+O O B_timel I_timel inf 
+O O B_timel I_timel inf 
+预 算 1 0 0 0 0 0 元 ACT 
+O O B_budget I_budget I_budget I_budget I_budget I_budget I_budget inf 
+O O B_budget I_budget I_budget I_budget I_budget I_budget I_budget inf 
+对 ACT 
+O ok 
+O ok 
+北 京 市 朝 阳 区 ACT 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+一 百 人 ACT 
+B_pernum I_pernum I_pernum inf 
+B_pernum I_pernum I_pernum inf 
+对 ACT 
+O ok 
+O ok 
+你 好 ACT 
+O O hello 
+O O hello 
+2 5 号 ACT 
+B_time I_time I_time inf 
+B_time I_time I_time inf 
+一 周 ACT 
+B_timel I_timel inf 
+B_timel I_timel inf 
+五 千 的 预 算 ACT 
+B_budget I_budget O O O inf 
+O O O O O inf 
+对 ACT 
+O ok 
+O ok 
+5 0 0 0 0 元 的 预 算 ACT 
+B_budget I_budget I_budget I_budget I_budget I_budget O O O inf 
+B_budget I_budget I_budget I_budget I_budget I_budget O O O inf 
+海 淀 区 西 直 门 ACT 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+3 0 人 ACT 
+B_pernum I_pernum I_pernum inf 
+B_pernum I_pernum I_pernum inf 
+对 ACT 
+O inf 
+O ok 
+海 淀 区 西 直 门 ACT 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+对 ACT 
+O inf 
+O ok 
+2 5 号 ACT 
+B_time I_time I_time inf 
+B_time I_time I_time inf 
+一 周 ACT 
+B_timel I_timel inf 
+B_timel I_timel inf 
+预 算 5 0 0 0 0 元 ACT 
+O O B_budget I_budget I_budget I_budget I_budget I_budget inf 
+O O B_budget I_budget I_budget I_budget I_budget I_budget inf 
+海 淀 区 西 直 门 ACT 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+3 0 人 ACT 
+B_pernum I_pernum I_pernum inf 
+B_pernum I_pernum I_pernum inf 
+对 ACT 
+O ok 
+O ok 
+对 ACT 
+O ok 
+O ok 
+你 好 ACT 
+O O hello 
+O O hello 
+2 5 号 ACT 
+B_time I_time I_time inf 
+B_time I_time I_time inf 
+一 周 ACT 
+B_timel I_timel inf 
+B_timel I_timel inf 
+5 0 0 0 0 元 预 算 ACT 
+B_budget I_budget I_budget I_budget I_budget I_budget O O inf 
+B_budget I_budget I_budget I_budget I_budget I_budget O O inf 
+对 ACT 
+O ok 
+O ok 
+海 淀 区 西 直 门 ACT 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+3 0 人 ACT 
+B_pernum I_pernum I_pernum inf 
+B_pernum I_pernum I_pernum inf 
+对 ACT 
+O ok 
+O ok 
+你 好 ACT 
+O O hello 
+O O hello 
+下 个 月 1 0 号 ACT 
+B_time I_time I_time I_time I_time I_time inf 
+B_time I_time I_time I_time I_time I_time inf 
+一 天 ACT 
+B_timel I_timel inf 
+B_timel I_timel inf 
+6 0 0 0 元 的 预 算 ACT 
+B_budget I_budget I_budget I_budget I_budget O O O inf 
+B_budget I_budget I_budget I_budget I_budget O O O inf 
+对 ACT 
+O ok 
+O ok 
+上 海 市 虹 口 区 ACT 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+3 0 人 ACT 
+B_pernum I_pernum I_pernum inf 
+B_pernum I_pernum I_pernum inf 
+对 ACT 
+O ok 
+O ok 
+你 好 ACT 
+O O hello 
+O O hello 
+北 京 市 海 淀 区 ACT 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+容 纳 3 0 人 左 右 的 ACT 
+O O B_pernum I_pernum I_pernum I_pernum I_pernum O inf 
+O O B_pernum I_pernum I_pernum I_pernum I_pernum O inf 
+下 周 四 召 开 ACT 
+B_time I_time I_time O O inf 
+B_time I_time I_time I_time O inf 
+为 期 一 天 ACT 
+O O B_timel I_timel inf 
+O O B_timel I_timel inf 
+预 算 3 0 0 0 0 元 ACT 
+O O B_budget I_budget I_budget I_budget I_budget I_budget inf 
+O O B_budget I_budget I_budget I_budget I_budget I_budget inf 
+有 什 么 推 荐 吗 ACT 
+O O O O O O other 
+O O O O O O inf 
+d u i ACT 
+O O O other 
+O O O other 
+对 ACT 
+O ok 
+O ok 
+对 ACT 
+O ok 
+O ok 
+你 好 ACT 
+O O hello 
+O O hello 
+郑 州 市 二 七 区 ACT 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+会 有 2 0 人 与 会 的 ACT 
+O O B_pernum I_pernum I_pernum O O O inf 
+O O B_pernum I_pernum I_pernum O O O inf 
+七 月 一 号 召 开 ACT 
+B_time I_time I_time I_time O O inf 
+B_time I_time I_time I_time I_time O inf 
++ 几 个 小 时 的 时 长 ACT 
+O B_timel I_timel I_timel I_timel O O O inf 
+O B_timel I_timel I_timel I_timel O O O inf 
+1 0 0 0 0 元 的 预 算 可 以 吗 ACT 
+B_budget I_budget I_budget I_budget I_budget I_budget O O O O O O inf 
+B_budget I_budget I_budget I_budget I_budget I_budget O O O O O O inf 
+不 对 ACT 
+O O rej 
+O O rej 
+2 0 人 ACT 
+B_pernum I_pernum I_pernum inf 
+B_pernum I_pernum I_pernum inf 
+对 ACT 
+O ok 
+O ok 
+对 ACT 
+O ok 
+O ok 
+你 好 ACT 
+O O hello 
+O O hello 
+这 周 末 的 ACT 
+B_time I_time I_time O inf 
+O O O O inf 
+北 京 市 朝 阳 区 的 会 议 室 ACT 
+B_loc I_loc I_loc I_loc I_loc I_loc O O O O inf 
+B_loc I_loc I_loc I_loc I_loc I_loc O O O O inf 
+能 容 纳 一 百 人 ACT 
+O O O B_pernum I_pernum I_pernum inf 
+O O O B_pernum I_pernum I_pernum inf 
+为 期 一 天 ACT 
+O O B_timel I_timel inf 
+O O B_timel I_timel inf 
+预 算 1 0 0 0 0 0 元 可 以 吗 ACT 
+O O B_budget I_budget I_budget I_budget I_budget I_budget I_budget O O O inf 
+O O B_budget I_budget I_budget I_budget I_budget I_budget I_budget O O O inf 
+对 ACT 
+O ok 
+O ok 
+对 ACT 
+O ok 
+O ok 
+对 ACT 
+O ok 
+O ok 
+你 好 ACT 
+O O hello 
+O O hello 
+预 算 5 0 0 0 0 ACT 
+O O B_budget I_budget I_budget I_budget I_budget inf 
+O O B_budget I_budget I_budget I_budget I_budget inf 
+在 海 淀 区 西 直 门 ACT 
+B_loc I_loc I_loc I_loc I_loc I_loc I_loc inf 
+O B_loc I_loc I_loc I_loc I_loc I_loc inf 
+有 3 0 人 ACT 
+O B_pernum I_pernum I_pernum inf 
+O B_pernum I_pernum I_pernum inf 
+2 5 号 召 开 ACT 
+B_time I_time I_time O O inf 
+B_time I_time I_time O O inf 
+为 期 一 周 可 以 吗 ACT 
+O O B_timel I_timel O O O inf 
+O O O O O O O inf 
+对 ACT 
+O ok 
+O ok 
+5 0 0 0 0 0 0 ACT 
+B_budget I_budget I_budget I_budget I_budget I_budget I_budget inf 
+B_budget I_budget I_budget I_budget I_budget I_budget I_budget inf 
+对 ACT 
+O ok 
+O ok 
+你 好 ACT 
+O O hello 
+O O hello 
+预 算 5 0 0 0 0 元 ACT 
+O O B_budget I_budget I_budget I_budget I_budget I_budget inf 
+O O B_budget I_budget I_budget I_budget I_budget I_budget inf 
+在 海 淀 区 西 直 门 ACT 
+O B_loc I_loc I_loc I_loc I_loc I_loc inf 
+O B_loc I_loc I_loc I_loc I_loc I_loc inf 
+有 3 0 人 ACT 
+O B_pernum I_pernum I_pernum inf 
+O B_pernum I_pernum I_pernum inf 
+2 5 号 召 开 ACT 
+B_time I_time I_time O O inf 
+B_time I_time I_time O O inf 
+为 期 一 周 可 以 吗 ACT 
+O O B_timel I_timel O O O inf 
+O O O O O O O inf 
+对 ACT 
+O ok 
+O ok 
+对 ACT 
+O ok 
+O ok 
+对 ACT 
+O ok 
+O ok 
+你 好 ACT 
+O O hello 
+O O hello 
+上 海 市 虹 口 区 ACT 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+3 0 人 ACT 
+B_pernum I_pernum I_pernum inf 
+B_pernum I_pernum I_pernum inf 
+下 个 月 1 0 号 ACT 
+B_time I_time I_time I_time I_time I_time inf 
+B_time I_time I_time I_time I_time I_time inf 
+为 期 一 天 ACT 
+O O B_timel I_timel inf 
+O O B_timel I_timel inf 
+6 0 0 0 元 预 算 ACT 
+B_budget I_budget I_budget I_budget I_budget O O inf 
+B_budget I_budget I_budget I_budget I_budget O O inf 
+对 ACT 
+O ok 
+O ok 
+对 ACT 
+O ok 
+O ok 
+对 ACT 
+O ok 
+O ok 
+3 0 0 0 0 元 ACT 
+B_budget I_budget I_budget I_budget I_budget I_budget inf 
+B_budget I_budget I_budget I_budget I_budget I_budget inf 
+铁 路 系 统 会 议 ACT 
+O O O O O O inf 
+O O O O O O inf 
+关 于 车 辆 调 度 的 会 议 ACT 
+O O O O O O O O O inf 
+O O O O O O O O O inf 
+1 4 人 左 右 ACT 
+B_pernum I_pernum I_pernum I_pernum I_pernum inf 
+B_pernum I_pernum I_pernum I_pernum I_pernum inf 
+1 0 0 0 元 ACT 
+B_budget I_budget I_budget I_budget I_budget inf 
+B_budget I_budget I_budget I_budget I_budget inf 
+2 小 时 ACT 
+B_timel I_timel I_timel inf 
+B_timel I_timel I_timel inf 
+青 岛 ACT 
+B_loc I_loc inf 
+B_loc I_loc inf 
+你 好 ACT 
+O O hello 
+O O hello 
+3 人 ACT 
+B_pernum I_pernum inf 
+B_pernum I_pernum inf 
+3 人 的 会 议 ACT 
+B_pernum I_pernum O O O inf 
+B_pernum I_pernum O O O inf 
+3 日 开 会 ACT 
+B_time I_time O O inf 
+B_time I_time O O inf 
+3 0 0 人 的 会 议 室 ACT 
+B_pernum I_pernum I_pernum I_pernum O O O O inf 
+B_pernum I_pernum I_pernum I_pernum O O O O inf 
+3 0 0 0 元 ACT 
+B_budget I_budget I_budget I_budget I_budget inf 
+B_budget I_budget I_budget I_budget I_budget inf 
+3 0 0 0 ? ? ? ACT 
+B_budget I_budget I_budget I_budget O O O inf 
+B_budget I_budget I_budget I_budget O O O other 
+3 天 ACT 
+B_timel I_timel inf 
+B_timel I_timel inf 
+北 京 邮 电 大 学 ACT 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+北 京 邮 电 大 学 ACT 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+北 京 邮 电 大 学 ACT 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+北 京 邮 电 大 学 ACT 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+北 京 邮 电 大 学 ACT 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+北 邮 ACT 
+B_loc I_loc inf 
+B_loc I_loc inf 
+北 京 ACT 
+B_loc I_loc inf 
+B_loc I_loc inf 
+? ? ? ? ? ? ACT 
+O O O O O O other 
+O O O O O O other 
+使 得 ACT 
+O O other 
+O O other 
+3 ? o o ACT 
+O O O O other 
+O O O O other 
+? ? ? ? o ? ? ? ? ? ? ? ? ? ? ? ? ? ? - | ACT 
+O O O O O O O O O O O O O O O O O O O O O other 
+O O O O O O O O O O O O O O O O O O O O O other 
+? ? ? ? o ? ACT 
+O O O O O O other 
+O O O O O O other 
+? ? ? ? ? ? ? ACT 
+O O O O O O O other 
+O O O O O O O other 
+主 会 议 中 心 ACT 
+B_loc I_loc I_loc I_loc I_loc inf 
+O O O O O inf 
+3 0 人 ACT 
+B_pernum I_pernum I_pernum inf 
+B_pernum I_pernum I_pernum inf 
+2 0 1 5 - 6 - 1 7 ACT 
+B_time I_time I_time I_time I_time I_time I_time I_time I_time inf 
+B_time I_time I_time I_time I_time I_time I_time I_time I_time inf 
+主 会 议 大 厅 2 0 1 ACT 
+B_loc I_loc I_loc I_loc I_loc I_loc I_loc I_loc inf 
+O O O O O B_pernum I_pernum I_pernum inf 
+2 0 0 0 ACT 
+B_budget I_budget I_budget I_budget inf 
+B_budget I_budget I_budget I_budget inf 
+半 天 ACT 
+B_timel I_timel inf 
+B_timel I_timel inf 
+主 会 议 室 大 厅 ACT 
+B_loc I_loc I_loc I_loc I_loc I_loc inf 
+O O O O O O inf 
+北 极 ACT 
+B_loc I_loc inf 
+B_loc I_loc inf 
+你 好 ACT 
+O O hello 
+O O hello 
+北 京 , ACT 
+B_loc I_loc O inf 
+B_loc I_loc O inf 
+十 月 三 号 , ACT 
+B_time I_time I_time I_time O inf 
+B_time I_time I_time I_time O inf 
+3 0 0 人 ACT 
+B_pernum I_pernum I_pernum I_pernum inf 
+B_pernum I_pernum I_pernum I_pernum inf 
+你 好 ACT 
+O O hello 
+O O hello 
+北 京 , ACT 
+B_loc I_loc O inf 
+B_loc I_loc O inf 
+十 月 三 号 , ACT 
+B_time I_time I_time I_time O inf 
+B_time I_time I_time I_time O inf 
+3 0 0 人 ACT 
+B_pernum I_pernum I_pernum I_pernum inf 
+B_pernum I_pernum I_pernum I_pernum inf 
+是 的 ACT 
+O O ok 
+O O ok 
+3 0 0 0 0 元 ACT 
+B_budget I_budget I_budget I_budget I_budget I_budget inf 
+B_budget I_budget I_budget I_budget I_budget I_budget inf 
+几 天 ACT 
+B_timel I_timel inf 
+B_timel I_timel inf 
+对 ACT 
+O ok 
+O ok 
+北 京 的 会 议 室 ACT 
+B_loc I_loc O O O O inf 
+B_loc I_loc O O O O inf 
+3 0 0 人 ACT 
+B_pernum I_pernum I_pernum I_pernum inf 
+B_pernum I_pernum I_pernum I_pernum inf 
+3 0 0 0 元 ACT 
+B_budget I_budget I_budget I_budget I_budget inf 
+B_budget I_budget I_budget I_budget I_budget inf 
+几 天 ACT 
+B_timel I_timel inf 
+B_timel I_timel inf 
+十 月 三 号 ACT 
+B_time I_time I_time I_time inf 
+B_time I_time I_time I_time inf 
+恩 ACT 
+O ok 
+O ok 
